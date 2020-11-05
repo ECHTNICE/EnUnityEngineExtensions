@@ -1,0 +1,515 @@
+### YamlMime:ManagedReference
+items:
+- uid: UnityEngine.EnVector2IntExtensions
+  commentId: T:UnityEngine.EnVector2IntExtensions
+  id: EnVector2IntExtensions
+  parent: UnityEngine
+  children:
+  - UnityEngine.EnVector2IntExtensions.AddX(UnityEngine.Vector2Int,System.Int32)
+  - UnityEngine.EnVector2IntExtensions.AddY(UnityEngine.Vector2Int,System.Int32)
+  - UnityEngine.EnVector2IntExtensions.Invert(UnityEngine.Vector2Int)
+  - UnityEngine.EnVector2IntExtensions.InvertX(UnityEngine.Vector2Int)
+  - UnityEngine.EnVector2IntExtensions.InvertY(UnityEngine.Vector2Int)
+  - UnityEngine.EnVector2IntExtensions.ToVector2(UnityEngine.Vector2Int)
+  - UnityEngine.EnVector2IntExtensions.ToVector3(UnityEngine.Vector2Int)
+  - UnityEngine.EnVector2IntExtensions.WithX(UnityEngine.Vector2Int,System.Int32)
+  - UnityEngine.EnVector2IntExtensions.WithY(UnityEngine.Vector2Int,System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: EnVector2IntExtensions
+  nameWithType: EnVector2IntExtensions
+  fullName: UnityEngine.EnVector2IntExtensions
+  type: Class
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector2IntExtensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: EnVector2IntExtensions
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector2IntExtensions.cs
+    startLine: 3
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  syntax:
+    content: public static class EnVector2IntExtensions
+    content.vb: Public Module EnVector2IntExtensions
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: UnityEngine.EnVector2IntExtensions.WithX(UnityEngine.Vector2Int,System.Int32)
+  commentId: M:UnityEngine.EnVector2IntExtensions.WithX(UnityEngine.Vector2Int,System.Int32)
+  id: WithX(UnityEngine.Vector2Int,System.Int32)
+  isExtensionMethod: true
+  parent: UnityEngine.EnVector2IntExtensions
+  langs:
+  - csharp
+  - vb
+  name: WithX(Vector2Int, Int32)
+  nameWithType: EnVector2IntExtensions.WithX(Vector2Int, Int32)
+  fullName: UnityEngine.EnVector2IntExtensions.WithX(UnityEngine.Vector2Int, System.Int32)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector2IntExtensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: WithX
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector2IntExtensions.cs
+    startLine: 5
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  syntax:
+    content: public static Vector2Int WithX(this Vector2Int vec, int x)
+    parameters:
+    - id: vec
+      type: UnityEngine.Vector2Int
+    - id: x
+      type: System.Int32
+    return:
+      type: UnityEngine.Vector2Int
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function WithX(vec As Vector2Int, x As Integer) As Vector2Int
+  overload: UnityEngine.EnVector2IntExtensions.WithX*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnVector2IntExtensions.WithY(UnityEngine.Vector2Int,System.Int32)
+  commentId: M:UnityEngine.EnVector2IntExtensions.WithY(UnityEngine.Vector2Int,System.Int32)
+  id: WithY(UnityEngine.Vector2Int,System.Int32)
+  isExtensionMethod: true
+  parent: UnityEngine.EnVector2IntExtensions
+  langs:
+  - csharp
+  - vb
+  name: WithY(Vector2Int, Int32)
+  nameWithType: EnVector2IntExtensions.WithY(Vector2Int, Int32)
+  fullName: UnityEngine.EnVector2IntExtensions.WithY(UnityEngine.Vector2Int, System.Int32)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector2IntExtensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: WithY
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector2IntExtensions.cs
+    startLine: 9
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  syntax:
+    content: public static Vector2Int WithY(this Vector2Int vec, int y)
+    parameters:
+    - id: vec
+      type: UnityEngine.Vector2Int
+    - id: y
+      type: System.Int32
+    return:
+      type: UnityEngine.Vector2Int
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function WithY(vec As Vector2Int, y As Integer) As Vector2Int
+  overload: UnityEngine.EnVector2IntExtensions.WithY*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnVector2IntExtensions.AddX(UnityEngine.Vector2Int,System.Int32)
+  commentId: M:UnityEngine.EnVector2IntExtensions.AddX(UnityEngine.Vector2Int,System.Int32)
+  id: AddX(UnityEngine.Vector2Int,System.Int32)
+  isExtensionMethod: true
+  parent: UnityEngine.EnVector2IntExtensions
+  langs:
+  - csharp
+  - vb
+  name: AddX(Vector2Int, Int32)
+  nameWithType: EnVector2IntExtensions.AddX(Vector2Int, Int32)
+  fullName: UnityEngine.EnVector2IntExtensions.AddX(UnityEngine.Vector2Int, System.Int32)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector2IntExtensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: AddX
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector2IntExtensions.cs
+    startLine: 13
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  syntax:
+    content: public static Vector2Int AddX(this Vector2Int vec, int x)
+    parameters:
+    - id: vec
+      type: UnityEngine.Vector2Int
+    - id: x
+      type: System.Int32
+    return:
+      type: UnityEngine.Vector2Int
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function AddX(vec As Vector2Int, x As Integer) As Vector2Int
+  overload: UnityEngine.EnVector2IntExtensions.AddX*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnVector2IntExtensions.AddY(UnityEngine.Vector2Int,System.Int32)
+  commentId: M:UnityEngine.EnVector2IntExtensions.AddY(UnityEngine.Vector2Int,System.Int32)
+  id: AddY(UnityEngine.Vector2Int,System.Int32)
+  isExtensionMethod: true
+  parent: UnityEngine.EnVector2IntExtensions
+  langs:
+  - csharp
+  - vb
+  name: AddY(Vector2Int, Int32)
+  nameWithType: EnVector2IntExtensions.AddY(Vector2Int, Int32)
+  fullName: UnityEngine.EnVector2IntExtensions.AddY(UnityEngine.Vector2Int, System.Int32)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector2IntExtensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: AddY
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector2IntExtensions.cs
+    startLine: 17
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  syntax:
+    content: public static Vector2Int AddY(this Vector2Int vec, int y)
+    parameters:
+    - id: vec
+      type: UnityEngine.Vector2Int
+    - id: y
+      type: System.Int32
+    return:
+      type: UnityEngine.Vector2Int
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function AddY(vec As Vector2Int, y As Integer) As Vector2Int
+  overload: UnityEngine.EnVector2IntExtensions.AddY*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnVector2IntExtensions.InvertX(UnityEngine.Vector2Int)
+  commentId: M:UnityEngine.EnVector2IntExtensions.InvertX(UnityEngine.Vector2Int)
+  id: InvertX(UnityEngine.Vector2Int)
+  isExtensionMethod: true
+  parent: UnityEngine.EnVector2IntExtensions
+  langs:
+  - csharp
+  - vb
+  name: InvertX(Vector2Int)
+  nameWithType: EnVector2IntExtensions.InvertX(Vector2Int)
+  fullName: UnityEngine.EnVector2IntExtensions.InvertX(UnityEngine.Vector2Int)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector2IntExtensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: InvertX
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector2IntExtensions.cs
+    startLine: 22
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  syntax:
+    content: public static Vector2Int InvertX(this Vector2Int vec)
+    parameters:
+    - id: vec
+      type: UnityEngine.Vector2Int
+    return:
+      type: UnityEngine.Vector2Int
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function InvertX(vec As Vector2Int) As Vector2Int
+  overload: UnityEngine.EnVector2IntExtensions.InvertX*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnVector2IntExtensions.InvertY(UnityEngine.Vector2Int)
+  commentId: M:UnityEngine.EnVector2IntExtensions.InvertY(UnityEngine.Vector2Int)
+  id: InvertY(UnityEngine.Vector2Int)
+  isExtensionMethod: true
+  parent: UnityEngine.EnVector2IntExtensions
+  langs:
+  - csharp
+  - vb
+  name: InvertY(Vector2Int)
+  nameWithType: EnVector2IntExtensions.InvertY(Vector2Int)
+  fullName: UnityEngine.EnVector2IntExtensions.InvertY(UnityEngine.Vector2Int)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector2IntExtensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: InvertY
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector2IntExtensions.cs
+    startLine: 26
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  syntax:
+    content: public static Vector2Int InvertY(this Vector2Int vec)
+    parameters:
+    - id: vec
+      type: UnityEngine.Vector2Int
+    return:
+      type: UnityEngine.Vector2Int
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function InvertY(vec As Vector2Int) As Vector2Int
+  overload: UnityEngine.EnVector2IntExtensions.InvertY*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnVector2IntExtensions.Invert(UnityEngine.Vector2Int)
+  commentId: M:UnityEngine.EnVector2IntExtensions.Invert(UnityEngine.Vector2Int)
+  id: Invert(UnityEngine.Vector2Int)
+  isExtensionMethod: true
+  parent: UnityEngine.EnVector2IntExtensions
+  langs:
+  - csharp
+  - vb
+  name: Invert(Vector2Int)
+  nameWithType: EnVector2IntExtensions.Invert(Vector2Int)
+  fullName: UnityEngine.EnVector2IntExtensions.Invert(UnityEngine.Vector2Int)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector2IntExtensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: Invert
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector2IntExtensions.cs
+    startLine: 30
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  syntax:
+    content: public static Vector2Int Invert(this Vector2Int vec)
+    parameters:
+    - id: vec
+      type: UnityEngine.Vector2Int
+    return:
+      type: UnityEngine.Vector2Int
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function Invert(vec As Vector2Int) As Vector2Int
+  overload: UnityEngine.EnVector2IntExtensions.Invert*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnVector2IntExtensions.ToVector3(UnityEngine.Vector2Int)
+  commentId: M:UnityEngine.EnVector2IntExtensions.ToVector3(UnityEngine.Vector2Int)
+  id: ToVector3(UnityEngine.Vector2Int)
+  isExtensionMethod: true
+  parent: UnityEngine.EnVector2IntExtensions
+  langs:
+  - csharp
+  - vb
+  name: ToVector3(Vector2Int)
+  nameWithType: EnVector2IntExtensions.ToVector3(Vector2Int)
+  fullName: UnityEngine.EnVector2IntExtensions.ToVector3(UnityEngine.Vector2Int)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector2IntExtensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: ToVector3
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector2IntExtensions.cs
+    startLine: 34
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  syntax:
+    content: public static Vector3 ToVector3(this Vector2Int v)
+    parameters:
+    - id: v
+      type: UnityEngine.Vector2Int
+    return:
+      type: UnityEngine.Vector3
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToVector3(v As Vector2Int) As Vector3
+  overload: UnityEngine.EnVector2IntExtensions.ToVector3*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnVector2IntExtensions.ToVector2(UnityEngine.Vector2Int)
+  commentId: M:UnityEngine.EnVector2IntExtensions.ToVector2(UnityEngine.Vector2Int)
+  id: ToVector2(UnityEngine.Vector2Int)
+  isExtensionMethod: true
+  parent: UnityEngine.EnVector2IntExtensions
+  langs:
+  - csharp
+  - vb
+  name: ToVector2(Vector2Int)
+  nameWithType: EnVector2IntExtensions.ToVector2(Vector2Int)
+  fullName: UnityEngine.EnVector2IntExtensions.ToVector2(UnityEngine.Vector2Int)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector2IntExtensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: ToVector2
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector2IntExtensions.cs
+    startLine: 38
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  syntax:
+    content: public static Vector2 ToVector2(this Vector2Int v)
+    parameters:
+    - id: v
+      type: UnityEngine.Vector2Int
+    return:
+      type: UnityEngine.Vector2
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToVector2(v As Vector2Int) As Vector2
+  overload: UnityEngine.EnVector2IntExtensions.ToVector2*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine.EnVector2IntExtensions.WithX*
+  commentId: Overload:UnityEngine.EnVector2IntExtensions.WithX
+  name: WithX
+  nameWithType: EnVector2IntExtensions.WithX
+  fullName: UnityEngine.EnVector2IntExtensions.WithX
+- uid: UnityEngine.Vector2Int
+  commentId: T:UnityEngine.Vector2Int
+  parent: UnityEngine
+  isExternal: true
+  name: Vector2Int
+  nameWithType: Vector2Int
+  fullName: UnityEngine.Vector2Int
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: UnityEngine.EnVector2IntExtensions.WithY*
+  commentId: Overload:UnityEngine.EnVector2IntExtensions.WithY
+  name: WithY
+  nameWithType: EnVector2IntExtensions.WithY
+  fullName: UnityEngine.EnVector2IntExtensions.WithY
+- uid: UnityEngine.EnVector2IntExtensions.AddX*
+  commentId: Overload:UnityEngine.EnVector2IntExtensions.AddX
+  name: AddX
+  nameWithType: EnVector2IntExtensions.AddX
+  fullName: UnityEngine.EnVector2IntExtensions.AddX
+- uid: UnityEngine.EnVector2IntExtensions.AddY*
+  commentId: Overload:UnityEngine.EnVector2IntExtensions.AddY
+  name: AddY
+  nameWithType: EnVector2IntExtensions.AddY
+  fullName: UnityEngine.EnVector2IntExtensions.AddY
+- uid: UnityEngine.EnVector2IntExtensions.InvertX*
+  commentId: Overload:UnityEngine.EnVector2IntExtensions.InvertX
+  name: InvertX
+  nameWithType: EnVector2IntExtensions.InvertX
+  fullName: UnityEngine.EnVector2IntExtensions.InvertX
+- uid: UnityEngine.EnVector2IntExtensions.InvertY*
+  commentId: Overload:UnityEngine.EnVector2IntExtensions.InvertY
+  name: InvertY
+  nameWithType: EnVector2IntExtensions.InvertY
+  fullName: UnityEngine.EnVector2IntExtensions.InvertY
+- uid: UnityEngine.EnVector2IntExtensions.Invert*
+  commentId: Overload:UnityEngine.EnVector2IntExtensions.Invert
+  name: Invert
+  nameWithType: EnVector2IntExtensions.Invert
+  fullName: UnityEngine.EnVector2IntExtensions.Invert
+- uid: UnityEngine.EnVector2IntExtensions.ToVector3*
+  commentId: Overload:UnityEngine.EnVector2IntExtensions.ToVector3
+  name: ToVector3
+  nameWithType: EnVector2IntExtensions.ToVector3
+  fullName: UnityEngine.EnVector2IntExtensions.ToVector3
+- uid: UnityEngine.Vector3
+  commentId: T:UnityEngine.Vector3
+  parent: UnityEngine
+  isExternal: true
+  name: Vector3
+  nameWithType: Vector3
+  fullName: UnityEngine.Vector3
+- uid: UnityEngine.EnVector2IntExtensions.ToVector2*
+  commentId: Overload:UnityEngine.EnVector2IntExtensions.ToVector2
+  name: ToVector2
+  nameWithType: EnVector2IntExtensions.ToVector2
+  fullName: UnityEngine.EnVector2IntExtensions.ToVector2
+- uid: UnityEngine.Vector2
+  commentId: T:UnityEngine.Vector2
+  parent: UnityEngine
+  isExternal: true
+  name: Vector2
+  nameWithType: Vector2
+  fullName: UnityEngine.Vector2

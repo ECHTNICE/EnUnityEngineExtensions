@@ -1,0 +1,702 @@
+### YamlMime:ManagedReference
+items:
+- uid: UnityEngine.EnGameObjectExtensions
+  commentId: T:UnityEngine.EnGameObjectExtensions
+  id: EnGameObjectExtensions
+  parent: UnityEngine
+  children:
+  - UnityEngine.EnGameObjectExtensions.AddComponentFromResource``1(UnityEngine.GameObject,System.String)
+  - UnityEngine.EnGameObjectExtensions.AddComponentsFromResource(UnityEngine.GameObject,System.String)
+  - UnityEngine.EnGameObjectExtensions.ChangeLayersRecursively(UnityEngine.GameObject,System.String)
+  - UnityEngine.EnGameObjectExtensions.DestroyChildren(UnityEngine.GameObject)
+  - UnityEngine.EnGameObjectExtensions.GetComponentInHierarchy``1(UnityEngine.GameObject)
+  - UnityEngine.EnGameObjectExtensions.HasComponent(UnityEngine.GameObject,System.Type)
+  - UnityEngine.EnGameObjectExtensions.HasComponent``1(UnityEngine.GameObject)
+  - UnityEngine.EnGameObjectExtensions.IsNotNull(UnityEngine.Object)
+  - UnityEngine.EnGameObjectExtensions.IsNull(UnityEngine.Object)
+  - UnityEngine.EnGameObjectExtensions.SetLayerRecursively(UnityEngine.GameObject,System.Int32)
+  - UnityEngine.EnGameObjectExtensions.SetParent(UnityEngine.GameObject,UnityEngine.GameObject)
+  - UnityEngine.EnGameObjectExtensions.SetParent(UnityEngine.GameObject,UnityEngine.GameObject,System.Boolean)
+  langs:
+  - csharp
+  - vb
+  name: EnGameObjectExtensions
+  nameWithType: EnGameObjectExtensions
+  fullName: UnityEngine.EnGameObjectExtensions
+  type: Class
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnGameObjectExtensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: EnGameObjectExtensions
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnGameObjectExtensions.cs
+    startLine: 8
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  summary: "\n\n"
+  example: []
+  syntax:
+    content: public static class EnGameObjectExtensions
+    content.vb: Public Module EnGameObjectExtensions
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: UnityEngine.EnGameObjectExtensions.SetParent(UnityEngine.GameObject,UnityEngine.GameObject)
+  commentId: M:UnityEngine.EnGameObjectExtensions.SetParent(UnityEngine.GameObject,UnityEngine.GameObject)
+  id: SetParent(UnityEngine.GameObject,UnityEngine.GameObject)
+  isExtensionMethod: true
+  parent: UnityEngine.EnGameObjectExtensions
+  langs:
+  - csharp
+  - vb
+  name: SetParent(GameObject, GameObject)
+  nameWithType: EnGameObjectExtensions.SetParent(GameObject, GameObject)
+  fullName: UnityEngine.EnGameObjectExtensions.SetParent(UnityEngine.GameObject, UnityEngine.GameObject)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnGameObjectExtensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: SetParent
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnGameObjectExtensions.cs
+    startLine: 9
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  syntax:
+    content: public static void SetParent(this GameObject gameObject, GameObject parent)
+    parameters:
+    - id: gameObject
+      type: UnityEngine.GameObject
+    - id: parent
+      type: UnityEngine.GameObject
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub SetParent(gameObject As GameObject, parent As GameObject)
+  overload: UnityEngine.EnGameObjectExtensions.SetParent*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnGameObjectExtensions.SetParent(UnityEngine.GameObject,UnityEngine.GameObject,System.Boolean)
+  commentId: M:UnityEngine.EnGameObjectExtensions.SetParent(UnityEngine.GameObject,UnityEngine.GameObject,System.Boolean)
+  id: SetParent(UnityEngine.GameObject,UnityEngine.GameObject,System.Boolean)
+  isExtensionMethod: true
+  parent: UnityEngine.EnGameObjectExtensions
+  langs:
+  - csharp
+  - vb
+  name: SetParent(GameObject, GameObject, Boolean)
+  nameWithType: EnGameObjectExtensions.SetParent(GameObject, GameObject, Boolean)
+  fullName: UnityEngine.EnGameObjectExtensions.SetParent(UnityEngine.GameObject, UnityEngine.GameObject, System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnGameObjectExtensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: SetParent
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnGameObjectExtensions.cs
+    startLine: 13
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  syntax:
+    content: public static void SetParent(this GameObject gameObject, GameObject parent, bool worldPositionStays)
+    parameters:
+    - id: gameObject
+      type: UnityEngine.GameObject
+    - id: parent
+      type: UnityEngine.GameObject
+    - id: worldPositionStays
+      type: System.Boolean
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub SetParent(gameObject As GameObject, parent As GameObject, worldPositionStays As Boolean)
+  overload: UnityEngine.EnGameObjectExtensions.SetParent*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnGameObjectExtensions.IsNull(UnityEngine.Object)
+  commentId: M:UnityEngine.EnGameObjectExtensions.IsNull(UnityEngine.Object)
+  id: IsNull(UnityEngine.Object)
+  isExtensionMethod: true
+  parent: UnityEngine.EnGameObjectExtensions
+  langs:
+  - csharp
+  - vb
+  name: IsNull(Object)
+  nameWithType: EnGameObjectExtensions.IsNull(Object)
+  fullName: UnityEngine.EnGameObjectExtensions.IsNull(UnityEngine.Object)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnGameObjectExtensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: IsNull
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnGameObjectExtensions.cs
+    startLine: 17
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  syntax:
+    content: public static bool IsNull(this Object obj)
+    parameters:
+    - id: obj
+      type: UnityEngine.Object
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function IsNull(obj As Object) As Boolean
+  overload: UnityEngine.EnGameObjectExtensions.IsNull*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnGameObjectExtensions.IsNotNull(UnityEngine.Object)
+  commentId: M:UnityEngine.EnGameObjectExtensions.IsNotNull(UnityEngine.Object)
+  id: IsNotNull(UnityEngine.Object)
+  isExtensionMethod: true
+  parent: UnityEngine.EnGameObjectExtensions
+  langs:
+  - csharp
+  - vb
+  name: IsNotNull(Object)
+  nameWithType: EnGameObjectExtensions.IsNotNull(Object)
+  fullName: UnityEngine.EnGameObjectExtensions.IsNotNull(UnityEngine.Object)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnGameObjectExtensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: IsNotNull
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnGameObjectExtensions.cs
+    startLine: 21
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  syntax:
+    content: public static bool IsNotNull(this Object obj)
+    parameters:
+    - id: obj
+      type: UnityEngine.Object
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function IsNotNull(obj As Object) As Boolean
+  overload: UnityEngine.EnGameObjectExtensions.IsNotNull*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnGameObjectExtensions.DestroyChildren(UnityEngine.GameObject)
+  commentId: M:UnityEngine.EnGameObjectExtensions.DestroyChildren(UnityEngine.GameObject)
+  id: DestroyChildren(UnityEngine.GameObject)
+  isExtensionMethod: true
+  parent: UnityEngine.EnGameObjectExtensions
+  langs:
+  - csharp
+  - vb
+  name: DestroyChildren(GameObject)
+  nameWithType: EnGameObjectExtensions.DestroyChildren(GameObject)
+  fullName: UnityEngine.EnGameObjectExtensions.DestroyChildren(UnityEngine.GameObject)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnGameObjectExtensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: DestroyChildren
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnGameObjectExtensions.cs
+    startLine: 25
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  syntax:
+    content: public static void DestroyChildren(this GameObject inst)
+    parameters:
+    - id: inst
+      type: UnityEngine.GameObject
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub DestroyChildren(inst As GameObject)
+  overload: UnityEngine.EnGameObjectExtensions.DestroyChildren*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnGameObjectExtensions.ChangeLayersRecursively(UnityEngine.GameObject,System.String)
+  commentId: M:UnityEngine.EnGameObjectExtensions.ChangeLayersRecursively(UnityEngine.GameObject,System.String)
+  id: ChangeLayersRecursively(UnityEngine.GameObject,System.String)
+  isExtensionMethod: true
+  parent: UnityEngine.EnGameObjectExtensions
+  langs:
+  - csharp
+  - vb
+  name: ChangeLayersRecursively(GameObject, String)
+  nameWithType: EnGameObjectExtensions.ChangeLayersRecursively(GameObject, String)
+  fullName: UnityEngine.EnGameObjectExtensions.ChangeLayersRecursively(UnityEngine.GameObject, System.String)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnGameObjectExtensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: ChangeLayersRecursively
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnGameObjectExtensions.cs
+    startLine: 45
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  syntax:
+    content: public static void ChangeLayersRecursively(this GameObject inst, string name)
+    parameters:
+    - id: inst
+      type: UnityEngine.GameObject
+    - id: name
+      type: System.String
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub ChangeLayersRecursively(inst As GameObject, name As String)
+  overload: UnityEngine.EnGameObjectExtensions.ChangeLayersRecursively*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnGameObjectExtensions.SetLayerRecursively(UnityEngine.GameObject,System.Int32)
+  commentId: M:UnityEngine.EnGameObjectExtensions.SetLayerRecursively(UnityEngine.GameObject,System.Int32)
+  id: SetLayerRecursively(UnityEngine.GameObject,System.Int32)
+  isExtensionMethod: true
+  parent: UnityEngine.EnGameObjectExtensions
+  langs:
+  - csharp
+  - vb
+  name: SetLayerRecursively(GameObject, Int32)
+  nameWithType: EnGameObjectExtensions.SetLayerRecursively(GameObject, Int32)
+  fullName: UnityEngine.EnGameObjectExtensions.SetLayerRecursively(UnityEngine.GameObject, System.Int32)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnGameObjectExtensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: SetLayerRecursively
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnGameObjectExtensions.cs
+    startLine: 55
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  syntax:
+    content: public static void SetLayerRecursively(this GameObject inst, int layer)
+    parameters:
+    - id: inst
+      type: UnityEngine.GameObject
+    - id: layer
+      type: System.Int32
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub SetLayerRecursively(inst As GameObject, layer As Integer)
+  overload: UnityEngine.EnGameObjectExtensions.SetLayerRecursively*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnGameObjectExtensions.AddComponentsFromResource(UnityEngine.GameObject,System.String)
+  commentId: M:UnityEngine.EnGameObjectExtensions.AddComponentsFromResource(UnityEngine.GameObject,System.String)
+  id: AddComponentsFromResource(UnityEngine.GameObject,System.String)
+  isExtensionMethod: true
+  parent: UnityEngine.EnGameObjectExtensions
+  langs:
+  - csharp
+  - vb
+  name: AddComponentsFromResource(GameObject, String)
+  nameWithType: EnGameObjectExtensions.AddComponentsFromResource(GameObject, String)
+  fullName: UnityEngine.EnGameObjectExtensions.AddComponentsFromResource(UnityEngine.GameObject, System.String)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnGameObjectExtensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: AddComponentsFromResource
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnGameObjectExtensions.cs
+    startLine: 71
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  summary: "\nAdds all the components found on a resource prefab.\n"
+  example: []
+  syntax:
+    content: public static void AddComponentsFromResource(this GameObject inst, string path)
+    parameters:
+    - id: inst
+      type: UnityEngine.GameObject
+      description: "\nInstance of game object to add the components to\n"
+    - id: path
+      type: System.String
+      description: "\nPath of prefab relative to ANY resource folder in the assets directory\n"
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub AddComponentsFromResource(inst As GameObject, path As String)
+  overload: UnityEngine.EnGameObjectExtensions.AddComponentsFromResource*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnGameObjectExtensions.AddComponentFromResource``1(UnityEngine.GameObject,System.String)
+  commentId: M:UnityEngine.EnGameObjectExtensions.AddComponentFromResource``1(UnityEngine.GameObject,System.String)
+  id: AddComponentFromResource``1(UnityEngine.GameObject,System.String)
+  isExtensionMethod: true
+  parent: UnityEngine.EnGameObjectExtensions
+  langs:
+  - csharp
+  - vb
+  name: AddComponentFromResource<T>(GameObject, String)
+  nameWithType: EnGameObjectExtensions.AddComponentFromResource<T>(GameObject, String)
+  fullName: UnityEngine.EnGameObjectExtensions.AddComponentFromResource<T>(UnityEngine.GameObject, System.String)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnGameObjectExtensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: AddComponentFromResource
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnGameObjectExtensions.cs
+    startLine: 104
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  summary: "\nAdds a component of the specific type found on a resource prefab.\n"
+  example: []
+  syntax:
+    content: >-
+      public static T AddComponentFromResource<T>(this GameObject inst, string path)
+          where T : Component
+    parameters:
+    - id: inst
+      type: UnityEngine.GameObject
+      description: "\nInstance of game object to add the component to\n"
+    - id: path
+      type: System.String
+      description: "\nPath of prefab relative to ANY resource folder in the assets directory\n"
+    typeParameters:
+    - id: T
+      description: "\nThe type of component to find on the prefab and add.\n"
+    return:
+      type: '{T}'
+      description: "\nThe newly added component.\n"
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function AddComponentFromResource(Of T As Component)(inst As GameObject, path As String) As T
+  overload: UnityEngine.EnGameObjectExtensions.AddComponentFromResource*
+  exceptions:
+  - type: System.ArgumentException
+    commentId: T:System.ArgumentException
+    description: "\nIs thrown when the path is invalid.\n"
+  nameWithType.vb: EnGameObjectExtensions.AddComponentFromResource(Of T)(GameObject, String)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: UnityEngine.EnGameObjectExtensions.AddComponentFromResource(Of T)(UnityEngine.GameObject, System.String)
+  name.vb: AddComponentFromResource(Of T)(GameObject, String)
+- uid: UnityEngine.EnGameObjectExtensions.HasComponent``1(UnityEngine.GameObject)
+  commentId: M:UnityEngine.EnGameObjectExtensions.HasComponent``1(UnityEngine.GameObject)
+  id: HasComponent``1(UnityEngine.GameObject)
+  isExtensionMethod: true
+  parent: UnityEngine.EnGameObjectExtensions
+  langs:
+  - csharp
+  - vb
+  name: HasComponent<T>(GameObject)
+  nameWithType: EnGameObjectExtensions.HasComponent<T>(GameObject)
+  fullName: UnityEngine.EnGameObjectExtensions.HasComponent<T>(UnityEngine.GameObject)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnGameObjectExtensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: HasComponent
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnGameObjectExtensions.cs
+    startLine: 118
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  syntax:
+    content: public static bool HasComponent<T>(this GameObject gameObject)
+    parameters:
+    - id: gameObject
+      type: UnityEngine.GameObject
+    typeParameters:
+    - id: T
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function HasComponent(Of T)(gameObject As GameObject) As Boolean
+  overload: UnityEngine.EnGameObjectExtensions.HasComponent*
+  nameWithType.vb: EnGameObjectExtensions.HasComponent(Of T)(GameObject)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: UnityEngine.EnGameObjectExtensions.HasComponent(Of T)(UnityEngine.GameObject)
+  name.vb: HasComponent(Of T)(GameObject)
+- uid: UnityEngine.EnGameObjectExtensions.HasComponent(UnityEngine.GameObject,System.Type)
+  commentId: M:UnityEngine.EnGameObjectExtensions.HasComponent(UnityEngine.GameObject,System.Type)
+  id: HasComponent(UnityEngine.GameObject,System.Type)
+  isExtensionMethod: true
+  parent: UnityEngine.EnGameObjectExtensions
+  langs:
+  - csharp
+  - vb
+  name: HasComponent(GameObject, Type)
+  nameWithType: EnGameObjectExtensions.HasComponent(GameObject, Type)
+  fullName: UnityEngine.EnGameObjectExtensions.HasComponent(UnityEngine.GameObject, System.Type)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnGameObjectExtensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: HasComponent
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnGameObjectExtensions.cs
+    startLine: 122
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  syntax:
+    content: public static bool HasComponent(this GameObject gameObject, Type type)
+    parameters:
+    - id: gameObject
+      type: UnityEngine.GameObject
+    - id: type
+      type: System.Type
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function HasComponent(gameObject As GameObject, type As Type) As Boolean
+  overload: UnityEngine.EnGameObjectExtensions.HasComponent*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnGameObjectExtensions.GetComponentInHierarchy``1(UnityEngine.GameObject)
+  commentId: M:UnityEngine.EnGameObjectExtensions.GetComponentInHierarchy``1(UnityEngine.GameObject)
+  id: GetComponentInHierarchy``1(UnityEngine.GameObject)
+  isExtensionMethod: true
+  parent: UnityEngine.EnGameObjectExtensions
+  langs:
+  - csharp
+  - vb
+  name: GetComponentInHierarchy<T>(GameObject)
+  nameWithType: EnGameObjectExtensions.GetComponentInHierarchy<T>(GameObject)
+  fullName: UnityEngine.EnGameObjectExtensions.GetComponentInHierarchy<T>(UnityEngine.GameObject)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnGameObjectExtensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: GetComponentInHierarchy
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnGameObjectExtensions.cs
+    startLine: 126
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  syntax:
+    content: public static T GetComponentInHierarchy<T>(this GameObject gameObject)
+    parameters:
+    - id: gameObject
+      type: UnityEngine.GameObject
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetComponentInHierarchy(Of T)(gameObject As GameObject) As T
+  overload: UnityEngine.EnGameObjectExtensions.GetComponentInHierarchy*
+  nameWithType.vb: EnGameObjectExtensions.GetComponentInHierarchy(Of T)(GameObject)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: UnityEngine.EnGameObjectExtensions.GetComponentInHierarchy(Of T)(UnityEngine.GameObject)
+  name.vb: GetComponentInHierarchy(Of T)(GameObject)
+references:
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine.EnGameObjectExtensions.SetParent*
+  commentId: Overload:UnityEngine.EnGameObjectExtensions.SetParent
+  name: SetParent
+  nameWithType: EnGameObjectExtensions.SetParent
+  fullName: UnityEngine.EnGameObjectExtensions.SetParent
+- uid: UnityEngine.GameObject
+  commentId: T:UnityEngine.GameObject
+  parent: UnityEngine
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: UnityEngine.GameObject
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: UnityEngine.EnGameObjectExtensions.IsNull*
+  commentId: Overload:UnityEngine.EnGameObjectExtensions.IsNull
+  name: IsNull
+  nameWithType: EnGameObjectExtensions.IsNull
+  fullName: UnityEngine.EnGameObjectExtensions.IsNull
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.EnGameObjectExtensions.IsNotNull*
+  commentId: Overload:UnityEngine.EnGameObjectExtensions.IsNotNull
+  name: IsNotNull
+  nameWithType: EnGameObjectExtensions.IsNotNull
+  fullName: UnityEngine.EnGameObjectExtensions.IsNotNull
+- uid: UnityEngine.EnGameObjectExtensions.DestroyChildren*
+  commentId: Overload:UnityEngine.EnGameObjectExtensions.DestroyChildren
+  name: DestroyChildren
+  nameWithType: EnGameObjectExtensions.DestroyChildren
+  fullName: UnityEngine.EnGameObjectExtensions.DestroyChildren
+- uid: UnityEngine.EnGameObjectExtensions.ChangeLayersRecursively*
+  commentId: Overload:UnityEngine.EnGameObjectExtensions.ChangeLayersRecursively
+  name: ChangeLayersRecursively
+  nameWithType: EnGameObjectExtensions.ChangeLayersRecursively
+  fullName: UnityEngine.EnGameObjectExtensions.ChangeLayersRecursively
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: UnityEngine.EnGameObjectExtensions.SetLayerRecursively*
+  commentId: Overload:UnityEngine.EnGameObjectExtensions.SetLayerRecursively
+  name: SetLayerRecursively
+  nameWithType: EnGameObjectExtensions.SetLayerRecursively
+  fullName: UnityEngine.EnGameObjectExtensions.SetLayerRecursively
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: UnityEngine.EnGameObjectExtensions.AddComponentsFromResource*
+  commentId: Overload:UnityEngine.EnGameObjectExtensions.AddComponentsFromResource
+  name: AddComponentsFromResource
+  nameWithType: EnGameObjectExtensions.AddComponentsFromResource
+  fullName: UnityEngine.EnGameObjectExtensions.AddComponentsFromResource
+- uid: System.ArgumentException
+  commentId: T:System.ArgumentException
+  isExternal: true
+- uid: UnityEngine.EnGameObjectExtensions.AddComponentFromResource*
+  commentId: Overload:UnityEngine.EnGameObjectExtensions.AddComponentFromResource
+  name: AddComponentFromResource
+  nameWithType: EnGameObjectExtensions.AddComponentFromResource
+  fullName: UnityEngine.EnGameObjectExtensions.AddComponentFromResource
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: UnityEngine.EnGameObjectExtensions.HasComponent*
+  commentId: Overload:UnityEngine.EnGameObjectExtensions.HasComponent
+  name: HasComponent
+  nameWithType: EnGameObjectExtensions.HasComponent
+  fullName: UnityEngine.EnGameObjectExtensions.HasComponent
+- uid: System.Type
+  commentId: T:System.Type
+  parent: System
+  isExternal: true
+  name: Type
+  nameWithType: Type
+  fullName: System.Type
+- uid: UnityEngine.EnGameObjectExtensions.GetComponentInHierarchy*
+  commentId: Overload:UnityEngine.EnGameObjectExtensions.GetComponentInHierarchy
+  name: GetComponentInHierarchy
+  nameWithType: EnGameObjectExtensions.GetComponentInHierarchy
+  fullName: UnityEngine.EnGameObjectExtensions.GetComponentInHierarchy

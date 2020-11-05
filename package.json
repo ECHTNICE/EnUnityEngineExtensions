@@ -1,0 +1,15 @@
+{
+    "name": "com.echtnice.enunityengineextensions",
+    "displayName": "ECHTNICE EnUnityEngineExtensions",
+    "version": "0.0.1",
+    "unity": "2020.1",
+    "description": "UnityExtensions, extensions for unity default classes.",
+    "keywords": [
+        "unity",
+        "extensions",
+        "spherecast",
+        "boxcast",
+        "unity"
+    ],
+    "category": "Unity"
+}

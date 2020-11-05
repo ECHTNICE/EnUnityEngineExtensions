@@ -1,0 +1,895 @@
+### YamlMime:ManagedReference
+items:
+- uid: UnityEngine.EnColorExtensions
+  commentId: T:UnityEngine.EnColorExtensions
+  id: EnColorExtensions
+  parent: UnityEngine
+  children:
+  - UnityEngine.EnColorExtensions.Brightness(UnityEngine.Color)
+  - UnityEngine.EnColorExtensions.Darker(UnityEngine.Color)
+  - UnityEngine.EnColorExtensions.HexToColor(System.String)
+  - UnityEngine.EnColorExtensions.IsApproximatelyBlack(UnityEngine.Color)
+  - UnityEngine.EnColorExtensions.IsApproximatelyWhite(UnityEngine.Color)
+  - UnityEngine.EnColorExtensions.Lighter(UnityEngine.Color)
+  - UnityEngine.EnColorExtensions.Opaque(UnityEngine.Color)
+  - UnityEngine.EnColorExtensions.RGBToColor(System.Int32,System.Int32,System.Int32)
+  - UnityEngine.EnColorExtensions.SetA(UnityEngine.Color,System.Single)
+  - UnityEngine.EnColorExtensions.SetB(UnityEngine.Color,System.Single)
+  - UnityEngine.EnColorExtensions.SetG(UnityEngine.Color,System.Single)
+  - UnityEngine.EnColorExtensions.SetR(UnityEngine.Color,System.Single)
+  - UnityEngine.EnColorExtensions.ToHex(UnityEngine.Color)
+  - UnityEngine.EnColorExtensions.ToInt(UnityEngine.Color)
+  - UnityEngine.EnColorExtensions.WithAlpha(UnityEngine.Color,System.Single)
+  - UnityEngine.EnColorExtensions.WithBrightness(UnityEngine.Color,System.Single)
+  langs:
+  - csharp
+  - vb
+  name: EnColorExtensions
+  nameWithType: EnColorExtensions
+  fullName: UnityEngine.EnColorExtensions
+  type: Class
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnColorExtensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: EnColorExtensions
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnColorExtensions.cs
+    startLine: 11
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  summary: "\nUnity Color Extensions\n\n<example>\n<pre><code>string hexColor = Color.red.ToHex();</code></pre>\n</example>\n"
+  example: []
+  syntax:
+    content: public static class EnColorExtensions
+    content.vb: Public Module EnColorExtensions
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: UnityEngine.EnColorExtensions.SetR(UnityEngine.Color,System.Single)
+  commentId: M:UnityEngine.EnColorExtensions.SetR(UnityEngine.Color,System.Single)
+  id: SetR(UnityEngine.Color,System.Single)
+  isExtensionMethod: true
+  parent: UnityEngine.EnColorExtensions
+  langs:
+  - csharp
+  - vb
+  name: SetR(Color, Single)
+  nameWithType: EnColorExtensions.SetR(Color, Single)
+  fullName: UnityEngine.EnColorExtensions.SetR(UnityEngine.Color, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnColorExtensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: SetR
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnColorExtensions.cs
+    startLine: 20
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  syntax:
+    content: public static Color SetR(this Color c, float r)
+    parameters:
+    - id: c
+      type: UnityEngine.Color
+    - id: r
+      type: System.Single
+    return:
+      type: UnityEngine.Color
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function SetR(c As Color, r As Single) As Color
+  overload: UnityEngine.EnColorExtensions.SetR*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnColorExtensions.SetG(UnityEngine.Color,System.Single)
+  commentId: M:UnityEngine.EnColorExtensions.SetG(UnityEngine.Color,System.Single)
+  id: SetG(UnityEngine.Color,System.Single)
+  isExtensionMethod: true
+  parent: UnityEngine.EnColorExtensions
+  langs:
+  - csharp
+  - vb
+  name: SetG(Color, Single)
+  nameWithType: EnColorExtensions.SetG(Color, Single)
+  fullName: UnityEngine.EnColorExtensions.SetG(UnityEngine.Color, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnColorExtensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: SetG
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnColorExtensions.cs
+    startLine: 24
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  syntax:
+    content: public static Color SetG(this Color c, float g)
+    parameters:
+    - id: c
+      type: UnityEngine.Color
+    - id: g
+      type: System.Single
+    return:
+      type: UnityEngine.Color
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function SetG(c As Color, g As Single) As Color
+  overload: UnityEngine.EnColorExtensions.SetG*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnColorExtensions.SetB(UnityEngine.Color,System.Single)
+  commentId: M:UnityEngine.EnColorExtensions.SetB(UnityEngine.Color,System.Single)
+  id: SetB(UnityEngine.Color,System.Single)
+  isExtensionMethod: true
+  parent: UnityEngine.EnColorExtensions
+  langs:
+  - csharp
+  - vb
+  name: SetB(Color, Single)
+  nameWithType: EnColorExtensions.SetB(Color, Single)
+  fullName: UnityEngine.EnColorExtensions.SetB(UnityEngine.Color, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnColorExtensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: SetB
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnColorExtensions.cs
+    startLine: 28
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  syntax:
+    content: public static Color SetB(this Color c, float b)
+    parameters:
+    - id: c
+      type: UnityEngine.Color
+    - id: b
+      type: System.Single
+    return:
+      type: UnityEngine.Color
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function SetB(c As Color, b As Single) As Color
+  overload: UnityEngine.EnColorExtensions.SetB*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnColorExtensions.SetA(UnityEngine.Color,System.Single)
+  commentId: M:UnityEngine.EnColorExtensions.SetA(UnityEngine.Color,System.Single)
+  id: SetA(UnityEngine.Color,System.Single)
+  isExtensionMethod: true
+  parent: UnityEngine.EnColorExtensions
+  langs:
+  - csharp
+  - vb
+  name: SetA(Color, Single)
+  nameWithType: EnColorExtensions.SetA(Color, Single)
+  fullName: UnityEngine.EnColorExtensions.SetA(UnityEngine.Color, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnColorExtensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: SetA
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnColorExtensions.cs
+    startLine: 32
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  syntax:
+    content: public static Color SetA(this Color c, float a)
+    parameters:
+    - id: c
+      type: UnityEngine.Color
+    - id: a
+      type: System.Single
+    return:
+      type: UnityEngine.Color
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function SetA(c As Color, a As Single) As Color
+  overload: UnityEngine.EnColorExtensions.SetA*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnColorExtensions.ToHex(UnityEngine.Color)
+  commentId: M:UnityEngine.EnColorExtensions.ToHex(UnityEngine.Color)
+  id: ToHex(UnityEngine.Color)
+  isExtensionMethod: true
+  parent: UnityEngine.EnColorExtensions
+  langs:
+  - csharp
+  - vb
+  name: ToHex(Color)
+  nameWithType: EnColorExtensions.ToHex(Color)
+  fullName: UnityEngine.EnColorExtensions.ToHex(UnityEngine.Color)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnColorExtensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: ToHex
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnColorExtensions.cs
+    startLine: 37
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  syntax:
+    content: public static string ToHex(this Color self)
+    parameters:
+    - id: self
+      type: UnityEngine.Color
+    return:
+      type: System.String
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToHex(self As Color) As String
+  overload: UnityEngine.EnColorExtensions.ToHex*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnColorExtensions.ToInt(UnityEngine.Color)
+  commentId: M:UnityEngine.EnColorExtensions.ToInt(UnityEngine.Color)
+  id: ToInt(UnityEngine.Color)
+  isExtensionMethod: true
+  parent: UnityEngine.EnColorExtensions
+  langs:
+  - csharp
+  - vb
+  name: ToInt(Color)
+  nameWithType: EnColorExtensions.ToInt(Color)
+  fullName: UnityEngine.EnColorExtensions.ToInt(UnityEngine.Color)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnColorExtensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: ToInt
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnColorExtensions.cs
+    startLine: 45
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  summary: "\n\n"
+  example: []
+  syntax:
+    content: public static int ToInt(this Color self)
+    parameters:
+    - id: self
+      type: UnityEngine.Color
+    return:
+      type: System.Int32
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToInt(self As Color) As Integer
+  overload: UnityEngine.EnColorExtensions.ToInt*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnColorExtensions.RGBToColor(System.Int32,System.Int32,System.Int32)
+  commentId: M:UnityEngine.EnColorExtensions.RGBToColor(System.Int32,System.Int32,System.Int32)
+  id: RGBToColor(System.Int32,System.Int32,System.Int32)
+  parent: UnityEngine.EnColorExtensions
+  langs:
+  - csharp
+  - vb
+  name: RGBToColor(Int32, Int32, Int32)
+  nameWithType: EnColorExtensions.RGBToColor(Int32, Int32, Int32)
+  fullName: UnityEngine.EnColorExtensions.RGBToColor(System.Int32, System.Int32, System.Int32)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnColorExtensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: RGBToColor
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnColorExtensions.cs
+    startLine: 61
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  summary: "\n\n"
+  example: []
+  syntax:
+    content: public static Color RGBToColor(int red, int green, int blue)
+    parameters:
+    - id: red
+      type: System.Int32
+      description: Red.
+    - id: green
+      type: System.Int32
+      description: Green.
+    - id: blue
+      type: System.Int32
+      description: Blue.
+    return:
+      type: UnityEngine.Color
+      description: The RGB.
+    content.vb: Public Shared Function RGBToColor(red As Integer, green As Integer, blue As Integer) As Color
+  overload: UnityEngine.EnColorExtensions.RGBToColor*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnColorExtensions.HexToColor(System.String)
+  commentId: M:UnityEngine.EnColorExtensions.HexToColor(System.String)
+  id: HexToColor(System.String)
+  parent: UnityEngine.EnColorExtensions
+  langs:
+  - csharp
+  - vb
+  name: HexToColor(String)
+  nameWithType: EnColorExtensions.HexToColor(String)
+  fullName: UnityEngine.EnColorExtensions.HexToColor(System.String)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnColorExtensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: HexToColor
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnColorExtensions.cs
+    startLine: 70
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  summary: "\n#\n"
+  example: []
+  syntax:
+    content: public static Color HexToColor(string hex)
+    parameters:
+    - id: hex
+      type: System.String
+      description: Hex.
+    return:
+      type: UnityEngine.Color
+      description: The hex to RG.
+    content.vb: Public Shared Function HexToColor(hex As String) As Color
+  overload: UnityEngine.EnColorExtensions.HexToColor*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnColorExtensions.Lighter(UnityEngine.Color)
+  commentId: M:UnityEngine.EnColorExtensions.Lighter(UnityEngine.Color)
+  id: Lighter(UnityEngine.Color)
+  isExtensionMethod: true
+  parent: UnityEngine.EnColorExtensions
+  langs:
+  - csharp
+  - vb
+  name: Lighter(Color)
+  nameWithType: EnColorExtensions.Lighter(Color)
+  fullName: UnityEngine.EnColorExtensions.Lighter(UnityEngine.Color)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnColorExtensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: Lighter
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnColorExtensions.cs
+    startLine: 94
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  summary: "\n\n"
+  example: []
+  syntax:
+    content: public static Color Lighter(this Color color)
+    parameters:
+    - id: color
+      type: UnityEngine.Color
+      description: Color.
+    return:
+      type: UnityEngine.Color
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function Lighter(color As Color) As Color
+  overload: UnityEngine.EnColorExtensions.Lighter*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnColorExtensions.Darker(UnityEngine.Color)
+  commentId: M:UnityEngine.EnColorExtensions.Darker(UnityEngine.Color)
+  id: Darker(UnityEngine.Color)
+  isExtensionMethod: true
+  parent: UnityEngine.EnColorExtensions
+  langs:
+  - csharp
+  - vb
+  name: Darker(Color)
+  nameWithType: EnColorExtensions.Darker(Color)
+  fullName: UnityEngine.EnColorExtensions.Darker(UnityEngine.Color)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnColorExtensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: Darker
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnColorExtensions.cs
+    startLine: 102
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  summary: "\n\n"
+  example: []
+  syntax:
+    content: public static Color Darker(this Color color)
+    parameters:
+    - id: color
+      type: UnityEngine.Color
+      description: Color.
+    return:
+      type: UnityEngine.Color
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function Darker(color As Color) As Color
+  overload: UnityEngine.EnColorExtensions.Darker*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnColorExtensions.Brightness(UnityEngine.Color)
+  commentId: M:UnityEngine.EnColorExtensions.Brightness(UnityEngine.Color)
+  id: Brightness(UnityEngine.Color)
+  isExtensionMethod: true
+  parent: UnityEngine.EnColorExtensions
+  langs:
+  - csharp
+  - vb
+  name: Brightness(Color)
+  nameWithType: EnColorExtensions.Brightness(Color)
+  fullName: UnityEngine.EnColorExtensions.Brightness(UnityEngine.Color)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnColorExtensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: Brightness
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnColorExtensions.cs
+    startLine: 110
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  summary: "\n\n"
+  example: []
+  syntax:
+    content: public static float Brightness(this Color color)
+    parameters:
+    - id: color
+      type: UnityEngine.Color
+      description: Color.
+    return:
+      type: System.Single
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function Brightness(color As Color) As Single
+  overload: UnityEngine.EnColorExtensions.Brightness*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnColorExtensions.WithBrightness(UnityEngine.Color,System.Single)
+  commentId: M:UnityEngine.EnColorExtensions.WithBrightness(UnityEngine.Color,System.Single)
+  id: WithBrightness(UnityEngine.Color,System.Single)
+  isExtensionMethod: true
+  parent: UnityEngine.EnColorExtensions
+  langs:
+  - csharp
+  - vb
+  name: WithBrightness(Color, Single)
+  nameWithType: EnColorExtensions.WithBrightness(Color, Single)
+  fullName: UnityEngine.EnColorExtensions.WithBrightness(UnityEngine.Color, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnColorExtensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: WithBrightness
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnColorExtensions.cs
+    startLine: 120
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  summary: "\n\n"
+  example: []
+  syntax:
+    content: public static Color WithBrightness(this Color color, float brightness)
+    parameters:
+    - id: color
+      type: UnityEngine.Color
+      description: Color.
+    - id: brightness
+      type: System.Single
+      description: Brightness.
+    return:
+      type: UnityEngine.Color
+      description: The brightness.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function WithBrightness(color As Color, brightness As Single) As Color
+  overload: UnityEngine.EnColorExtensions.WithBrightness*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnColorExtensions.IsApproximatelyBlack(UnityEngine.Color)
+  commentId: M:UnityEngine.EnColorExtensions.IsApproximatelyBlack(UnityEngine.Color)
+  id: IsApproximatelyBlack(UnityEngine.Color)
+  isExtensionMethod: true
+  parent: UnityEngine.EnColorExtensions
+  langs:
+  - csharp
+  - vb
+  name: IsApproximatelyBlack(Color)
+  nameWithType: EnColorExtensions.IsApproximatelyBlack(Color)
+  fullName: UnityEngine.EnColorExtensions.IsApproximatelyBlack(UnityEngine.Color)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnColorExtensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: IsApproximatelyBlack
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnColorExtensions.cs
+    startLine: 143
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  summary: "\n\n"
+  example: []
+  syntax:
+    content: public static bool IsApproximatelyBlack(this Color color)
+    parameters:
+    - id: color
+      type: UnityEngine.Color
+      description: Color.
+    return:
+      type: System.Boolean
+      description: <code>true</code> if is approximately black the specified color; otherwise, <code>false</code>.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function IsApproximatelyBlack(color As Color) As Boolean
+  overload: UnityEngine.EnColorExtensions.IsApproximatelyBlack*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnColorExtensions.IsApproximatelyWhite(UnityEngine.Color)
+  commentId: M:UnityEngine.EnColorExtensions.IsApproximatelyWhite(UnityEngine.Color)
+  id: IsApproximatelyWhite(UnityEngine.Color)
+  isExtensionMethod: true
+  parent: UnityEngine.EnColorExtensions
+  langs:
+  - csharp
+  - vb
+  name: IsApproximatelyWhite(Color)
+  nameWithType: EnColorExtensions.IsApproximatelyWhite(Color)
+  fullName: UnityEngine.EnColorExtensions.IsApproximatelyWhite(UnityEngine.Color)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnColorExtensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: IsApproximatelyWhite
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnColorExtensions.cs
+    startLine: 152
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  summary: "\n\n"
+  example: []
+  syntax:
+    content: public static bool IsApproximatelyWhite(this Color color)
+    parameters:
+    - id: color
+      type: UnityEngine.Color
+      description: Color.
+    return:
+      type: System.Boolean
+      description: <code>true</code> if is approximately white the specified color; otherwise, <code>false</code>.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function IsApproximatelyWhite(color As Color) As Boolean
+  overload: UnityEngine.EnColorExtensions.IsApproximatelyWhite*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnColorExtensions.Opaque(UnityEngine.Color)
+  commentId: M:UnityEngine.EnColorExtensions.Opaque(UnityEngine.Color)
+  id: Opaque(UnityEngine.Color)
+  isExtensionMethod: true
+  parent: UnityEngine.EnColorExtensions
+  langs:
+  - csharp
+  - vb
+  name: Opaque(Color)
+  nameWithType: EnColorExtensions.Opaque(Color)
+  fullName: UnityEngine.EnColorExtensions.Opaque(UnityEngine.Color)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnColorExtensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: Opaque
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnColorExtensions.cs
+    startLine: 160
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  summary: "\n\n"
+  example: []
+  syntax:
+    content: public static Color Opaque(this Color color)
+    parameters:
+    - id: color
+      type: UnityEngine.Color
+      description: Color.
+    return:
+      type: UnityEngine.Color
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function Opaque(color As Color) As Color
+  overload: UnityEngine.EnColorExtensions.Opaque*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnColorExtensions.WithAlpha(UnityEngine.Color,System.Single)
+  commentId: M:UnityEngine.EnColorExtensions.WithAlpha(UnityEngine.Color,System.Single)
+  id: WithAlpha(UnityEngine.Color,System.Single)
+  isExtensionMethod: true
+  parent: UnityEngine.EnColorExtensions
+  langs:
+  - csharp
+  - vb
+  name: WithAlpha(Color, Single)
+  nameWithType: EnColorExtensions.WithAlpha(Color, Single)
+  fullName: UnityEngine.EnColorExtensions.WithAlpha(UnityEngine.Color, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnColorExtensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: WithAlpha
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnColorExtensions.cs
+    startLine: 170
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  summary: "\n\n"
+  example: []
+  syntax:
+    content: public static Color WithAlpha(this Color color, float alpha)
+    parameters:
+    - id: color
+      type: UnityEngine.Color
+      description: Color.
+    - id: alpha
+      type: System.Single
+      description: Alpha.
+    return:
+      type: UnityEngine.Color
+      description: The alpha.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function WithAlpha(color As Color, alpha As Single) As Color
+  overload: UnityEngine.EnColorExtensions.WithAlpha*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine.EnColorExtensions.SetR*
+  commentId: Overload:UnityEngine.EnColorExtensions.SetR
+  name: SetR
+  nameWithType: EnColorExtensions.SetR
+  fullName: UnityEngine.EnColorExtensions.SetR
+- uid: UnityEngine.Color
+  commentId: T:UnityEngine.Color
+  parent: UnityEngine
+  isExternal: true
+  name: Color
+  nameWithType: Color
+  fullName: UnityEngine.Color
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: UnityEngine.EnColorExtensions.SetG*
+  commentId: Overload:UnityEngine.EnColorExtensions.SetG
+  name: SetG
+  nameWithType: EnColorExtensions.SetG
+  fullName: UnityEngine.EnColorExtensions.SetG
+- uid: UnityEngine.EnColorExtensions.SetB*
+  commentId: Overload:UnityEngine.EnColorExtensions.SetB
+  name: SetB
+  nameWithType: EnColorExtensions.SetB
+  fullName: UnityEngine.EnColorExtensions.SetB
+- uid: UnityEngine.EnColorExtensions.SetA*
+  commentId: Overload:UnityEngine.EnColorExtensions.SetA
+  name: SetA
+  nameWithType: EnColorExtensions.SetA
+  fullName: UnityEngine.EnColorExtensions.SetA
+- uid: UnityEngine.EnColorExtensions.ToHex*
+  commentId: Overload:UnityEngine.EnColorExtensions.ToHex
+  name: ToHex
+  nameWithType: EnColorExtensions.ToHex
+  fullName: UnityEngine.EnColorExtensions.ToHex
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: UnityEngine.EnColorExtensions.ToInt*
+  commentId: Overload:UnityEngine.EnColorExtensions.ToInt
+  name: ToInt
+  nameWithType: EnColorExtensions.ToInt
+  fullName: UnityEngine.EnColorExtensions.ToInt
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: UnityEngine.EnColorExtensions.RGBToColor*
+  commentId: Overload:UnityEngine.EnColorExtensions.RGBToColor
+  name: RGBToColor
+  nameWithType: EnColorExtensions.RGBToColor
+  fullName: UnityEngine.EnColorExtensions.RGBToColor
+- uid: UnityEngine.EnColorExtensions.HexToColor*
+  commentId: Overload:UnityEngine.EnColorExtensions.HexToColor
+  name: HexToColor
+  nameWithType: EnColorExtensions.HexToColor
+  fullName: UnityEngine.EnColorExtensions.HexToColor
+- uid: UnityEngine.EnColorExtensions.Lighter*
+  commentId: Overload:UnityEngine.EnColorExtensions.Lighter
+  name: Lighter
+  nameWithType: EnColorExtensions.Lighter
+  fullName: UnityEngine.EnColorExtensions.Lighter
+- uid: UnityEngine.EnColorExtensions.Darker*
+  commentId: Overload:UnityEngine.EnColorExtensions.Darker
+  name: Darker
+  nameWithType: EnColorExtensions.Darker
+  fullName: UnityEngine.EnColorExtensions.Darker
+- uid: UnityEngine.EnColorExtensions.Brightness*
+  commentId: Overload:UnityEngine.EnColorExtensions.Brightness
+  name: Brightness
+  nameWithType: EnColorExtensions.Brightness
+  fullName: UnityEngine.EnColorExtensions.Brightness
+- uid: UnityEngine.EnColorExtensions.WithBrightness*
+  commentId: Overload:UnityEngine.EnColorExtensions.WithBrightness
+  name: WithBrightness
+  nameWithType: EnColorExtensions.WithBrightness
+  fullName: UnityEngine.EnColorExtensions.WithBrightness
+- uid: UnityEngine.EnColorExtensions.IsApproximatelyBlack*
+  commentId: Overload:UnityEngine.EnColorExtensions.IsApproximatelyBlack
+  name: IsApproximatelyBlack
+  nameWithType: EnColorExtensions.IsApproximatelyBlack
+  fullName: UnityEngine.EnColorExtensions.IsApproximatelyBlack
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: UnityEngine.EnColorExtensions.IsApproximatelyWhite*
+  commentId: Overload:UnityEngine.EnColorExtensions.IsApproximatelyWhite
+  name: IsApproximatelyWhite
+  nameWithType: EnColorExtensions.IsApproximatelyWhite
+  fullName: UnityEngine.EnColorExtensions.IsApproximatelyWhite
+- uid: UnityEngine.EnColorExtensions.Opaque*
+  commentId: Overload:UnityEngine.EnColorExtensions.Opaque
+  name: Opaque
+  nameWithType: EnColorExtensions.Opaque
+  fullName: UnityEngine.EnColorExtensions.Opaque
+- uid: UnityEngine.EnColorExtensions.WithAlpha*
+  commentId: Overload:UnityEngine.EnColorExtensions.WithAlpha
+  name: WithAlpha
+  nameWithType: EnColorExtensions.WithAlpha
+  fullName: UnityEngine.EnColorExtensions.WithAlpha

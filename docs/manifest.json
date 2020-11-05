@@ -1,0 +1,323 @@
+{
+  "homepages": [],
+  "source_base_path": "D:/git/EnUnityEngineExtensions/docfx_project",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.EnTestScript.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.EnTestScript.html",
+          "hash": "3kM2A8st0Pvw5oeLD4DoLg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.html",
+          "hash": "aW2TQUmPL7GVwFZx5AFYFw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UnityEngine.EnApplication.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UnityEngine.EnApplication.html",
+          "hash": "1Qj4/tX3luOjneUGatqEhQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UnityEngine.EnColorExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UnityEngine.EnColorExtensions.html",
+          "hash": "dwopxRNq7ahMqGnIDKRDbg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UnityEngine.EnComponentExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UnityEngine.EnComponentExtensions.html",
+          "hash": "UY/3J7c0ahDZtC/VtPoO3w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UnityEngine.EnGameObjectExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UnityEngine.EnGameObjectExtensions.html",
+          "hash": "cWjjeOiyWMt1PxyUSMHsNQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UnityEngine.EnLayerMaskExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UnityEngine.EnLayerMaskExtensions.html",
+          "hash": "h3hmgHJ72+eIEJ2MTxxt1A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UnityEngine.EnNavMeshPathExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UnityEngine.EnNavMeshPathExtensions.html",
+          "hash": "xj14oRqqcZgoYMrXAhFANg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UnityEngine.EnObjectExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UnityEngine.EnObjectExtensions.html",
+          "hash": "88VLbR+Uo9yPlJEWids2NA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UnityEngine.EnPhysicsExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UnityEngine.EnPhysicsExtensions.html",
+          "hash": "R6tP2Zw+PHtTx8ZrkhfbnQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UnityEngine.EnRectExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UnityEngine.EnRectExtensions.html",
+          "hash": "eVM4P0pOPummEj6zsIYWhw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UnityEngine.EnTransformExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UnityEngine.EnTransformExtensions.html",
+          "hash": "TDImkz8v/IrUHX4SBe+Bdg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UnityEngine.EnVector2Extensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UnityEngine.EnVector2Extensions.html",
+          "hash": "jQ4HStDDT3xu803suYnBOw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UnityEngine.EnVector2IntExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UnityEngine.EnVector2IntExtensions.html",
+          "hash": "fS/8MjrkmfcGmZ+OK1kKrA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UnityEngine.EnVector3Extensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UnityEngine.EnVector3Extensions.html",
+          "hash": "Km6URgVkxmyfsBZz3He4PA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UnityEngine.EnVector3IntExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UnityEngine.EnVector3IntExtensions.html",
+          "hash": "etByvfKZk/HPxUejArkWKw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UnityEngine.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UnityEngine.html",
+          "hash": "J/Ns6e0/7Gf9iGY7uxbIdg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "JOnp/1mDtFQy97s/awo0xg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html",
+          "hash": "OOMEELY/v/bYsm3s8tnEqA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/ECHTNICE_LOGO_TRANSPARENT - Kopie.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/ECHTNICE_LOGO_TRANSPARENT - Kopie.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/echtnice_50x50.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/echtnice_50x50.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "SHtEMbGvGzW1msH/+q+aKg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": true,
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 3,
+          "skipped_file_count": 3
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 17,
+          "skipped_file_count": 17
+        },
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": true,
+        "details": "Can support incremental post processing.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

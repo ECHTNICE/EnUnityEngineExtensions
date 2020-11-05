@@ -1,0 +1,843 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class EnVector2Extensions
+   | EnUnityEngineExtensions Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class EnVector2Extensions
+   | EnUnityEngineExtensions Documentation ">
+    <meta name="generator" content="docfx 2.56.4.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc">
+    <meta property="docfx:tocrel" content="toc">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../Images/echtnice_50x50.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+                
+                <ul class="nav level1 navbar-nav">
+                      <li>
+                          <a href="../articles/intro.html" title="Articles">Articles</a>
+                      </li>
+                      <li>
+                          <a href="../api/index.html" title="Documentation">Documentation</a>
+                      </li>
+                </ul>    </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div>
+              <div class="sidefilter">
+                <form class="toc-filter">
+                  <span class="glyphicon glyphicon-filter filter-icon"></span>
+                  <input type="text" id="toc_filter_input" placeholder="Enter here to filter..." onkeypress="if(event.keyCode==13) {return false;}">
+                </form>
+              </div>
+              <div class="sidetoc">
+                <div class="toc" id="toc">
+                  
+                  <ul class="nav level1">
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="Global.html" title="Global" class="">Global</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="Global.EnTestScript.html" title="EnTestScript" class="">EnTestScript</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="UnityEngine.html" title="UnityEngine" class="">UnityEngine</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="UnityEngine.EnApplication.html" title="EnApplication" class="">EnApplication</a>
+                          </li>
+                          <li class="">
+                            <a href="UnityEngine.EnColorExtensions.html" title="EnColorExtensions" class="">EnColorExtensions</a>
+                          </li>
+                          <li class="">
+                            <a href="UnityEngine.EnComponentExtensions.html" title="EnComponentExtensions" class="">EnComponentExtensions</a>
+                          </li>
+                          <li class="">
+                            <a href="UnityEngine.EnGameObjectExtensions.html" title="EnGameObjectExtensions" class="">EnGameObjectExtensions</a>
+                          </li>
+                          <li class="">
+                            <a href="UnityEngine.EnLayerMaskExtensions.html" title="EnLayerMaskExtensions" class="">EnLayerMaskExtensions</a>
+                          </li>
+                          <li class="">
+                            <a href="UnityEngine.EnNavMeshPathExtensions.html" title="EnNavMeshPathExtensions" class="">EnNavMeshPathExtensions</a>
+                          </li>
+                          <li class="">
+                            <a href="UnityEngine.EnObjectExtensions.html" title="EnObjectExtensions" class="">EnObjectExtensions</a>
+                          </li>
+                          <li class="">
+                            <a href="UnityEngine.EnPhysicsExtensions.html" title="EnPhysicsExtensions" class="">EnPhysicsExtensions</a>
+                          </li>
+                          <li class="">
+                            <a href="UnityEngine.EnRectExtensions.html" title="EnRectExtensions" class="">EnRectExtensions</a>
+                          </li>
+                          <li class="">
+                            <a href="UnityEngine.EnTransformExtensions.html" title="EnTransformExtensions" class="">EnTransformExtensions</a>
+                          </li>
+                          <li class="active">
+                            <a href="UnityEngine.EnVector2Extensions.html" title="EnVector2Extensions" class="active">EnVector2Extensions</a>
+                          </li>
+                          <li class="">
+                            <a href="UnityEngine.EnVector2IntExtensions.html" title="EnVector2IntExtensions" class="">EnVector2IntExtensions</a>
+                          </li>
+                          <li class="">
+                            <a href="UnityEngine.EnVector3Extensions.html" title="EnVector3Extensions" class="">EnVector3Extensions</a>
+                          </li>
+                          <li class="">
+                            <a href="UnityEngine.EnVector3IntExtensions.html" title="EnVector3IntExtensions" class="">EnVector3IntExtensions</a>
+                          </li>
+                        </ul>  </li>
+                  </ul>        </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="UnityEngine.EnVector2Extensions">
+  
+  
+  <h1 id="UnityEngine_EnVector2Extensions" data-uid="UnityEngine.EnVector2Extensions" class="text-break">Class EnVector2Extensions
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">EnVector2Extensions</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="UnityEngine.html">UnityEngine</a></h6>
+  <h6><strong>Assembly</strong>: ECHTNICE.EnUnityEngineExtensions.dll</h6>
+  <h5 id="UnityEngine_EnVector2Extensions_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class EnVector2Extensions</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ECHTNICE/EnUnityEngineExtensions/new/main/apiSpec/new?filename=UnityEngine_EnVector2Extensions_AddX_UnityEngine_Vector2_System_Single_.md&amp;value=---%0Auid%3A%20UnityEngine.EnVector2Extensions.AddX(UnityEngine.Vector2%2CSystem.Single)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ECHTNICE/EnUnityEngineExtensions/blob/main/Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector2Extensions.cs/#L77">View Source</a>
+  </span>
+  <a id="UnityEngine_EnVector2Extensions_AddX_" data-uid="UnityEngine.EnVector2Extensions.AddX*"></a>
+  <h4 id="UnityEngine_EnVector2Extensions_AddX_UnityEngine_Vector2_System_Single_" data-uid="UnityEngine.EnVector2Extensions.AddX(UnityEngine.Vector2,System.Single)">AddX(Vector2, Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector2 AddX(this Vector2 vec, float x)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector2</span></td>
+        <td><span class="parametername">vec</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">x</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector2</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ECHTNICE/EnUnityEngineExtensions/new/main/apiSpec/new?filename=UnityEngine_EnVector2Extensions_AddY_UnityEngine_Vector2_System_Single_.md&amp;value=---%0Auid%3A%20UnityEngine.EnVector2Extensions.AddY(UnityEngine.Vector2%2CSystem.Single)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ECHTNICE/EnUnityEngineExtensions/blob/main/Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector2Extensions.cs/#L81">View Source</a>
+  </span>
+  <a id="UnityEngine_EnVector2Extensions_AddY_" data-uid="UnityEngine.EnVector2Extensions.AddY*"></a>
+  <h4 id="UnityEngine_EnVector2Extensions_AddY_UnityEngine_Vector2_System_Single_" data-uid="UnityEngine.EnVector2Extensions.AddY(UnityEngine.Vector2,System.Single)">AddY(Vector2, Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector2 AddY(this Vector2 vec, float y)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector2</span></td>
+        <td><span class="parametername">vec</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">y</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector2</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ECHTNICE/EnUnityEngineExtensions/new/main/apiSpec/new?filename=UnityEngine_EnVector2Extensions_distance_UnityEngine_Vector2_UnityEngine_Vector2_.md&amp;value=---%0Auid%3A%20UnityEngine.EnVector2Extensions.distance(UnityEngine.Vector2%2CUnityEngine.Vector2)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ECHTNICE/EnUnityEngineExtensions/blob/main/Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector2Extensions.cs/#L13">View Source</a>
+  </span>
+  <a id="UnityEngine_EnVector2Extensions_distance_" data-uid="UnityEngine.EnVector2Extensions.distance*"></a>
+  <h4 id="UnityEngine_EnVector2Extensions_distance_UnityEngine_Vector2_UnityEngine_Vector2_" data-uid="UnityEngine.EnVector2Extensions.distance(UnityEngine.Vector2,UnityEngine.Vector2)">distance(Vector2, Vector2)</h4>
+  <div class="markdown level1 summary"><p>Distance to a second point.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float distance(this Vector2 v, Vector2 u)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector2</span></td>
+        <td><span class="parametername">v</span></td>
+        <td><p>Origin point.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector2</span></td>
+        <td><span class="parametername">u</span></td>
+        <td><p>Destination point.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><p>The distance from origin to destination.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ECHTNICE/EnUnityEngineExtensions/new/main/apiSpec/new?filename=UnityEngine_EnVector2Extensions_Dot_UnityEngine_Vector2_UnityEngine_Vector2_.md&amp;value=---%0Auid%3A%20UnityEngine.EnVector2Extensions.Dot(UnityEngine.Vector2%2CUnityEngine.Vector2)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ECHTNICE/EnUnityEngineExtensions/blob/main/Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector2Extensions.cs/#L61">View Source</a>
+  </span>
+  <a id="UnityEngine_EnVector2Extensions_Dot_" data-uid="UnityEngine.EnVector2Extensions.Dot*"></a>
+  <h4 id="UnityEngine_EnVector2Extensions_Dot_UnityEngine_Vector2_UnityEngine_Vector2_" data-uid="UnityEngine.EnVector2Extensions.Dot(UnityEngine.Vector2,UnityEngine.Vector2)">Dot(Vector2, Vector2)</h4>
+  <div class="markdown level1 summary"><p>Calculate two vector's dot product. Sugar for <span class="xref">UnityEngine.Vector2.Dot(UnityEngine.Vector2,UnityEngine.Vector2)</span></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float Dot(this Vector2 v, Vector2 u)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector2</span></td>
+        <td><span class="parametername">v</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector2</span></td>
+        <td><span class="parametername">u</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><p>The vector's dot product.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ECHTNICE/EnUnityEngineExtensions/new/main/apiSpec/new?filename=UnityEngine_EnVector2Extensions_Invert_UnityEngine_Vector2_.md&amp;value=---%0Auid%3A%20UnityEngine.EnVector2Extensions.Invert(UnityEngine.Vector2)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ECHTNICE/EnUnityEngineExtensions/blob/main/Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector2Extensions.cs/#L94">View Source</a>
+  </span>
+  <a id="UnityEngine_EnVector2Extensions_Invert_" data-uid="UnityEngine.EnVector2Extensions.Invert*"></a>
+  <h4 id="UnityEngine_EnVector2Extensions_Invert_UnityEngine_Vector2_" data-uid="UnityEngine.EnVector2Extensions.Invert(UnityEngine.Vector2)">Invert(Vector2)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector2 Invert(this Vector2 vec)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector2</span></td>
+        <td><span class="parametername">vec</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector2</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ECHTNICE/EnUnityEngineExtensions/new/main/apiSpec/new?filename=UnityEngine_EnVector2Extensions_InvertX_UnityEngine_Vector2_.md&amp;value=---%0Auid%3A%20UnityEngine.EnVector2Extensions.InvertX(UnityEngine.Vector2)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ECHTNICE/EnUnityEngineExtensions/blob/main/Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector2Extensions.cs/#L86">View Source</a>
+  </span>
+  <a id="UnityEngine_EnVector2Extensions_InvertX_" data-uid="UnityEngine.EnVector2Extensions.InvertX*"></a>
+  <h4 id="UnityEngine_EnVector2Extensions_InvertX_UnityEngine_Vector2_" data-uid="UnityEngine.EnVector2Extensions.InvertX(UnityEngine.Vector2)">InvertX(Vector2)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector2 InvertX(this Vector2 vec)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector2</span></td>
+        <td><span class="parametername">vec</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector2</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ECHTNICE/EnUnityEngineExtensions/new/main/apiSpec/new?filename=UnityEngine_EnVector2Extensions_InvertY_UnityEngine_Vector2_.md&amp;value=---%0Auid%3A%20UnityEngine.EnVector2Extensions.InvertY(UnityEngine.Vector2)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ECHTNICE/EnUnityEngineExtensions/blob/main/Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector2Extensions.cs/#L90">View Source</a>
+  </span>
+  <a id="UnityEngine_EnVector2Extensions_InvertY_" data-uid="UnityEngine.EnVector2Extensions.InvertY*"></a>
+  <h4 id="UnityEngine_EnVector2Extensions_InvertY_UnityEngine_Vector2_" data-uid="UnityEngine.EnVector2Extensions.InvertY(UnityEngine.Vector2)">InvertY(Vector2)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector2 InvertY(this Vector2 vec)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector2</span></td>
+        <td><span class="parametername">vec</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector2</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ECHTNICE/EnUnityEngineExtensions/new/main/apiSpec/new?filename=UnityEngine_EnVector2Extensions_Rotate_UnityEngine_Vector2_UnityEngine_Quaternion_.md&amp;value=---%0Auid%3A%20UnityEngine.EnVector2Extensions.Rotate(UnityEngine.Vector2%2CUnityEngine.Quaternion)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ECHTNICE/EnUnityEngineExtensions/blob/main/Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector2Extensions.cs/#L33">View Source</a>
+  </span>
+  <a id="UnityEngine_EnVector2Extensions_Rotate_" data-uid="UnityEngine.EnVector2Extensions.Rotate*"></a>
+  <h4 id="UnityEngine_EnVector2Extensions_Rotate_UnityEngine_Vector2_UnityEngine_Quaternion_" data-uid="UnityEngine.EnVector2Extensions.Rotate(UnityEngine.Vector2,UnityEngine.Quaternion)">Rotate(Vector2, Quaternion)</h4>
+  <div class="markdown level1 summary"><p>Rotate a Vector2.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector2 Rotate(this Vector2 point, Quaternion angle)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector2</span></td>
+        <td><span class="parametername">point</span></td>
+        <td><p>Vector to rotate.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.Quaternion</span></td>
+        <td><span class="parametername">angle</span></td>
+        <td><p>Angle to rotate.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector2</span></td>
+        <td><p>The result of rotating point.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ECHTNICE/EnUnityEngineExtensions/new/main/apiSpec/new?filename=UnityEngine_EnVector2Extensions_RotateAround_UnityEngine_Vector2_UnityEngine_Vector2_UnityEngine_Quaternion_.md&amp;value=---%0Auid%3A%20UnityEngine.EnVector2Extensions.RotateAround(UnityEngine.Vector2%2CUnityEngine.Vector2%2CUnityEngine.Quaternion)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ECHTNICE/EnUnityEngineExtensions/blob/main/Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector2Extensions.cs/#L47">View Source</a>
+  </span>
+  <a id="UnityEngine_EnVector2Extensions_RotateAround_" data-uid="UnityEngine.EnVector2Extensions.RotateAround*"></a>
+  <h4 id="UnityEngine_EnVector2Extensions_RotateAround_UnityEngine_Vector2_UnityEngine_Vector2_UnityEngine_Quaternion_" data-uid="UnityEngine.EnVector2Extensions.RotateAround(UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Quaternion)">RotateAround(Vector2, Vector2, Quaternion)</h4>
+  <div class="markdown level1 summary"><p>Rotate around a given point.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector2 RotateAround(this Vector2 point, Vector2 origin, Quaternion angle)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector2</span></td>
+        <td><span class="parametername">point</span></td>
+        <td><p>Point to rotate.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector2</span></td>
+        <td><span class="parametername">origin</span></td>
+        <td><p>Reference for rotation.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.Quaternion</span></td>
+        <td><span class="parametername">angle</span></td>
+        <td><p>Angle to rotate.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector2</span></td>
+        <td><p>The result of rotating point around origin.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ECHTNICE/EnUnityEngineExtensions/new/main/apiSpec/new?filename=UnityEngine_EnVector2Extensions_sqrDistance_UnityEngine_Vector2_UnityEngine_Vector2_.md&amp;value=---%0Auid%3A%20UnityEngine.EnVector2Extensions.sqrDistance(UnityEngine.Vector2%2CUnityEngine.Vector2)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ECHTNICE/EnUnityEngineExtensions/blob/main/Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector2Extensions.cs/#L23">View Source</a>
+  </span>
+  <a id="UnityEngine_EnVector2Extensions_sqrDistance_" data-uid="UnityEngine.EnVector2Extensions.sqrDistance*"></a>
+  <h4 id="UnityEngine_EnVector2Extensions_sqrDistance_UnityEngine_Vector2_UnityEngine_Vector2_" data-uid="UnityEngine.EnVector2Extensions.sqrDistance(UnityEngine.Vector2,UnityEngine.Vector2)">sqrDistance(Vector2, Vector2)</h4>
+  <div class="markdown level1 summary"><p>Squared distance to a second point.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float sqrDistance(this Vector2 v, Vector2 u)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector2</span></td>
+        <td><span class="parametername">v</span></td>
+        <td><p>Origin point.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector2</span></td>
+        <td><span class="parametername">u</span></td>
+        <td><p>Destination point.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><p>The squared distance from origin to destination.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ECHTNICE/EnUnityEngineExtensions/new/main/apiSpec/new?filename=UnityEngine_EnVector2Extensions_WithX_UnityEngine_Vector2_System_Single_.md&amp;value=---%0Auid%3A%20UnityEngine.EnVector2Extensions.WithX(UnityEngine.Vector2%2CSystem.Single)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ECHTNICE/EnUnityEngineExtensions/blob/main/Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector2Extensions.cs/#L68">View Source</a>
+  </span>
+  <a id="UnityEngine_EnVector2Extensions_WithX_" data-uid="UnityEngine.EnVector2Extensions.WithX*"></a>
+  <h4 id="UnityEngine_EnVector2Extensions_WithX_UnityEngine_Vector2_System_Single_" data-uid="UnityEngine.EnVector2Extensions.WithX(UnityEngine.Vector2,System.Single)">WithX(Vector2, Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector2 WithX(this Vector2 vec, float x)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector2</span></td>
+        <td><span class="parametername">vec</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">x</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector2</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ECHTNICE/EnUnityEngineExtensions/new/main/apiSpec/new?filename=UnityEngine_EnVector2Extensions_WithY_UnityEngine_Vector2_System_Single_.md&amp;value=---%0Auid%3A%20UnityEngine.EnVector2Extensions.WithY(UnityEngine.Vector2%2CSystem.Single)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ECHTNICE/EnUnityEngineExtensions/blob/main/Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector2Extensions.cs/#L72">View Source</a>
+  </span>
+  <a id="UnityEngine_EnVector2Extensions_WithY_" data-uid="UnityEngine.EnVector2Extensions.WithY*"></a>
+  <h4 id="UnityEngine_EnVector2Extensions_WithY_UnityEngine_Vector2_System_Single_" data-uid="UnityEngine.EnVector2Extensions.WithY(UnityEngine.Vector2,System.Single)">WithY(Vector2, Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector2 WithY(this Vector2 vec, float y)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector2</span></td>
+        <td><span class="parametername">vec</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">y</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector2</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/ECHTNICE/EnUnityEngineExtensions/new/main/apiSpec/new?filename=UnityEngine_EnVector2Extensions.md&amp;value=---%0Auid%3A%20UnityEngine.EnVector2Extensions%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/ECHTNICE/EnUnityEngineExtensions/blob/main/Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector2Extensions.cs/#L3" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright © ECHTNICE
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

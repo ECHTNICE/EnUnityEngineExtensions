@@ -1,0 +1,316 @@
+### YamlMime:ManagedReference
+items:
+- uid: UnityEngine.EnComponentExtensions
+  commentId: T:UnityEngine.EnComponentExtensions
+  id: EnComponentExtensions
+  parent: UnityEngine
+  children:
+  - UnityEngine.EnComponentExtensions.GetComponentInHierarchy``1(UnityEngine.Component)
+  - UnityEngine.EnComponentExtensions.GetCopyOf``1(UnityEngine.Component,``0)
+  - UnityEngine.EnComponentExtensions.HasComponent(UnityEngine.Component,System.Type)
+  - UnityEngine.EnComponentExtensions.HasComponent``1(UnityEngine.Component)
+  langs:
+  - csharp
+  - vb
+  name: EnComponentExtensions
+  nameWithType: EnComponentExtensions
+  fullName: UnityEngine.EnComponentExtensions
+  type: Class
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnComponentExtensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: EnComponentExtensions
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnComponentExtensions.cs
+    startLine: 8
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  summary: "\n\n"
+  example: []
+  syntax:
+    content: public static class EnComponentExtensions
+    content.vb: Public Module EnComponentExtensions
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: UnityEngine.EnComponentExtensions.HasComponent(UnityEngine.Component,System.Type)
+  commentId: M:UnityEngine.EnComponentExtensions.HasComponent(UnityEngine.Component,System.Type)
+  id: HasComponent(UnityEngine.Component,System.Type)
+  isExtensionMethod: true
+  parent: UnityEngine.EnComponentExtensions
+  langs:
+  - csharp
+  - vb
+  name: HasComponent(Component, Type)
+  nameWithType: EnComponentExtensions.HasComponent(Component, Type)
+  fullName: UnityEngine.EnComponentExtensions.HasComponent(UnityEngine.Component, System.Type)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnComponentExtensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: HasComponent
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnComponentExtensions.cs
+    startLine: 16
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  summary: "\nHas type Component.\n"
+  example: []
+  syntax:
+    content: public static bool HasComponent(this Component component, Type type)
+    parameters:
+    - id: component
+      type: UnityEngine.Component
+      description: ''
+    - id: type
+      type: System.Type
+      description: ''
+    return:
+      type: System.Boolean
+      description: ''
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function HasComponent(component As Component, type As Type) As Boolean
+  overload: UnityEngine.EnComponentExtensions.HasComponent*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnComponentExtensions.HasComponent``1(UnityEngine.Component)
+  commentId: M:UnityEngine.EnComponentExtensions.HasComponent``1(UnityEngine.Component)
+  id: HasComponent``1(UnityEngine.Component)
+  isExtensionMethod: true
+  parent: UnityEngine.EnComponentExtensions
+  langs:
+  - csharp
+  - vb
+  name: HasComponent<T>(Component)
+  nameWithType: EnComponentExtensions.HasComponent<T>(Component)
+  fullName: UnityEngine.EnComponentExtensions.HasComponent<T>(UnityEngine.Component)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnComponentExtensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: HasComponent
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnComponentExtensions.cs
+    startLine: 26
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  summary: "\nHas T Component.\n"
+  example: []
+  syntax:
+    content: >-
+      public static bool HasComponent<T>(this Component self)
+          where T : Component
+    parameters:
+    - id: self
+      type: UnityEngine.Component
+      description: Self.
+    typeParameters:
+    - id: T
+      description: The 1st type parameter.
+    return:
+      type: System.Boolean
+      description: <code>true</code>, if component exist, <code>false</code> otherwise.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function HasComponent(Of T As Component)(self As Component) As Boolean
+  overload: UnityEngine.EnComponentExtensions.HasComponent*
+  nameWithType.vb: EnComponentExtensions.HasComponent(Of T)(Component)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: UnityEngine.EnComponentExtensions.HasComponent(Of T)(UnityEngine.Component)
+  name.vb: HasComponent(Of T)(Component)
+- uid: UnityEngine.EnComponentExtensions.GetComponentInHierarchy``1(UnityEngine.Component)
+  commentId: M:UnityEngine.EnComponentExtensions.GetComponentInHierarchy``1(UnityEngine.Component)
+  id: GetComponentInHierarchy``1(UnityEngine.Component)
+  isExtensionMethod: true
+  parent: UnityEngine.EnComponentExtensions
+  langs:
+  - csharp
+  - vb
+  name: GetComponentInHierarchy<T>(Component)
+  nameWithType: EnComponentExtensions.GetComponentInHierarchy<T>(Component)
+  fullName: UnityEngine.EnComponentExtensions.GetComponentInHierarchy<T>(UnityEngine.Component)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnComponentExtensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: GetComponentInHierarchy
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnComponentExtensions.cs
+    startLine: 36
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  summary: "\nGet T Component In Hierarchy Children or Parents\n"
+  example: []
+  syntax:
+    content: public static T GetComponentInHierarchy<T>(this Component component)
+    parameters:
+    - id: component
+      type: UnityEngine.Component
+      description: ''
+    typeParameters:
+    - id: T
+      description: ''
+    return:
+      type: '{T}'
+      description: ''
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetComponentInHierarchy(Of T)(component As Component) As T
+  overload: UnityEngine.EnComponentExtensions.GetComponentInHierarchy*
+  nameWithType.vb: EnComponentExtensions.GetComponentInHierarchy(Of T)(Component)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: UnityEngine.EnComponentExtensions.GetComponentInHierarchy(Of T)(UnityEngine.Component)
+  name.vb: GetComponentInHierarchy(Of T)(Component)
+- uid: UnityEngine.EnComponentExtensions.GetCopyOf``1(UnityEngine.Component,``0)
+  commentId: M:UnityEngine.EnComponentExtensions.GetCopyOf``1(UnityEngine.Component,``0)
+  id: GetCopyOf``1(UnityEngine.Component,``0)
+  isExtensionMethod: true
+  parent: UnityEngine.EnComponentExtensions
+  langs:
+  - csharp
+  - vb
+  name: GetCopyOf<T>(Component, T)
+  nameWithType: EnComponentExtensions.GetCopyOf<T>(Component, T)
+  fullName: UnityEngine.EnComponentExtensions.GetCopyOf<T>(UnityEngine.Component, T)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnComponentExtensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: GetCopyOf
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnComponentExtensions.cs
+    startLine: 49
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  summary: "\nGet a Copy Of T\n"
+  example: []
+  syntax:
+    content: >-
+      public static T GetCopyOf<T>(this Component comp, T other)
+          where T : Component
+    parameters:
+    - id: comp
+      type: UnityEngine.Component
+      description: ''
+    - id: other
+      type: '{T}'
+      description: ''
+    typeParameters:
+    - id: T
+      description: ''
+    return:
+      type: '{T}'
+      description: ''
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetCopyOf(Of T As Component)(comp As Component, other As T) As T
+  overload: UnityEngine.EnComponentExtensions.GetCopyOf*
+  nameWithType.vb: EnComponentExtensions.GetCopyOf(Of T)(Component, T)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: UnityEngine.EnComponentExtensions.GetCopyOf(Of T)(UnityEngine.Component, T)
+  name.vb: GetCopyOf(Of T)(Component, T)
+references:
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine.EnComponentExtensions.HasComponent*
+  commentId: Overload:UnityEngine.EnComponentExtensions.HasComponent
+  name: HasComponent
+  nameWithType: EnComponentExtensions.HasComponent
+  fullName: UnityEngine.EnComponentExtensions.HasComponent
+- uid: UnityEngine.Component
+  commentId: T:UnityEngine.Component
+  parent: UnityEngine
+  isExternal: true
+  name: Component
+  nameWithType: Component
+  fullName: UnityEngine.Component
+- uid: System.Type
+  commentId: T:System.Type
+  parent: System
+  isExternal: true
+  name: Type
+  nameWithType: Type
+  fullName: System.Type
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: UnityEngine.EnComponentExtensions.GetComponentInHierarchy*
+  commentId: Overload:UnityEngine.EnComponentExtensions.GetComponentInHierarchy
+  name: GetComponentInHierarchy
+  nameWithType: EnComponentExtensions.GetComponentInHierarchy
+  fullName: UnityEngine.EnComponentExtensions.GetComponentInHierarchy
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: UnityEngine.EnComponentExtensions.GetCopyOf*
+  commentId: Overload:UnityEngine.EnComponentExtensions.GetCopyOf
+  name: GetCopyOf
+  nameWithType: EnComponentExtensions.GetCopyOf
+  fullName: UnityEngine.EnComponentExtensions.GetCopyOf

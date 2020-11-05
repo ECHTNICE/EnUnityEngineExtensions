@@ -1,0 +1,660 @@
+### YamlMime:ManagedReference
+items:
+- uid: UnityEngine.EnVector3IntExtensions
+  commentId: T:UnityEngine.EnVector3IntExtensions
+  id: EnVector3IntExtensions
+  parent: UnityEngine
+  children:
+  - UnityEngine.EnVector3IntExtensions.AddX(UnityEngine.Vector3Int,System.Int32)
+  - UnityEngine.EnVector3IntExtensions.AddY(UnityEngine.Vector3Int,System.Int32)
+  - UnityEngine.EnVector3IntExtensions.AddZ(UnityEngine.Vector3Int,System.Int32)
+  - UnityEngine.EnVector3IntExtensions.Invert(UnityEngine.Vector3Int)
+  - UnityEngine.EnVector3IntExtensions.InvertX(UnityEngine.Vector3Int)
+  - UnityEngine.EnVector3IntExtensions.InvertY(UnityEngine.Vector3Int)
+  - UnityEngine.EnVector3IntExtensions.InvertZ(UnityEngine.Vector3Int)
+  - UnityEngine.EnVector3IntExtensions.ToVector2(UnityEngine.Vector3Int)
+  - UnityEngine.EnVector3IntExtensions.ToVector3(UnityEngine.Vector3Int)
+  - UnityEngine.EnVector3IntExtensions.WithX(UnityEngine.Vector3Int,System.Int32)
+  - UnityEngine.EnVector3IntExtensions.WithY(UnityEngine.Vector3Int,System.Int32)
+  - UnityEngine.EnVector3IntExtensions.WithZ(UnityEngine.Vector3Int,System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: EnVector3IntExtensions
+  nameWithType: EnVector3IntExtensions
+  fullName: UnityEngine.EnVector3IntExtensions
+  type: Class
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3IntExtensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: EnVector3IntExtensions
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3IntExtensions.cs
+    startLine: 3
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  syntax:
+    content: public static class EnVector3IntExtensions
+    content.vb: Public Module EnVector3IntExtensions
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: UnityEngine.EnVector3IntExtensions.WithX(UnityEngine.Vector3Int,System.Int32)
+  commentId: M:UnityEngine.EnVector3IntExtensions.WithX(UnityEngine.Vector3Int,System.Int32)
+  id: WithX(UnityEngine.Vector3Int,System.Int32)
+  isExtensionMethod: true
+  parent: UnityEngine.EnVector3IntExtensions
+  langs:
+  - csharp
+  - vb
+  name: WithX(Vector3Int, Int32)
+  nameWithType: EnVector3IntExtensions.WithX(Vector3Int, Int32)
+  fullName: UnityEngine.EnVector3IntExtensions.WithX(UnityEngine.Vector3Int, System.Int32)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3IntExtensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: WithX
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3IntExtensions.cs
+    startLine: 9
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  syntax:
+    content: public static Vector3Int WithX(this Vector3Int vec, int x)
+    parameters:
+    - id: vec
+      type: UnityEngine.Vector3Int
+    - id: x
+      type: System.Int32
+    return:
+      type: UnityEngine.Vector3Int
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function WithX(vec As Vector3Int, x As Integer) As Vector3Int
+  overload: UnityEngine.EnVector3IntExtensions.WithX*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnVector3IntExtensions.WithY(UnityEngine.Vector3Int,System.Int32)
+  commentId: M:UnityEngine.EnVector3IntExtensions.WithY(UnityEngine.Vector3Int,System.Int32)
+  id: WithY(UnityEngine.Vector3Int,System.Int32)
+  isExtensionMethod: true
+  parent: UnityEngine.EnVector3IntExtensions
+  langs:
+  - csharp
+  - vb
+  name: WithY(Vector3Int, Int32)
+  nameWithType: EnVector3IntExtensions.WithY(Vector3Int, Int32)
+  fullName: UnityEngine.EnVector3IntExtensions.WithY(UnityEngine.Vector3Int, System.Int32)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3IntExtensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: WithY
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3IntExtensions.cs
+    startLine: 13
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  syntax:
+    content: public static Vector3Int WithY(this Vector3Int vec, int y)
+    parameters:
+    - id: vec
+      type: UnityEngine.Vector3Int
+    - id: y
+      type: System.Int32
+    return:
+      type: UnityEngine.Vector3Int
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function WithY(vec As Vector3Int, y As Integer) As Vector3Int
+  overload: UnityEngine.EnVector3IntExtensions.WithY*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnVector3IntExtensions.WithZ(UnityEngine.Vector3Int,System.Int32)
+  commentId: M:UnityEngine.EnVector3IntExtensions.WithZ(UnityEngine.Vector3Int,System.Int32)
+  id: WithZ(UnityEngine.Vector3Int,System.Int32)
+  isExtensionMethod: true
+  parent: UnityEngine.EnVector3IntExtensions
+  langs:
+  - csharp
+  - vb
+  name: WithZ(Vector3Int, Int32)
+  nameWithType: EnVector3IntExtensions.WithZ(Vector3Int, Int32)
+  fullName: UnityEngine.EnVector3IntExtensions.WithZ(UnityEngine.Vector3Int, System.Int32)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3IntExtensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: WithZ
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3IntExtensions.cs
+    startLine: 17
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  syntax:
+    content: public static Vector3Int WithZ(this Vector3Int vec, int z)
+    parameters:
+    - id: vec
+      type: UnityEngine.Vector3Int
+    - id: z
+      type: System.Int32
+    return:
+      type: UnityEngine.Vector3Int
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function WithZ(vec As Vector3Int, z As Integer) As Vector3Int
+  overload: UnityEngine.EnVector3IntExtensions.WithZ*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnVector3IntExtensions.AddX(UnityEngine.Vector3Int,System.Int32)
+  commentId: M:UnityEngine.EnVector3IntExtensions.AddX(UnityEngine.Vector3Int,System.Int32)
+  id: AddX(UnityEngine.Vector3Int,System.Int32)
+  isExtensionMethod: true
+  parent: UnityEngine.EnVector3IntExtensions
+  langs:
+  - csharp
+  - vb
+  name: AddX(Vector3Int, Int32)
+  nameWithType: EnVector3IntExtensions.AddX(Vector3Int, Int32)
+  fullName: UnityEngine.EnVector3IntExtensions.AddX(UnityEngine.Vector3Int, System.Int32)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3IntExtensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: AddX
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3IntExtensions.cs
+    startLine: 22
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  syntax:
+    content: public static Vector3Int AddX(this Vector3Int vec, int x)
+    parameters:
+    - id: vec
+      type: UnityEngine.Vector3Int
+    - id: x
+      type: System.Int32
+    return:
+      type: UnityEngine.Vector3Int
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function AddX(vec As Vector3Int, x As Integer) As Vector3Int
+  overload: UnityEngine.EnVector3IntExtensions.AddX*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnVector3IntExtensions.AddY(UnityEngine.Vector3Int,System.Int32)
+  commentId: M:UnityEngine.EnVector3IntExtensions.AddY(UnityEngine.Vector3Int,System.Int32)
+  id: AddY(UnityEngine.Vector3Int,System.Int32)
+  isExtensionMethod: true
+  parent: UnityEngine.EnVector3IntExtensions
+  langs:
+  - csharp
+  - vb
+  name: AddY(Vector3Int, Int32)
+  nameWithType: EnVector3IntExtensions.AddY(Vector3Int, Int32)
+  fullName: UnityEngine.EnVector3IntExtensions.AddY(UnityEngine.Vector3Int, System.Int32)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3IntExtensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: AddY
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3IntExtensions.cs
+    startLine: 26
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  syntax:
+    content: public static Vector3Int AddY(this Vector3Int vec, int y)
+    parameters:
+    - id: vec
+      type: UnityEngine.Vector3Int
+    - id: y
+      type: System.Int32
+    return:
+      type: UnityEngine.Vector3Int
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function AddY(vec As Vector3Int, y As Integer) As Vector3Int
+  overload: UnityEngine.EnVector3IntExtensions.AddY*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnVector3IntExtensions.AddZ(UnityEngine.Vector3Int,System.Int32)
+  commentId: M:UnityEngine.EnVector3IntExtensions.AddZ(UnityEngine.Vector3Int,System.Int32)
+  id: AddZ(UnityEngine.Vector3Int,System.Int32)
+  isExtensionMethod: true
+  parent: UnityEngine.EnVector3IntExtensions
+  langs:
+  - csharp
+  - vb
+  name: AddZ(Vector3Int, Int32)
+  nameWithType: EnVector3IntExtensions.AddZ(Vector3Int, Int32)
+  fullName: UnityEngine.EnVector3IntExtensions.AddZ(UnityEngine.Vector3Int, System.Int32)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3IntExtensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: AddZ
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3IntExtensions.cs
+    startLine: 30
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  syntax:
+    content: public static Vector3Int AddZ(this Vector3Int vec, int z)
+    parameters:
+    - id: vec
+      type: UnityEngine.Vector3Int
+    - id: z
+      type: System.Int32
+    return:
+      type: UnityEngine.Vector3Int
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function AddZ(vec As Vector3Int, z As Integer) As Vector3Int
+  overload: UnityEngine.EnVector3IntExtensions.AddZ*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnVector3IntExtensions.InvertX(UnityEngine.Vector3Int)
+  commentId: M:UnityEngine.EnVector3IntExtensions.InvertX(UnityEngine.Vector3Int)
+  id: InvertX(UnityEngine.Vector3Int)
+  isExtensionMethod: true
+  parent: UnityEngine.EnVector3IntExtensions
+  langs:
+  - csharp
+  - vb
+  name: InvertX(Vector3Int)
+  nameWithType: EnVector3IntExtensions.InvertX(Vector3Int)
+  fullName: UnityEngine.EnVector3IntExtensions.InvertX(UnityEngine.Vector3Int)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3IntExtensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: InvertX
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3IntExtensions.cs
+    startLine: 35
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  syntax:
+    content: public static Vector3Int InvertX(this Vector3Int vec)
+    parameters:
+    - id: vec
+      type: UnityEngine.Vector3Int
+    return:
+      type: UnityEngine.Vector3Int
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function InvertX(vec As Vector3Int) As Vector3Int
+  overload: UnityEngine.EnVector3IntExtensions.InvertX*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnVector3IntExtensions.InvertY(UnityEngine.Vector3Int)
+  commentId: M:UnityEngine.EnVector3IntExtensions.InvertY(UnityEngine.Vector3Int)
+  id: InvertY(UnityEngine.Vector3Int)
+  isExtensionMethod: true
+  parent: UnityEngine.EnVector3IntExtensions
+  langs:
+  - csharp
+  - vb
+  name: InvertY(Vector3Int)
+  nameWithType: EnVector3IntExtensions.InvertY(Vector3Int)
+  fullName: UnityEngine.EnVector3IntExtensions.InvertY(UnityEngine.Vector3Int)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3IntExtensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: InvertY
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3IntExtensions.cs
+    startLine: 39
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  syntax:
+    content: public static Vector3Int InvertY(this Vector3Int vec)
+    parameters:
+    - id: vec
+      type: UnityEngine.Vector3Int
+    return:
+      type: UnityEngine.Vector3Int
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function InvertY(vec As Vector3Int) As Vector3Int
+  overload: UnityEngine.EnVector3IntExtensions.InvertY*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnVector3IntExtensions.InvertZ(UnityEngine.Vector3Int)
+  commentId: M:UnityEngine.EnVector3IntExtensions.InvertZ(UnityEngine.Vector3Int)
+  id: InvertZ(UnityEngine.Vector3Int)
+  isExtensionMethod: true
+  parent: UnityEngine.EnVector3IntExtensions
+  langs:
+  - csharp
+  - vb
+  name: InvertZ(Vector3Int)
+  nameWithType: EnVector3IntExtensions.InvertZ(Vector3Int)
+  fullName: UnityEngine.EnVector3IntExtensions.InvertZ(UnityEngine.Vector3Int)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3IntExtensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: InvertZ
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3IntExtensions.cs
+    startLine: 43
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  syntax:
+    content: public static Vector3Int InvertZ(this Vector3Int vec)
+    parameters:
+    - id: vec
+      type: UnityEngine.Vector3Int
+    return:
+      type: UnityEngine.Vector3Int
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function InvertZ(vec As Vector3Int) As Vector3Int
+  overload: UnityEngine.EnVector3IntExtensions.InvertZ*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnVector3IntExtensions.Invert(UnityEngine.Vector3Int)
+  commentId: M:UnityEngine.EnVector3IntExtensions.Invert(UnityEngine.Vector3Int)
+  id: Invert(UnityEngine.Vector3Int)
+  isExtensionMethod: true
+  parent: UnityEngine.EnVector3IntExtensions
+  langs:
+  - csharp
+  - vb
+  name: Invert(Vector3Int)
+  nameWithType: EnVector3IntExtensions.Invert(Vector3Int)
+  fullName: UnityEngine.EnVector3IntExtensions.Invert(UnityEngine.Vector3Int)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3IntExtensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: Invert
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3IntExtensions.cs
+    startLine: 47
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  syntax:
+    content: public static Vector3Int Invert(this Vector3Int vec)
+    parameters:
+    - id: vec
+      type: UnityEngine.Vector3Int
+    return:
+      type: UnityEngine.Vector3Int
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function Invert(vec As Vector3Int) As Vector3Int
+  overload: UnityEngine.EnVector3IntExtensions.Invert*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnVector3IntExtensions.ToVector2(UnityEngine.Vector3Int)
+  commentId: M:UnityEngine.EnVector3IntExtensions.ToVector2(UnityEngine.Vector3Int)
+  id: ToVector2(UnityEngine.Vector3Int)
+  isExtensionMethod: true
+  parent: UnityEngine.EnVector3IntExtensions
+  langs:
+  - csharp
+  - vb
+  name: ToVector2(Vector3Int)
+  nameWithType: EnVector3IntExtensions.ToVector2(Vector3Int)
+  fullName: UnityEngine.EnVector3IntExtensions.ToVector2(UnityEngine.Vector3Int)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3IntExtensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: ToVector2
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3IntExtensions.cs
+    startLine: 52
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  syntax:
+    content: public static Vector2 ToVector2(this Vector3Int v)
+    parameters:
+    - id: v
+      type: UnityEngine.Vector3Int
+    return:
+      type: UnityEngine.Vector2
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToVector2(v As Vector3Int) As Vector2
+  overload: UnityEngine.EnVector3IntExtensions.ToVector2*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnVector3IntExtensions.ToVector3(UnityEngine.Vector3Int)
+  commentId: M:UnityEngine.EnVector3IntExtensions.ToVector3(UnityEngine.Vector3Int)
+  id: ToVector3(UnityEngine.Vector3Int)
+  isExtensionMethod: true
+  parent: UnityEngine.EnVector3IntExtensions
+  langs:
+  - csharp
+  - vb
+  name: ToVector3(Vector3Int)
+  nameWithType: EnVector3IntExtensions.ToVector3(Vector3Int)
+  fullName: UnityEngine.EnVector3IntExtensions.ToVector3(UnityEngine.Vector3Int)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3IntExtensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: ToVector3
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3IntExtensions.cs
+    startLine: 57
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  syntax:
+    content: public static Vector3 ToVector3(this Vector3Int v)
+    parameters:
+    - id: v
+      type: UnityEngine.Vector3Int
+    return:
+      type: UnityEngine.Vector3
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToVector3(v As Vector3Int) As Vector3
+  overload: UnityEngine.EnVector3IntExtensions.ToVector3*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine.EnVector3IntExtensions.WithX*
+  commentId: Overload:UnityEngine.EnVector3IntExtensions.WithX
+  name: WithX
+  nameWithType: EnVector3IntExtensions.WithX
+  fullName: UnityEngine.EnVector3IntExtensions.WithX
+- uid: UnityEngine.Vector3Int
+  commentId: T:UnityEngine.Vector3Int
+  parent: UnityEngine
+  isExternal: true
+  name: Vector3Int
+  nameWithType: Vector3Int
+  fullName: UnityEngine.Vector3Int
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: UnityEngine.EnVector3IntExtensions.WithY*
+  commentId: Overload:UnityEngine.EnVector3IntExtensions.WithY
+  name: WithY
+  nameWithType: EnVector3IntExtensions.WithY
+  fullName: UnityEngine.EnVector3IntExtensions.WithY
+- uid: UnityEngine.EnVector3IntExtensions.WithZ*
+  commentId: Overload:UnityEngine.EnVector3IntExtensions.WithZ
+  name: WithZ
+  nameWithType: EnVector3IntExtensions.WithZ
+  fullName: UnityEngine.EnVector3IntExtensions.WithZ
+- uid: UnityEngine.EnVector3IntExtensions.AddX*
+  commentId: Overload:UnityEngine.EnVector3IntExtensions.AddX
+  name: AddX
+  nameWithType: EnVector3IntExtensions.AddX
+  fullName: UnityEngine.EnVector3IntExtensions.AddX
+- uid: UnityEngine.EnVector3IntExtensions.AddY*
+  commentId: Overload:UnityEngine.EnVector3IntExtensions.AddY
+  name: AddY
+  nameWithType: EnVector3IntExtensions.AddY
+  fullName: UnityEngine.EnVector3IntExtensions.AddY
+- uid: UnityEngine.EnVector3IntExtensions.AddZ*
+  commentId: Overload:UnityEngine.EnVector3IntExtensions.AddZ
+  name: AddZ
+  nameWithType: EnVector3IntExtensions.AddZ
+  fullName: UnityEngine.EnVector3IntExtensions.AddZ
+- uid: UnityEngine.EnVector3IntExtensions.InvertX*
+  commentId: Overload:UnityEngine.EnVector3IntExtensions.InvertX
+  name: InvertX
+  nameWithType: EnVector3IntExtensions.InvertX
+  fullName: UnityEngine.EnVector3IntExtensions.InvertX
+- uid: UnityEngine.EnVector3IntExtensions.InvertY*
+  commentId: Overload:UnityEngine.EnVector3IntExtensions.InvertY
+  name: InvertY
+  nameWithType: EnVector3IntExtensions.InvertY
+  fullName: UnityEngine.EnVector3IntExtensions.InvertY
+- uid: UnityEngine.EnVector3IntExtensions.InvertZ*
+  commentId: Overload:UnityEngine.EnVector3IntExtensions.InvertZ
+  name: InvertZ
+  nameWithType: EnVector3IntExtensions.InvertZ
+  fullName: UnityEngine.EnVector3IntExtensions.InvertZ
+- uid: UnityEngine.EnVector3IntExtensions.Invert*
+  commentId: Overload:UnityEngine.EnVector3IntExtensions.Invert
+  name: Invert
+  nameWithType: EnVector3IntExtensions.Invert
+  fullName: UnityEngine.EnVector3IntExtensions.Invert
+- uid: UnityEngine.EnVector3IntExtensions.ToVector2*
+  commentId: Overload:UnityEngine.EnVector3IntExtensions.ToVector2
+  name: ToVector2
+  nameWithType: EnVector3IntExtensions.ToVector2
+  fullName: UnityEngine.EnVector3IntExtensions.ToVector2
+- uid: UnityEngine.Vector2
+  commentId: T:UnityEngine.Vector2
+  parent: UnityEngine
+  isExternal: true
+  name: Vector2
+  nameWithType: Vector2
+  fullName: UnityEngine.Vector2
+- uid: UnityEngine.EnVector3IntExtensions.ToVector3*
+  commentId: Overload:UnityEngine.EnVector3IntExtensions.ToVector3
+  name: ToVector3
+  nameWithType: EnVector3IntExtensions.ToVector3
+  fullName: UnityEngine.EnVector3IntExtensions.ToVector3
+- uid: UnityEngine.Vector3
+  commentId: T:UnityEngine.Vector3
+  parent: UnityEngine
+  isExternal: true
+  name: Vector3
+  nameWithType: Vector3
+  fullName: UnityEngine.Vector3

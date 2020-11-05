@@ -1,0 +1,639 @@
+### YamlMime:ManagedReference
+items:
+- uid: UnityEngine.EnTransformExtensions
+  commentId: T:UnityEngine.EnTransformExtensions
+  id: EnTransformExtensions
+  parent: UnityEngine
+  children:
+  - UnityEngine.EnTransformExtensions.GetLookAtRotation(UnityEngine.Transform,UnityEngine.GameObject)
+  - UnityEngine.EnTransformExtensions.GetLookAtRotation(UnityEngine.Transform,UnityEngine.Transform)
+  - UnityEngine.EnTransformExtensions.GetLookAtRotation(UnityEngine.Transform,UnityEngine.Vector3)
+  - UnityEngine.EnTransformExtensions.GetLookAwayFromRotation(UnityEngine.Transform,UnityEngine.GameObject)
+  - UnityEngine.EnTransformExtensions.GetLookAwayFromRotation(UnityEngine.Transform,UnityEngine.Transform)
+  - UnityEngine.EnTransformExtensions.GetLookAwayFromRotation(UnityEngine.Transform,UnityEngine.Vector3)
+  - UnityEngine.EnTransformExtensions.GetTransformPath(UnityEngine.Transform)
+  - UnityEngine.EnTransformExtensions.LookAt(UnityEngine.Transform,UnityEngine.GameObject)
+  - UnityEngine.EnTransformExtensions.LookAwayFrom(UnityEngine.Transform,UnityEngine.GameObject)
+  - UnityEngine.EnTransformExtensions.LookAwayFrom(UnityEngine.Transform,UnityEngine.Transform)
+  - UnityEngine.EnTransformExtensions.LookAwayFrom(UnityEngine.Transform,UnityEngine.Vector3)
+  langs:
+  - csharp
+  - vb
+  name: EnTransformExtensions
+  nameWithType: EnTransformExtensions
+  fullName: UnityEngine.EnTransformExtensions
+  type: Class
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnTransformExtensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: EnTransformExtensions
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnTransformExtensions.cs
+    startLine: 20
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  summary: "\nUnity Transform Extensions\n\n<example>\n<pre><code>int c = Math.Add(4, 5);\nif (c > 10)\n{\n    Console.WriteLine(c);\n}</code></pre>\n</example>\n\n"
+  example: []
+  syntax:
+    content: public static class EnTransformExtensions
+    content.vb: Public Module EnTransformExtensions
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: UnityEngine.EnTransformExtensions.LookAt(UnityEngine.Transform,UnityEngine.GameObject)
+  commentId: M:UnityEngine.EnTransformExtensions.LookAt(UnityEngine.Transform,UnityEngine.GameObject)
+  id: LookAt(UnityEngine.Transform,UnityEngine.GameObject)
+  isExtensionMethod: true
+  parent: UnityEngine.EnTransformExtensions
+  langs:
+  - csharp
+  - vb
+  name: LookAt(Transform, GameObject)
+  nameWithType: EnTransformExtensions.LookAt(Transform, GameObject)
+  fullName: UnityEngine.EnTransformExtensions.LookAt(UnityEngine.Transform, UnityEngine.GameObject)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnTransformExtensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: LookAt
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnTransformExtensions.cs
+    startLine: 28
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  summary: "\nLook at a GameObject\n"
+  example: []
+  syntax:
+    content: public static void LookAt(this Transform self, GameObject target)
+    parameters:
+    - id: self
+      type: UnityEngine.Transform
+      description: ''
+    - id: target
+      type: UnityEngine.GameObject
+      description: The thing to look at
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub LookAt(self As Transform, target As GameObject)
+  overload: UnityEngine.EnTransformExtensions.LookAt*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnTransformExtensions.GetLookAtRotation(UnityEngine.Transform,UnityEngine.Vector3)
+  commentId: M:UnityEngine.EnTransformExtensions.GetLookAtRotation(UnityEngine.Transform,UnityEngine.Vector3)
+  id: GetLookAtRotation(UnityEngine.Transform,UnityEngine.Vector3)
+  isExtensionMethod: true
+  parent: UnityEngine.EnTransformExtensions
+  langs:
+  - csharp
+  - vb
+  name: GetLookAtRotation(Transform, Vector3)
+  nameWithType: EnTransformExtensions.GetLookAtRotation(Transform, Vector3)
+  fullName: UnityEngine.EnTransformExtensions.GetLookAtRotation(UnityEngine.Transform, UnityEngine.Vector3)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnTransformExtensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: GetLookAtRotation
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnTransformExtensions.cs
+    startLine: 39
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  summary: "\nFind the rotation to look at a Vector3\n"
+  example: []
+  syntax:
+    content: public static Quaternion GetLookAtRotation(this Transform self, Vector3 target)
+    parameters:
+    - id: self
+      type: UnityEngine.Transform
+      description: ''
+    - id: target
+      type: UnityEngine.Vector3
+      description: The thing to look at
+    return:
+      type: UnityEngine.Quaternion
+      description: ''
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetLookAtRotation(self As Transform, target As Vector3) As Quaternion
+  overload: UnityEngine.EnTransformExtensions.GetLookAtRotation*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnTransformExtensions.GetLookAtRotation(UnityEngine.Transform,UnityEngine.Transform)
+  commentId: M:UnityEngine.EnTransformExtensions.GetLookAtRotation(UnityEngine.Transform,UnityEngine.Transform)
+  id: GetLookAtRotation(UnityEngine.Transform,UnityEngine.Transform)
+  isExtensionMethod: true
+  parent: UnityEngine.EnTransformExtensions
+  langs:
+  - csharp
+  - vb
+  name: GetLookAtRotation(Transform, Transform)
+  nameWithType: EnTransformExtensions.GetLookAtRotation(Transform, Transform)
+  fullName: UnityEngine.EnTransformExtensions.GetLookAtRotation(UnityEngine.Transform, UnityEngine.Transform)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnTransformExtensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: GetLookAtRotation
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnTransformExtensions.cs
+    startLine: 50
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  summary: "\nFind the rotation to look at a Transform\n"
+  example: []
+  syntax:
+    content: public static Quaternion GetLookAtRotation(this Transform self, Transform target)
+    parameters:
+    - id: self
+      type: UnityEngine.Transform
+      description: ''
+    - id: target
+      type: UnityEngine.Transform
+      description: The thing to look at
+    return:
+      type: UnityEngine.Quaternion
+      description: ''
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetLookAtRotation(self As Transform, target As Transform) As Quaternion
+  overload: UnityEngine.EnTransformExtensions.GetLookAtRotation*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnTransformExtensions.GetLookAtRotation(UnityEngine.Transform,UnityEngine.GameObject)
+  commentId: M:UnityEngine.EnTransformExtensions.GetLookAtRotation(UnityEngine.Transform,UnityEngine.GameObject)
+  id: GetLookAtRotation(UnityEngine.Transform,UnityEngine.GameObject)
+  isExtensionMethod: true
+  parent: UnityEngine.EnTransformExtensions
+  langs:
+  - csharp
+  - vb
+  name: GetLookAtRotation(Transform, GameObject)
+  nameWithType: EnTransformExtensions.GetLookAtRotation(Transform, GameObject)
+  fullName: UnityEngine.EnTransformExtensions.GetLookAtRotation(UnityEngine.Transform, UnityEngine.GameObject)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnTransformExtensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: GetLookAtRotation
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnTransformExtensions.cs
+    startLine: 61
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  summary: "\nFind the rotation to look at a GameObject\n"
+  example: []
+  syntax:
+    content: public static Quaternion GetLookAtRotation(this Transform self, GameObject target)
+    parameters:
+    - id: self
+      type: UnityEngine.Transform
+      description: ''
+    - id: target
+      type: UnityEngine.GameObject
+      description: The thing to look at
+    return:
+      type: UnityEngine.Quaternion
+      description: ''
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetLookAtRotation(self As Transform, target As GameObject) As Quaternion
+  overload: UnityEngine.EnTransformExtensions.GetLookAtRotation*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnTransformExtensions.LookAwayFrom(UnityEngine.Transform,UnityEngine.Vector3)
+  commentId: M:UnityEngine.EnTransformExtensions.LookAwayFrom(UnityEngine.Transform,UnityEngine.Vector3)
+  id: LookAwayFrom(UnityEngine.Transform,UnityEngine.Vector3)
+  isExtensionMethod: true
+  parent: UnityEngine.EnTransformExtensions
+  langs:
+  - csharp
+  - vb
+  name: LookAwayFrom(Transform, Vector3)
+  nameWithType: EnTransformExtensions.LookAwayFrom(Transform, Vector3)
+  fullName: UnityEngine.EnTransformExtensions.LookAwayFrom(UnityEngine.Transform, UnityEngine.Vector3)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnTransformExtensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: LookAwayFrom
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnTransformExtensions.cs
+    startLine: 72
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  summary: "\nInstantly look away from a target Vector3\n"
+  example: []
+  syntax:
+    content: public static void LookAwayFrom(this Transform self, Vector3 target)
+    parameters:
+    - id: self
+      type: UnityEngine.Transform
+      description: ''
+    - id: target
+      type: UnityEngine.Vector3
+      description: The thing to look away from
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub LookAwayFrom(self As Transform, target As Vector3)
+  overload: UnityEngine.EnTransformExtensions.LookAwayFrom*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnTransformExtensions.LookAwayFrom(UnityEngine.Transform,UnityEngine.Transform)
+  commentId: M:UnityEngine.EnTransformExtensions.LookAwayFrom(UnityEngine.Transform,UnityEngine.Transform)
+  id: LookAwayFrom(UnityEngine.Transform,UnityEngine.Transform)
+  isExtensionMethod: true
+  parent: UnityEngine.EnTransformExtensions
+  langs:
+  - csharp
+  - vb
+  name: LookAwayFrom(Transform, Transform)
+  nameWithType: EnTransformExtensions.LookAwayFrom(Transform, Transform)
+  fullName: UnityEngine.EnTransformExtensions.LookAwayFrom(UnityEngine.Transform, UnityEngine.Transform)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnTransformExtensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: LookAwayFrom
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnTransformExtensions.cs
+    startLine: 82
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  summary: "\nInstantly look away from a target transform\n"
+  example: []
+  syntax:
+    content: public static void LookAwayFrom(this Transform self, Transform target)
+    parameters:
+    - id: self
+      type: UnityEngine.Transform
+      description: ''
+    - id: target
+      type: UnityEngine.Transform
+      description: The thing to look away from
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub LookAwayFrom(self As Transform, target As Transform)
+  overload: UnityEngine.EnTransformExtensions.LookAwayFrom*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnTransformExtensions.LookAwayFrom(UnityEngine.Transform,UnityEngine.GameObject)
+  commentId: M:UnityEngine.EnTransformExtensions.LookAwayFrom(UnityEngine.Transform,UnityEngine.GameObject)
+  id: LookAwayFrom(UnityEngine.Transform,UnityEngine.GameObject)
+  isExtensionMethod: true
+  parent: UnityEngine.EnTransformExtensions
+  langs:
+  - csharp
+  - vb
+  name: LookAwayFrom(Transform, GameObject)
+  nameWithType: EnTransformExtensions.LookAwayFrom(Transform, GameObject)
+  fullName: UnityEngine.EnTransformExtensions.LookAwayFrom(UnityEngine.Transform, UnityEngine.GameObject)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnTransformExtensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: LookAwayFrom
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnTransformExtensions.cs
+    startLine: 92
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  summary: "\nInstantly look away from a target GameObject\n"
+  example: []
+  syntax:
+    content: public static void LookAwayFrom(this Transform self, GameObject target)
+    parameters:
+    - id: self
+      type: UnityEngine.Transform
+      description: ''
+    - id: target
+      type: UnityEngine.GameObject
+      description: The thing to look away from
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub LookAwayFrom(self As Transform, target As GameObject)
+  overload: UnityEngine.EnTransformExtensions.LookAwayFrom*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnTransformExtensions.GetLookAwayFromRotation(UnityEngine.Transform,UnityEngine.Vector3)
+  commentId: M:UnityEngine.EnTransformExtensions.GetLookAwayFromRotation(UnityEngine.Transform,UnityEngine.Vector3)
+  id: GetLookAwayFromRotation(UnityEngine.Transform,UnityEngine.Vector3)
+  isExtensionMethod: true
+  parent: UnityEngine.EnTransformExtensions
+  langs:
+  - csharp
+  - vb
+  name: GetLookAwayFromRotation(Transform, Vector3)
+  nameWithType: EnTransformExtensions.GetLookAwayFromRotation(Transform, Vector3)
+  fullName: UnityEngine.EnTransformExtensions.GetLookAwayFromRotation(UnityEngine.Transform, UnityEngine.Vector3)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnTransformExtensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: GetLookAwayFromRotation
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnTransformExtensions.cs
+    startLine: 103
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  summary: "\nFind the rotation to look away from a target Vector3\n"
+  example: []
+  syntax:
+    content: public static Quaternion GetLookAwayFromRotation(this Transform self, Vector3 target)
+    parameters:
+    - id: self
+      type: UnityEngine.Transform
+      description: ''
+    - id: target
+      type: UnityEngine.Vector3
+      description: The thing to look away from
+    return:
+      type: UnityEngine.Quaternion
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetLookAwayFromRotation(self As Transform, target As Vector3) As Quaternion
+  overload: UnityEngine.EnTransformExtensions.GetLookAwayFromRotation*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnTransformExtensions.GetLookAwayFromRotation(UnityEngine.Transform,UnityEngine.Transform)
+  commentId: M:UnityEngine.EnTransformExtensions.GetLookAwayFromRotation(UnityEngine.Transform,UnityEngine.Transform)
+  id: GetLookAwayFromRotation(UnityEngine.Transform,UnityEngine.Transform)
+  isExtensionMethod: true
+  parent: UnityEngine.EnTransformExtensions
+  langs:
+  - csharp
+  - vb
+  name: GetLookAwayFromRotation(Transform, Transform)
+  nameWithType: EnTransformExtensions.GetLookAwayFromRotation(Transform, Transform)
+  fullName: UnityEngine.EnTransformExtensions.GetLookAwayFromRotation(UnityEngine.Transform, UnityEngine.Transform)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnTransformExtensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: GetLookAwayFromRotation
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnTransformExtensions.cs
+    startLine: 113
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  summary: "\nFind the rotation to look away from a target transform\n"
+  example: []
+  syntax:
+    content: public static Quaternion GetLookAwayFromRotation(this Transform self, Transform target)
+    parameters:
+    - id: self
+      type: UnityEngine.Transform
+      description: ''
+    - id: target
+      type: UnityEngine.Transform
+      description: The thing to look away from
+    return:
+      type: UnityEngine.Quaternion
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetLookAwayFromRotation(self As Transform, target As Transform) As Quaternion
+  overload: UnityEngine.EnTransformExtensions.GetLookAwayFromRotation*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnTransformExtensions.GetLookAwayFromRotation(UnityEngine.Transform,UnityEngine.GameObject)
+  commentId: M:UnityEngine.EnTransformExtensions.GetLookAwayFromRotation(UnityEngine.Transform,UnityEngine.GameObject)
+  id: GetLookAwayFromRotation(UnityEngine.Transform,UnityEngine.GameObject)
+  isExtensionMethod: true
+  parent: UnityEngine.EnTransformExtensions
+  langs:
+  - csharp
+  - vb
+  name: GetLookAwayFromRotation(Transform, GameObject)
+  nameWithType: EnTransformExtensions.GetLookAwayFromRotation(Transform, GameObject)
+  fullName: UnityEngine.EnTransformExtensions.GetLookAwayFromRotation(UnityEngine.Transform, UnityEngine.GameObject)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnTransformExtensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: GetLookAwayFromRotation
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnTransformExtensions.cs
+    startLine: 123
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  summary: "\nFind the rotation to look away from a target GameObject\n"
+  example: []
+  syntax:
+    content: public static Quaternion GetLookAwayFromRotation(this Transform self, GameObject target)
+    parameters:
+    - id: self
+      type: UnityEngine.Transform
+      description: ''
+    - id: target
+      type: UnityEngine.GameObject
+      description: The thing to look away from
+    return:
+      type: UnityEngine.Quaternion
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetLookAwayFromRotation(self As Transform, target As GameObject) As Quaternion
+  overload: UnityEngine.EnTransformExtensions.GetLookAwayFromRotation*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnTransformExtensions.GetTransformPath(UnityEngine.Transform)
+  commentId: M:UnityEngine.EnTransformExtensions.GetTransformPath(UnityEngine.Transform)
+  id: GetTransformPath(UnityEngine.Transform)
+  isExtensionMethod: true
+  parent: UnityEngine.EnTransformExtensions
+  langs:
+  - csharp
+  - vb
+  name: GetTransformPath(Transform)
+  nameWithType: EnTransformExtensions.GetTransformPath(Transform)
+  fullName: UnityEngine.EnTransformExtensions.GetTransformPath(UnityEngine.Transform)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnTransformExtensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: GetTransformPath
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnTransformExtensions.cs
+    startLine: 133
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  summary: "\n\n"
+  example: []
+  syntax:
+    content: public static string GetTransformPath(this Transform transform)
+    parameters:
+    - id: transform
+      type: UnityEngine.Transform
+      description: ''
+    return:
+      type: System.String
+      description: ''
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetTransformPath(transform As Transform) As String
+  overload: UnityEngine.EnTransformExtensions.GetTransformPath*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine.EnTransformExtensions.LookAt*
+  commentId: Overload:UnityEngine.EnTransformExtensions.LookAt
+  name: LookAt
+  nameWithType: EnTransformExtensions.LookAt
+  fullName: UnityEngine.EnTransformExtensions.LookAt
+- uid: UnityEngine.Transform
+  commentId: T:UnityEngine.Transform
+  parent: UnityEngine
+  isExternal: true
+  name: Transform
+  nameWithType: Transform
+  fullName: UnityEngine.Transform
+- uid: UnityEngine.GameObject
+  commentId: T:UnityEngine.GameObject
+  parent: UnityEngine
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: UnityEngine.GameObject
+- uid: UnityEngine.EnTransformExtensions.GetLookAtRotation*
+  commentId: Overload:UnityEngine.EnTransformExtensions.GetLookAtRotation
+  name: GetLookAtRotation
+  nameWithType: EnTransformExtensions.GetLookAtRotation
+  fullName: UnityEngine.EnTransformExtensions.GetLookAtRotation
+- uid: UnityEngine.Vector3
+  commentId: T:UnityEngine.Vector3
+  parent: UnityEngine
+  isExternal: true
+  name: Vector3
+  nameWithType: Vector3
+  fullName: UnityEngine.Vector3
+- uid: UnityEngine.Quaternion
+  commentId: T:UnityEngine.Quaternion
+  parent: UnityEngine
+  isExternal: true
+  name: Quaternion
+  nameWithType: Quaternion
+  fullName: UnityEngine.Quaternion
+- uid: UnityEngine.EnTransformExtensions.LookAwayFrom*
+  commentId: Overload:UnityEngine.EnTransformExtensions.LookAwayFrom
+  name: LookAwayFrom
+  nameWithType: EnTransformExtensions.LookAwayFrom
+  fullName: UnityEngine.EnTransformExtensions.LookAwayFrom
+- uid: UnityEngine.EnTransformExtensions.GetLookAwayFromRotation*
+  commentId: Overload:UnityEngine.EnTransformExtensions.GetLookAwayFromRotation
+  name: GetLookAwayFromRotation
+  nameWithType: EnTransformExtensions.GetLookAwayFromRotation
+  fullName: UnityEngine.EnTransformExtensions.GetLookAwayFromRotation
+- uid: UnityEngine.EnTransformExtensions.GetTransformPath*
+  commentId: Overload:UnityEngine.EnTransformExtensions.GetTransformPath
+  name: GetTransformPath
+  nameWithType: EnTransformExtensions.GetTransformPath
+  fullName: UnityEngine.EnTransformExtensions.GetTransformPath
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

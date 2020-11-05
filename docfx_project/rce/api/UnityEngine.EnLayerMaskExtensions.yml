@@ -1,0 +1,520 @@
+### YamlMime:ManagedReference
+items:
+- uid: UnityEngine.EnLayerMaskExtensions
+  commentId: T:UnityEngine.EnLayerMaskExtensions
+  id: EnLayerMaskExtensions
+  parent: UnityEngine
+  children:
+  - UnityEngine.EnLayerMaskExtensions.Default(UnityEngine.LayerMask)
+  - UnityEngine.EnLayerMaskExtensions.Everything(UnityEngine.LayerMask)
+  - UnityEngine.EnLayerMaskExtensions.MaskContains(UnityEngine.LayerMask,System.Int32)
+  - UnityEngine.EnLayerMaskExtensions.MaskDefault
+  - UnityEngine.EnLayerMaskExtensions.MaskEverything
+  - UnityEngine.EnLayerMaskExtensions.MaskTransparentFx
+  - UnityEngine.EnLayerMaskExtensions.ToDefault(UnityEngine.LayerMask@)
+  - UnityEngine.EnLayerMaskExtensions.ToEverything(UnityEngine.LayerMask@)
+  - UnityEngine.EnLayerMaskExtensions.ToTransparentFx(UnityEngine.LayerMask@)
+  - UnityEngine.EnLayerMaskExtensions.TransparentFx(UnityEngine.LayerMask)
+  langs:
+  - csharp
+  - vb
+  name: EnLayerMaskExtensions
+  nameWithType: EnLayerMaskExtensions
+  fullName: UnityEngine.EnLayerMaskExtensions
+  type: Class
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnLayerMaskExtensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: EnLayerMaskExtensions
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnLayerMaskExtensions.cs
+    startLine: 14
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  summary: "\nUnity LayerMask extensions.\n\n<example>\n<pre><code>LayerMask myMask = oldMask.Default();\nmyMask.ToEverything();</code></pre>\n</example>\n\n"
+  example: []
+  syntax:
+    content: public static class EnLayerMaskExtensions
+    content.vb: Public Module EnLayerMaskExtensions
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: UnityEngine.EnLayerMaskExtensions.MaskDefault
+  commentId: F:UnityEngine.EnLayerMaskExtensions.MaskDefault
+  id: MaskDefault
+  parent: UnityEngine.EnLayerMaskExtensions
+  langs:
+  - csharp
+  - vb
+  name: MaskDefault
+  nameWithType: EnLayerMaskExtensions.MaskDefault
+  fullName: UnityEngine.EnLayerMaskExtensions.MaskDefault
+  type: Field
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnLayerMaskExtensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: MaskDefault
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnLayerMaskExtensions.cs
+    startLine: 16
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  syntax:
+    content: public static LayerMask MaskDefault
+    return:
+      type: UnityEngine.LayerMask
+    content.vb: Public Shared MaskDefault As LayerMask
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnLayerMaskExtensions.MaskTransparentFx
+  commentId: F:UnityEngine.EnLayerMaskExtensions.MaskTransparentFx
+  id: MaskTransparentFx
+  parent: UnityEngine.EnLayerMaskExtensions
+  langs:
+  - csharp
+  - vb
+  name: MaskTransparentFx
+  nameWithType: EnLayerMaskExtensions.MaskTransparentFx
+  fullName: UnityEngine.EnLayerMaskExtensions.MaskTransparentFx
+  type: Field
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnLayerMaskExtensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: MaskTransparentFx
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnLayerMaskExtensions.cs
+    startLine: 17
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  syntax:
+    content: public static LayerMask MaskTransparentFx
+    return:
+      type: UnityEngine.LayerMask
+    content.vb: Public Shared MaskTransparentFx As LayerMask
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnLayerMaskExtensions.MaskEverything
+  commentId: F:UnityEngine.EnLayerMaskExtensions.MaskEverything
+  id: MaskEverything
+  parent: UnityEngine.EnLayerMaskExtensions
+  langs:
+  - csharp
+  - vb
+  name: MaskEverything
+  nameWithType: EnLayerMaskExtensions.MaskEverything
+  fullName: UnityEngine.EnLayerMaskExtensions.MaskEverything
+  type: Field
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnLayerMaskExtensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: MaskEverything
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnLayerMaskExtensions.cs
+    startLine: 18
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  syntax:
+    content: public static LayerMask MaskEverything
+    return:
+      type: UnityEngine.LayerMask
+    content.vb: Public Shared MaskEverything As LayerMask
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnLayerMaskExtensions.Everything(UnityEngine.LayerMask)
+  commentId: M:UnityEngine.EnLayerMaskExtensions.Everything(UnityEngine.LayerMask)
+  id: Everything(UnityEngine.LayerMask)
+  isExtensionMethod: true
+  parent: UnityEngine.EnLayerMaskExtensions
+  langs:
+  - csharp
+  - vb
+  name: Everything(LayerMask)
+  nameWithType: EnLayerMaskExtensions.Everything(LayerMask)
+  fullName: UnityEngine.EnLayerMaskExtensions.Everything(UnityEngine.LayerMask)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnLayerMaskExtensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: Everything
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnLayerMaskExtensions.cs
+    startLine: 21
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  syntax:
+    content: public static LayerMask Everything(this LayerMask mask)
+    parameters:
+    - id: mask
+      type: UnityEngine.LayerMask
+    return:
+      type: UnityEngine.LayerMask
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function Everything(mask As LayerMask) As LayerMask
+  overload: UnityEngine.EnLayerMaskExtensions.Everything*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnLayerMaskExtensions.ToEverything(UnityEngine.LayerMask@)
+  commentId: M:UnityEngine.EnLayerMaskExtensions.ToEverything(UnityEngine.LayerMask@)
+  id: ToEverything(UnityEngine.LayerMask@)
+  isExtensionMethod: true
+  parent: UnityEngine.EnLayerMaskExtensions
+  langs:
+  - csharp
+  - vb
+  name: ToEverything(ref LayerMask)
+  nameWithType: EnLayerMaskExtensions.ToEverything(ref LayerMask)
+  fullName: UnityEngine.EnLayerMaskExtensions.ToEverything(ref UnityEngine.LayerMask)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnLayerMaskExtensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: ToEverything
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnLayerMaskExtensions.cs
+    startLine: 25
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  syntax:
+    content: public static void ToEverything(this ref LayerMask mask)
+    parameters:
+    - id: mask
+      type: UnityEngine.LayerMask
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub ToEverything(ByRef mask As LayerMask)
+  overload: UnityEngine.EnLayerMaskExtensions.ToEverything*
+  nameWithType.vb: EnLayerMaskExtensions.ToEverything(ByRef LayerMask)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: UnityEngine.EnLayerMaskExtensions.ToEverything(ByRef UnityEngine.LayerMask)
+  name.vb: ToEverything(ByRef LayerMask)
+- uid: UnityEngine.EnLayerMaskExtensions.Default(UnityEngine.LayerMask)
+  commentId: M:UnityEngine.EnLayerMaskExtensions.Default(UnityEngine.LayerMask)
+  id: Default(UnityEngine.LayerMask)
+  isExtensionMethod: true
+  parent: UnityEngine.EnLayerMaskExtensions
+  langs:
+  - csharp
+  - vb
+  name: Default(LayerMask)
+  nameWithType: EnLayerMaskExtensions.Default(LayerMask)
+  fullName: UnityEngine.EnLayerMaskExtensions.Default(UnityEngine.LayerMask)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnLayerMaskExtensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: Default
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnLayerMaskExtensions.cs
+    startLine: 29
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  syntax:
+    content: public static LayerMask Default(this LayerMask mask)
+    parameters:
+    - id: mask
+      type: UnityEngine.LayerMask
+    return:
+      type: UnityEngine.LayerMask
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function Default(mask As LayerMask) As LayerMask
+  overload: UnityEngine.EnLayerMaskExtensions.Default*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnLayerMaskExtensions.ToDefault(UnityEngine.LayerMask@)
+  commentId: M:UnityEngine.EnLayerMaskExtensions.ToDefault(UnityEngine.LayerMask@)
+  id: ToDefault(UnityEngine.LayerMask@)
+  isExtensionMethod: true
+  parent: UnityEngine.EnLayerMaskExtensions
+  langs:
+  - csharp
+  - vb
+  name: ToDefault(ref LayerMask)
+  nameWithType: EnLayerMaskExtensions.ToDefault(ref LayerMask)
+  fullName: UnityEngine.EnLayerMaskExtensions.ToDefault(ref UnityEngine.LayerMask)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnLayerMaskExtensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: ToDefault
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnLayerMaskExtensions.cs
+    startLine: 33
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  syntax:
+    content: public static void ToDefault(this ref LayerMask mask)
+    parameters:
+    - id: mask
+      type: UnityEngine.LayerMask
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub ToDefault(ByRef mask As LayerMask)
+  overload: UnityEngine.EnLayerMaskExtensions.ToDefault*
+  nameWithType.vb: EnLayerMaskExtensions.ToDefault(ByRef LayerMask)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: UnityEngine.EnLayerMaskExtensions.ToDefault(ByRef UnityEngine.LayerMask)
+  name.vb: ToDefault(ByRef LayerMask)
+- uid: UnityEngine.EnLayerMaskExtensions.TransparentFx(UnityEngine.LayerMask)
+  commentId: M:UnityEngine.EnLayerMaskExtensions.TransparentFx(UnityEngine.LayerMask)
+  id: TransparentFx(UnityEngine.LayerMask)
+  isExtensionMethod: true
+  parent: UnityEngine.EnLayerMaskExtensions
+  langs:
+  - csharp
+  - vb
+  name: TransparentFx(LayerMask)
+  nameWithType: EnLayerMaskExtensions.TransparentFx(LayerMask)
+  fullName: UnityEngine.EnLayerMaskExtensions.TransparentFx(UnityEngine.LayerMask)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnLayerMaskExtensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: TransparentFx
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnLayerMaskExtensions.cs
+    startLine: 37
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  syntax:
+    content: public static LayerMask TransparentFx(this LayerMask mask)
+    parameters:
+    - id: mask
+      type: UnityEngine.LayerMask
+    return:
+      type: UnityEngine.LayerMask
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function TransparentFx(mask As LayerMask) As LayerMask
+  overload: UnityEngine.EnLayerMaskExtensions.TransparentFx*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnLayerMaskExtensions.ToTransparentFx(UnityEngine.LayerMask@)
+  commentId: M:UnityEngine.EnLayerMaskExtensions.ToTransparentFx(UnityEngine.LayerMask@)
+  id: ToTransparentFx(UnityEngine.LayerMask@)
+  isExtensionMethod: true
+  parent: UnityEngine.EnLayerMaskExtensions
+  langs:
+  - csharp
+  - vb
+  name: ToTransparentFx(ref LayerMask)
+  nameWithType: EnLayerMaskExtensions.ToTransparentFx(ref LayerMask)
+  fullName: UnityEngine.EnLayerMaskExtensions.ToTransparentFx(ref UnityEngine.LayerMask)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnLayerMaskExtensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: ToTransparentFx
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnLayerMaskExtensions.cs
+    startLine: 41
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  syntax:
+    content: public static void ToTransparentFx(this ref LayerMask mask)
+    parameters:
+    - id: mask
+      type: UnityEngine.LayerMask
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub ToTransparentFx(ByRef mask As LayerMask)
+  overload: UnityEngine.EnLayerMaskExtensions.ToTransparentFx*
+  nameWithType.vb: EnLayerMaskExtensions.ToTransparentFx(ByRef LayerMask)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: UnityEngine.EnLayerMaskExtensions.ToTransparentFx(ByRef UnityEngine.LayerMask)
+  name.vb: ToTransparentFx(ByRef LayerMask)
+- uid: UnityEngine.EnLayerMaskExtensions.MaskContains(UnityEngine.LayerMask,System.Int32)
+  commentId: M:UnityEngine.EnLayerMaskExtensions.MaskContains(UnityEngine.LayerMask,System.Int32)
+  id: MaskContains(UnityEngine.LayerMask,System.Int32)
+  isExtensionMethod: true
+  parent: UnityEngine.EnLayerMaskExtensions
+  langs:
+  - csharp
+  - vb
+  name: MaskContains(LayerMask, Int32)
+  nameWithType: EnLayerMaskExtensions.MaskContains(LayerMask, Int32)
+  fullName: UnityEngine.EnLayerMaskExtensions.MaskContains(UnityEngine.LayerMask, System.Int32)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnLayerMaskExtensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: MaskContains
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnLayerMaskExtensions.cs
+    startLine: 51
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  summary: "\nCheck if Mask Contains\n"
+  example: []
+  syntax:
+    content: public static bool MaskContains(this LayerMask mask, int layerNumber)
+    parameters:
+    - id: mask
+      type: UnityEngine.LayerMask
+      description: ''
+    - id: layerNumber
+      type: System.Int32
+      description: ''
+    return:
+      type: System.Boolean
+      description: ''
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function MaskContains(mask As LayerMask, layerNumber As Integer) As Boolean
+  overload: UnityEngine.EnLayerMaskExtensions.MaskContains*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine.LayerMask
+  commentId: T:UnityEngine.LayerMask
+  parent: UnityEngine
+  isExternal: true
+  name: LayerMask
+  nameWithType: LayerMask
+  fullName: UnityEngine.LayerMask
+- uid: UnityEngine.EnLayerMaskExtensions.Everything*
+  commentId: Overload:UnityEngine.EnLayerMaskExtensions.Everything
+  name: Everything
+  nameWithType: EnLayerMaskExtensions.Everything
+  fullName: UnityEngine.EnLayerMaskExtensions.Everything
+- uid: UnityEngine.EnLayerMaskExtensions.ToEverything*
+  commentId: Overload:UnityEngine.EnLayerMaskExtensions.ToEverything
+  name: ToEverything
+  nameWithType: EnLayerMaskExtensions.ToEverything
+  fullName: UnityEngine.EnLayerMaskExtensions.ToEverything
+- uid: UnityEngine.EnLayerMaskExtensions.Default*
+  commentId: Overload:UnityEngine.EnLayerMaskExtensions.Default
+  name: Default
+  nameWithType: EnLayerMaskExtensions.Default
+  fullName: UnityEngine.EnLayerMaskExtensions.Default
+- uid: UnityEngine.EnLayerMaskExtensions.ToDefault*
+  commentId: Overload:UnityEngine.EnLayerMaskExtensions.ToDefault
+  name: ToDefault
+  nameWithType: EnLayerMaskExtensions.ToDefault
+  fullName: UnityEngine.EnLayerMaskExtensions.ToDefault
+- uid: UnityEngine.EnLayerMaskExtensions.TransparentFx*
+  commentId: Overload:UnityEngine.EnLayerMaskExtensions.TransparentFx
+  name: TransparentFx
+  nameWithType: EnLayerMaskExtensions.TransparentFx
+  fullName: UnityEngine.EnLayerMaskExtensions.TransparentFx
+- uid: UnityEngine.EnLayerMaskExtensions.ToTransparentFx*
+  commentId: Overload:UnityEngine.EnLayerMaskExtensions.ToTransparentFx
+  name: ToTransparentFx
+  nameWithType: EnLayerMaskExtensions.ToTransparentFx
+  fullName: UnityEngine.EnLayerMaskExtensions.ToTransparentFx
+- uid: UnityEngine.EnLayerMaskExtensions.MaskContains*
+  commentId: Overload:UnityEngine.EnLayerMaskExtensions.MaskContains
+  name: MaskContains
+  nameWithType: EnLayerMaskExtensions.MaskContains
+  fullName: UnityEngine.EnLayerMaskExtensions.MaskContains
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

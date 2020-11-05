@@ -1,0 +1,164 @@
+### YamlMime:ManagedReference
+items:
+- uid: UnityEngine.EnObjectExtensions
+  commentId: T:UnityEngine.EnObjectExtensions
+  id: EnObjectExtensions
+  parent: UnityEngine
+  children:
+  - UnityEngine.EnObjectExtensions.IsNotNull(UnityEngine.Object)
+  - UnityEngine.EnObjectExtensions.IsNull(UnityEngine.Object)
+  langs:
+  - csharp
+  - vb
+  name: EnObjectExtensions
+  nameWithType: EnObjectExtensions
+  fullName: UnityEngine.EnObjectExtensions
+  type: Class
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnObjectExtensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: EnObjectExtensions
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnObjectExtensions.cs
+    startLine: 1
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  syntax:
+    content: public static class EnObjectExtensions
+    content.vb: Public Module EnObjectExtensions
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: UnityEngine.EnObjectExtensions.IsNull(UnityEngine.Object)
+  commentId: M:UnityEngine.EnObjectExtensions.IsNull(UnityEngine.Object)
+  id: IsNull(UnityEngine.Object)
+  isExtensionMethod: true
+  parent: UnityEngine.EnObjectExtensions
+  langs:
+  - csharp
+  - vb
+  name: IsNull(Object)
+  nameWithType: EnObjectExtensions.IsNull(Object)
+  fullName: UnityEngine.EnObjectExtensions.IsNull(UnityEngine.Object)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnObjectExtensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: IsNull
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnObjectExtensions.cs
+    startLine: 3
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  syntax:
+    content: public static bool IsNull(this Object obj)
+    parameters:
+    - id: obj
+      type: UnityEngine.Object
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function IsNull(obj As Object) As Boolean
+  overload: UnityEngine.EnObjectExtensions.IsNull*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnObjectExtensions.IsNotNull(UnityEngine.Object)
+  commentId: M:UnityEngine.EnObjectExtensions.IsNotNull(UnityEngine.Object)
+  id: IsNotNull(UnityEngine.Object)
+  isExtensionMethod: true
+  parent: UnityEngine.EnObjectExtensions
+  langs:
+  - csharp
+  - vb
+  name: IsNotNull(Object)
+  nameWithType: EnObjectExtensions.IsNotNull(Object)
+  fullName: UnityEngine.EnObjectExtensions.IsNotNull(UnityEngine.Object)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnObjectExtensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: IsNotNull
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnObjectExtensions.cs
+    startLine: 7
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  syntax:
+    content: public static bool IsNotNull(this Object obj)
+    parameters:
+    - id: obj
+      type: UnityEngine.Object
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function IsNotNull(obj As Object) As Boolean
+  overload: UnityEngine.EnObjectExtensions.IsNotNull*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine.EnObjectExtensions.IsNull*
+  commentId: Overload:UnityEngine.EnObjectExtensions.IsNull
+  name: IsNull
+  nameWithType: EnObjectExtensions.IsNull
+  fullName: UnityEngine.EnObjectExtensions.IsNull
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: UnityEngine.EnObjectExtensions.IsNotNull*
+  commentId: Overload:UnityEngine.EnObjectExtensions.IsNotNull
+  name: IsNotNull
+  nameWithType: EnObjectExtensions.IsNotNull
+  fullName: UnityEngine.EnObjectExtensions.IsNotNull

@@ -1,0 +1,2546 @@
+### YamlMime:ManagedReference
+items:
+- uid: UnityEngine.EnRectExtensions
+  commentId: T:UnityEngine.EnRectExtensions
+  id: EnRectExtensions
+  parent: UnityEngine
+  children:
+  - UnityEngine.EnRectExtensions.BackfillBottom(UnityEngine.Rect,System.Single)
+  - UnityEngine.EnRectExtensions.BackfillLeft(UnityEngine.Rect,System.Single)
+  - UnityEngine.EnRectExtensions.BackfillRight(UnityEngine.Rect,System.Single)
+  - UnityEngine.EnRectExtensions.BackfillTop(UnityEngine.Rect,System.Single)
+  - UnityEngine.EnRectExtensions.Displace(UnityEngine.Rect,System.Single,System.Single)
+  - UnityEngine.EnRectExtensions.Displace(UnityEngine.Rect,UnityEngine.Vector2)
+  - UnityEngine.EnRectExtensions.DisplaceX(UnityEngine.Rect,System.Single)
+  - UnityEngine.EnRectExtensions.DisplaceY(UnityEngine.Rect,System.Single)
+  - UnityEngine.EnRectExtensions.ExtrudeBottom(UnityEngine.Rect,System.Single)
+  - UnityEngine.EnRectExtensions.ExtrudeLeft(UnityEngine.Rect,System.Single)
+  - UnityEngine.EnRectExtensions.ExtrudeRight(UnityEngine.Rect,System.Single)
+  - UnityEngine.EnRectExtensions.ExtrudeTop(UnityEngine.Rect,System.Single)
+  - UnityEngine.EnRectExtensions.LongestSide(UnityEngine.Rect)
+  - UnityEngine.EnRectExtensions.Pad(UnityEngine.Rect,System.Single)
+  - UnityEngine.EnRectExtensions.Pad(UnityEngine.Rect,System.Single,System.Single,System.Single,System.Single)
+  - UnityEngine.EnRectExtensions.PadBottom(UnityEngine.Rect,System.Single)
+  - UnityEngine.EnRectExtensions.PadHorizontal(UnityEngine.Rect,System.Single)
+  - UnityEngine.EnRectExtensions.PadLeft(UnityEngine.Rect,System.Single)
+  - UnityEngine.EnRectExtensions.PadRight(UnityEngine.Rect,System.Single)
+  - UnityEngine.EnRectExtensions.PadTop(UnityEngine.Rect,System.Single)
+  - UnityEngine.EnRectExtensions.PadVertical(UnityEngine.Rect,System.Single)
+  - UnityEngine.EnRectExtensions.Recenter(UnityEngine.Rect,System.Single,System.Single)
+  - UnityEngine.EnRectExtensions.Recenter(UnityEngine.Rect,UnityEngine.Vector2)
+  - UnityEngine.EnRectExtensions.RecenterX(UnityEngine.Rect,System.Single)
+  - UnityEngine.EnRectExtensions.RecenterY(UnityEngine.Rect,System.Single)
+  - UnityEngine.EnRectExtensions.SetHeight(UnityEngine.Rect,System.Single)
+  - UnityEngine.EnRectExtensions.SetHeightCentered(UnityEngine.Rect,System.Single)
+  - UnityEngine.EnRectExtensions.SetPosition(UnityEngine.Rect,System.Single,System.Single)
+  - UnityEngine.EnRectExtensions.SetPosition(UnityEngine.Rect,UnityEngine.Vector2)
+  - UnityEngine.EnRectExtensions.SetSize(UnityEngine.Rect,System.Single)
+  - UnityEngine.EnRectExtensions.SetSize(UnityEngine.Rect,System.Single,System.Single)
+  - UnityEngine.EnRectExtensions.SetSize(UnityEngine.Rect,UnityEngine.Vector2)
+  - UnityEngine.EnRectExtensions.SetSizeCentered(UnityEngine.Rect,System.Single)
+  - UnityEngine.EnRectExtensions.SetSizeCentered(UnityEngine.Rect,System.Single,System.Single)
+  - UnityEngine.EnRectExtensions.SetSizeCentered(UnityEngine.Rect,UnityEngine.Vector2)
+  - UnityEngine.EnRectExtensions.SetWidth(UnityEngine.Rect,System.Single)
+  - UnityEngine.EnRectExtensions.SetWidthCentered(UnityEngine.Rect,System.Single)
+  - UnityEngine.EnRectExtensions.SetX(UnityEngine.Rect,System.Single)
+  - UnityEngine.EnRectExtensions.SetY(UnityEngine.Rect,System.Single)
+  - UnityEngine.EnRectExtensions.ShortestSide(UnityEngine.Rect)
+  - UnityEngine.EnRectExtensions.SplitBottom(UnityEngine.Rect,System.Single,UnityEngine.Rect@)
+  - UnityEngine.EnRectExtensions.SplitLeft(UnityEngine.Rect,System.Single,UnityEngine.Rect@)
+  - UnityEngine.EnRectExtensions.SplitRight(UnityEngine.Rect,System.Single,UnityEngine.Rect@)
+  - UnityEngine.EnRectExtensions.SplitTop(UnityEngine.Rect,System.Single,UnityEngine.Rect@)
+  - UnityEngine.EnRectExtensions.StepDown(UnityEngine.Rect,System.Single)
+  - UnityEngine.EnRectExtensions.StepLeft(UnityEngine.Rect,System.Single)
+  - UnityEngine.EnRectExtensions.StepRight(UnityEngine.Rect,System.Single)
+  - UnityEngine.EnRectExtensions.StepUp(UnityEngine.Rect,System.Single)
+  - UnityEngine.EnRectExtensions.Transform(UnityEngine.Rect,UnityEngine.Matrix4x4)
+  langs:
+  - csharp
+  - vb
+  name: EnRectExtensions
+  nameWithType: EnRectExtensions
+  fullName: UnityEngine.EnRectExtensions
+  type: Class
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnRectExtensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: EnRectExtensions
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnRectExtensions.cs
+    startLine: 10
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  summary: "\nUtility extensions for manipulating Rect values.\n\n\n"
+  example: []
+  syntax:
+    content: public static class EnRectExtensions
+    content.vb: Public Module EnRectExtensions
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: UnityEngine.EnRectExtensions.ShortestSide(UnityEngine.Rect)
+  commentId: M:UnityEngine.EnRectExtensions.ShortestSide(UnityEngine.Rect)
+  id: ShortestSide(UnityEngine.Rect)
+  isExtensionMethod: true
+  parent: UnityEngine.EnRectExtensions
+  langs:
+  - csharp
+  - vb
+  name: ShortestSide(Rect)
+  nameWithType: EnRectExtensions.ShortestSide(Rect)
+  fullName: UnityEngine.EnRectExtensions.ShortestSide(UnityEngine.Rect)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnRectExtensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: ShortestSide
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnRectExtensions.cs
+    startLine: 12
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  syntax:
+    content: public static float ShortestSide(this Rect rect)
+    parameters:
+    - id: rect
+      type: UnityEngine.Rect
+    return:
+      type: System.Single
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ShortestSide(rect As Rect) As Single
+  overload: UnityEngine.EnRectExtensions.ShortestSide*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnRectExtensions.LongestSide(UnityEngine.Rect)
+  commentId: M:UnityEngine.EnRectExtensions.LongestSide(UnityEngine.Rect)
+  id: LongestSide(UnityEngine.Rect)
+  isExtensionMethod: true
+  parent: UnityEngine.EnRectExtensions
+  langs:
+  - csharp
+  - vb
+  name: LongestSide(Rect)
+  nameWithType: EnRectExtensions.LongestSide(Rect)
+  fullName: UnityEngine.EnRectExtensions.LongestSide(UnityEngine.Rect)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnRectExtensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: LongestSide
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnRectExtensions.cs
+    startLine: 16
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  syntax:
+    content: public static float LongestSide(this Rect rect)
+    parameters:
+    - id: rect
+      type: UnityEngine.Rect
+    return:
+      type: System.Single
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function LongestSide(rect As Rect) As Single
+  overload: UnityEngine.EnRectExtensions.LongestSide*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnRectExtensions.Transform(UnityEngine.Rect,UnityEngine.Matrix4x4)
+  commentId: M:UnityEngine.EnRectExtensions.Transform(UnityEngine.Rect,UnityEngine.Matrix4x4)
+  id: Transform(UnityEngine.Rect,UnityEngine.Matrix4x4)
+  isExtensionMethod: true
+  parent: UnityEngine.EnRectExtensions
+  langs:
+  - csharp
+  - vb
+  name: Transform(Rect, Matrix4x4)
+  nameWithType: EnRectExtensions.Transform(Rect, Matrix4x4)
+  fullName: UnityEngine.EnRectExtensions.Transform(UnityEngine.Rect, UnityEngine.Matrix4x4)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnRectExtensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: Transform
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnRectExtensions.cs
+    startLine: 21
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  syntax:
+    content: public static Rect Transform(this Rect rect, Matrix4x4 matrix)
+    parameters:
+    - id: rect
+      type: UnityEngine.Rect
+    - id: matrix
+      type: UnityEngine.Matrix4x4
+    return:
+      type: UnityEngine.Rect
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function Transform(rect As Rect, matrix As Matrix4x4) As Rect
+  overload: UnityEngine.EnRectExtensions.Transform*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnRectExtensions.SetWidth(UnityEngine.Rect,System.Single)
+  commentId: M:UnityEngine.EnRectExtensions.SetWidth(UnityEngine.Rect,System.Single)
+  id: SetWidth(UnityEngine.Rect,System.Single)
+  isExtensionMethod: true
+  parent: UnityEngine.EnRectExtensions
+  langs:
+  - csharp
+  - vb
+  name: SetWidth(Rect, Single)
+  nameWithType: EnRectExtensions.SetWidth(Rect, Single)
+  fullName: UnityEngine.EnRectExtensions.SetWidth(UnityEngine.Rect, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnRectExtensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: SetWidth
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnRectExtensions.cs
+    startLine: 26
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  syntax:
+    content: public static Rect SetWidth(this Rect rect, float width)
+    parameters:
+    - id: rect
+      type: UnityEngine.Rect
+    - id: width
+      type: System.Single
+    return:
+      type: UnityEngine.Rect
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function SetWidth(rect As Rect, width As Single) As Rect
+  overload: UnityEngine.EnRectExtensions.SetWidth*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnRectExtensions.SetHeight(UnityEngine.Rect,System.Single)
+  commentId: M:UnityEngine.EnRectExtensions.SetHeight(UnityEngine.Rect,System.Single)
+  id: SetHeight(UnityEngine.Rect,System.Single)
+  isExtensionMethod: true
+  parent: UnityEngine.EnRectExtensions
+  langs:
+  - csharp
+  - vb
+  name: SetHeight(Rect, Single)
+  nameWithType: EnRectExtensions.SetHeight(Rect, Single)
+  fullName: UnityEngine.EnRectExtensions.SetHeight(UnityEngine.Rect, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnRectExtensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: SetHeight
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnRectExtensions.cs
+    startLine: 30
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  syntax:
+    content: public static Rect SetHeight(this Rect rect, float height)
+    parameters:
+    - id: rect
+      type: UnityEngine.Rect
+    - id: height
+      type: System.Single
+    return:
+      type: UnityEngine.Rect
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function SetHeight(rect As Rect, height As Single) As Rect
+  overload: UnityEngine.EnRectExtensions.SetHeight*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnRectExtensions.SetWidthCentered(UnityEngine.Rect,System.Single)
+  commentId: M:UnityEngine.EnRectExtensions.SetWidthCentered(UnityEngine.Rect,System.Single)
+  id: SetWidthCentered(UnityEngine.Rect,System.Single)
+  isExtensionMethod: true
+  parent: UnityEngine.EnRectExtensions
+  langs:
+  - csharp
+  - vb
+  name: SetWidthCentered(Rect, Single)
+  nameWithType: EnRectExtensions.SetWidthCentered(Rect, Single)
+  fullName: UnityEngine.EnRectExtensions.SetWidthCentered(UnityEngine.Rect, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnRectExtensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: SetWidthCentered
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnRectExtensions.cs
+    startLine: 34
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  syntax:
+    content: public static Rect SetWidthCentered(this Rect rect, float width)
+    parameters:
+    - id: rect
+      type: UnityEngine.Rect
+    - id: width
+      type: System.Single
+    return:
+      type: UnityEngine.Rect
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function SetWidthCentered(rect As Rect, width As Single) As Rect
+  overload: UnityEngine.EnRectExtensions.SetWidthCentered*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnRectExtensions.SetHeightCentered(UnityEngine.Rect,System.Single)
+  commentId: M:UnityEngine.EnRectExtensions.SetHeightCentered(UnityEngine.Rect,System.Single)
+  id: SetHeightCentered(UnityEngine.Rect,System.Single)
+  isExtensionMethod: true
+  parent: UnityEngine.EnRectExtensions
+  langs:
+  - csharp
+  - vb
+  name: SetHeightCentered(Rect, Single)
+  nameWithType: EnRectExtensions.SetHeightCentered(Rect, Single)
+  fullName: UnityEngine.EnRectExtensions.SetHeightCentered(UnityEngine.Rect, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnRectExtensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: SetHeightCentered
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnRectExtensions.cs
+    startLine: 38
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  syntax:
+    content: public static Rect SetHeightCentered(this Rect rect, float height)
+    parameters:
+    - id: rect
+      type: UnityEngine.Rect
+    - id: height
+      type: System.Single
+    return:
+      type: UnityEngine.Rect
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function SetHeightCentered(rect As Rect, height As Single) As Rect
+  overload: UnityEngine.EnRectExtensions.SetHeightCentered*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnRectExtensions.SetSize(UnityEngine.Rect,System.Single)
+  commentId: M:UnityEngine.EnRectExtensions.SetSize(UnityEngine.Rect,System.Single)
+  id: SetSize(UnityEngine.Rect,System.Single)
+  isExtensionMethod: true
+  parent: UnityEngine.EnRectExtensions
+  langs:
+  - csharp
+  - vb
+  name: SetSize(Rect, Single)
+  nameWithType: EnRectExtensions.SetSize(Rect, Single)
+  fullName: UnityEngine.EnRectExtensions.SetSize(UnityEngine.Rect, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnRectExtensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: SetSize
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnRectExtensions.cs
+    startLine: 42
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  syntax:
+    content: public static Rect SetSize(this Rect rect, float size)
+    parameters:
+    - id: rect
+      type: UnityEngine.Rect
+    - id: size
+      type: System.Single
+    return:
+      type: UnityEngine.Rect
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function SetSize(rect As Rect, size As Single) As Rect
+  overload: UnityEngine.EnRectExtensions.SetSize*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnRectExtensions.SetSize(UnityEngine.Rect,System.Single,System.Single)
+  commentId: M:UnityEngine.EnRectExtensions.SetSize(UnityEngine.Rect,System.Single,System.Single)
+  id: SetSize(UnityEngine.Rect,System.Single,System.Single)
+  isExtensionMethod: true
+  parent: UnityEngine.EnRectExtensions
+  langs:
+  - csharp
+  - vb
+  name: SetSize(Rect, Single, Single)
+  nameWithType: EnRectExtensions.SetSize(Rect, Single, Single)
+  fullName: UnityEngine.EnRectExtensions.SetSize(UnityEngine.Rect, System.Single, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnRectExtensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: SetSize
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnRectExtensions.cs
+    startLine: 46
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  syntax:
+    content: public static Rect SetSize(this Rect rect, float width, float height)
+    parameters:
+    - id: rect
+      type: UnityEngine.Rect
+    - id: width
+      type: System.Single
+    - id: height
+      type: System.Single
+    return:
+      type: UnityEngine.Rect
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function SetSize(rect As Rect, width As Single, height As Single) As Rect
+  overload: UnityEngine.EnRectExtensions.SetSize*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnRectExtensions.SetSize(UnityEngine.Rect,UnityEngine.Vector2)
+  commentId: M:UnityEngine.EnRectExtensions.SetSize(UnityEngine.Rect,UnityEngine.Vector2)
+  id: SetSize(UnityEngine.Rect,UnityEngine.Vector2)
+  isExtensionMethod: true
+  parent: UnityEngine.EnRectExtensions
+  langs:
+  - csharp
+  - vb
+  name: SetSize(Rect, Vector2)
+  nameWithType: EnRectExtensions.SetSize(Rect, Vector2)
+  fullName: UnityEngine.EnRectExtensions.SetSize(UnityEngine.Rect, UnityEngine.Vector2)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnRectExtensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: SetSize
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnRectExtensions.cs
+    startLine: 50
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  syntax:
+    content: public static Rect SetSize(this Rect rect, Vector2 size)
+    parameters:
+    - id: rect
+      type: UnityEngine.Rect
+    - id: size
+      type: UnityEngine.Vector2
+    return:
+      type: UnityEngine.Rect
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function SetSize(rect As Rect, size As Vector2) As Rect
+  overload: UnityEngine.EnRectExtensions.SetSize*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnRectExtensions.SetSizeCentered(UnityEngine.Rect,System.Single)
+  commentId: M:UnityEngine.EnRectExtensions.SetSizeCentered(UnityEngine.Rect,System.Single)
+  id: SetSizeCentered(UnityEngine.Rect,System.Single)
+  isExtensionMethod: true
+  parent: UnityEngine.EnRectExtensions
+  langs:
+  - csharp
+  - vb
+  name: SetSizeCentered(Rect, Single)
+  nameWithType: EnRectExtensions.SetSizeCentered(Rect, Single)
+  fullName: UnityEngine.EnRectExtensions.SetSizeCentered(UnityEngine.Rect, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnRectExtensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: SetSizeCentered
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnRectExtensions.cs
+    startLine: 54
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  syntax:
+    content: public static Rect SetSizeCentered(this Rect rect, float size)
+    parameters:
+    - id: rect
+      type: UnityEngine.Rect
+    - id: size
+      type: System.Single
+    return:
+      type: UnityEngine.Rect
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function SetSizeCentered(rect As Rect, size As Single) As Rect
+  overload: UnityEngine.EnRectExtensions.SetSizeCentered*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnRectExtensions.SetSizeCentered(UnityEngine.Rect,System.Single,System.Single)
+  commentId: M:UnityEngine.EnRectExtensions.SetSizeCentered(UnityEngine.Rect,System.Single,System.Single)
+  id: SetSizeCentered(UnityEngine.Rect,System.Single,System.Single)
+  isExtensionMethod: true
+  parent: UnityEngine.EnRectExtensions
+  langs:
+  - csharp
+  - vb
+  name: SetSizeCentered(Rect, Single, Single)
+  nameWithType: EnRectExtensions.SetSizeCentered(Rect, Single, Single)
+  fullName: UnityEngine.EnRectExtensions.SetSizeCentered(UnityEngine.Rect, System.Single, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnRectExtensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: SetSizeCentered
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnRectExtensions.cs
+    startLine: 58
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  syntax:
+    content: public static Rect SetSizeCentered(this Rect rect, float width, float height)
+    parameters:
+    - id: rect
+      type: UnityEngine.Rect
+    - id: width
+      type: System.Single
+    - id: height
+      type: System.Single
+    return:
+      type: UnityEngine.Rect
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function SetSizeCentered(rect As Rect, width As Single, height As Single) As Rect
+  overload: UnityEngine.EnRectExtensions.SetSizeCentered*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnRectExtensions.SetSizeCentered(UnityEngine.Rect,UnityEngine.Vector2)
+  commentId: M:UnityEngine.EnRectExtensions.SetSizeCentered(UnityEngine.Rect,UnityEngine.Vector2)
+  id: SetSizeCentered(UnityEngine.Rect,UnityEngine.Vector2)
+  isExtensionMethod: true
+  parent: UnityEngine.EnRectExtensions
+  langs:
+  - csharp
+  - vb
+  name: SetSizeCentered(Rect, Vector2)
+  nameWithType: EnRectExtensions.SetSizeCentered(Rect, Vector2)
+  fullName: UnityEngine.EnRectExtensions.SetSizeCentered(UnityEngine.Rect, UnityEngine.Vector2)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnRectExtensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: SetSizeCentered
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnRectExtensions.cs
+    startLine: 62
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  syntax:
+    content: public static Rect SetSizeCentered(this Rect rect, Vector2 size)
+    parameters:
+    - id: rect
+      type: UnityEngine.Rect
+    - id: size
+      type: UnityEngine.Vector2
+    return:
+      type: UnityEngine.Rect
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function SetSizeCentered(rect As Rect, size As Vector2) As Rect
+  overload: UnityEngine.EnRectExtensions.SetSizeCentered*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnRectExtensions.SetPosition(UnityEngine.Rect,UnityEngine.Vector2)
+  commentId: M:UnityEngine.EnRectExtensions.SetPosition(UnityEngine.Rect,UnityEngine.Vector2)
+  id: SetPosition(UnityEngine.Rect,UnityEngine.Vector2)
+  isExtensionMethod: true
+  parent: UnityEngine.EnRectExtensions
+  langs:
+  - csharp
+  - vb
+  name: SetPosition(Rect, Vector2)
+  nameWithType: EnRectExtensions.SetPosition(Rect, Vector2)
+  fullName: UnityEngine.EnRectExtensions.SetPosition(UnityEngine.Rect, UnityEngine.Vector2)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnRectExtensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: SetPosition
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnRectExtensions.cs
+    startLine: 68
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  syntax:
+    content: public static Rect SetPosition(this Rect rect, Vector2 position)
+    parameters:
+    - id: rect
+      type: UnityEngine.Rect
+    - id: position
+      type: UnityEngine.Vector2
+    return:
+      type: UnityEngine.Rect
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function SetPosition(rect As Rect, position As Vector2) As Rect
+  overload: UnityEngine.EnRectExtensions.SetPosition*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnRectExtensions.SetPosition(UnityEngine.Rect,System.Single,System.Single)
+  commentId: M:UnityEngine.EnRectExtensions.SetPosition(UnityEngine.Rect,System.Single,System.Single)
+  id: SetPosition(UnityEngine.Rect,System.Single,System.Single)
+  isExtensionMethod: true
+  parent: UnityEngine.EnRectExtensions
+  langs:
+  - csharp
+  - vb
+  name: SetPosition(Rect, Single, Single)
+  nameWithType: EnRectExtensions.SetPosition(Rect, Single, Single)
+  fullName: UnityEngine.EnRectExtensions.SetPosition(UnityEngine.Rect, System.Single, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnRectExtensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: SetPosition
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnRectExtensions.cs
+    startLine: 72
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  syntax:
+    content: public static Rect SetPosition(this Rect rect, float x, float y)
+    parameters:
+    - id: rect
+      type: UnityEngine.Rect
+    - id: x
+      type: System.Single
+    - id: y
+      type: System.Single
+    return:
+      type: UnityEngine.Rect
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function SetPosition(rect As Rect, x As Single, y As Single) As Rect
+  overload: UnityEngine.EnRectExtensions.SetPosition*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnRectExtensions.SetX(UnityEngine.Rect,System.Single)
+  commentId: M:UnityEngine.EnRectExtensions.SetX(UnityEngine.Rect,System.Single)
+  id: SetX(UnityEngine.Rect,System.Single)
+  isExtensionMethod: true
+  parent: UnityEngine.EnRectExtensions
+  langs:
+  - csharp
+  - vb
+  name: SetX(Rect, Single)
+  nameWithType: EnRectExtensions.SetX(Rect, Single)
+  fullName: UnityEngine.EnRectExtensions.SetX(UnityEngine.Rect, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnRectExtensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: SetX
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnRectExtensions.cs
+    startLine: 76
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  syntax:
+    content: public static Rect SetX(this Rect rect, float x)
+    parameters:
+    - id: rect
+      type: UnityEngine.Rect
+    - id: x
+      type: System.Single
+    return:
+      type: UnityEngine.Rect
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function SetX(rect As Rect, x As Single) As Rect
+  overload: UnityEngine.EnRectExtensions.SetX*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnRectExtensions.SetY(UnityEngine.Rect,System.Single)
+  commentId: M:UnityEngine.EnRectExtensions.SetY(UnityEngine.Rect,System.Single)
+  id: SetY(UnityEngine.Rect,System.Single)
+  isExtensionMethod: true
+  parent: UnityEngine.EnRectExtensions
+  langs:
+  - csharp
+  - vb
+  name: SetY(Rect, Single)
+  nameWithType: EnRectExtensions.SetY(Rect, Single)
+  fullName: UnityEngine.EnRectExtensions.SetY(UnityEngine.Rect, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnRectExtensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: SetY
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnRectExtensions.cs
+    startLine: 80
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  syntax:
+    content: public static Rect SetY(this Rect rect, float y)
+    parameters:
+    - id: rect
+      type: UnityEngine.Rect
+    - id: y
+      type: System.Single
+    return:
+      type: UnityEngine.Rect
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function SetY(rect As Rect, y As Single) As Rect
+  overload: UnityEngine.EnRectExtensions.SetY*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnRectExtensions.Recenter(UnityEngine.Rect,UnityEngine.Vector2)
+  commentId: M:UnityEngine.EnRectExtensions.Recenter(UnityEngine.Rect,UnityEngine.Vector2)
+  id: Recenter(UnityEngine.Rect,UnityEngine.Vector2)
+  isExtensionMethod: true
+  parent: UnityEngine.EnRectExtensions
+  langs:
+  - csharp
+  - vb
+  name: Recenter(Rect, Vector2)
+  nameWithType: EnRectExtensions.Recenter(Rect, Vector2)
+  fullName: UnityEngine.EnRectExtensions.Recenter(UnityEngine.Rect, UnityEngine.Vector2)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnRectExtensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: Recenter
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnRectExtensions.cs
+    startLine: 84
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  syntax:
+    content: public static Rect Recenter(this Rect rect, Vector2 center)
+    parameters:
+    - id: rect
+      type: UnityEngine.Rect
+    - id: center
+      type: UnityEngine.Vector2
+    return:
+      type: UnityEngine.Rect
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function Recenter(rect As Rect, center As Vector2) As Rect
+  overload: UnityEngine.EnRectExtensions.Recenter*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnRectExtensions.Recenter(UnityEngine.Rect,System.Single,System.Single)
+  commentId: M:UnityEngine.EnRectExtensions.Recenter(UnityEngine.Rect,System.Single,System.Single)
+  id: Recenter(UnityEngine.Rect,System.Single,System.Single)
+  isExtensionMethod: true
+  parent: UnityEngine.EnRectExtensions
+  langs:
+  - csharp
+  - vb
+  name: Recenter(Rect, Single, Single)
+  nameWithType: EnRectExtensions.Recenter(Rect, Single, Single)
+  fullName: UnityEngine.EnRectExtensions.Recenter(UnityEngine.Rect, System.Single, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnRectExtensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: Recenter
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnRectExtensions.cs
+    startLine: 88
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  syntax:
+    content: public static Rect Recenter(this Rect rect, float x, float y)
+    parameters:
+    - id: rect
+      type: UnityEngine.Rect
+    - id: x
+      type: System.Single
+    - id: y
+      type: System.Single
+    return:
+      type: UnityEngine.Rect
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function Recenter(rect As Rect, x As Single, y As Single) As Rect
+  overload: UnityEngine.EnRectExtensions.Recenter*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnRectExtensions.RecenterX(UnityEngine.Rect,System.Single)
+  commentId: M:UnityEngine.EnRectExtensions.RecenterX(UnityEngine.Rect,System.Single)
+  id: RecenterX(UnityEngine.Rect,System.Single)
+  isExtensionMethod: true
+  parent: UnityEngine.EnRectExtensions
+  langs:
+  - csharp
+  - vb
+  name: RecenterX(Rect, Single)
+  nameWithType: EnRectExtensions.RecenterX(Rect, Single)
+  fullName: UnityEngine.EnRectExtensions.RecenterX(UnityEngine.Rect, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnRectExtensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: RecenterX
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnRectExtensions.cs
+    startLine: 92
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  syntax:
+    content: public static Rect RecenterX(this Rect rect, float x)
+    parameters:
+    - id: rect
+      type: UnityEngine.Rect
+    - id: x
+      type: System.Single
+    return:
+      type: UnityEngine.Rect
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function RecenterX(rect As Rect, x As Single) As Rect
+  overload: UnityEngine.EnRectExtensions.RecenterX*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnRectExtensions.RecenterY(UnityEngine.Rect,System.Single)
+  commentId: M:UnityEngine.EnRectExtensions.RecenterY(UnityEngine.Rect,System.Single)
+  id: RecenterY(UnityEngine.Rect,System.Single)
+  isExtensionMethod: true
+  parent: UnityEngine.EnRectExtensions
+  langs:
+  - csharp
+  - vb
+  name: RecenterY(Rect, Single)
+  nameWithType: EnRectExtensions.RecenterY(Rect, Single)
+  fullName: UnityEngine.EnRectExtensions.RecenterY(UnityEngine.Rect, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnRectExtensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: RecenterY
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnRectExtensions.cs
+    startLine: 96
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  syntax:
+    content: public static Rect RecenterY(this Rect rect, float y)
+    parameters:
+    - id: rect
+      type: UnityEngine.Rect
+    - id: y
+      type: System.Single
+    return:
+      type: UnityEngine.Rect
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function RecenterY(rect As Rect, y As Single) As Rect
+  overload: UnityEngine.EnRectExtensions.RecenterY*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnRectExtensions.DisplaceX(UnityEngine.Rect,System.Single)
+  commentId: M:UnityEngine.EnRectExtensions.DisplaceX(UnityEngine.Rect,System.Single)
+  id: DisplaceX(UnityEngine.Rect,System.Single)
+  isExtensionMethod: true
+  parent: UnityEngine.EnRectExtensions
+  langs:
+  - csharp
+  - vb
+  name: DisplaceX(Rect, Single)
+  nameWithType: EnRectExtensions.DisplaceX(Rect, Single)
+  fullName: UnityEngine.EnRectExtensions.DisplaceX(UnityEngine.Rect, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnRectExtensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: DisplaceX
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnRectExtensions.cs
+    startLine: 100
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  syntax:
+    content: public static Rect DisplaceX(this Rect rect, float x)
+    parameters:
+    - id: rect
+      type: UnityEngine.Rect
+    - id: x
+      type: System.Single
+    return:
+      type: UnityEngine.Rect
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function DisplaceX(rect As Rect, x As Single) As Rect
+  overload: UnityEngine.EnRectExtensions.DisplaceX*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnRectExtensions.DisplaceY(UnityEngine.Rect,System.Single)
+  commentId: M:UnityEngine.EnRectExtensions.DisplaceY(UnityEngine.Rect,System.Single)
+  id: DisplaceY(UnityEngine.Rect,System.Single)
+  isExtensionMethod: true
+  parent: UnityEngine.EnRectExtensions
+  langs:
+  - csharp
+  - vb
+  name: DisplaceY(Rect, Single)
+  nameWithType: EnRectExtensions.DisplaceY(Rect, Single)
+  fullName: UnityEngine.EnRectExtensions.DisplaceY(UnityEngine.Rect, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnRectExtensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: DisplaceY
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnRectExtensions.cs
+    startLine: 104
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  syntax:
+    content: public static Rect DisplaceY(this Rect rect, float y)
+    parameters:
+    - id: rect
+      type: UnityEngine.Rect
+    - id: y
+      type: System.Single
+    return:
+      type: UnityEngine.Rect
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function DisplaceY(rect As Rect, y As Single) As Rect
+  overload: UnityEngine.EnRectExtensions.DisplaceY*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnRectExtensions.Displace(UnityEngine.Rect,System.Single,System.Single)
+  commentId: M:UnityEngine.EnRectExtensions.Displace(UnityEngine.Rect,System.Single,System.Single)
+  id: Displace(UnityEngine.Rect,System.Single,System.Single)
+  isExtensionMethod: true
+  parent: UnityEngine.EnRectExtensions
+  langs:
+  - csharp
+  - vb
+  name: Displace(Rect, Single, Single)
+  nameWithType: EnRectExtensions.Displace(Rect, Single, Single)
+  fullName: UnityEngine.EnRectExtensions.Displace(UnityEngine.Rect, System.Single, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnRectExtensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: Displace
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnRectExtensions.cs
+    startLine: 108
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  syntax:
+    content: public static Rect Displace(this Rect rect, float x, float y)
+    parameters:
+    - id: rect
+      type: UnityEngine.Rect
+    - id: x
+      type: System.Single
+    - id: y
+      type: System.Single
+    return:
+      type: UnityEngine.Rect
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function Displace(rect As Rect, x As Single, y As Single) As Rect
+  overload: UnityEngine.EnRectExtensions.Displace*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnRectExtensions.Displace(UnityEngine.Rect,UnityEngine.Vector2)
+  commentId: M:UnityEngine.EnRectExtensions.Displace(UnityEngine.Rect,UnityEngine.Vector2)
+  id: Displace(UnityEngine.Rect,UnityEngine.Vector2)
+  isExtensionMethod: true
+  parent: UnityEngine.EnRectExtensions
+  langs:
+  - csharp
+  - vb
+  name: Displace(Rect, Vector2)
+  nameWithType: EnRectExtensions.Displace(Rect, Vector2)
+  fullName: UnityEngine.EnRectExtensions.Displace(UnityEngine.Rect, UnityEngine.Vector2)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnRectExtensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: Displace
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnRectExtensions.cs
+    startLine: 112
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  syntax:
+    content: public static Rect Displace(this Rect rect, Vector2 displacement)
+    parameters:
+    - id: rect
+      type: UnityEngine.Rect
+    - id: displacement
+      type: UnityEngine.Vector2
+    return:
+      type: UnityEngine.Rect
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function Displace(rect As Rect, displacement As Vector2) As Rect
+  overload: UnityEngine.EnRectExtensions.Displace*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnRectExtensions.SplitRight(UnityEngine.Rect,System.Single,UnityEngine.Rect@)
+  commentId: M:UnityEngine.EnRectExtensions.SplitRight(UnityEngine.Rect,System.Single,UnityEngine.Rect@)
+  id: SplitRight(UnityEngine.Rect,System.Single,UnityEngine.Rect@)
+  isExtensionMethod: true
+  parent: UnityEngine.EnRectExtensions
+  langs:
+  - csharp
+  - vb
+  name: SplitRight(Rect, Single, out Rect)
+  nameWithType: EnRectExtensions.SplitRight(Rect, Single, out Rect)
+  fullName: UnityEngine.EnRectExtensions.SplitRight(UnityEngine.Rect, System.Single, out UnityEngine.Rect)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnRectExtensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: SplitRight
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnRectExtensions.cs
+    startLine: 125
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  summary: "\nSplit a Rect by insetting from the right edge.\n"
+  example: []
+  syntax:
+    content: public static Rect SplitRight(this Rect rect, float inset, out Rect result)
+    parameters:
+    - id: rect
+      type: UnityEngine.Rect
+      description: Rect to split.
+    - id: inset
+      type: System.Single
+      description: Inset width.
+    - id: result
+      type: UnityEngine.Rect
+      description: Inset Rect.
+    return:
+      type: UnityEngine.Rect
+      description: ''
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function SplitRight(rect As Rect, inset As Single, ByRef result As Rect) As Rect
+  overload: UnityEngine.EnRectExtensions.SplitRight*
+  nameWithType.vb: EnRectExtensions.SplitRight(Rect, Single, ByRef Rect)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: UnityEngine.EnRectExtensions.SplitRight(UnityEngine.Rect, System.Single, ByRef UnityEngine.Rect)
+  name.vb: SplitRight(Rect, Single, ByRef Rect)
+- uid: UnityEngine.EnRectExtensions.SplitLeft(UnityEngine.Rect,System.Single,UnityEngine.Rect@)
+  commentId: M:UnityEngine.EnRectExtensions.SplitLeft(UnityEngine.Rect,System.Single,UnityEngine.Rect@)
+  id: SplitLeft(UnityEngine.Rect,System.Single,UnityEngine.Rect@)
+  isExtensionMethod: true
+  parent: UnityEngine.EnRectExtensions
+  langs:
+  - csharp
+  - vb
+  name: SplitLeft(Rect, Single, out Rect)
+  nameWithType: EnRectExtensions.SplitLeft(Rect, Single, out Rect)
+  fullName: UnityEngine.EnRectExtensions.SplitLeft(UnityEngine.Rect, System.Single, out UnityEngine.Rect)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnRectExtensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: SplitLeft
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnRectExtensions.cs
+    startLine: 138
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  summary: "\nSplit a Rect by insetting from the left edge.\n"
+  example: []
+  syntax:
+    content: public static Rect SplitLeft(this Rect rect, float inset, out Rect result)
+    parameters:
+    - id: rect
+      type: UnityEngine.Rect
+      description: Rect to split.
+    - id: inset
+      type: System.Single
+      description: Inset width.
+    - id: result
+      type: UnityEngine.Rect
+      description: Inset Rect.
+    return:
+      type: UnityEngine.Rect
+      description: ''
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function SplitLeft(rect As Rect, inset As Single, ByRef result As Rect) As Rect
+  overload: UnityEngine.EnRectExtensions.SplitLeft*
+  nameWithType.vb: EnRectExtensions.SplitLeft(Rect, Single, ByRef Rect)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: UnityEngine.EnRectExtensions.SplitLeft(UnityEngine.Rect, System.Single, ByRef UnityEngine.Rect)
+  name.vb: SplitLeft(Rect, Single, ByRef Rect)
+- uid: UnityEngine.EnRectExtensions.SplitBottom(UnityEngine.Rect,System.Single,UnityEngine.Rect@)
+  commentId: M:UnityEngine.EnRectExtensions.SplitBottom(UnityEngine.Rect,System.Single,UnityEngine.Rect@)
+  id: SplitBottom(UnityEngine.Rect,System.Single,UnityEngine.Rect@)
+  isExtensionMethod: true
+  parent: UnityEngine.EnRectExtensions
+  langs:
+  - csharp
+  - vb
+  name: SplitBottom(Rect, Single, out Rect)
+  nameWithType: EnRectExtensions.SplitBottom(Rect, Single, out Rect)
+  fullName: UnityEngine.EnRectExtensions.SplitBottom(UnityEngine.Rect, System.Single, out UnityEngine.Rect)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnRectExtensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: SplitBottom
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnRectExtensions.cs
+    startLine: 151
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  summary: "\nSplit a Rect by insetting from the bottom edge.\n"
+  example: []
+  syntax:
+    content: public static Rect SplitBottom(this Rect rect, float inset, out Rect result)
+    parameters:
+    - id: rect
+      type: UnityEngine.Rect
+      description: Rect to split.
+    - id: inset
+      type: System.Single
+      description: Inset height.
+    - id: result
+      type: UnityEngine.Rect
+      description: Inset Rect.
+    return:
+      type: UnityEngine.Rect
+      description: ''
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function SplitBottom(rect As Rect, inset As Single, ByRef result As Rect) As Rect
+  overload: UnityEngine.EnRectExtensions.SplitBottom*
+  nameWithType.vb: EnRectExtensions.SplitBottom(Rect, Single, ByRef Rect)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: UnityEngine.EnRectExtensions.SplitBottom(UnityEngine.Rect, System.Single, ByRef UnityEngine.Rect)
+  name.vb: SplitBottom(Rect, Single, ByRef Rect)
+- uid: UnityEngine.EnRectExtensions.SplitTop(UnityEngine.Rect,System.Single,UnityEngine.Rect@)
+  commentId: M:UnityEngine.EnRectExtensions.SplitTop(UnityEngine.Rect,System.Single,UnityEngine.Rect@)
+  id: SplitTop(UnityEngine.Rect,System.Single,UnityEngine.Rect@)
+  isExtensionMethod: true
+  parent: UnityEngine.EnRectExtensions
+  langs:
+  - csharp
+  - vb
+  name: SplitTop(Rect, Single, out Rect)
+  nameWithType: EnRectExtensions.SplitTop(Rect, Single, out Rect)
+  fullName: UnityEngine.EnRectExtensions.SplitTop(UnityEngine.Rect, System.Single, out UnityEngine.Rect)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnRectExtensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: SplitTop
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnRectExtensions.cs
+    startLine: 164
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  summary: "\nSplit a Rect by insetting from the top edge.\n"
+  example: []
+  syntax:
+    content: public static Rect SplitTop(this Rect rect, float inset, out Rect result)
+    parameters:
+    - id: rect
+      type: UnityEngine.Rect
+      description: Rect to split.
+    - id: inset
+      type: System.Single
+      description: Inset height.
+    - id: result
+      type: UnityEngine.Rect
+      description: Inset Rect.
+    return:
+      type: UnityEngine.Rect
+      description: ''
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function SplitTop(rect As Rect, inset As Single, ByRef result As Rect) As Rect
+  overload: UnityEngine.EnRectExtensions.SplitTop*
+  nameWithType.vb: EnRectExtensions.SplitTop(Rect, Single, ByRef Rect)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: UnityEngine.EnRectExtensions.SplitTop(UnityEngine.Rect, System.Single, ByRef UnityEngine.Rect)
+  name.vb: SplitTop(Rect, Single, ByRef Rect)
+- uid: UnityEngine.EnRectExtensions.Pad(UnityEngine.Rect,System.Single)
+  commentId: M:UnityEngine.EnRectExtensions.Pad(UnityEngine.Rect,System.Single)
+  id: Pad(UnityEngine.Rect,System.Single)
+  isExtensionMethod: true
+  parent: UnityEngine.EnRectExtensions
+  langs:
+  - csharp
+  - vb
+  name: Pad(Rect, Single)
+  nameWithType: EnRectExtensions.Pad(Rect, Single)
+  fullName: UnityEngine.EnRectExtensions.Pad(UnityEngine.Rect, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnRectExtensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: Pad
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnRectExtensions.cs
+    startLine: 178
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  summary: "\nPad a Rect from all sides.\n"
+  example: []
+  syntax:
+    content: public static Rect Pad(this Rect rect, float padding)
+    parameters:
+    - id: rect
+      type: UnityEngine.Rect
+      description: Rect to pad.
+    - id: padding
+      type: System.Single
+      description: Amount to pad.
+    return:
+      type: UnityEngine.Rect
+      description: Padded Rect.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function Pad(rect As Rect, padding As Single) As Rect
+  overload: UnityEngine.EnRectExtensions.Pad*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnRectExtensions.PadLeft(UnityEngine.Rect,System.Single)
+  commentId: M:UnityEngine.EnRectExtensions.PadLeft(UnityEngine.Rect,System.Single)
+  id: PadLeft(UnityEngine.Rect,System.Single)
+  isExtensionMethod: true
+  parent: UnityEngine.EnRectExtensions
+  langs:
+  - csharp
+  - vb
+  name: PadLeft(Rect, Single)
+  nameWithType: EnRectExtensions.PadLeft(Rect, Single)
+  fullName: UnityEngine.EnRectExtensions.PadLeft(UnityEngine.Rect, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnRectExtensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: PadLeft
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnRectExtensions.cs
+    startLine: 188
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  summary: "\nPad a Rect from its left edge.\n"
+  example: []
+  syntax:
+    content: public static Rect PadLeft(this Rect rect, float padding)
+    parameters:
+    - id: rect
+      type: UnityEngine.Rect
+      description: Rect to pad.
+    - id: padding
+      type: System.Single
+      description: Amount to pad.
+    return:
+      type: UnityEngine.Rect
+      description: Padded Rect.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function PadLeft(rect As Rect, padding As Single) As Rect
+  overload: UnityEngine.EnRectExtensions.PadLeft*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnRectExtensions.PadRight(UnityEngine.Rect,System.Single)
+  commentId: M:UnityEngine.EnRectExtensions.PadRight(UnityEngine.Rect,System.Single)
+  id: PadRight(UnityEngine.Rect,System.Single)
+  isExtensionMethod: true
+  parent: UnityEngine.EnRectExtensions
+  langs:
+  - csharp
+  - vb
+  name: PadRight(Rect, Single)
+  nameWithType: EnRectExtensions.PadRight(Rect, Single)
+  fullName: UnityEngine.EnRectExtensions.PadRight(UnityEngine.Rect, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnRectExtensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: PadRight
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnRectExtensions.cs
+    startLine: 198
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  summary: "\nPad a Rect from its right edge.\n"
+  example: []
+  syntax:
+    content: public static Rect PadRight(this Rect rect, float padding)
+    parameters:
+    - id: rect
+      type: UnityEngine.Rect
+      description: Rect to pad.
+    - id: padding
+      type: System.Single
+      description: Amount to pad.
+    return:
+      type: UnityEngine.Rect
+      description: Padded Rect.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function PadRight(rect As Rect, padding As Single) As Rect
+  overload: UnityEngine.EnRectExtensions.PadRight*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnRectExtensions.PadTop(UnityEngine.Rect,System.Single)
+  commentId: M:UnityEngine.EnRectExtensions.PadTop(UnityEngine.Rect,System.Single)
+  id: PadTop(UnityEngine.Rect,System.Single)
+  isExtensionMethod: true
+  parent: UnityEngine.EnRectExtensions
+  langs:
+  - csharp
+  - vb
+  name: PadTop(Rect, Single)
+  nameWithType: EnRectExtensions.PadTop(Rect, Single)
+  fullName: UnityEngine.EnRectExtensions.PadTop(UnityEngine.Rect, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnRectExtensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: PadTop
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnRectExtensions.cs
+    startLine: 208
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  summary: "\nPad a Rect from its top edge.\n"
+  example: []
+  syntax:
+    content: public static Rect PadTop(this Rect rect, float padding)
+    parameters:
+    - id: rect
+      type: UnityEngine.Rect
+      description: Rect to pad.
+    - id: padding
+      type: System.Single
+      description: Amount to pad.
+    return:
+      type: UnityEngine.Rect
+      description: Padded Rect.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function PadTop(rect As Rect, padding As Single) As Rect
+  overload: UnityEngine.EnRectExtensions.PadTop*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnRectExtensions.PadBottom(UnityEngine.Rect,System.Single)
+  commentId: M:UnityEngine.EnRectExtensions.PadBottom(UnityEngine.Rect,System.Single)
+  id: PadBottom(UnityEngine.Rect,System.Single)
+  isExtensionMethod: true
+  parent: UnityEngine.EnRectExtensions
+  langs:
+  - csharp
+  - vb
+  name: PadBottom(Rect, Single)
+  nameWithType: EnRectExtensions.PadBottom(Rect, Single)
+  fullName: UnityEngine.EnRectExtensions.PadBottom(UnityEngine.Rect, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnRectExtensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: PadBottom
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnRectExtensions.cs
+    startLine: 218
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  summary: "\nPad a Rect from its bottom edge.\n"
+  example: []
+  syntax:
+    content: public static Rect PadBottom(this Rect rect, float padding)
+    parameters:
+    - id: rect
+      type: UnityEngine.Rect
+      description: Rect to pad.
+    - id: padding
+      type: System.Single
+      description: Amount to pad.
+    return:
+      type: UnityEngine.Rect
+      description: Padded Rect.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function PadBottom(rect As Rect, padding As Single) As Rect
+  overload: UnityEngine.EnRectExtensions.PadBottom*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnRectExtensions.PadHorizontal(UnityEngine.Rect,System.Single)
+  commentId: M:UnityEngine.EnRectExtensions.PadHorizontal(UnityEngine.Rect,System.Single)
+  id: PadHorizontal(UnityEngine.Rect,System.Single)
+  isExtensionMethod: true
+  parent: UnityEngine.EnRectExtensions
+  langs:
+  - csharp
+  - vb
+  name: PadHorizontal(Rect, Single)
+  nameWithType: EnRectExtensions.PadHorizontal(Rect, Single)
+  fullName: UnityEngine.EnRectExtensions.PadHorizontal(UnityEngine.Rect, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnRectExtensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: PadHorizontal
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnRectExtensions.cs
+    startLine: 228
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  summary: "\nPad a Rect from its left and right edges.\n"
+  example: []
+  syntax:
+    content: public static Rect PadHorizontal(this Rect rect, float padding)
+    parameters:
+    - id: rect
+      type: UnityEngine.Rect
+      description: Rect to pad.
+    - id: padding
+      type: System.Single
+      description: Amount to pad.
+    return:
+      type: UnityEngine.Rect
+      description: Padded Rect.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function PadHorizontal(rect As Rect, padding As Single) As Rect
+  overload: UnityEngine.EnRectExtensions.PadHorizontal*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnRectExtensions.PadVertical(UnityEngine.Rect,System.Single)
+  commentId: M:UnityEngine.EnRectExtensions.PadVertical(UnityEngine.Rect,System.Single)
+  id: PadVertical(UnityEngine.Rect,System.Single)
+  isExtensionMethod: true
+  parent: UnityEngine.EnRectExtensions
+  langs:
+  - csharp
+  - vb
+  name: PadVertical(Rect, Single)
+  nameWithType: EnRectExtensions.PadVertical(Rect, Single)
+  fullName: UnityEngine.EnRectExtensions.PadVertical(UnityEngine.Rect, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnRectExtensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: PadVertical
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnRectExtensions.cs
+    startLine: 238
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  summary: "\nPad a Rect from its top and bottom edges.\n"
+  example: []
+  syntax:
+    content: public static Rect PadVertical(this Rect rect, float padding)
+    parameters:
+    - id: rect
+      type: UnityEngine.Rect
+      description: Rect to pad.
+    - id: padding
+      type: System.Single
+      description: Amount to pad.
+    return:
+      type: UnityEngine.Rect
+      description: Padded Rect.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function PadVertical(rect As Rect, padding As Single) As Rect
+  overload: UnityEngine.EnRectExtensions.PadVertical*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnRectExtensions.Pad(UnityEngine.Rect,System.Single,System.Single,System.Single,System.Single)
+  commentId: M:UnityEngine.EnRectExtensions.Pad(UnityEngine.Rect,System.Single,System.Single,System.Single,System.Single)
+  id: Pad(UnityEngine.Rect,System.Single,System.Single,System.Single,System.Single)
+  isExtensionMethod: true
+  parent: UnityEngine.EnRectExtensions
+  langs:
+  - csharp
+  - vb
+  name: Pad(Rect, Single, Single, Single, Single)
+  nameWithType: EnRectExtensions.Pad(Rect, Single, Single, Single, Single)
+  fullName: UnityEngine.EnRectExtensions.Pad(UnityEngine.Rect, System.Single, System.Single, System.Single, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnRectExtensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: Pad
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnRectExtensions.cs
+    startLine: 251
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  summary: "\nPad a Rect from its left, right, top, and bottom edges.\n"
+  example: []
+  syntax:
+    content: public static Rect Pad(this Rect rect, float left, float right, float top, float bottom)
+    parameters:
+    - id: rect
+      type: UnityEngine.Rect
+      description: Rect to pad.
+    - id: left
+      type: System.Single
+      description: Amount to pad left edge.
+    - id: right
+      type: System.Single
+      description: Amount to pad left edge.
+    - id: top
+      type: System.Single
+      description: Amount to pad left edge.
+    - id: bottom
+      type: System.Single
+      description: Amount to pad left edge.
+    return:
+      type: UnityEngine.Rect
+      description: Padded Rect.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function Pad(rect As Rect, left As Single, right As Single, top As Single, bottom As Single) As Rect
+  overload: UnityEngine.EnRectExtensions.Pad*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnRectExtensions.StepDown(UnityEngine.Rect,System.Single)
+  commentId: M:UnityEngine.EnRectExtensions.StepDown(UnityEngine.Rect,System.Single)
+  id: StepDown(UnityEngine.Rect,System.Single)
+  isExtensionMethod: true
+  parent: UnityEngine.EnRectExtensions
+  langs:
+  - csharp
+  - vb
+  name: StepDown(Rect, Single)
+  nameWithType: EnRectExtensions.StepDown(Rect, Single)
+  fullName: UnityEngine.EnRectExtensions.StepDown(UnityEngine.Rect, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnRectExtensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: StepDown
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnRectExtensions.cs
+    startLine: 257
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  syntax:
+    content: public static Rect StepDown(this Rect rect, float padding = 0F)
+    parameters:
+    - id: rect
+      type: UnityEngine.Rect
+    - id: padding
+      type: System.Single
+    return:
+      type: UnityEngine.Rect
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function StepDown(rect As Rect, padding As Single = 0F) As Rect
+  overload: UnityEngine.EnRectExtensions.StepDown*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnRectExtensions.StepUp(UnityEngine.Rect,System.Single)
+  commentId: M:UnityEngine.EnRectExtensions.StepUp(UnityEngine.Rect,System.Single)
+  id: StepUp(UnityEngine.Rect,System.Single)
+  isExtensionMethod: true
+  parent: UnityEngine.EnRectExtensions
+  langs:
+  - csharp
+  - vb
+  name: StepUp(Rect, Single)
+  nameWithType: EnRectExtensions.StepUp(Rect, Single)
+  fullName: UnityEngine.EnRectExtensions.StepUp(UnityEngine.Rect, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnRectExtensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: StepUp
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnRectExtensions.cs
+    startLine: 261
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  syntax:
+    content: public static Rect StepUp(this Rect rect, float padding = 0F)
+    parameters:
+    - id: rect
+      type: UnityEngine.Rect
+    - id: padding
+      type: System.Single
+    return:
+      type: UnityEngine.Rect
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function StepUp(rect As Rect, padding As Single = 0F) As Rect
+  overload: UnityEngine.EnRectExtensions.StepUp*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnRectExtensions.StepLeft(UnityEngine.Rect,System.Single)
+  commentId: M:UnityEngine.EnRectExtensions.StepLeft(UnityEngine.Rect,System.Single)
+  id: StepLeft(UnityEngine.Rect,System.Single)
+  isExtensionMethod: true
+  parent: UnityEngine.EnRectExtensions
+  langs:
+  - csharp
+  - vb
+  name: StepLeft(Rect, Single)
+  nameWithType: EnRectExtensions.StepLeft(Rect, Single)
+  fullName: UnityEngine.EnRectExtensions.StepLeft(UnityEngine.Rect, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnRectExtensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: StepLeft
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnRectExtensions.cs
+    startLine: 265
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  syntax:
+    content: public static Rect StepLeft(this Rect rect, float padding = 0F)
+    parameters:
+    - id: rect
+      type: UnityEngine.Rect
+    - id: padding
+      type: System.Single
+    return:
+      type: UnityEngine.Rect
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function StepLeft(rect As Rect, padding As Single = 0F) As Rect
+  overload: UnityEngine.EnRectExtensions.StepLeft*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnRectExtensions.StepRight(UnityEngine.Rect,System.Single)
+  commentId: M:UnityEngine.EnRectExtensions.StepRight(UnityEngine.Rect,System.Single)
+  id: StepRight(UnityEngine.Rect,System.Single)
+  isExtensionMethod: true
+  parent: UnityEngine.EnRectExtensions
+  langs:
+  - csharp
+  - vb
+  name: StepRight(Rect, Single)
+  nameWithType: EnRectExtensions.StepRight(Rect, Single)
+  fullName: UnityEngine.EnRectExtensions.StepRight(UnityEngine.Rect, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnRectExtensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: StepRight
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnRectExtensions.cs
+    startLine: 269
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  syntax:
+    content: public static Rect StepRight(this Rect rect, float padding = 0F)
+    parameters:
+    - id: rect
+      type: UnityEngine.Rect
+    - id: padding
+      type: System.Single
+    return:
+      type: UnityEngine.Rect
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function StepRight(rect As Rect, padding As Single = 0F) As Rect
+  overload: UnityEngine.EnRectExtensions.StepRight*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnRectExtensions.ExtrudeLeft(UnityEngine.Rect,System.Single)
+  commentId: M:UnityEngine.EnRectExtensions.ExtrudeLeft(UnityEngine.Rect,System.Single)
+  id: ExtrudeLeft(UnityEngine.Rect,System.Single)
+  isExtensionMethod: true
+  parent: UnityEngine.EnRectExtensions
+  langs:
+  - csharp
+  - vb
+  name: ExtrudeLeft(Rect, Single)
+  nameWithType: EnRectExtensions.ExtrudeLeft(Rect, Single)
+  fullName: UnityEngine.EnRectExtensions.ExtrudeLeft(UnityEngine.Rect, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnRectExtensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: ExtrudeLeft
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnRectExtensions.cs
+    startLine: 275
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  syntax:
+    content: public static Rect ExtrudeLeft(this Rect rect, float width)
+    parameters:
+    - id: rect
+      type: UnityEngine.Rect
+    - id: width
+      type: System.Single
+    return:
+      type: UnityEngine.Rect
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ExtrudeLeft(rect As Rect, width As Single) As Rect
+  overload: UnityEngine.EnRectExtensions.ExtrudeLeft*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnRectExtensions.ExtrudeRight(UnityEngine.Rect,System.Single)
+  commentId: M:UnityEngine.EnRectExtensions.ExtrudeRight(UnityEngine.Rect,System.Single)
+  id: ExtrudeRight(UnityEngine.Rect,System.Single)
+  isExtensionMethod: true
+  parent: UnityEngine.EnRectExtensions
+  langs:
+  - csharp
+  - vb
+  name: ExtrudeRight(Rect, Single)
+  nameWithType: EnRectExtensions.ExtrudeRight(Rect, Single)
+  fullName: UnityEngine.EnRectExtensions.ExtrudeRight(UnityEngine.Rect, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnRectExtensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: ExtrudeRight
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnRectExtensions.cs
+    startLine: 279
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  syntax:
+    content: public static Rect ExtrudeRight(this Rect rect, float width)
+    parameters:
+    - id: rect
+      type: UnityEngine.Rect
+    - id: width
+      type: System.Single
+    return:
+      type: UnityEngine.Rect
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ExtrudeRight(rect As Rect, width As Single) As Rect
+  overload: UnityEngine.EnRectExtensions.ExtrudeRight*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnRectExtensions.ExtrudeTop(UnityEngine.Rect,System.Single)
+  commentId: M:UnityEngine.EnRectExtensions.ExtrudeTop(UnityEngine.Rect,System.Single)
+  id: ExtrudeTop(UnityEngine.Rect,System.Single)
+  isExtensionMethod: true
+  parent: UnityEngine.EnRectExtensions
+  langs:
+  - csharp
+  - vb
+  name: ExtrudeTop(Rect, Single)
+  nameWithType: EnRectExtensions.ExtrudeTop(Rect, Single)
+  fullName: UnityEngine.EnRectExtensions.ExtrudeTop(UnityEngine.Rect, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnRectExtensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: ExtrudeTop
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnRectExtensions.cs
+    startLine: 283
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  syntax:
+    content: public static Rect ExtrudeTop(this Rect rect, float height)
+    parameters:
+    - id: rect
+      type: UnityEngine.Rect
+    - id: height
+      type: System.Single
+    return:
+      type: UnityEngine.Rect
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ExtrudeTop(rect As Rect, height As Single) As Rect
+  overload: UnityEngine.EnRectExtensions.ExtrudeTop*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnRectExtensions.ExtrudeBottom(UnityEngine.Rect,System.Single)
+  commentId: M:UnityEngine.EnRectExtensions.ExtrudeBottom(UnityEngine.Rect,System.Single)
+  id: ExtrudeBottom(UnityEngine.Rect,System.Single)
+  isExtensionMethod: true
+  parent: UnityEngine.EnRectExtensions
+  langs:
+  - csharp
+  - vb
+  name: ExtrudeBottom(Rect, Single)
+  nameWithType: EnRectExtensions.ExtrudeBottom(Rect, Single)
+  fullName: UnityEngine.EnRectExtensions.ExtrudeBottom(UnityEngine.Rect, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnRectExtensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: ExtrudeBottom
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnRectExtensions.cs
+    startLine: 287
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  syntax:
+    content: public static Rect ExtrudeBottom(this Rect rect, float height)
+    parameters:
+    - id: rect
+      type: UnityEngine.Rect
+    - id: height
+      type: System.Single
+    return:
+      type: UnityEngine.Rect
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ExtrudeBottom(rect As Rect, height As Single) As Rect
+  overload: UnityEngine.EnRectExtensions.ExtrudeBottom*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnRectExtensions.BackfillLeft(UnityEngine.Rect,System.Single)
+  commentId: M:UnityEngine.EnRectExtensions.BackfillLeft(UnityEngine.Rect,System.Single)
+  id: BackfillLeft(UnityEngine.Rect,System.Single)
+  isExtensionMethod: true
+  parent: UnityEngine.EnRectExtensions
+  langs:
+  - csharp
+  - vb
+  name: BackfillLeft(Rect, Single)
+  nameWithType: EnRectExtensions.BackfillLeft(Rect, Single)
+  fullName: UnityEngine.EnRectExtensions.BackfillLeft(UnityEngine.Rect, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnRectExtensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: BackfillLeft
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnRectExtensions.cs
+    startLine: 294
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  syntax:
+    content: public static Rect BackfillLeft(this Rect rect, float width)
+    parameters:
+    - id: rect
+      type: UnityEngine.Rect
+    - id: width
+      type: System.Single
+    return:
+      type: UnityEngine.Rect
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function BackfillLeft(rect As Rect, width As Single) As Rect
+  overload: UnityEngine.EnRectExtensions.BackfillLeft*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnRectExtensions.BackfillRight(UnityEngine.Rect,System.Single)
+  commentId: M:UnityEngine.EnRectExtensions.BackfillRight(UnityEngine.Rect,System.Single)
+  id: BackfillRight(UnityEngine.Rect,System.Single)
+  isExtensionMethod: true
+  parent: UnityEngine.EnRectExtensions
+  langs:
+  - csharp
+  - vb
+  name: BackfillRight(Rect, Single)
+  nameWithType: EnRectExtensions.BackfillRight(Rect, Single)
+  fullName: UnityEngine.EnRectExtensions.BackfillRight(UnityEngine.Rect, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnRectExtensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: BackfillRight
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnRectExtensions.cs
+    startLine: 298
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  syntax:
+    content: public static Rect BackfillRight(this Rect rect, float width)
+    parameters:
+    - id: rect
+      type: UnityEngine.Rect
+    - id: width
+      type: System.Single
+    return:
+      type: UnityEngine.Rect
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function BackfillRight(rect As Rect, width As Single) As Rect
+  overload: UnityEngine.EnRectExtensions.BackfillRight*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnRectExtensions.BackfillTop(UnityEngine.Rect,System.Single)
+  commentId: M:UnityEngine.EnRectExtensions.BackfillTop(UnityEngine.Rect,System.Single)
+  id: BackfillTop(UnityEngine.Rect,System.Single)
+  isExtensionMethod: true
+  parent: UnityEngine.EnRectExtensions
+  langs:
+  - csharp
+  - vb
+  name: BackfillTop(Rect, Single)
+  nameWithType: EnRectExtensions.BackfillTop(Rect, Single)
+  fullName: UnityEngine.EnRectExtensions.BackfillTop(UnityEngine.Rect, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnRectExtensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: BackfillTop
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnRectExtensions.cs
+    startLine: 302
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  syntax:
+    content: public static Rect BackfillTop(this Rect rect, float height)
+    parameters:
+    - id: rect
+      type: UnityEngine.Rect
+    - id: height
+      type: System.Single
+    return:
+      type: UnityEngine.Rect
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function BackfillTop(rect As Rect, height As Single) As Rect
+  overload: UnityEngine.EnRectExtensions.BackfillTop*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnRectExtensions.BackfillBottom(UnityEngine.Rect,System.Single)
+  commentId: M:UnityEngine.EnRectExtensions.BackfillBottom(UnityEngine.Rect,System.Single)
+  id: BackfillBottom(UnityEngine.Rect,System.Single)
+  isExtensionMethod: true
+  parent: UnityEngine.EnRectExtensions
+  langs:
+  - csharp
+  - vb
+  name: BackfillBottom(Rect, Single)
+  nameWithType: EnRectExtensions.BackfillBottom(Rect, Single)
+  fullName: UnityEngine.EnRectExtensions.BackfillBottom(UnityEngine.Rect, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnRectExtensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: BackfillBottom
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnRectExtensions.cs
+    startLine: 306
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  syntax:
+    content: public static Rect BackfillBottom(this Rect rect, float height)
+    parameters:
+    - id: rect
+      type: UnityEngine.Rect
+    - id: height
+      type: System.Single
+    return:
+      type: UnityEngine.Rect
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function BackfillBottom(rect As Rect, height As Single) As Rect
+  overload: UnityEngine.EnRectExtensions.BackfillBottom*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine.EnRectExtensions.ShortestSide*
+  commentId: Overload:UnityEngine.EnRectExtensions.ShortestSide
+  name: ShortestSide
+  nameWithType: EnRectExtensions.ShortestSide
+  fullName: UnityEngine.EnRectExtensions.ShortestSide
+- uid: UnityEngine.Rect
+  commentId: T:UnityEngine.Rect
+  parent: UnityEngine
+  isExternal: true
+  name: Rect
+  nameWithType: Rect
+  fullName: UnityEngine.Rect
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: UnityEngine.EnRectExtensions.LongestSide*
+  commentId: Overload:UnityEngine.EnRectExtensions.LongestSide
+  name: LongestSide
+  nameWithType: EnRectExtensions.LongestSide
+  fullName: UnityEngine.EnRectExtensions.LongestSide
+- uid: UnityEngine.EnRectExtensions.Transform*
+  commentId: Overload:UnityEngine.EnRectExtensions.Transform
+  name: Transform
+  nameWithType: EnRectExtensions.Transform
+  fullName: UnityEngine.EnRectExtensions.Transform
+- uid: UnityEngine.Matrix4x4
+  commentId: T:UnityEngine.Matrix4x4
+  parent: UnityEngine
+  isExternal: true
+  name: Matrix4x4
+  nameWithType: Matrix4x4
+  fullName: UnityEngine.Matrix4x4
+- uid: UnityEngine.EnRectExtensions.SetWidth*
+  commentId: Overload:UnityEngine.EnRectExtensions.SetWidth
+  name: SetWidth
+  nameWithType: EnRectExtensions.SetWidth
+  fullName: UnityEngine.EnRectExtensions.SetWidth
+- uid: UnityEngine.EnRectExtensions.SetHeight*
+  commentId: Overload:UnityEngine.EnRectExtensions.SetHeight
+  name: SetHeight
+  nameWithType: EnRectExtensions.SetHeight
+  fullName: UnityEngine.EnRectExtensions.SetHeight
+- uid: UnityEngine.EnRectExtensions.SetWidthCentered*
+  commentId: Overload:UnityEngine.EnRectExtensions.SetWidthCentered
+  name: SetWidthCentered
+  nameWithType: EnRectExtensions.SetWidthCentered
+  fullName: UnityEngine.EnRectExtensions.SetWidthCentered
+- uid: UnityEngine.EnRectExtensions.SetHeightCentered*
+  commentId: Overload:UnityEngine.EnRectExtensions.SetHeightCentered
+  name: SetHeightCentered
+  nameWithType: EnRectExtensions.SetHeightCentered
+  fullName: UnityEngine.EnRectExtensions.SetHeightCentered
+- uid: UnityEngine.EnRectExtensions.SetSize*
+  commentId: Overload:UnityEngine.EnRectExtensions.SetSize
+  name: SetSize
+  nameWithType: EnRectExtensions.SetSize
+  fullName: UnityEngine.EnRectExtensions.SetSize
+- uid: UnityEngine.Vector2
+  commentId: T:UnityEngine.Vector2
+  parent: UnityEngine
+  isExternal: true
+  name: Vector2
+  nameWithType: Vector2
+  fullName: UnityEngine.Vector2
+- uid: UnityEngine.EnRectExtensions.SetSizeCentered*
+  commentId: Overload:UnityEngine.EnRectExtensions.SetSizeCentered
+  name: SetSizeCentered
+  nameWithType: EnRectExtensions.SetSizeCentered
+  fullName: UnityEngine.EnRectExtensions.SetSizeCentered
+- uid: UnityEngine.EnRectExtensions.SetPosition*
+  commentId: Overload:UnityEngine.EnRectExtensions.SetPosition
+  name: SetPosition
+  nameWithType: EnRectExtensions.SetPosition
+  fullName: UnityEngine.EnRectExtensions.SetPosition
+- uid: UnityEngine.EnRectExtensions.SetX*
+  commentId: Overload:UnityEngine.EnRectExtensions.SetX
+  name: SetX
+  nameWithType: EnRectExtensions.SetX
+  fullName: UnityEngine.EnRectExtensions.SetX
+- uid: UnityEngine.EnRectExtensions.SetY*
+  commentId: Overload:UnityEngine.EnRectExtensions.SetY
+  name: SetY
+  nameWithType: EnRectExtensions.SetY
+  fullName: UnityEngine.EnRectExtensions.SetY
+- uid: UnityEngine.EnRectExtensions.Recenter*
+  commentId: Overload:UnityEngine.EnRectExtensions.Recenter
+  name: Recenter
+  nameWithType: EnRectExtensions.Recenter
+  fullName: UnityEngine.EnRectExtensions.Recenter
+- uid: UnityEngine.EnRectExtensions.RecenterX*
+  commentId: Overload:UnityEngine.EnRectExtensions.RecenterX
+  name: RecenterX
+  nameWithType: EnRectExtensions.RecenterX
+  fullName: UnityEngine.EnRectExtensions.RecenterX
+- uid: UnityEngine.EnRectExtensions.RecenterY*
+  commentId: Overload:UnityEngine.EnRectExtensions.RecenterY
+  name: RecenterY
+  nameWithType: EnRectExtensions.RecenterY
+  fullName: UnityEngine.EnRectExtensions.RecenterY
+- uid: UnityEngine.EnRectExtensions.DisplaceX*
+  commentId: Overload:UnityEngine.EnRectExtensions.DisplaceX
+  name: DisplaceX
+  nameWithType: EnRectExtensions.DisplaceX
+  fullName: UnityEngine.EnRectExtensions.DisplaceX
+- uid: UnityEngine.EnRectExtensions.DisplaceY*
+  commentId: Overload:UnityEngine.EnRectExtensions.DisplaceY
+  name: DisplaceY
+  nameWithType: EnRectExtensions.DisplaceY
+  fullName: UnityEngine.EnRectExtensions.DisplaceY
+- uid: UnityEngine.EnRectExtensions.Displace*
+  commentId: Overload:UnityEngine.EnRectExtensions.Displace
+  name: Displace
+  nameWithType: EnRectExtensions.Displace
+  fullName: UnityEngine.EnRectExtensions.Displace
+- uid: UnityEngine.EnRectExtensions.SplitRight*
+  commentId: Overload:UnityEngine.EnRectExtensions.SplitRight
+  name: SplitRight
+  nameWithType: EnRectExtensions.SplitRight
+  fullName: UnityEngine.EnRectExtensions.SplitRight
+- uid: UnityEngine.EnRectExtensions.SplitLeft*
+  commentId: Overload:UnityEngine.EnRectExtensions.SplitLeft
+  name: SplitLeft
+  nameWithType: EnRectExtensions.SplitLeft
+  fullName: UnityEngine.EnRectExtensions.SplitLeft
+- uid: UnityEngine.EnRectExtensions.SplitBottom*
+  commentId: Overload:UnityEngine.EnRectExtensions.SplitBottom
+  name: SplitBottom
+  nameWithType: EnRectExtensions.SplitBottom
+  fullName: UnityEngine.EnRectExtensions.SplitBottom
+- uid: UnityEngine.EnRectExtensions.SplitTop*
+  commentId: Overload:UnityEngine.EnRectExtensions.SplitTop
+  name: SplitTop
+  nameWithType: EnRectExtensions.SplitTop
+  fullName: UnityEngine.EnRectExtensions.SplitTop
+- uid: UnityEngine.EnRectExtensions.Pad*
+  commentId: Overload:UnityEngine.EnRectExtensions.Pad
+  name: Pad
+  nameWithType: EnRectExtensions.Pad
+  fullName: UnityEngine.EnRectExtensions.Pad
+- uid: UnityEngine.EnRectExtensions.PadLeft*
+  commentId: Overload:UnityEngine.EnRectExtensions.PadLeft
+  name: PadLeft
+  nameWithType: EnRectExtensions.PadLeft
+  fullName: UnityEngine.EnRectExtensions.PadLeft
+- uid: UnityEngine.EnRectExtensions.PadRight*
+  commentId: Overload:UnityEngine.EnRectExtensions.PadRight
+  name: PadRight
+  nameWithType: EnRectExtensions.PadRight
+  fullName: UnityEngine.EnRectExtensions.PadRight
+- uid: UnityEngine.EnRectExtensions.PadTop*
+  commentId: Overload:UnityEngine.EnRectExtensions.PadTop
+  name: PadTop
+  nameWithType: EnRectExtensions.PadTop
+  fullName: UnityEngine.EnRectExtensions.PadTop
+- uid: UnityEngine.EnRectExtensions.PadBottom*
+  commentId: Overload:UnityEngine.EnRectExtensions.PadBottom
+  name: PadBottom
+  nameWithType: EnRectExtensions.PadBottom
+  fullName: UnityEngine.EnRectExtensions.PadBottom
+- uid: UnityEngine.EnRectExtensions.PadHorizontal*
+  commentId: Overload:UnityEngine.EnRectExtensions.PadHorizontal
+  name: PadHorizontal
+  nameWithType: EnRectExtensions.PadHorizontal
+  fullName: UnityEngine.EnRectExtensions.PadHorizontal
+- uid: UnityEngine.EnRectExtensions.PadVertical*
+  commentId: Overload:UnityEngine.EnRectExtensions.PadVertical
+  name: PadVertical
+  nameWithType: EnRectExtensions.PadVertical
+  fullName: UnityEngine.EnRectExtensions.PadVertical
+- uid: UnityEngine.EnRectExtensions.StepDown*
+  commentId: Overload:UnityEngine.EnRectExtensions.StepDown
+  name: StepDown
+  nameWithType: EnRectExtensions.StepDown
+  fullName: UnityEngine.EnRectExtensions.StepDown
+- uid: UnityEngine.EnRectExtensions.StepUp*
+  commentId: Overload:UnityEngine.EnRectExtensions.StepUp
+  name: StepUp
+  nameWithType: EnRectExtensions.StepUp
+  fullName: UnityEngine.EnRectExtensions.StepUp
+- uid: UnityEngine.EnRectExtensions.StepLeft*
+  commentId: Overload:UnityEngine.EnRectExtensions.StepLeft
+  name: StepLeft
+  nameWithType: EnRectExtensions.StepLeft
+  fullName: UnityEngine.EnRectExtensions.StepLeft
+- uid: UnityEngine.EnRectExtensions.StepRight*
+  commentId: Overload:UnityEngine.EnRectExtensions.StepRight
+  name: StepRight
+  nameWithType: EnRectExtensions.StepRight
+  fullName: UnityEngine.EnRectExtensions.StepRight
+- uid: UnityEngine.EnRectExtensions.ExtrudeLeft*
+  commentId: Overload:UnityEngine.EnRectExtensions.ExtrudeLeft
+  name: ExtrudeLeft
+  nameWithType: EnRectExtensions.ExtrudeLeft
+  fullName: UnityEngine.EnRectExtensions.ExtrudeLeft
+- uid: UnityEngine.EnRectExtensions.ExtrudeRight*
+  commentId: Overload:UnityEngine.EnRectExtensions.ExtrudeRight
+  name: ExtrudeRight
+  nameWithType: EnRectExtensions.ExtrudeRight
+  fullName: UnityEngine.EnRectExtensions.ExtrudeRight
+- uid: UnityEngine.EnRectExtensions.ExtrudeTop*
+  commentId: Overload:UnityEngine.EnRectExtensions.ExtrudeTop
+  name: ExtrudeTop
+  nameWithType: EnRectExtensions.ExtrudeTop
+  fullName: UnityEngine.EnRectExtensions.ExtrudeTop
+- uid: UnityEngine.EnRectExtensions.ExtrudeBottom*
+  commentId: Overload:UnityEngine.EnRectExtensions.ExtrudeBottom
+  name: ExtrudeBottom
+  nameWithType: EnRectExtensions.ExtrudeBottom
+  fullName: UnityEngine.EnRectExtensions.ExtrudeBottom
+- uid: UnityEngine.EnRectExtensions.BackfillLeft*
+  commentId: Overload:UnityEngine.EnRectExtensions.BackfillLeft
+  name: BackfillLeft
+  nameWithType: EnRectExtensions.BackfillLeft
+  fullName: UnityEngine.EnRectExtensions.BackfillLeft
+- uid: UnityEngine.EnRectExtensions.BackfillRight*
+  commentId: Overload:UnityEngine.EnRectExtensions.BackfillRight
+  name: BackfillRight
+  nameWithType: EnRectExtensions.BackfillRight
+  fullName: UnityEngine.EnRectExtensions.BackfillRight
+- uid: UnityEngine.EnRectExtensions.BackfillTop*
+  commentId: Overload:UnityEngine.EnRectExtensions.BackfillTop
+  name: BackfillTop
+  nameWithType: EnRectExtensions.BackfillTop
+  fullName: UnityEngine.EnRectExtensions.BackfillTop
+- uid: UnityEngine.EnRectExtensions.BackfillBottom*
+  commentId: Overload:UnityEngine.EnRectExtensions.BackfillBottom
+  name: BackfillBottom
+  nameWithType: EnRectExtensions.BackfillBottom
+  fullName: UnityEngine.EnRectExtensions.BackfillBottom

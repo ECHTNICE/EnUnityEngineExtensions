@@ -1,0 +1,424 @@
+### YamlMime:ManagedReference
+items:
+- uid: UnityEngine.EnApplication
+  commentId: T:UnityEngine.EnApplication
+  id: EnApplication
+  parent: UnityEngine
+  children:
+  - UnityEngine.EnApplication.GetSystemInfoToString
+  - UnityEngine.EnApplication.LogSystemInfo
+  - UnityEngine.EnApplication.OpenUrlWithEscapeUri(System.String)
+  - UnityEngine.EnApplication.SetBackgroundLoadingPriority(UnityEngine.ThreadPriority)
+  - UnityEngine.EnApplication.SetTargetFrameRate(System.Int32)
+  - UnityEngine.EnApplication.SetTargetFrameRate120
+  - UnityEngine.EnApplication.SetTargetFrameRate30
+  - UnityEngine.EnApplication.SetTargetFrameRate60
+  langs:
+  - csharp
+  - vb
+  name: EnApplication
+  nameWithType: EnApplication
+  fullName: UnityEngine.EnApplication
+  type: Class
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnApplication.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: EnApplication
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnApplication.cs
+    startLine: 7
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  syntax:
+    content: public class EnApplication
+    content.vb: Public Class EnApplication
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: UnityEngine.EnApplication.OpenUrlWithEscapeUri(System.String)
+  commentId: M:UnityEngine.EnApplication.OpenUrlWithEscapeUri(System.String)
+  id: OpenUrlWithEscapeUri(System.String)
+  parent: UnityEngine.EnApplication
+  langs:
+  - csharp
+  - vb
+  name: OpenUrlWithEscapeUri(String)
+  nameWithType: EnApplication.OpenUrlWithEscapeUri(String)
+  fullName: UnityEngine.EnApplication.OpenUrlWithEscapeUri(System.String)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnApplication.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: OpenUrlWithEscapeUri
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnApplication.cs
+    startLine: 13
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  summary: "\nOpen browser.\nurl is urlencoded.\n"
+  example: []
+  syntax:
+    content: public static void OpenUrlWithEscapeUri(string url)
+    parameters:
+    - id: url
+      type: System.String
+    content.vb: Public Shared Sub OpenUrlWithEscapeUri(url As String)
+  overload: UnityEngine.EnApplication.OpenUrlWithEscapeUri*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnApplication.SetTargetFrameRate120
+  commentId: M:UnityEngine.EnApplication.SetTargetFrameRate120
+  id: SetTargetFrameRate120
+  parent: UnityEngine.EnApplication
+  langs:
+  - csharp
+  - vb
+  name: SetTargetFrameRate120()
+  nameWithType: EnApplication.SetTargetFrameRate120()
+  fullName: UnityEngine.EnApplication.SetTargetFrameRate120()
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnApplication.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: SetTargetFrameRate120
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnApplication.cs
+    startLine: 20
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  summary: "\nSet 120 target frame rate.\n"
+  example: []
+  syntax:
+    content: public static void SetTargetFrameRate120()
+    content.vb: Public Shared Sub SetTargetFrameRate120
+  overload: UnityEngine.EnApplication.SetTargetFrameRate120*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnApplication.SetTargetFrameRate60
+  commentId: M:UnityEngine.EnApplication.SetTargetFrameRate60
+  id: SetTargetFrameRate60
+  parent: UnityEngine.EnApplication
+  langs:
+  - csharp
+  - vb
+  name: SetTargetFrameRate60()
+  nameWithType: EnApplication.SetTargetFrameRate60()
+  fullName: UnityEngine.EnApplication.SetTargetFrameRate60()
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnApplication.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: SetTargetFrameRate60
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnApplication.cs
+    startLine: 27
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  summary: "\nSet 60 target frame rate.\n"
+  example: []
+  syntax:
+    content: public static void SetTargetFrameRate60()
+    content.vb: Public Shared Sub SetTargetFrameRate60
+  overload: UnityEngine.EnApplication.SetTargetFrameRate60*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnApplication.SetTargetFrameRate30
+  commentId: M:UnityEngine.EnApplication.SetTargetFrameRate30
+  id: SetTargetFrameRate30
+  parent: UnityEngine.EnApplication
+  langs:
+  - csharp
+  - vb
+  name: SetTargetFrameRate30()
+  nameWithType: EnApplication.SetTargetFrameRate30()
+  fullName: UnityEngine.EnApplication.SetTargetFrameRate30()
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnApplication.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: SetTargetFrameRate30
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnApplication.cs
+    startLine: 34
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  summary: "\nSet 30 target frame rate.\n"
+  example: []
+  syntax:
+    content: public static void SetTargetFrameRate30()
+    content.vb: Public Shared Sub SetTargetFrameRate30
+  overload: UnityEngine.EnApplication.SetTargetFrameRate30*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnApplication.SetTargetFrameRate(System.Int32)
+  commentId: M:UnityEngine.EnApplication.SetTargetFrameRate(System.Int32)
+  id: SetTargetFrameRate(System.Int32)
+  parent: UnityEngine.EnApplication
+  langs:
+  - csharp
+  - vb
+  name: SetTargetFrameRate(Int32)
+  nameWithType: EnApplication.SetTargetFrameRate(Int32)
+  fullName: UnityEngine.EnApplication.SetTargetFrameRate(System.Int32)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnApplication.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: SetTargetFrameRate
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnApplication.cs
+    startLine: 42
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  summary: "\nSet target frame rate.\n"
+  example: []
+  syntax:
+    content: public static void SetTargetFrameRate(int frameRate)
+    parameters:
+    - id: frameRate
+      type: System.Int32
+      description: ''
+    content.vb: Public Shared Sub SetTargetFrameRate(frameRate As Integer)
+  overload: UnityEngine.EnApplication.SetTargetFrameRate*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnApplication.SetBackgroundLoadingPriority(UnityEngine.ThreadPriority)
+  commentId: M:UnityEngine.EnApplication.SetBackgroundLoadingPriority(UnityEngine.ThreadPriority)
+  id: SetBackgroundLoadingPriority(UnityEngine.ThreadPriority)
+  parent: UnityEngine.EnApplication
+  langs:
+  - csharp
+  - vb
+  name: SetBackgroundLoadingPriority(ThreadPriority)
+  nameWithType: EnApplication.SetBackgroundLoadingPriority(ThreadPriority)
+  fullName: UnityEngine.EnApplication.SetBackgroundLoadingPriority(UnityEngine.ThreadPriority)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnApplication.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: SetBackgroundLoadingPriority
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnApplication.cs
+    startLine: 56
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  summary: "\n\nLow 2ms\nBelowNormal 4ms\nNormal 10ms\nHigh 50ms\n\n"
+  example: []
+  syntax:
+    content: public static void SetBackgroundLoadingPriority(ThreadPriority threadPriority)
+    parameters:
+    - id: threadPriority
+      type: UnityEngine.ThreadPriority
+      description: ''
+    content.vb: Public Shared Sub SetBackgroundLoadingPriority(threadPriority As ThreadPriority)
+  overload: UnityEngine.EnApplication.SetBackgroundLoadingPriority*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnApplication.LogSystemInfo
+  commentId: M:UnityEngine.EnApplication.LogSystemInfo
+  id: LogSystemInfo
+  parent: UnityEngine.EnApplication
+  langs:
+  - csharp
+  - vb
+  name: LogSystemInfo()
+  nameWithType: EnApplication.LogSystemInfo()
+  fullName: UnityEngine.EnApplication.LogSystemInfo()
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnApplication.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: LogSystemInfo
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnApplication.cs
+    startLine: 65
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  summary: "\nShows a log about the system info.\n"
+  example: []
+  syntax:
+    content: >-
+      [Conditional("UNITY_EDITOR")]
+
+      public static void LogSystemInfo()
+    content.vb: >-
+      <Conditional("UNITY_EDITOR")>
+
+      Public Shared Sub LogSystemInfo
+  overload: UnityEngine.EnApplication.LogSystemInfo*
+  attributes:
+  - type: System.Diagnostics.ConditionalAttribute
+    ctor: System.Diagnostics.ConditionalAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: UNITY_EDITOR
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnApplication.GetSystemInfoToString
+  commentId: P:UnityEngine.EnApplication.GetSystemInfoToString
+  id: GetSystemInfoToString
+  parent: UnityEngine.EnApplication
+  langs:
+  - csharp
+  - vb
+  name: GetSystemInfoToString
+  nameWithType: EnApplication.GetSystemInfoToString
+  fullName: UnityEngine.EnApplication.GetSystemInfoToString
+  type: Property
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnApplication.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: GetSystemInfoToString
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnApplication.cs
+    startLine: 74
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  summary: "\nSystem info list to String.\n"
+  example: []
+  syntax:
+    content: public static string GetSystemInfoToString { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property GetSystemInfoToString As String
+  overload: UnityEngine.EnApplication.GetSystemInfoToString*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+references:
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine.EnApplication.OpenUrlWithEscapeUri*
+  commentId: Overload:UnityEngine.EnApplication.OpenUrlWithEscapeUri
+  name: OpenUrlWithEscapeUri
+  nameWithType: EnApplication.OpenUrlWithEscapeUri
+  fullName: UnityEngine.EnApplication.OpenUrlWithEscapeUri
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: UnityEngine.EnApplication.SetTargetFrameRate120*
+  commentId: Overload:UnityEngine.EnApplication.SetTargetFrameRate120
+  name: SetTargetFrameRate120
+  nameWithType: EnApplication.SetTargetFrameRate120
+  fullName: UnityEngine.EnApplication.SetTargetFrameRate120
+- uid: UnityEngine.EnApplication.SetTargetFrameRate60*
+  commentId: Overload:UnityEngine.EnApplication.SetTargetFrameRate60
+  name: SetTargetFrameRate60
+  nameWithType: EnApplication.SetTargetFrameRate60
+  fullName: UnityEngine.EnApplication.SetTargetFrameRate60
+- uid: UnityEngine.EnApplication.SetTargetFrameRate30*
+  commentId: Overload:UnityEngine.EnApplication.SetTargetFrameRate30
+  name: SetTargetFrameRate30
+  nameWithType: EnApplication.SetTargetFrameRate30
+  fullName: UnityEngine.EnApplication.SetTargetFrameRate30
+- uid: UnityEngine.EnApplication.SetTargetFrameRate*
+  commentId: Overload:UnityEngine.EnApplication.SetTargetFrameRate
+  name: SetTargetFrameRate
+  nameWithType: EnApplication.SetTargetFrameRate
+  fullName: UnityEngine.EnApplication.SetTargetFrameRate
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: UnityEngine.EnApplication.SetBackgroundLoadingPriority*
+  commentId: Overload:UnityEngine.EnApplication.SetBackgroundLoadingPriority
+  name: SetBackgroundLoadingPriority
+  nameWithType: EnApplication.SetBackgroundLoadingPriority
+  fullName: UnityEngine.EnApplication.SetBackgroundLoadingPriority
+- uid: UnityEngine.ThreadPriority
+  commentId: T:UnityEngine.ThreadPriority
+  parent: UnityEngine
+  isExternal: true
+  name: ThreadPriority
+  nameWithType: ThreadPriority
+  fullName: UnityEngine.ThreadPriority
+- uid: UnityEngine.EnApplication.LogSystemInfo*
+  commentId: Overload:UnityEngine.EnApplication.LogSystemInfo
+  name: LogSystemInfo
+  nameWithType: EnApplication.LogSystemInfo
+  fullName: UnityEngine.EnApplication.LogSystemInfo
+- uid: UnityEngine.EnApplication.GetSystemInfoToString*
+  commentId: Overload:UnityEngine.EnApplication.GetSystemInfoToString
+  name: GetSystemInfoToString
+  nameWithType: EnApplication.GetSystemInfoToString
+  fullName: UnityEngine.EnApplication.GetSystemInfoToString

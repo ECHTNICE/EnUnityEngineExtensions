@@ -27,10 +27,10 @@ For more details and troubleshooting of the [Unity Package Manager](https://docs
 
 ***Via OpenUPM***
 
-The package is available on the [openupm registry](https://openupm.com/packages/com.xeleh.enhancer/). It's recommended to install it via [openupm-cli](https://github.com/openupm/openupm-cli#openupm-cli).
+The package is available on the [openupm registry](https://openupm.com/packages/com.echtnice.enunityextensions/). It's recommended to install it via [openupm-cli](https://github.com/openupm/openupm-cli#openupm-cli).
 
 ```
-openupm add com.xeleh.enhancer
+openupm add com.echtnice.enunityextensions
 ```
 
 ***Via UPM***

@@ -405,6 +405,25 @@ references:
   fullName.vb: UnityEngine.EnComponentExtensions.HasComponent(Of T)(UnityEngine.Component)
   nameWithType: EnComponentExtensions.HasComponent<T>(Component)
   nameWithType.vb: EnComponentExtensions.HasComponent(Of T)(Component)
+- uid: UnityEngine.EnComponentExtensions.To(UnityEngine.Component,UnityEngine.Component)
+  name: To(Component, Component)
+  href: api/UnityEngine.EnComponentExtensions.html#UnityEngine_EnComponentExtensions_To_UnityEngine_Component_UnityEngine_Component_
+  commentId: M:UnityEngine.EnComponentExtensions.To(UnityEngine.Component,UnityEngine.Component)
+  fullName: UnityEngine.EnComponentExtensions.To(UnityEngine.Component, UnityEngine.Component)
+  nameWithType: EnComponentExtensions.To(Component, Component)
+- uid: UnityEngine.EnComponentExtensions.To(UnityEngine.Component,UnityEngine.GameObject)
+  name: To(Component, GameObject)
+  href: api/UnityEngine.EnComponentExtensions.html#UnityEngine_EnComponentExtensions_To_UnityEngine_Component_UnityEngine_GameObject_
+  commentId: M:UnityEngine.EnComponentExtensions.To(UnityEngine.Component,UnityEngine.GameObject)
+  fullName: UnityEngine.EnComponentExtensions.To(UnityEngine.Component, UnityEngine.GameObject)
+  nameWithType: EnComponentExtensions.To(Component, GameObject)
+- uid: UnityEngine.EnComponentExtensions.To*
+  name: To
+  href: api/UnityEngine.EnComponentExtensions.html#UnityEngine_EnComponentExtensions_To_
+  commentId: Overload:UnityEngine.EnComponentExtensions.To
+  isSpec: "True"
+  fullName: UnityEngine.EnComponentExtensions.To
+  nameWithType: EnComponentExtensions.To
 - uid: UnityEngine.EnGameObjectExtensions
   name: EnGameObjectExtensions
   href: api/UnityEngine.EnGameObjectExtensions.html
@@ -601,6 +620,25 @@ references:
   isSpec: "True"
   fullName: UnityEngine.EnGameObjectExtensions.SetParent
   nameWithType: EnGameObjectExtensions.SetParent
+- uid: UnityEngine.EnGameObjectExtensions.To(UnityEngine.GameObject,UnityEngine.Component)
+  name: To(GameObject, Component)
+  href: api/UnityEngine.EnGameObjectExtensions.html#UnityEngine_EnGameObjectExtensions_To_UnityEngine_GameObject_UnityEngine_Component_
+  commentId: M:UnityEngine.EnGameObjectExtensions.To(UnityEngine.GameObject,UnityEngine.Component)
+  fullName: UnityEngine.EnGameObjectExtensions.To(UnityEngine.GameObject, UnityEngine.Component)
+  nameWithType: EnGameObjectExtensions.To(GameObject, Component)
+- uid: UnityEngine.EnGameObjectExtensions.To(UnityEngine.GameObject,UnityEngine.GameObject)
+  name: To(GameObject, GameObject)
+  href: api/UnityEngine.EnGameObjectExtensions.html#UnityEngine_EnGameObjectExtensions_To_UnityEngine_GameObject_UnityEngine_GameObject_
+  commentId: M:UnityEngine.EnGameObjectExtensions.To(UnityEngine.GameObject,UnityEngine.GameObject)
+  fullName: UnityEngine.EnGameObjectExtensions.To(UnityEngine.GameObject, UnityEngine.GameObject)
+  nameWithType: EnGameObjectExtensions.To(GameObject, GameObject)
+- uid: UnityEngine.EnGameObjectExtensions.To*
+  name: To
+  href: api/UnityEngine.EnGameObjectExtensions.html#UnityEngine_EnGameObjectExtensions_To_
+  commentId: Overload:UnityEngine.EnGameObjectExtensions.To
+  isSpec: "True"
+  fullName: UnityEngine.EnGameObjectExtensions.To
+  nameWithType: EnGameObjectExtensions.To
 - uid: UnityEngine.EnLayerMaskExtensions
   name: EnLayerMaskExtensions
   href: api/UnityEngine.EnLayerMaskExtensions.html
@@ -1585,19 +1623,19 @@ references:
   isSpec: "True"
   fullName: UnityEngine.EnVector2Extensions.AddY
   nameWithType: EnVector2Extensions.AddY
-- uid: UnityEngine.EnVector2Extensions.distance(UnityEngine.Vector2,UnityEngine.Vector2)
-  name: distance(Vector2, Vector2)
-  href: api/UnityEngine.EnVector2Extensions.html#UnityEngine_EnVector2Extensions_distance_UnityEngine_Vector2_UnityEngine_Vector2_
-  commentId: M:UnityEngine.EnVector2Extensions.distance(UnityEngine.Vector2,UnityEngine.Vector2)
-  fullName: UnityEngine.EnVector2Extensions.distance(UnityEngine.Vector2, UnityEngine.Vector2)
-  nameWithType: EnVector2Extensions.distance(Vector2, Vector2)
-- uid: UnityEngine.EnVector2Extensions.distance*
-  name: distance
-  href: api/UnityEngine.EnVector2Extensions.html#UnityEngine_EnVector2Extensions_distance_
-  commentId: Overload:UnityEngine.EnVector2Extensions.distance
+- uid: UnityEngine.EnVector2Extensions.Distance(UnityEngine.Vector2,UnityEngine.Vector2)
+  name: Distance(Vector2, Vector2)
+  href: api/UnityEngine.EnVector2Extensions.html#UnityEngine_EnVector2Extensions_Distance_UnityEngine_Vector2_UnityEngine_Vector2_
+  commentId: M:UnityEngine.EnVector2Extensions.Distance(UnityEngine.Vector2,UnityEngine.Vector2)
+  fullName: UnityEngine.EnVector2Extensions.Distance(UnityEngine.Vector2, UnityEngine.Vector2)
+  nameWithType: EnVector2Extensions.Distance(Vector2, Vector2)
+- uid: UnityEngine.EnVector2Extensions.Distance*
+  name: Distance
+  href: api/UnityEngine.EnVector2Extensions.html#UnityEngine_EnVector2Extensions_Distance_
+  commentId: Overload:UnityEngine.EnVector2Extensions.Distance
   isSpec: "True"
-  fullName: UnityEngine.EnVector2Extensions.distance
-  nameWithType: EnVector2Extensions.distance
+  fullName: UnityEngine.EnVector2Extensions.Distance
+  nameWithType: EnVector2Extensions.Distance
 - uid: UnityEngine.EnVector2Extensions.Dot(UnityEngine.Vector2,UnityEngine.Vector2)
   name: Dot(Vector2, Vector2)
   href: api/UnityEngine.EnVector2Extensions.html#UnityEngine_EnVector2Extensions_Dot_UnityEngine_Vector2_UnityEngine_Vector2_
@@ -1676,19 +1714,32 @@ references:
   isSpec: "True"
   fullName: UnityEngine.EnVector2Extensions.RotateAround
   nameWithType: EnVector2Extensions.RotateAround
-- uid: UnityEngine.EnVector2Extensions.sqrDistance(UnityEngine.Vector2,UnityEngine.Vector2)
-  name: sqrDistance(Vector2, Vector2)
-  href: api/UnityEngine.EnVector2Extensions.html#UnityEngine_EnVector2Extensions_sqrDistance_UnityEngine_Vector2_UnityEngine_Vector2_
-  commentId: M:UnityEngine.EnVector2Extensions.sqrDistance(UnityEngine.Vector2,UnityEngine.Vector2)
-  fullName: UnityEngine.EnVector2Extensions.sqrDistance(UnityEngine.Vector2, UnityEngine.Vector2)
-  nameWithType: EnVector2Extensions.sqrDistance(Vector2, Vector2)
-- uid: UnityEngine.EnVector2Extensions.sqrDistance*
-  name: sqrDistance
-  href: api/UnityEngine.EnVector2Extensions.html#UnityEngine_EnVector2Extensions_sqrDistance_
-  commentId: Overload:UnityEngine.EnVector2Extensions.sqrDistance
+- uid: UnityEngine.EnVector2Extensions.SqrDistance(UnityEngine.Vector2,UnityEngine.Vector2)
+  name: SqrDistance(Vector2, Vector2)
+  href: api/UnityEngine.EnVector2Extensions.html#UnityEngine_EnVector2Extensions_SqrDistance_UnityEngine_Vector2_UnityEngine_Vector2_
+  commentId: M:UnityEngine.EnVector2Extensions.SqrDistance(UnityEngine.Vector2,UnityEngine.Vector2)
+  fullName: UnityEngine.EnVector2Extensions.SqrDistance(UnityEngine.Vector2, UnityEngine.Vector2)
+  nameWithType: EnVector2Extensions.SqrDistance(Vector2, Vector2)
+- uid: UnityEngine.EnVector2Extensions.SqrDistance*
+  name: SqrDistance
+  href: api/UnityEngine.EnVector2Extensions.html#UnityEngine_EnVector2Extensions_SqrDistance_
+  commentId: Overload:UnityEngine.EnVector2Extensions.SqrDistance
   isSpec: "True"
-  fullName: UnityEngine.EnVector2Extensions.sqrDistance
-  nameWithType: EnVector2Extensions.sqrDistance
+  fullName: UnityEngine.EnVector2Extensions.SqrDistance
+  nameWithType: EnVector2Extensions.SqrDistance
+- uid: UnityEngine.EnVector2Extensions.To(UnityEngine.Vector2,UnityEngine.Vector2)
+  name: To(Vector2, Vector2)
+  href: api/UnityEngine.EnVector2Extensions.html#UnityEngine_EnVector2Extensions_To_UnityEngine_Vector2_UnityEngine_Vector2_
+  commentId: M:UnityEngine.EnVector2Extensions.To(UnityEngine.Vector2,UnityEngine.Vector2)
+  fullName: UnityEngine.EnVector2Extensions.To(UnityEngine.Vector2, UnityEngine.Vector2)
+  nameWithType: EnVector2Extensions.To(Vector2, Vector2)
+- uid: UnityEngine.EnVector2Extensions.To*
+  name: To
+  href: api/UnityEngine.EnVector2Extensions.html#UnityEngine_EnVector2Extensions_To_
+  commentId: Overload:UnityEngine.EnVector2Extensions.To
+  isSpec: "True"
+  fullName: UnityEngine.EnVector2Extensions.To
+  nameWithType: EnVector2Extensions.To
 - uid: UnityEngine.EnVector2Extensions.WithX(UnityEngine.Vector2,System.Single)
   name: WithX(Vector2, Single)
   href: api/UnityEngine.EnVector2Extensions.html#UnityEngine_EnVector2Extensions_WithX_UnityEngine_Vector2_System_Single_
@@ -1844,148 +1895,84 @@ references:
   commentId: T:UnityEngine.EnVector3Extensions
   fullName: UnityEngine.EnVector3Extensions
   nameWithType: EnVector3Extensions
-- uid: UnityEngine.EnVector3Extensions.AddX(UnityEngine.Vector3,System.Single)
-  name: AddX(Vector3, Single)
-  href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_AddX_UnityEngine_Vector3_System_Single_
-  commentId: M:UnityEngine.EnVector3Extensions.AddX(UnityEngine.Vector3,System.Single)
-  fullName: UnityEngine.EnVector3Extensions.AddX(UnityEngine.Vector3, System.Single)
-  nameWithType: EnVector3Extensions.AddX(Vector3, Single)
-- uid: UnityEngine.EnVector3Extensions.AddX*
-  name: AddX
-  href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_AddX_
-  commentId: Overload:UnityEngine.EnVector3Extensions.AddX
+- uid: UnityEngine.EnVector3Extensions.Approximately(UnityEngine.Vector2,UnityEngine.Vector2,System.Single)
+  name: Approximately(Vector2, Vector2, Single)
+  href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_Approximately_UnityEngine_Vector2_UnityEngine_Vector2_System_Single_
+  commentId: M:UnityEngine.EnVector3Extensions.Approximately(UnityEngine.Vector2,UnityEngine.Vector2,System.Single)
+  fullName: UnityEngine.EnVector3Extensions.Approximately(UnityEngine.Vector2, UnityEngine.Vector2, System.Single)
+  nameWithType: EnVector3Extensions.Approximately(Vector2, Vector2, Single)
+- uid: UnityEngine.EnVector3Extensions.Approximately(UnityEngine.Vector3,UnityEngine.Vector3,System.Single)
+  name: Approximately(Vector3, Vector3, Single)
+  href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_Approximately_UnityEngine_Vector3_UnityEngine_Vector3_System_Single_
+  commentId: M:UnityEngine.EnVector3Extensions.Approximately(UnityEngine.Vector3,UnityEngine.Vector3,System.Single)
+  fullName: UnityEngine.EnVector3Extensions.Approximately(UnityEngine.Vector3, UnityEngine.Vector3, System.Single)
+  nameWithType: EnVector3Extensions.Approximately(Vector3, Vector3, Single)
+- uid: UnityEngine.EnVector3Extensions.Approximately*
+  name: Approximately
+  href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_Approximately_
+  commentId: Overload:UnityEngine.EnVector3Extensions.Approximately
   isSpec: "True"
-  fullName: UnityEngine.EnVector3Extensions.AddX
-  nameWithType: EnVector3Extensions.AddX
-- uid: UnityEngine.EnVector3Extensions.AddY(UnityEngine.Vector3,System.Single)
-  name: AddY(Vector3, Single)
-  href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_AddY_UnityEngine_Vector3_System_Single_
-  commentId: M:UnityEngine.EnVector3Extensions.AddY(UnityEngine.Vector3,System.Single)
-  fullName: UnityEngine.EnVector3Extensions.AddY(UnityEngine.Vector3, System.Single)
-  nameWithType: EnVector3Extensions.AddY(Vector3, Single)
-- uid: UnityEngine.EnVector3Extensions.AddY*
-  name: AddY
-  href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_AddY_
-  commentId: Overload:UnityEngine.EnVector3Extensions.AddY
+  fullName: UnityEngine.EnVector3Extensions.Approximately
+  nameWithType: EnVector3Extensions.Approximately
+- uid: UnityEngine.EnVector3Extensions.ClampX(UnityEngine.Transform,System.Single,System.Single)
+  name: ClampX(Transform, Single, Single)
+  href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_ClampX_UnityEngine_Transform_System_Single_System_Single_
+  commentId: M:UnityEngine.EnVector3Extensions.ClampX(UnityEngine.Transform,System.Single,System.Single)
+  fullName: UnityEngine.EnVector3Extensions.ClampX(UnityEngine.Transform, System.Single, System.Single)
+  nameWithType: EnVector3Extensions.ClampX(Transform, Single, Single)
+- uid: UnityEngine.EnVector3Extensions.ClampX(UnityEngine.Vector2,System.Single,System.Single)
+  name: ClampX(Vector2, Single, Single)
+  href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_ClampX_UnityEngine_Vector2_System_Single_System_Single_
+  commentId: M:UnityEngine.EnVector3Extensions.ClampX(UnityEngine.Vector2,System.Single,System.Single)
+  fullName: UnityEngine.EnVector3Extensions.ClampX(UnityEngine.Vector2, System.Single, System.Single)
+  nameWithType: EnVector3Extensions.ClampX(Vector2, Single, Single)
+- uid: UnityEngine.EnVector3Extensions.ClampX(UnityEngine.Vector3,System.Single,System.Single)
+  name: ClampX(Vector3, Single, Single)
+  href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_ClampX_UnityEngine_Vector3_System_Single_System_Single_
+  commentId: M:UnityEngine.EnVector3Extensions.ClampX(UnityEngine.Vector3,System.Single,System.Single)
+  fullName: UnityEngine.EnVector3Extensions.ClampX(UnityEngine.Vector3, System.Single, System.Single)
+  nameWithType: EnVector3Extensions.ClampX(Vector3, Single, Single)
+- uid: UnityEngine.EnVector3Extensions.ClampX*
+  name: ClampX
+  href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_ClampX_
+  commentId: Overload:UnityEngine.EnVector3Extensions.ClampX
   isSpec: "True"
-  fullName: UnityEngine.EnVector3Extensions.AddY
-  nameWithType: EnVector3Extensions.AddY
-- uid: UnityEngine.EnVector3Extensions.AddZ(UnityEngine.Vector3,System.Single)
-  name: AddZ(Vector3, Single)
-  href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_AddZ_UnityEngine_Vector3_System_Single_
-  commentId: M:UnityEngine.EnVector3Extensions.AddZ(UnityEngine.Vector3,System.Single)
-  fullName: UnityEngine.EnVector3Extensions.AddZ(UnityEngine.Vector3, System.Single)
-  nameWithType: EnVector3Extensions.AddZ(Vector3, Single)
-- uid: UnityEngine.EnVector3Extensions.AddZ*
-  name: AddZ
-  href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_AddZ_
-  commentId: Overload:UnityEngine.EnVector3Extensions.AddZ
+  fullName: UnityEngine.EnVector3Extensions.ClampX
+  nameWithType: EnVector3Extensions.ClampX
+- uid: UnityEngine.EnVector3Extensions.ClampY(UnityEngine.Transform,System.Single,System.Single)
+  name: ClampY(Transform, Single, Single)
+  href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_ClampY_UnityEngine_Transform_System_Single_System_Single_
+  commentId: M:UnityEngine.EnVector3Extensions.ClampY(UnityEngine.Transform,System.Single,System.Single)
+  fullName: UnityEngine.EnVector3Extensions.ClampY(UnityEngine.Transform, System.Single, System.Single)
+  nameWithType: EnVector3Extensions.ClampY(Transform, Single, Single)
+- uid: UnityEngine.EnVector3Extensions.ClampY(UnityEngine.Vector2,System.Single,System.Single)
+  name: ClampY(Vector2, Single, Single)
+  href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_ClampY_UnityEngine_Vector2_System_Single_System_Single_
+  commentId: M:UnityEngine.EnVector3Extensions.ClampY(UnityEngine.Vector2,System.Single,System.Single)
+  fullName: UnityEngine.EnVector3Extensions.ClampY(UnityEngine.Vector2, System.Single, System.Single)
+  nameWithType: EnVector3Extensions.ClampY(Vector2, Single, Single)
+- uid: UnityEngine.EnVector3Extensions.ClampY(UnityEngine.Vector3,System.Single,System.Single)
+  name: ClampY(Vector3, Single, Single)
+  href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_ClampY_UnityEngine_Vector3_System_Single_System_Single_
+  commentId: M:UnityEngine.EnVector3Extensions.ClampY(UnityEngine.Vector3,System.Single,System.Single)
+  fullName: UnityEngine.EnVector3Extensions.ClampY(UnityEngine.Vector3, System.Single, System.Single)
+  nameWithType: EnVector3Extensions.ClampY(Vector3, Single, Single)
+- uid: UnityEngine.EnVector3Extensions.ClampY*
+  name: ClampY
+  href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_ClampY_
+  commentId: Overload:UnityEngine.EnVector3Extensions.ClampY
   isSpec: "True"
-  fullName: UnityEngine.EnVector3Extensions.AddZ
-  nameWithType: EnVector3Extensions.AddZ
-- uid: UnityEngine.EnVector3Extensions.AngleTo(UnityEngine.Vector3,UnityEngine.Vector3)
-  name: AngleTo(Vector3, Vector3)
-  href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_AngleTo_UnityEngine_Vector3_UnityEngine_Vector3_
-  commentId: M:UnityEngine.EnVector3Extensions.AngleTo(UnityEngine.Vector3,UnityEngine.Vector3)
-  fullName: UnityEngine.EnVector3Extensions.AngleTo(UnityEngine.Vector3, UnityEngine.Vector3)
-  nameWithType: EnVector3Extensions.AngleTo(Vector3, Vector3)
-- uid: UnityEngine.EnVector3Extensions.AngleTo*
-  name: AngleTo
-  href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_AngleTo_
-  commentId: Overload:UnityEngine.EnVector3Extensions.AngleTo
-  isSpec: "True"
-  fullName: UnityEngine.EnVector3Extensions.AngleTo
-  nameWithType: EnVector3Extensions.AngleTo
-- uid: UnityEngine.EnVector3Extensions.Cross(UnityEngine.Vector3,UnityEngine.Vector3)
-  name: Cross(Vector3, Vector3)
-  href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_Cross_UnityEngine_Vector3_UnityEngine_Vector3_
-  commentId: M:UnityEngine.EnVector3Extensions.Cross(UnityEngine.Vector3,UnityEngine.Vector3)
-  fullName: UnityEngine.EnVector3Extensions.Cross(UnityEngine.Vector3, UnityEngine.Vector3)
-  nameWithType: EnVector3Extensions.Cross(Vector3, Vector3)
-- uid: UnityEngine.EnVector3Extensions.Cross*
-  name: Cross
-  href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_Cross_
-  commentId: Overload:UnityEngine.EnVector3Extensions.Cross
-  isSpec: "True"
-  fullName: UnityEngine.EnVector3Extensions.Cross
-  nameWithType: EnVector3Extensions.Cross
-- uid: UnityEngine.EnVector3Extensions.Distance(UnityEngine.Vector3,UnityEngine.Vector3)
-  name: Distance(Vector3, Vector3)
-  href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_Distance_UnityEngine_Vector3_UnityEngine_Vector3_
-  commentId: M:UnityEngine.EnVector3Extensions.Distance(UnityEngine.Vector3,UnityEngine.Vector3)
-  fullName: UnityEngine.EnVector3Extensions.Distance(UnityEngine.Vector3, UnityEngine.Vector3)
-  nameWithType: EnVector3Extensions.Distance(Vector3, Vector3)
-- uid: UnityEngine.EnVector3Extensions.Distance(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3)
-  name: Distance(Vector3, Vector3, Vector3)
-  href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_Distance_UnityEngine_Vector3_UnityEngine_Vector3_UnityEngine_Vector3_
-  commentId: M:UnityEngine.EnVector3Extensions.Distance(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3)
-  fullName: UnityEngine.EnVector3Extensions.Distance(UnityEngine.Vector3, UnityEngine.Vector3, UnityEngine.Vector3)
-  nameWithType: EnVector3Extensions.Distance(Vector3, Vector3, Vector3)
-- uid: UnityEngine.EnVector3Extensions.Distance(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Quaternion)
-  name: Distance(Vector3, Vector3, Vector3, Quaternion)
-  href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_Distance_UnityEngine_Vector3_UnityEngine_Vector3_UnityEngine_Vector3_UnityEngine_Quaternion_
-  commentId: M:UnityEngine.EnVector3Extensions.Distance(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Quaternion)
-  fullName: UnityEngine.EnVector3Extensions.Distance(UnityEngine.Vector3, UnityEngine.Vector3, UnityEngine.Vector3, UnityEngine.Quaternion)
-  nameWithType: EnVector3Extensions.Distance(Vector3, Vector3, Vector3, Quaternion)
-- uid: UnityEngine.EnVector3Extensions.Distance*
-  name: Distance
-  href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_Distance_
-  commentId: Overload:UnityEngine.EnVector3Extensions.Distance
-  isSpec: "True"
-  fullName: UnityEngine.EnVector3Extensions.Distance
-  nameWithType: EnVector3Extensions.Distance
-- uid: UnityEngine.EnVector3Extensions.DistanceXY(UnityEngine.Vector3,UnityEngine.Vector3)
-  name: DistanceXY(Vector3, Vector3)
-  href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_DistanceXY_UnityEngine_Vector3_UnityEngine_Vector3_
-  commentId: M:UnityEngine.EnVector3Extensions.DistanceXY(UnityEngine.Vector3,UnityEngine.Vector3)
-  fullName: UnityEngine.EnVector3Extensions.DistanceXY(UnityEngine.Vector3, UnityEngine.Vector3)
-  nameWithType: EnVector3Extensions.DistanceXY(Vector3, Vector3)
-- uid: UnityEngine.EnVector3Extensions.DistanceXY*
-  name: DistanceXY
-  href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_DistanceXY_
-  commentId: Overload:UnityEngine.EnVector3Extensions.DistanceXY
-  isSpec: "True"
-  fullName: UnityEngine.EnVector3Extensions.DistanceXY
-  nameWithType: EnVector3Extensions.DistanceXY
-- uid: UnityEngine.EnVector3Extensions.DistanceXZ(UnityEngine.Vector3,UnityEngine.Vector3)
-  name: DistanceXZ(Vector3, Vector3)
-  href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_DistanceXZ_UnityEngine_Vector3_UnityEngine_Vector3_
-  commentId: M:UnityEngine.EnVector3Extensions.DistanceXZ(UnityEngine.Vector3,UnityEngine.Vector3)
-  fullName: UnityEngine.EnVector3Extensions.DistanceXZ(UnityEngine.Vector3, UnityEngine.Vector3)
-  nameWithType: EnVector3Extensions.DistanceXZ(Vector3, Vector3)
-- uid: UnityEngine.EnVector3Extensions.DistanceXZ*
-  name: DistanceXZ
-  href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_DistanceXZ_
-  commentId: Overload:UnityEngine.EnVector3Extensions.DistanceXZ
-  isSpec: "True"
-  fullName: UnityEngine.EnVector3Extensions.DistanceXZ
-  nameWithType: EnVector3Extensions.DistanceXZ
-- uid: UnityEngine.EnVector3Extensions.DistanceYZ(UnityEngine.Vector3,UnityEngine.Vector3)
-  name: DistanceYZ(Vector3, Vector3)
-  href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_DistanceYZ_UnityEngine_Vector3_UnityEngine_Vector3_
-  commentId: M:UnityEngine.EnVector3Extensions.DistanceYZ(UnityEngine.Vector3,UnityEngine.Vector3)
-  fullName: UnityEngine.EnVector3Extensions.DistanceYZ(UnityEngine.Vector3, UnityEngine.Vector3)
-  nameWithType: EnVector3Extensions.DistanceYZ(Vector3, Vector3)
-- uid: UnityEngine.EnVector3Extensions.DistanceYZ*
-  name: DistanceYZ
-  href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_DistanceYZ_
-  commentId: Overload:UnityEngine.EnVector3Extensions.DistanceYZ
-  isSpec: "True"
-  fullName: UnityEngine.EnVector3Extensions.DistanceYZ
-  nameWithType: EnVector3Extensions.DistanceYZ
-- uid: UnityEngine.EnVector3Extensions.Dot(UnityEngine.Vector3,UnityEngine.Vector3)
-  name: Dot(Vector3, Vector3)
-  href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_Dot_UnityEngine_Vector3_UnityEngine_Vector3_
-  commentId: M:UnityEngine.EnVector3Extensions.Dot(UnityEngine.Vector3,UnityEngine.Vector3)
-  fullName: UnityEngine.EnVector3Extensions.Dot(UnityEngine.Vector3, UnityEngine.Vector3)
-  nameWithType: EnVector3Extensions.Dot(Vector3, Vector3)
-- uid: UnityEngine.EnVector3Extensions.Dot*
-  name: Dot
-  href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_Dot_
-  commentId: Overload:UnityEngine.EnVector3Extensions.Dot
-  isSpec: "True"
-  fullName: UnityEngine.EnVector3Extensions.Dot
-  nameWithType: EnVector3Extensions.Dot
+  fullName: UnityEngine.EnVector3Extensions.ClampY
+  nameWithType: EnVector3Extensions.ClampY
+- uid: UnityEngine.EnVector3Extensions.GetClosest(System.Collections.Generic.IEnumerable{UnityEngine.Vector3},UnityEngine.Vector3)
+  name: GetClosest(IEnumerable<Vector3>, Vector3)
+  href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_GetClosest_System_Collections_Generic_IEnumerable_UnityEngine_Vector3__UnityEngine_Vector3_
+  commentId: M:UnityEngine.EnVector3Extensions.GetClosest(System.Collections.Generic.IEnumerable{UnityEngine.Vector3},UnityEngine.Vector3)
+  name.vb: GetClosest(IEnumerable(Of Vector3), Vector3)
+  fullName: UnityEngine.EnVector3Extensions.GetClosest(System.Collections.Generic.IEnumerable<UnityEngine.Vector3>, UnityEngine.Vector3)
+  fullName.vb: UnityEngine.EnVector3Extensions.GetClosest(System.Collections.Generic.IEnumerable(Of UnityEngine.Vector3), UnityEngine.Vector3)
+  nameWithType: EnVector3Extensions.GetClosest(IEnumerable<Vector3>, Vector3)
+  nameWithType.vb: EnVector3Extensions.GetClosest(IEnumerable(Of Vector3), Vector3)
 - uid: UnityEngine.EnVector3Extensions.GetClosest(UnityEngine.Vector3,System.Collections.Generic.IEnumerable{UnityEngine.Vector3})
   name: GetClosest(Vector3, IEnumerable<Vector3>)
   href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_GetClosest_UnityEngine_Vector3_System_Collections_Generic_IEnumerable_UnityEngine_Vector3__
@@ -2002,38 +1989,12 @@ references:
   isSpec: "True"
   fullName: UnityEngine.EnVector3Extensions.GetClosest
   nameWithType: EnVector3Extensions.GetClosest
-- uid: UnityEngine.EnVector3Extensions.InverseTransformPoint(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Quaternion)
-  name: InverseTransformPoint(Vector3, Vector3, Quaternion)
-  href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_InverseTransformPoint_UnityEngine_Vector3_UnityEngine_Vector3_UnityEngine_Quaternion_
-  commentId: M:UnityEngine.EnVector3Extensions.InverseTransformPoint(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Quaternion)
-  fullName: UnityEngine.EnVector3Extensions.InverseTransformPoint(UnityEngine.Vector3, UnityEngine.Vector3, UnityEngine.Quaternion)
-  nameWithType: EnVector3Extensions.InverseTransformPoint(Vector3, Vector3, Quaternion)
-- uid: UnityEngine.EnVector3Extensions.InverseTransformPoint*
-  name: InverseTransformPoint
-  href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_InverseTransformPoint_
-  commentId: Overload:UnityEngine.EnVector3Extensions.InverseTransformPoint
-  isSpec: "True"
-  fullName: UnityEngine.EnVector3Extensions.InverseTransformPoint
-  nameWithType: EnVector3Extensions.InverseTransformPoint
-- uid: UnityEngine.EnVector3Extensions.Invert(UnityEngine.Vector3)
-  name: Invert(Vector3)
-  href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_Invert_UnityEngine_Vector3_
-  commentId: M:UnityEngine.EnVector3Extensions.Invert(UnityEngine.Vector3)
-  fullName: UnityEngine.EnVector3Extensions.Invert(UnityEngine.Vector3)
-  nameWithType: EnVector3Extensions.Invert(Vector3)
-- uid: UnityEngine.EnVector3Extensions.Invert*
-  name: Invert
-  href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_Invert_
-  commentId: Overload:UnityEngine.EnVector3Extensions.Invert
-  isSpec: "True"
-  fullName: UnityEngine.EnVector3Extensions.Invert
-  nameWithType: EnVector3Extensions.Invert
-- uid: UnityEngine.EnVector3Extensions.InvertX(UnityEngine.Vector3)
-  name: InvertX(Vector3)
-  href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_InvertX_UnityEngine_Vector3_
-  commentId: M:UnityEngine.EnVector3Extensions.InvertX(UnityEngine.Vector3)
-  fullName: UnityEngine.EnVector3Extensions.InvertX(UnityEngine.Vector3)
-  nameWithType: EnVector3Extensions.InvertX(Vector3)
+- uid: UnityEngine.EnVector3Extensions.InvertX(UnityEngine.Vector2)
+  name: InvertX(Vector2)
+  href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_InvertX_UnityEngine_Vector2_
+  commentId: M:UnityEngine.EnVector3Extensions.InvertX(UnityEngine.Vector2)
+  fullName: UnityEngine.EnVector3Extensions.InvertX(UnityEngine.Vector2)
+  nameWithType: EnVector3Extensions.InvertX(Vector2)
 - uid: UnityEngine.EnVector3Extensions.InvertX*
   name: InvertX
   href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_InvertX_
@@ -2041,12 +2002,12 @@ references:
   isSpec: "True"
   fullName: UnityEngine.EnVector3Extensions.InvertX
   nameWithType: EnVector3Extensions.InvertX
-- uid: UnityEngine.EnVector3Extensions.InvertY(UnityEngine.Vector3)
-  name: InvertY(Vector3)
-  href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_InvertY_UnityEngine_Vector3_
-  commentId: M:UnityEngine.EnVector3Extensions.InvertY(UnityEngine.Vector3)
-  fullName: UnityEngine.EnVector3Extensions.InvertY(UnityEngine.Vector3)
-  nameWithType: EnVector3Extensions.InvertY(Vector3)
+- uid: UnityEngine.EnVector3Extensions.InvertY(UnityEngine.Vector2)
+  name: InvertY(Vector2)
+  href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_InvertY_UnityEngine_Vector2_
+  commentId: M:UnityEngine.EnVector3Extensions.InvertY(UnityEngine.Vector2)
+  fullName: UnityEngine.EnVector3Extensions.InvertY(UnityEngine.Vector2)
+  nameWithType: EnVector3Extensions.InvertY(Vector2)
 - uid: UnityEngine.EnVector3Extensions.InvertY*
   name: InvertY
   href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_InvertY_
@@ -2054,244 +2015,380 @@ references:
   isSpec: "True"
   fullName: UnityEngine.EnVector3Extensions.InvertY
   nameWithType: EnVector3Extensions.InvertY
-- uid: UnityEngine.EnVector3Extensions.InvertZ(UnityEngine.Vector3)
-  name: InvertZ(Vector3)
-  href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_InvertZ_UnityEngine_Vector3_
-  commentId: M:UnityEngine.EnVector3Extensions.InvertZ(UnityEngine.Vector3)
-  fullName: UnityEngine.EnVector3Extensions.InvertZ(UnityEngine.Vector3)
-  nameWithType: EnVector3Extensions.InvertZ(Vector3)
-- uid: UnityEngine.EnVector3Extensions.InvertZ*
-  name: InvertZ
-  href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_InvertZ_
-  commentId: Overload:UnityEngine.EnVector3Extensions.InvertZ
+- uid: UnityEngine.EnVector3Extensions.Offset(UnityEngine.Vector3,UnityEngine.Vector2)
+  name: Offset(Vector3, Vector2)
+  href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_Offset_UnityEngine_Vector3_UnityEngine_Vector2_
+  commentId: M:UnityEngine.EnVector3Extensions.Offset(UnityEngine.Vector3,UnityEngine.Vector2)
+  fullName: UnityEngine.EnVector3Extensions.Offset(UnityEngine.Vector3, UnityEngine.Vector2)
+  nameWithType: EnVector3Extensions.Offset(Vector3, Vector2)
+- uid: UnityEngine.EnVector3Extensions.Offset*
+  name: Offset
+  href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_Offset_
+  commentId: Overload:UnityEngine.EnVector3Extensions.Offset
   isSpec: "True"
-  fullName: UnityEngine.EnVector3Extensions.InvertZ
-  nameWithType: EnVector3Extensions.InvertZ
-- uid: UnityEngine.EnVector3Extensions.Magnitude(UnityEngine.Vector3,UnityEngine.Vector3)
-  name: Magnitude(Vector3, Vector3)
-  href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_Magnitude_UnityEngine_Vector3_UnityEngine_Vector3_
-  commentId: M:UnityEngine.EnVector3Extensions.Magnitude(UnityEngine.Vector3,UnityEngine.Vector3)
-  fullName: UnityEngine.EnVector3Extensions.Magnitude(UnityEngine.Vector3, UnityEngine.Vector3)
-  nameWithType: EnVector3Extensions.Magnitude(Vector3, Vector3)
-- uid: UnityEngine.EnVector3Extensions.Magnitude*
-  name: Magnitude
-  href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_Magnitude_
-  commentId: Overload:UnityEngine.EnVector3Extensions.Magnitude
+  fullName: UnityEngine.EnVector3Extensions.Offset
+  nameWithType: EnVector3Extensions.Offset
+- uid: UnityEngine.EnVector3Extensions.OffsetPositionX(UnityEngine.RectTransform,System.Single)
+  name: OffsetPositionX(RectTransform, Single)
+  href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_OffsetPositionX_UnityEngine_RectTransform_System_Single_
+  commentId: M:UnityEngine.EnVector3Extensions.OffsetPositionX(UnityEngine.RectTransform,System.Single)
+  fullName: UnityEngine.EnVector3Extensions.OffsetPositionX(UnityEngine.RectTransform, System.Single)
+  nameWithType: EnVector3Extensions.OffsetPositionX(RectTransform, Single)
+- uid: UnityEngine.EnVector3Extensions.OffsetPositionX*
+  name: OffsetPositionX
+  href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_OffsetPositionX_
+  commentId: Overload:UnityEngine.EnVector3Extensions.OffsetPositionX
   isSpec: "True"
-  fullName: UnityEngine.EnVector3Extensions.Magnitude
-  nameWithType: EnVector3Extensions.Magnitude
-- uid: UnityEngine.EnVector3Extensions.MagnitudeXY(UnityEngine.Vector3)
-  name: MagnitudeXY(Vector3)
-  href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_MagnitudeXY_UnityEngine_Vector3_
-  commentId: M:UnityEngine.EnVector3Extensions.MagnitudeXY(UnityEngine.Vector3)
-  fullName: UnityEngine.EnVector3Extensions.MagnitudeXY(UnityEngine.Vector3)
-  nameWithType: EnVector3Extensions.MagnitudeXY(Vector3)
-- uid: UnityEngine.EnVector3Extensions.MagnitudeXY*
-  name: MagnitudeXY
-  href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_MagnitudeXY_
-  commentId: Overload:UnityEngine.EnVector3Extensions.MagnitudeXY
+  fullName: UnityEngine.EnVector3Extensions.OffsetPositionX
+  nameWithType: EnVector3Extensions.OffsetPositionX
+- uid: UnityEngine.EnVector3Extensions.OffsetPositionY(UnityEngine.RectTransform,System.Single)
+  name: OffsetPositionY(RectTransform, Single)
+  href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_OffsetPositionY_UnityEngine_RectTransform_System_Single_
+  commentId: M:UnityEngine.EnVector3Extensions.OffsetPositionY(UnityEngine.RectTransform,System.Single)
+  fullName: UnityEngine.EnVector3Extensions.OffsetPositionY(UnityEngine.RectTransform, System.Single)
+  nameWithType: EnVector3Extensions.OffsetPositionY(RectTransform, Single)
+- uid: UnityEngine.EnVector3Extensions.OffsetPositionY*
+  name: OffsetPositionY
+  href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_OffsetPositionY_
+  commentId: Overload:UnityEngine.EnVector3Extensions.OffsetPositionY
   isSpec: "True"
-  fullName: UnityEngine.EnVector3Extensions.MagnitudeXY
-  nameWithType: EnVector3Extensions.MagnitudeXY
-- uid: UnityEngine.EnVector3Extensions.MagnitudeXZ(UnityEngine.Vector3)
-  name: MagnitudeXZ(Vector3)
-  href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_MagnitudeXZ_UnityEngine_Vector3_
-  commentId: M:UnityEngine.EnVector3Extensions.MagnitudeXZ(UnityEngine.Vector3)
-  fullName: UnityEngine.EnVector3Extensions.MagnitudeXZ(UnityEngine.Vector3)
-  nameWithType: EnVector3Extensions.MagnitudeXZ(Vector3)
-- uid: UnityEngine.EnVector3Extensions.MagnitudeXZ*
-  name: MagnitudeXZ
-  href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_MagnitudeXZ_
-  commentId: Overload:UnityEngine.EnVector3Extensions.MagnitudeXZ
+  fullName: UnityEngine.EnVector3Extensions.OffsetPositionY
+  nameWithType: EnVector3Extensions.OffsetPositionY
+- uid: UnityEngine.EnVector3Extensions.OffsetX(UnityEngine.Transform,System.Single)
+  name: OffsetX(Transform, Single)
+  href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_OffsetX_UnityEngine_Transform_System_Single_
+  commentId: M:UnityEngine.EnVector3Extensions.OffsetX(UnityEngine.Transform,System.Single)
+  fullName: UnityEngine.EnVector3Extensions.OffsetX(UnityEngine.Transform, System.Single)
+  nameWithType: EnVector3Extensions.OffsetX(Transform, Single)
+- uid: UnityEngine.EnVector3Extensions.OffsetX(UnityEngine.Vector2,System.Single)
+  name: OffsetX(Vector2, Single)
+  href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_OffsetX_UnityEngine_Vector2_System_Single_
+  commentId: M:UnityEngine.EnVector3Extensions.OffsetX(UnityEngine.Vector2,System.Single)
+  fullName: UnityEngine.EnVector3Extensions.OffsetX(UnityEngine.Vector2, System.Single)
+  nameWithType: EnVector3Extensions.OffsetX(Vector2, Single)
+- uid: UnityEngine.EnVector3Extensions.OffsetX(UnityEngine.Vector3,System.Single)
+  name: OffsetX(Vector3, Single)
+  href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_OffsetX_UnityEngine_Vector3_System_Single_
+  commentId: M:UnityEngine.EnVector3Extensions.OffsetX(UnityEngine.Vector3,System.Single)
+  fullName: UnityEngine.EnVector3Extensions.OffsetX(UnityEngine.Vector3, System.Single)
+  nameWithType: EnVector3Extensions.OffsetX(Vector3, Single)
+- uid: UnityEngine.EnVector3Extensions.OffsetX*
+  name: OffsetX
+  href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_OffsetX_
+  commentId: Overload:UnityEngine.EnVector3Extensions.OffsetX
   isSpec: "True"
-  fullName: UnityEngine.EnVector3Extensions.MagnitudeXZ
-  nameWithType: EnVector3Extensions.MagnitudeXZ
-- uid: UnityEngine.EnVector3Extensions.MagnitudeYZ(UnityEngine.Vector3)
-  name: MagnitudeYZ(Vector3)
-  href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_MagnitudeYZ_UnityEngine_Vector3_
-  commentId: M:UnityEngine.EnVector3Extensions.MagnitudeYZ(UnityEngine.Vector3)
-  fullName: UnityEngine.EnVector3Extensions.MagnitudeYZ(UnityEngine.Vector3)
-  nameWithType: EnVector3Extensions.MagnitudeYZ(Vector3)
-- uid: UnityEngine.EnVector3Extensions.MagnitudeYZ*
-  name: MagnitudeYZ
-  href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_MagnitudeYZ_
-  commentId: Overload:UnityEngine.EnVector3Extensions.MagnitudeYZ
+  fullName: UnityEngine.EnVector3Extensions.OffsetX
+  nameWithType: EnVector3Extensions.OffsetX
+- uid: UnityEngine.EnVector3Extensions.OffsetXY(UnityEngine.Transform,System.Single,System.Single)
+  name: OffsetXY(Transform, Single, Single)
+  href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_OffsetXY_UnityEngine_Transform_System_Single_System_Single_
+  commentId: M:UnityEngine.EnVector3Extensions.OffsetXY(UnityEngine.Transform,System.Single,System.Single)
+  fullName: UnityEngine.EnVector3Extensions.OffsetXY(UnityEngine.Transform, System.Single, System.Single)
+  nameWithType: EnVector3Extensions.OffsetXY(Transform, Single, Single)
+- uid: UnityEngine.EnVector3Extensions.OffsetXY(UnityEngine.Vector2,System.Single,System.Single)
+  name: OffsetXY(Vector2, Single, Single)
+  href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_OffsetXY_UnityEngine_Vector2_System_Single_System_Single_
+  commentId: M:UnityEngine.EnVector3Extensions.OffsetXY(UnityEngine.Vector2,System.Single,System.Single)
+  fullName: UnityEngine.EnVector3Extensions.OffsetXY(UnityEngine.Vector2, System.Single, System.Single)
+  nameWithType: EnVector3Extensions.OffsetXY(Vector2, Single, Single)
+- uid: UnityEngine.EnVector3Extensions.OffsetXY(UnityEngine.Vector3,System.Single,System.Single)
+  name: OffsetXY(Vector3, Single, Single)
+  href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_OffsetXY_UnityEngine_Vector3_System_Single_System_Single_
+  commentId: M:UnityEngine.EnVector3Extensions.OffsetXY(UnityEngine.Vector3,System.Single,System.Single)
+  fullName: UnityEngine.EnVector3Extensions.OffsetXY(UnityEngine.Vector3, System.Single, System.Single)
+  nameWithType: EnVector3Extensions.OffsetXY(Vector3, Single, Single)
+- uid: UnityEngine.EnVector3Extensions.OffsetXY*
+  name: OffsetXY
+  href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_OffsetXY_
+  commentId: Overload:UnityEngine.EnVector3Extensions.OffsetXY
   isSpec: "True"
-  fullName: UnityEngine.EnVector3Extensions.MagnitudeYZ
-  nameWithType: EnVector3Extensions.MagnitudeYZ
-- uid: UnityEngine.EnVector3Extensions.Project(UnityEngine.Vector3,UnityEngine.Vector3)
-  name: Project(Vector3, Vector3)
-  href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_Project_UnityEngine_Vector3_UnityEngine_Vector3_
-  commentId: M:UnityEngine.EnVector3Extensions.Project(UnityEngine.Vector3,UnityEngine.Vector3)
-  fullName: UnityEngine.EnVector3Extensions.Project(UnityEngine.Vector3, UnityEngine.Vector3)
-  nameWithType: EnVector3Extensions.Project(Vector3, Vector3)
-- uid: UnityEngine.EnVector3Extensions.Project(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Quaternion)
-  name: Project(Vector3, Vector3, Quaternion)
-  href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_Project_UnityEngine_Vector3_UnityEngine_Vector3_UnityEngine_Quaternion_
-  commentId: M:UnityEngine.EnVector3Extensions.Project(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Quaternion)
-  fullName: UnityEngine.EnVector3Extensions.Project(UnityEngine.Vector3, UnityEngine.Vector3, UnityEngine.Quaternion)
-  nameWithType: EnVector3Extensions.Project(Vector3, Vector3, Quaternion)
-- uid: UnityEngine.EnVector3Extensions.Project*
-  name: Project
-  href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_Project_
-  commentId: Overload:UnityEngine.EnVector3Extensions.Project
+  fullName: UnityEngine.EnVector3Extensions.OffsetXY
+  nameWithType: EnVector3Extensions.OffsetXY
+- uid: UnityEngine.EnVector3Extensions.OffsetXZ(UnityEngine.Transform,System.Single,System.Single)
+  name: OffsetXZ(Transform, Single, Single)
+  href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_OffsetXZ_UnityEngine_Transform_System_Single_System_Single_
+  commentId: M:UnityEngine.EnVector3Extensions.OffsetXZ(UnityEngine.Transform,System.Single,System.Single)
+  fullName: UnityEngine.EnVector3Extensions.OffsetXZ(UnityEngine.Transform, System.Single, System.Single)
+  nameWithType: EnVector3Extensions.OffsetXZ(Transform, Single, Single)
+- uid: UnityEngine.EnVector3Extensions.OffsetXZ(UnityEngine.Vector3,System.Single,System.Single)
+  name: OffsetXZ(Vector3, Single, Single)
+  href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_OffsetXZ_UnityEngine_Vector3_System_Single_System_Single_
+  commentId: M:UnityEngine.EnVector3Extensions.OffsetXZ(UnityEngine.Vector3,System.Single,System.Single)
+  fullName: UnityEngine.EnVector3Extensions.OffsetXZ(UnityEngine.Vector3, System.Single, System.Single)
+  nameWithType: EnVector3Extensions.OffsetXZ(Vector3, Single, Single)
+- uid: UnityEngine.EnVector3Extensions.OffsetXZ*
+  name: OffsetXZ
+  href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_OffsetXZ_
+  commentId: Overload:UnityEngine.EnVector3Extensions.OffsetXZ
   isSpec: "True"
-  fullName: UnityEngine.EnVector3Extensions.Project
-  nameWithType: EnVector3Extensions.Project
-- uid: UnityEngine.EnVector3Extensions.Rotate(UnityEngine.Vector3,UnityEngine.Quaternion)
-  name: Rotate(Vector3, Quaternion)
-  href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_Rotate_UnityEngine_Vector3_UnityEngine_Quaternion_
-  commentId: M:UnityEngine.EnVector3Extensions.Rotate(UnityEngine.Vector3,UnityEngine.Quaternion)
-  fullName: UnityEngine.EnVector3Extensions.Rotate(UnityEngine.Vector3, UnityEngine.Quaternion)
-  nameWithType: EnVector3Extensions.Rotate(Vector3, Quaternion)
-- uid: UnityEngine.EnVector3Extensions.Rotate*
-  name: Rotate
-  href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_Rotate_
-  commentId: Overload:UnityEngine.EnVector3Extensions.Rotate
+  fullName: UnityEngine.EnVector3Extensions.OffsetXZ
+  nameWithType: EnVector3Extensions.OffsetXZ
+- uid: UnityEngine.EnVector3Extensions.OffsetY(UnityEngine.Transform,System.Single)
+  name: OffsetY(Transform, Single)
+  href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_OffsetY_UnityEngine_Transform_System_Single_
+  commentId: M:UnityEngine.EnVector3Extensions.OffsetY(UnityEngine.Transform,System.Single)
+  fullName: UnityEngine.EnVector3Extensions.OffsetY(UnityEngine.Transform, System.Single)
+  nameWithType: EnVector3Extensions.OffsetY(Transform, Single)
+- uid: UnityEngine.EnVector3Extensions.OffsetY(UnityEngine.Vector2,System.Single)
+  name: OffsetY(Vector2, Single)
+  href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_OffsetY_UnityEngine_Vector2_System_Single_
+  commentId: M:UnityEngine.EnVector3Extensions.OffsetY(UnityEngine.Vector2,System.Single)
+  fullName: UnityEngine.EnVector3Extensions.OffsetY(UnityEngine.Vector2, System.Single)
+  nameWithType: EnVector3Extensions.OffsetY(Vector2, Single)
+- uid: UnityEngine.EnVector3Extensions.OffsetY(UnityEngine.Vector3,System.Single)
+  name: OffsetY(Vector3, Single)
+  href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_OffsetY_UnityEngine_Vector3_System_Single_
+  commentId: M:UnityEngine.EnVector3Extensions.OffsetY(UnityEngine.Vector3,System.Single)
+  fullName: UnityEngine.EnVector3Extensions.OffsetY(UnityEngine.Vector3, System.Single)
+  nameWithType: EnVector3Extensions.OffsetY(Vector3, Single)
+- uid: UnityEngine.EnVector3Extensions.OffsetY*
+  name: OffsetY
+  href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_OffsetY_
+  commentId: Overload:UnityEngine.EnVector3Extensions.OffsetY
   isSpec: "True"
-  fullName: UnityEngine.EnVector3Extensions.Rotate
-  nameWithType: EnVector3Extensions.Rotate
-- uid: UnityEngine.EnVector3Extensions.RotateAround(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Quaternion)
-  name: RotateAround(Vector3, Vector3, Quaternion)
-  href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_RotateAround_UnityEngine_Vector3_UnityEngine_Vector3_UnityEngine_Quaternion_
-  commentId: M:UnityEngine.EnVector3Extensions.RotateAround(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Quaternion)
-  fullName: UnityEngine.EnVector3Extensions.RotateAround(UnityEngine.Vector3, UnityEngine.Vector3, UnityEngine.Quaternion)
-  nameWithType: EnVector3Extensions.RotateAround(Vector3, Vector3, Quaternion)
-- uid: UnityEngine.EnVector3Extensions.RotateAround*
-  name: RotateAround
-  href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_RotateAround_
-  commentId: Overload:UnityEngine.EnVector3Extensions.RotateAround
+  fullName: UnityEngine.EnVector3Extensions.OffsetY
+  nameWithType: EnVector3Extensions.OffsetY
+- uid: UnityEngine.EnVector3Extensions.OffsetYZ(UnityEngine.Transform,System.Single,System.Single)
+  name: OffsetYZ(Transform, Single, Single)
+  href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_OffsetYZ_UnityEngine_Transform_System_Single_System_Single_
+  commentId: M:UnityEngine.EnVector3Extensions.OffsetYZ(UnityEngine.Transform,System.Single,System.Single)
+  fullName: UnityEngine.EnVector3Extensions.OffsetYZ(UnityEngine.Transform, System.Single, System.Single)
+  nameWithType: EnVector3Extensions.OffsetYZ(Transform, Single, Single)
+- uid: UnityEngine.EnVector3Extensions.OffsetYZ(UnityEngine.Vector3,System.Single,System.Single)
+  name: OffsetYZ(Vector3, Single, Single)
+  href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_OffsetYZ_UnityEngine_Vector3_System_Single_System_Single_
+  commentId: M:UnityEngine.EnVector3Extensions.OffsetYZ(UnityEngine.Vector3,System.Single,System.Single)
+  fullName: UnityEngine.EnVector3Extensions.OffsetYZ(UnityEngine.Vector3, System.Single, System.Single)
+  nameWithType: EnVector3Extensions.OffsetYZ(Vector3, Single, Single)
+- uid: UnityEngine.EnVector3Extensions.OffsetYZ*
+  name: OffsetYZ
+  href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_OffsetYZ_
+  commentId: Overload:UnityEngine.EnVector3Extensions.OffsetYZ
   isSpec: "True"
-  fullName: UnityEngine.EnVector3Extensions.RotateAround
-  nameWithType: EnVector3Extensions.RotateAround
-- uid: UnityEngine.EnVector3Extensions.SqrDistance(UnityEngine.Vector3,UnityEngine.Vector3)
-  name: SqrDistance(Vector3, Vector3)
-  href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_SqrDistance_UnityEngine_Vector3_UnityEngine_Vector3_
-  commentId: M:UnityEngine.EnVector3Extensions.SqrDistance(UnityEngine.Vector3,UnityEngine.Vector3)
-  fullName: UnityEngine.EnVector3Extensions.SqrDistance(UnityEngine.Vector3, UnityEngine.Vector3)
-  nameWithType: EnVector3Extensions.SqrDistance(Vector3, Vector3)
-- uid: UnityEngine.EnVector3Extensions.SqrDistance(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3)
-  name: SqrDistance(Vector3, Vector3, Vector3)
-  href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_SqrDistance_UnityEngine_Vector3_UnityEngine_Vector3_UnityEngine_Vector3_
-  commentId: M:UnityEngine.EnVector3Extensions.SqrDistance(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3)
-  fullName: UnityEngine.EnVector3Extensions.SqrDistance(UnityEngine.Vector3, UnityEngine.Vector3, UnityEngine.Vector3)
-  nameWithType: EnVector3Extensions.SqrDistance(Vector3, Vector3, Vector3)
-- uid: UnityEngine.EnVector3Extensions.SqrDistance(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Quaternion)
-  name: SqrDistance(Vector3, Vector3, Vector3, Quaternion)
-  href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_SqrDistance_UnityEngine_Vector3_UnityEngine_Vector3_UnityEngine_Vector3_UnityEngine_Quaternion_
-  commentId: M:UnityEngine.EnVector3Extensions.SqrDistance(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Quaternion)
-  fullName: UnityEngine.EnVector3Extensions.SqrDistance(UnityEngine.Vector3, UnityEngine.Vector3, UnityEngine.Vector3, UnityEngine.Quaternion)
-  nameWithType: EnVector3Extensions.SqrDistance(Vector3, Vector3, Vector3, Quaternion)
-- uid: UnityEngine.EnVector3Extensions.SqrDistance*
-  name: SqrDistance
-  href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_SqrDistance_
-  commentId: Overload:UnityEngine.EnVector3Extensions.SqrDistance
+  fullName: UnityEngine.EnVector3Extensions.OffsetYZ
+  nameWithType: EnVector3Extensions.OffsetYZ
+- uid: UnityEngine.EnVector3Extensions.OffsetZ(UnityEngine.Transform,System.Single)
+  name: OffsetZ(Transform, Single)
+  href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_OffsetZ_UnityEngine_Transform_System_Single_
+  commentId: M:UnityEngine.EnVector3Extensions.OffsetZ(UnityEngine.Transform,System.Single)
+  fullName: UnityEngine.EnVector3Extensions.OffsetZ(UnityEngine.Transform, System.Single)
+  nameWithType: EnVector3Extensions.OffsetZ(Transform, Single)
+- uid: UnityEngine.EnVector3Extensions.OffsetZ(UnityEngine.Vector3,System.Single)
+  name: OffsetZ(Vector3, Single)
+  href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_OffsetZ_UnityEngine_Vector3_System_Single_
+  commentId: M:UnityEngine.EnVector3Extensions.OffsetZ(UnityEngine.Vector3,System.Single)
+  fullName: UnityEngine.EnVector3Extensions.OffsetZ(UnityEngine.Vector3, System.Single)
+  nameWithType: EnVector3Extensions.OffsetZ(Vector3, Single)
+- uid: UnityEngine.EnVector3Extensions.OffsetZ*
+  name: OffsetZ
+  href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_OffsetZ_
+  commentId: Overload:UnityEngine.EnVector3Extensions.OffsetZ
   isSpec: "True"
-  fullName: UnityEngine.EnVector3Extensions.SqrDistance
-  nameWithType: EnVector3Extensions.SqrDistance
-- uid: UnityEngine.EnVector3Extensions.SqrDistanceXY(UnityEngine.Vector3,UnityEngine.Vector3)
-  name: SqrDistanceXY(Vector3, Vector3)
-  href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_SqrDistanceXY_UnityEngine_Vector3_UnityEngine_Vector3_
-  commentId: M:UnityEngine.EnVector3Extensions.SqrDistanceXY(UnityEngine.Vector3,UnityEngine.Vector3)
-  fullName: UnityEngine.EnVector3Extensions.SqrDistanceXY(UnityEngine.Vector3, UnityEngine.Vector3)
-  nameWithType: EnVector3Extensions.SqrDistanceXY(Vector3, Vector3)
-- uid: UnityEngine.EnVector3Extensions.SqrDistanceXY*
-  name: SqrDistanceXY
-  href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_SqrDistanceXY_
-  commentId: Overload:UnityEngine.EnVector3Extensions.SqrDistanceXY
+  fullName: UnityEngine.EnVector3Extensions.OffsetZ
+  nameWithType: EnVector3Extensions.OffsetZ
+- uid: UnityEngine.EnVector3Extensions.ResetPosition(UnityEngine.Transform)
+  name: ResetPosition(Transform)
+  href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_ResetPosition_UnityEngine_Transform_
+  commentId: M:UnityEngine.EnVector3Extensions.ResetPosition(UnityEngine.Transform)
+  fullName: UnityEngine.EnVector3Extensions.ResetPosition(UnityEngine.Transform)
+  nameWithType: EnVector3Extensions.ResetPosition(Transform)
+- uid: UnityEngine.EnVector3Extensions.ResetPosition*
+  name: ResetPosition
+  href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_ResetPosition_
+  commentId: Overload:UnityEngine.EnVector3Extensions.ResetPosition
   isSpec: "True"
-  fullName: UnityEngine.EnVector3Extensions.SqrDistanceXY
-  nameWithType: EnVector3Extensions.SqrDistanceXY
-- uid: UnityEngine.EnVector3Extensions.SqrDistanceXZ(UnityEngine.Vector3,UnityEngine.Vector3)
-  name: SqrDistanceXZ(Vector3, Vector3)
-  href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_SqrDistanceXZ_UnityEngine_Vector3_UnityEngine_Vector3_
-  commentId: M:UnityEngine.EnVector3Extensions.SqrDistanceXZ(UnityEngine.Vector3,UnityEngine.Vector3)
-  fullName: UnityEngine.EnVector3Extensions.SqrDistanceXZ(UnityEngine.Vector3, UnityEngine.Vector3)
-  nameWithType: EnVector3Extensions.SqrDistanceXZ(Vector3, Vector3)
-- uid: UnityEngine.EnVector3Extensions.SqrDistanceXZ*
-  name: SqrDistanceXZ
-  href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_SqrDistanceXZ_
-  commentId: Overload:UnityEngine.EnVector3Extensions.SqrDistanceXZ
+  fullName: UnityEngine.EnVector3Extensions.ResetPosition
+  nameWithType: EnVector3Extensions.ResetPosition
+- uid: UnityEngine.EnVector3Extensions.SetPositionX(UnityEngine.RectTransform,System.Single)
+  name: SetPositionX(RectTransform, Single)
+  href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_SetPositionX_UnityEngine_RectTransform_System_Single_
+  commentId: M:UnityEngine.EnVector3Extensions.SetPositionX(UnityEngine.RectTransform,System.Single)
+  fullName: UnityEngine.EnVector3Extensions.SetPositionX(UnityEngine.RectTransform, System.Single)
+  nameWithType: EnVector3Extensions.SetPositionX(RectTransform, Single)
+- uid: UnityEngine.EnVector3Extensions.SetPositionX*
+  name: SetPositionX
+  href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_SetPositionX_
+  commentId: Overload:UnityEngine.EnVector3Extensions.SetPositionX
   isSpec: "True"
-  fullName: UnityEngine.EnVector3Extensions.SqrDistanceXZ
-  nameWithType: EnVector3Extensions.SqrDistanceXZ
-- uid: UnityEngine.EnVector3Extensions.SqrDistanceYZ(UnityEngine.Vector3,UnityEngine.Vector3)
-  name: SqrDistanceYZ(Vector3, Vector3)
-  href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_SqrDistanceYZ_UnityEngine_Vector3_UnityEngine_Vector3_
-  commentId: M:UnityEngine.EnVector3Extensions.SqrDistanceYZ(UnityEngine.Vector3,UnityEngine.Vector3)
-  fullName: UnityEngine.EnVector3Extensions.SqrDistanceYZ(UnityEngine.Vector3, UnityEngine.Vector3)
-  nameWithType: EnVector3Extensions.SqrDistanceYZ(Vector3, Vector3)
-- uid: UnityEngine.EnVector3Extensions.SqrDistanceYZ*
-  name: SqrDistanceYZ
-  href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_SqrDistanceYZ_
-  commentId: Overload:UnityEngine.EnVector3Extensions.SqrDistanceYZ
+  fullName: UnityEngine.EnVector3Extensions.SetPositionX
+  nameWithType: EnVector3Extensions.SetPositionX
+- uid: UnityEngine.EnVector3Extensions.SetPositionY(UnityEngine.RectTransform,System.Single)
+  name: SetPositionY(RectTransform, Single)
+  href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_SetPositionY_UnityEngine_RectTransform_System_Single_
+  commentId: M:UnityEngine.EnVector3Extensions.SetPositionY(UnityEngine.RectTransform,System.Single)
+  fullName: UnityEngine.EnVector3Extensions.SetPositionY(UnityEngine.RectTransform, System.Single)
+  nameWithType: EnVector3Extensions.SetPositionY(RectTransform, Single)
+- uid: UnityEngine.EnVector3Extensions.SetPositionY*
+  name: SetPositionY
+  href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_SetPositionY_
+  commentId: Overload:UnityEngine.EnVector3Extensions.SetPositionY
   isSpec: "True"
-  fullName: UnityEngine.EnVector3Extensions.SqrDistanceYZ
-  nameWithType: EnVector3Extensions.SqrDistanceYZ
-- uid: UnityEngine.EnVector3Extensions.SqrMagnitude(UnityEngine.Vector3,UnityEngine.Vector3)
-  name: SqrMagnitude(Vector3, Vector3)
-  href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_SqrMagnitude_UnityEngine_Vector3_UnityEngine_Vector3_
-  commentId: M:UnityEngine.EnVector3Extensions.SqrMagnitude(UnityEngine.Vector3,UnityEngine.Vector3)
-  fullName: UnityEngine.EnVector3Extensions.SqrMagnitude(UnityEngine.Vector3, UnityEngine.Vector3)
-  nameWithType: EnVector3Extensions.SqrMagnitude(Vector3, Vector3)
-- uid: UnityEngine.EnVector3Extensions.SqrMagnitude*
-  name: SqrMagnitude
-  href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_SqrMagnitude_
-  commentId: Overload:UnityEngine.EnVector3Extensions.SqrMagnitude
+  fullName: UnityEngine.EnVector3Extensions.SetPositionY
+  nameWithType: EnVector3Extensions.SetPositionY
+- uid: UnityEngine.EnVector3Extensions.SetX(UnityEngine.Transform,System.Single)
+  name: SetX(Transform, Single)
+  href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_SetX_UnityEngine_Transform_System_Single_
+  commentId: M:UnityEngine.EnVector3Extensions.SetX(UnityEngine.Transform,System.Single)
+  fullName: UnityEngine.EnVector3Extensions.SetX(UnityEngine.Transform, System.Single)
+  nameWithType: EnVector3Extensions.SetX(Transform, Single)
+- uid: UnityEngine.EnVector3Extensions.SetX(UnityEngine.Vector2,System.Single)
+  name: SetX(Vector2, Single)
+  href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_SetX_UnityEngine_Vector2_System_Single_
+  commentId: M:UnityEngine.EnVector3Extensions.SetX(UnityEngine.Vector2,System.Single)
+  fullName: UnityEngine.EnVector3Extensions.SetX(UnityEngine.Vector2, System.Single)
+  nameWithType: EnVector3Extensions.SetX(Vector2, Single)
+- uid: UnityEngine.EnVector3Extensions.SetX(UnityEngine.Vector3,System.Single)
+  name: SetX(Vector3, Single)
+  href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_SetX_UnityEngine_Vector3_System_Single_
+  commentId: M:UnityEngine.EnVector3Extensions.SetX(UnityEngine.Vector3,System.Single)
+  fullName: UnityEngine.EnVector3Extensions.SetX(UnityEngine.Vector3, System.Single)
+  nameWithType: EnVector3Extensions.SetX(Vector3, Single)
+- uid: UnityEngine.EnVector3Extensions.SetX*
+  name: SetX
+  href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_SetX_
+  commentId: Overload:UnityEngine.EnVector3Extensions.SetX
   isSpec: "True"
-  fullName: UnityEngine.EnVector3Extensions.SqrMagnitude
-  nameWithType: EnVector3Extensions.SqrMagnitude
-- uid: UnityEngine.EnVector3Extensions.SqrMagnitudeXY(UnityEngine.Vector3)
-  name: SqrMagnitudeXY(Vector3)
-  href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_SqrMagnitudeXY_UnityEngine_Vector3_
-  commentId: M:UnityEngine.EnVector3Extensions.SqrMagnitudeXY(UnityEngine.Vector3)
-  fullName: UnityEngine.EnVector3Extensions.SqrMagnitudeXY(UnityEngine.Vector3)
-  nameWithType: EnVector3Extensions.SqrMagnitudeXY(Vector3)
-- uid: UnityEngine.EnVector3Extensions.SqrMagnitudeXY*
-  name: SqrMagnitudeXY
-  href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_SqrMagnitudeXY_
-  commentId: Overload:UnityEngine.EnVector3Extensions.SqrMagnitudeXY
+  fullName: UnityEngine.EnVector3Extensions.SetX
+  nameWithType: EnVector3Extensions.SetX
+- uid: UnityEngine.EnVector3Extensions.SetXY(UnityEngine.Transform,System.Single,System.Single)
+  name: SetXY(Transform, Single, Single)
+  href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_SetXY_UnityEngine_Transform_System_Single_System_Single_
+  commentId: M:UnityEngine.EnVector3Extensions.SetXY(UnityEngine.Transform,System.Single,System.Single)
+  fullName: UnityEngine.EnVector3Extensions.SetXY(UnityEngine.Transform, System.Single, System.Single)
+  nameWithType: EnVector3Extensions.SetXY(Transform, Single, Single)
+- uid: UnityEngine.EnVector3Extensions.SetXY(UnityEngine.Vector3,System.Single,System.Single)
+  name: SetXY(Vector3, Single, Single)
+  href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_SetXY_UnityEngine_Vector3_System_Single_System_Single_
+  commentId: M:UnityEngine.EnVector3Extensions.SetXY(UnityEngine.Vector3,System.Single,System.Single)
+  fullName: UnityEngine.EnVector3Extensions.SetXY(UnityEngine.Vector3, System.Single, System.Single)
+  nameWithType: EnVector3Extensions.SetXY(Vector3, Single, Single)
+- uid: UnityEngine.EnVector3Extensions.SetXY*
+  name: SetXY
+  href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_SetXY_
+  commentId: Overload:UnityEngine.EnVector3Extensions.SetXY
   isSpec: "True"
-  fullName: UnityEngine.EnVector3Extensions.SqrMagnitudeXY
-  nameWithType: EnVector3Extensions.SqrMagnitudeXY
-- uid: UnityEngine.EnVector3Extensions.SqrMagnitudeXZ(UnityEngine.Vector3)
-  name: SqrMagnitudeXZ(Vector3)
-  href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_SqrMagnitudeXZ_UnityEngine_Vector3_
-  commentId: M:UnityEngine.EnVector3Extensions.SqrMagnitudeXZ(UnityEngine.Vector3)
-  fullName: UnityEngine.EnVector3Extensions.SqrMagnitudeXZ(UnityEngine.Vector3)
-  nameWithType: EnVector3Extensions.SqrMagnitudeXZ(Vector3)
-- uid: UnityEngine.EnVector3Extensions.SqrMagnitudeXZ*
-  name: SqrMagnitudeXZ
-  href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_SqrMagnitudeXZ_
-  commentId: Overload:UnityEngine.EnVector3Extensions.SqrMagnitudeXZ
+  fullName: UnityEngine.EnVector3Extensions.SetXY
+  nameWithType: EnVector3Extensions.SetXY
+- uid: UnityEngine.EnVector3Extensions.SetXZ(UnityEngine.Transform,System.Single,System.Single)
+  name: SetXZ(Transform, Single, Single)
+  href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_SetXZ_UnityEngine_Transform_System_Single_System_Single_
+  commentId: M:UnityEngine.EnVector3Extensions.SetXZ(UnityEngine.Transform,System.Single,System.Single)
+  fullName: UnityEngine.EnVector3Extensions.SetXZ(UnityEngine.Transform, System.Single, System.Single)
+  nameWithType: EnVector3Extensions.SetXZ(Transform, Single, Single)
+- uid: UnityEngine.EnVector3Extensions.SetXZ(UnityEngine.Vector3,System.Single,System.Single)
+  name: SetXZ(Vector3, Single, Single)
+  href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_SetXZ_UnityEngine_Vector3_System_Single_System_Single_
+  commentId: M:UnityEngine.EnVector3Extensions.SetXZ(UnityEngine.Vector3,System.Single,System.Single)
+  fullName: UnityEngine.EnVector3Extensions.SetXZ(UnityEngine.Vector3, System.Single, System.Single)
+  nameWithType: EnVector3Extensions.SetXZ(Vector3, Single, Single)
+- uid: UnityEngine.EnVector3Extensions.SetXZ*
+  name: SetXZ
+  href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_SetXZ_
+  commentId: Overload:UnityEngine.EnVector3Extensions.SetXZ
   isSpec: "True"
-  fullName: UnityEngine.EnVector3Extensions.SqrMagnitudeXZ
-  nameWithType: EnVector3Extensions.SqrMagnitudeXZ
-- uid: UnityEngine.EnVector3Extensions.SqrMagnitudeYZ(UnityEngine.Vector3)
-  name: SqrMagnitudeYZ(Vector3)
-  href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_SqrMagnitudeYZ_UnityEngine_Vector3_
-  commentId: M:UnityEngine.EnVector3Extensions.SqrMagnitudeYZ(UnityEngine.Vector3)
-  fullName: UnityEngine.EnVector3Extensions.SqrMagnitudeYZ(UnityEngine.Vector3)
-  nameWithType: EnVector3Extensions.SqrMagnitudeYZ(Vector3)
-- uid: UnityEngine.EnVector3Extensions.SqrMagnitudeYZ*
-  name: SqrMagnitudeYZ
-  href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_SqrMagnitudeYZ_
-  commentId: Overload:UnityEngine.EnVector3Extensions.SqrMagnitudeYZ
+  fullName: UnityEngine.EnVector3Extensions.SetXZ
+  nameWithType: EnVector3Extensions.SetXZ
+- uid: UnityEngine.EnVector3Extensions.SetY(UnityEngine.Transform,System.Single)
+  name: SetY(Transform, Single)
+  href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_SetY_UnityEngine_Transform_System_Single_
+  commentId: M:UnityEngine.EnVector3Extensions.SetY(UnityEngine.Transform,System.Single)
+  fullName: UnityEngine.EnVector3Extensions.SetY(UnityEngine.Transform, System.Single)
+  nameWithType: EnVector3Extensions.SetY(Transform, Single)
+- uid: UnityEngine.EnVector3Extensions.SetY(UnityEngine.Vector2,System.Single)
+  name: SetY(Vector2, Single)
+  href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_SetY_UnityEngine_Vector2_System_Single_
+  commentId: M:UnityEngine.EnVector3Extensions.SetY(UnityEngine.Vector2,System.Single)
+  fullName: UnityEngine.EnVector3Extensions.SetY(UnityEngine.Vector2, System.Single)
+  nameWithType: EnVector3Extensions.SetY(Vector2, Single)
+- uid: UnityEngine.EnVector3Extensions.SetY(UnityEngine.Vector3,System.Single)
+  name: SetY(Vector3, Single)
+  href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_SetY_UnityEngine_Vector3_System_Single_
+  commentId: M:UnityEngine.EnVector3Extensions.SetY(UnityEngine.Vector3,System.Single)
+  fullName: UnityEngine.EnVector3Extensions.SetY(UnityEngine.Vector3, System.Single)
+  nameWithType: EnVector3Extensions.SetY(Vector3, Single)
+- uid: UnityEngine.EnVector3Extensions.SetY*
+  name: SetY
+  href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_SetY_
+  commentId: Overload:UnityEngine.EnVector3Extensions.SetY
   isSpec: "True"
-  fullName: UnityEngine.EnVector3Extensions.SqrMagnitudeYZ
-  nameWithType: EnVector3Extensions.SqrMagnitudeYZ
+  fullName: UnityEngine.EnVector3Extensions.SetY
+  nameWithType: EnVector3Extensions.SetY
+- uid: UnityEngine.EnVector3Extensions.SetYZ(UnityEngine.Transform,System.Single,System.Single)
+  name: SetYZ(Transform, Single, Single)
+  href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_SetYZ_UnityEngine_Transform_System_Single_System_Single_
+  commentId: M:UnityEngine.EnVector3Extensions.SetYZ(UnityEngine.Transform,System.Single,System.Single)
+  fullName: UnityEngine.EnVector3Extensions.SetYZ(UnityEngine.Transform, System.Single, System.Single)
+  nameWithType: EnVector3Extensions.SetYZ(Transform, Single, Single)
+- uid: UnityEngine.EnVector3Extensions.SetYZ(UnityEngine.Vector3,System.Single,System.Single)
+  name: SetYZ(Vector3, Single, Single)
+  href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_SetYZ_UnityEngine_Vector3_System_Single_System_Single_
+  commentId: M:UnityEngine.EnVector3Extensions.SetYZ(UnityEngine.Vector3,System.Single,System.Single)
+  fullName: UnityEngine.EnVector3Extensions.SetYZ(UnityEngine.Vector3, System.Single, System.Single)
+  nameWithType: EnVector3Extensions.SetYZ(Vector3, Single, Single)
+- uid: UnityEngine.EnVector3Extensions.SetYZ*
+  name: SetYZ
+  href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_SetYZ_
+  commentId: Overload:UnityEngine.EnVector3Extensions.SetYZ
+  isSpec: "True"
+  fullName: UnityEngine.EnVector3Extensions.SetYZ
+  nameWithType: EnVector3Extensions.SetYZ
+- uid: UnityEngine.EnVector3Extensions.SetZ(UnityEngine.Transform,System.Single)
+  name: SetZ(Transform, Single)
+  href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_SetZ_UnityEngine_Transform_System_Single_
+  commentId: M:UnityEngine.EnVector3Extensions.SetZ(UnityEngine.Transform,System.Single)
+  fullName: UnityEngine.EnVector3Extensions.SetZ(UnityEngine.Transform, System.Single)
+  nameWithType: EnVector3Extensions.SetZ(Transform, Single)
+- uid: UnityEngine.EnVector3Extensions.SetZ(UnityEngine.Vector3,System.Single)
+  name: SetZ(Vector3, Single)
+  href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_SetZ_UnityEngine_Vector3_System_Single_
+  commentId: M:UnityEngine.EnVector3Extensions.SetZ(UnityEngine.Vector3,System.Single)
+  fullName: UnityEngine.EnVector3Extensions.SetZ(UnityEngine.Vector3, System.Single)
+  nameWithType: EnVector3Extensions.SetZ(Vector3, Single)
+- uid: UnityEngine.EnVector3Extensions.SetZ*
+  name: SetZ
+  href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_SetZ_
+  commentId: Overload:UnityEngine.EnVector3Extensions.SetZ
+  isSpec: "True"
+  fullName: UnityEngine.EnVector3Extensions.SetZ
+  nameWithType: EnVector3Extensions.SetZ
+- uid: UnityEngine.EnVector3Extensions.To(UnityEngine.Vector3,UnityEngine.Vector3)
+  name: To(Vector3, Vector3)
+  href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_To_UnityEngine_Vector3_UnityEngine_Vector3_
+  commentId: M:UnityEngine.EnVector3Extensions.To(UnityEngine.Vector3,UnityEngine.Vector3)
+  fullName: UnityEngine.EnVector3Extensions.To(UnityEngine.Vector3, UnityEngine.Vector3)
+  nameWithType: EnVector3Extensions.To(Vector3, Vector3)
+- uid: UnityEngine.EnVector3Extensions.To*
+  name: To
+  href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_To_
+  commentId: Overload:UnityEngine.EnVector3Extensions.To
+  isSpec: "True"
+  fullName: UnityEngine.EnVector3Extensions.To
+  nameWithType: EnVector3Extensions.To
+- uid: UnityEngine.EnVector3Extensions.ToVector2(UnityEngine.Vector2Int)
+  name: ToVector2(Vector2Int)
+  href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_ToVector2_UnityEngine_Vector2Int_
+  commentId: M:UnityEngine.EnVector3Extensions.ToVector2(UnityEngine.Vector2Int)
+  fullName: UnityEngine.EnVector3Extensions.ToVector2(UnityEngine.Vector2Int)
+  nameWithType: EnVector3Extensions.ToVector2(Vector2Int)
+- uid: UnityEngine.EnVector3Extensions.ToVector2(UnityEngine.Vector3)
+  name: ToVector2(Vector3)
+  href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_ToVector2_UnityEngine_Vector3_
+  commentId: M:UnityEngine.EnVector3Extensions.ToVector2(UnityEngine.Vector3)
+  fullName: UnityEngine.EnVector3Extensions.ToVector2(UnityEngine.Vector3)
+  nameWithType: EnVector3Extensions.ToVector2(Vector3)
+- uid: UnityEngine.EnVector3Extensions.ToVector2*
+  name: ToVector2
+  href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_ToVector2_
+  commentId: Overload:UnityEngine.EnVector3Extensions.ToVector2
+  isSpec: "True"
+  fullName: UnityEngine.EnVector3Extensions.ToVector2
+  nameWithType: EnVector3Extensions.ToVector2
 - uid: UnityEngine.EnVector3Extensions.ToVector2Int(UnityEngine.Vector2)
   name: ToVector2Int(Vector2)
   href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_ToVector2Int_UnityEngine_Vector2_
   commentId: M:UnityEngine.EnVector3Extensions.ToVector2Int(UnityEngine.Vector2)
   fullName: UnityEngine.EnVector3Extensions.ToVector2Int(UnityEngine.Vector2)
   nameWithType: EnVector3Extensions.ToVector2Int(Vector2)
-- uid: UnityEngine.EnVector3Extensions.ToVector2Int(UnityEngine.Vector3)
-  name: ToVector2Int(Vector3)
-  href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_ToVector2Int_UnityEngine_Vector3_
-  commentId: M:UnityEngine.EnVector3Extensions.ToVector2Int(UnityEngine.Vector3)
-  fullName: UnityEngine.EnVector3Extensions.ToVector2Int(UnityEngine.Vector3)
-  nameWithType: EnVector3Extensions.ToVector2Int(Vector3)
 - uid: UnityEngine.EnVector3Extensions.ToVector2Int*
   name: ToVector2Int
   href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_ToVector2Int_
@@ -2299,12 +2396,25 @@ references:
   isSpec: "True"
   fullName: UnityEngine.EnVector3Extensions.ToVector2Int
   nameWithType: EnVector3Extensions.ToVector2Int
-- uid: UnityEngine.EnVector3Extensions.ToVector3Int(UnityEngine.Vector2)
-  name: ToVector3Int(Vector2)
-  href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_ToVector3Int_UnityEngine_Vector2_
-  commentId: M:UnityEngine.EnVector3Extensions.ToVector3Int(UnityEngine.Vector2)
-  fullName: UnityEngine.EnVector3Extensions.ToVector3Int(UnityEngine.Vector2)
-  nameWithType: EnVector3Extensions.ToVector3Int(Vector2)
+- uid: UnityEngine.EnVector3Extensions.ToVector3(UnityEngine.Vector2)
+  name: ToVector3(Vector2)
+  href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_ToVector3_UnityEngine_Vector2_
+  commentId: M:UnityEngine.EnVector3Extensions.ToVector3(UnityEngine.Vector2)
+  fullName: UnityEngine.EnVector3Extensions.ToVector3(UnityEngine.Vector2)
+  nameWithType: EnVector3Extensions.ToVector3(Vector2)
+- uid: UnityEngine.EnVector3Extensions.ToVector3(UnityEngine.Vector3Int)
+  name: ToVector3(Vector3Int)
+  href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_ToVector3_UnityEngine_Vector3Int_
+  commentId: M:UnityEngine.EnVector3Extensions.ToVector3(UnityEngine.Vector3Int)
+  fullName: UnityEngine.EnVector3Extensions.ToVector3(UnityEngine.Vector3Int)
+  nameWithType: EnVector3Extensions.ToVector3(Vector3Int)
+- uid: UnityEngine.EnVector3Extensions.ToVector3*
+  name: ToVector3
+  href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_ToVector3_
+  commentId: Overload:UnityEngine.EnVector3Extensions.ToVector3
+  isSpec: "True"
+  fullName: UnityEngine.EnVector3Extensions.ToVector3
+  nameWithType: EnVector3Extensions.ToVector3
 - uid: UnityEngine.EnVector3Extensions.ToVector3Int(UnityEngine.Vector3)
   name: ToVector3Int(Vector3)
   href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_ToVector3Int_UnityEngine_Vector3_
@@ -2318,58 +2428,6 @@ references:
   isSpec: "True"
   fullName: UnityEngine.EnVector3Extensions.ToVector3Int
   nameWithType: EnVector3Extensions.ToVector3Int
-- uid: UnityEngine.EnVector3Extensions.TransformPoint(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Quaternion)
-  name: TransformPoint(Vector3, Vector3, Quaternion)
-  href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_TransformPoint_UnityEngine_Vector3_UnityEngine_Vector3_UnityEngine_Quaternion_
-  commentId: M:UnityEngine.EnVector3Extensions.TransformPoint(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Quaternion)
-  fullName: UnityEngine.EnVector3Extensions.TransformPoint(UnityEngine.Vector3, UnityEngine.Vector3, UnityEngine.Quaternion)
-  nameWithType: EnVector3Extensions.TransformPoint(Vector3, Vector3, Quaternion)
-- uid: UnityEngine.EnVector3Extensions.TransformPoint*
-  name: TransformPoint
-  href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_TransformPoint_
-  commentId: Overload:UnityEngine.EnVector3Extensions.TransformPoint
-  isSpec: "True"
-  fullName: UnityEngine.EnVector3Extensions.TransformPoint
-  nameWithType: EnVector3Extensions.TransformPoint
-- uid: UnityEngine.EnVector3Extensions.WithX(UnityEngine.Vector3,System.Single)
-  name: WithX(Vector3, Single)
-  href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_WithX_UnityEngine_Vector3_System_Single_
-  commentId: M:UnityEngine.EnVector3Extensions.WithX(UnityEngine.Vector3,System.Single)
-  fullName: UnityEngine.EnVector3Extensions.WithX(UnityEngine.Vector3, System.Single)
-  nameWithType: EnVector3Extensions.WithX(Vector3, Single)
-- uid: UnityEngine.EnVector3Extensions.WithX*
-  name: WithX
-  href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_WithX_
-  commentId: Overload:UnityEngine.EnVector3Extensions.WithX
-  isSpec: "True"
-  fullName: UnityEngine.EnVector3Extensions.WithX
-  nameWithType: EnVector3Extensions.WithX
-- uid: UnityEngine.EnVector3Extensions.WithY(UnityEngine.Vector3,System.Single)
-  name: WithY(Vector3, Single)
-  href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_WithY_UnityEngine_Vector3_System_Single_
-  commentId: M:UnityEngine.EnVector3Extensions.WithY(UnityEngine.Vector3,System.Single)
-  fullName: UnityEngine.EnVector3Extensions.WithY(UnityEngine.Vector3, System.Single)
-  nameWithType: EnVector3Extensions.WithY(Vector3, Single)
-- uid: UnityEngine.EnVector3Extensions.WithY*
-  name: WithY
-  href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_WithY_
-  commentId: Overload:UnityEngine.EnVector3Extensions.WithY
-  isSpec: "True"
-  fullName: UnityEngine.EnVector3Extensions.WithY
-  nameWithType: EnVector3Extensions.WithY
-- uid: UnityEngine.EnVector3Extensions.WithZ(UnityEngine.Vector3,System.Single)
-  name: WithZ(Vector3, Single)
-  href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_WithZ_UnityEngine_Vector3_System_Single_
-  commentId: M:UnityEngine.EnVector3Extensions.WithZ(UnityEngine.Vector3,System.Single)
-  fullName: UnityEngine.EnVector3Extensions.WithZ(UnityEngine.Vector3, System.Single)
-  nameWithType: EnVector3Extensions.WithZ(Vector3, Single)
-- uid: UnityEngine.EnVector3Extensions.WithZ*
-  name: WithZ
-  href: api/UnityEngine.EnVector3Extensions.html#UnityEngine_EnVector3Extensions_WithZ_
-  commentId: Overload:UnityEngine.EnVector3Extensions.WithZ
-  isSpec: "True"
-  fullName: UnityEngine.EnVector3Extensions.WithZ
-  nameWithType: EnVector3Extensions.WithZ
 - uid: UnityEngine.EnVector3IntExtensions
   name: EnVector3IntExtensions
   href: api/UnityEngine.EnVector3IntExtensions.html

@@ -1,0 +1,191 @@
+### YamlMime:ManagedReference
+items:
+- uid: UnityEngine.EnPhysicsExtensions
+  commentId: T:UnityEngine.EnPhysicsExtensions
+  id: EnPhysicsExtensions
+  parent: UnityEngine
+  children:
+  - UnityEngine.EnPhysicsExtensions.ConeCastAll(UnityEngine.Physics,UnityEngine.Vector3,System.Single,UnityEngine.Vector3,System.Single,System.Single,System.Int32,UnityEngine.QueryTriggerInteraction)
+  langs:
+  - csharp
+  - vb
+  name: EnPhysicsExtensions
+  nameWithType: EnPhysicsExtensions
+  fullName: UnityEngine.EnPhysicsExtensions
+  type: Class
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnPhysicsExtensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: EnPhysicsExtensions
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnPhysicsExtensions.cs
+    startLine: 22
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  summary: "\nUtility extensions for manipulating and working with Physics.\n\n<example>\n<pre><code></code></pre>\n</example>\n\n<example>\n<pre><code>#define DISABLE_ALL_EN_EXTENSIONS //Disable all Extensions\n#define DISABLE_EN_PHYSICS_EXTENSIONS // Disable this Extensions</code></pre>\n</example>\n"
+  example: []
+  syntax:
+    content: public static class EnPhysicsExtensions
+    content.vb: Public Module EnPhysicsExtensions
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: UnityEngine.EnPhysicsExtensions.ConeCastAll(UnityEngine.Physics,UnityEngine.Vector3,System.Single,UnityEngine.Vector3,System.Single,System.Single,System.Int32,UnityEngine.QueryTriggerInteraction)
+  commentId: M:UnityEngine.EnPhysicsExtensions.ConeCastAll(UnityEngine.Physics,UnityEngine.Vector3,System.Single,UnityEngine.Vector3,System.Single,System.Single,System.Int32,UnityEngine.QueryTriggerInteraction)
+  id: ConeCastAll(UnityEngine.Physics,UnityEngine.Vector3,System.Single,UnityEngine.Vector3,System.Single,System.Single,System.Int32,UnityEngine.QueryTriggerInteraction)
+  isExtensionMethod: true
+  parent: UnityEngine.EnPhysicsExtensions
+  langs:
+  - csharp
+  - vb
+  name: ConeCastAll(Physics, Vector3, Single, Vector3, Single, Single, Int32, QueryTriggerInteraction)
+  nameWithType: EnPhysicsExtensions.ConeCastAll(Physics, Vector3, Single, Vector3, Single, Single, Int32, QueryTriggerInteraction)
+  fullName: UnityEngine.EnPhysicsExtensions.ConeCastAll(UnityEngine.Physics, UnityEngine.Vector3, System.Single, UnityEngine.Vector3, System.Single, System.Single, System.Int32, UnityEngine.QueryTriggerInteraction)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnPhysicsExtensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: ConeCastAll
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnPhysicsExtensions.cs
+    startLine: 36
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  summary: "\nConeCastAll extension method for the Physics\n"
+  example: []
+  syntax:
+    content: public static RaycastHit[] ConeCastAll(this Physics physics, Vector3 origin, float maxRadius, Vector3 direction, float maxDistance, float coneAngle, int layerMask = -1, QueryTriggerInteraction queryTriggerInteraction = QueryTriggerInteraction.UseGlobal)
+    parameters:
+    - id: physics
+      type: UnityEngine.Physics
+      description: ''
+    - id: origin
+      type: UnityEngine.Vector3
+      description: ''
+    - id: maxRadius
+      type: System.Single
+      description: ''
+    - id: direction
+      type: UnityEngine.Vector3
+      description: ''
+    - id: maxDistance
+      type: System.Single
+      description: ''
+    - id: coneAngle
+      type: System.Single
+      description: ''
+    - id: layerMask
+      type: System.Int32
+      description: ''
+    - id: queryTriggerInteraction
+      type: UnityEngine.QueryTriggerInteraction
+      description: ''
+    return:
+      type: UnityEngine.RaycastHit[]
+      description: ''
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ConeCastAll(physics As Physics, origin As Vector3, maxRadius As Single, direction As Vector3, maxDistance As Single, coneAngle As Single, layerMask As Integer = -1, queryTriggerInteraction As QueryTriggerInteraction = QueryTriggerInteraction.UseGlobal) As RaycastHit()
+  overload: UnityEngine.EnPhysicsExtensions.ConeCastAll*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine.EnPhysicsExtensions.ConeCastAll*
+  commentId: Overload:UnityEngine.EnPhysicsExtensions.ConeCastAll
+  name: ConeCastAll
+  nameWithType: EnPhysicsExtensions.ConeCastAll
+  fullName: UnityEngine.EnPhysicsExtensions.ConeCastAll
+- uid: UnityEngine.Physics
+  commentId: T:UnityEngine.Physics
+  parent: UnityEngine
+  isExternal: true
+  name: Physics
+  nameWithType: Physics
+  fullName: UnityEngine.Physics
+- uid: UnityEngine.Vector3
+  commentId: T:UnityEngine.Vector3
+  parent: UnityEngine
+  isExternal: true
+  name: Vector3
+  nameWithType: Vector3
+  fullName: UnityEngine.Vector3
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: UnityEngine.QueryTriggerInteraction
+  commentId: T:UnityEngine.QueryTriggerInteraction
+  parent: UnityEngine
+  isExternal: true
+  name: QueryTriggerInteraction
+  nameWithType: QueryTriggerInteraction
+  fullName: UnityEngine.QueryTriggerInteraction
+- uid: UnityEngine.RaycastHit[]
+  isExternal: true
+  name: RaycastHit[]
+  nameWithType: RaycastHit[]
+  fullName: UnityEngine.RaycastHit[]
+  nameWithType.vb: RaycastHit()
+  fullName.vb: UnityEngine.RaycastHit()
+  name.vb: RaycastHit()
+  spec.csharp:
+  - uid: UnityEngine.RaycastHit
+    name: RaycastHit
+    nameWithType: RaycastHit
+    fullName: UnityEngine.RaycastHit
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: UnityEngine.RaycastHit
+    name: RaycastHit
+    nameWithType: RaycastHit
+    fullName: UnityEngine.RaycastHit
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

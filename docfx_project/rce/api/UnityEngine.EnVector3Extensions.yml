@@ -5,50 +5,60 @@ items:
   id: EnVector3Extensions
   parent: UnityEngine
   children:
-  - UnityEngine.EnVector3Extensions.AddX(UnityEngine.Vector3,System.Single)
-  - UnityEngine.EnVector3Extensions.AddY(UnityEngine.Vector3,System.Single)
-  - UnityEngine.EnVector3Extensions.AddZ(UnityEngine.Vector3,System.Single)
-  - UnityEngine.EnVector3Extensions.AngleTo(UnityEngine.Vector3,UnityEngine.Vector3)
-  - UnityEngine.EnVector3Extensions.Cross(UnityEngine.Vector3,UnityEngine.Vector3)
-  - UnityEngine.EnVector3Extensions.distance(UnityEngine.Vector3,UnityEngine.Vector3)
-  - UnityEngine.EnVector3Extensions.distance(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3)
-  - UnityEngine.EnVector3Extensions.distance(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Quaternion)
-  - UnityEngine.EnVector3Extensions.distanceXY(UnityEngine.Vector3,UnityEngine.Vector3)
-  - UnityEngine.EnVector3Extensions.distanceXZ(UnityEngine.Vector3,UnityEngine.Vector3)
-  - UnityEngine.EnVector3Extensions.distanceYZ(UnityEngine.Vector3,UnityEngine.Vector3)
-  - UnityEngine.EnVector3Extensions.Dot(UnityEngine.Vector3,UnityEngine.Vector3)
+  - UnityEngine.EnVector3Extensions.Approximately(UnityEngine.Vector2,UnityEngine.Vector2,System.Single)
+  - UnityEngine.EnVector3Extensions.Approximately(UnityEngine.Vector3,UnityEngine.Vector3,System.Single)
+  - UnityEngine.EnVector3Extensions.ClampX(UnityEngine.Transform,System.Single,System.Single)
+  - UnityEngine.EnVector3Extensions.ClampX(UnityEngine.Vector2,System.Single,System.Single)
+  - UnityEngine.EnVector3Extensions.ClampX(UnityEngine.Vector3,System.Single,System.Single)
+  - UnityEngine.EnVector3Extensions.ClampY(UnityEngine.Transform,System.Single,System.Single)
+  - UnityEngine.EnVector3Extensions.ClampY(UnityEngine.Vector2,System.Single,System.Single)
+  - UnityEngine.EnVector3Extensions.ClampY(UnityEngine.Vector3,System.Single,System.Single)
+  - UnityEngine.EnVector3Extensions.GetClosest(System.Collections.Generic.IEnumerable{UnityEngine.Vector3},UnityEngine.Vector3)
   - UnityEngine.EnVector3Extensions.GetClosest(UnityEngine.Vector3,System.Collections.Generic.IEnumerable{UnityEngine.Vector3})
-  - UnityEngine.EnVector3Extensions.InverseTransformPoint(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Quaternion)
-  - UnityEngine.EnVector3Extensions.Invert(UnityEngine.Vector3)
-  - UnityEngine.EnVector3Extensions.InvertX(UnityEngine.Vector3)
-  - UnityEngine.EnVector3Extensions.InvertY(UnityEngine.Vector3)
-  - UnityEngine.EnVector3Extensions.InvertZ(UnityEngine.Vector3)
-  - UnityEngine.EnVector3Extensions.magnitude(UnityEngine.Vector3,UnityEngine.Vector3)
-  - UnityEngine.EnVector3Extensions.magnitudeXY(UnityEngine.Vector3)
-  - UnityEngine.EnVector3Extensions.magnitudeXZ(UnityEngine.Vector3)
-  - UnityEngine.EnVector3Extensions.magnitudeYZ(UnityEngine.Vector3)
-  - UnityEngine.EnVector3Extensions.Project(UnityEngine.Vector3,UnityEngine.Vector3)
-  - UnityEngine.EnVector3Extensions.Project(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Quaternion)
-  - UnityEngine.EnVector3Extensions.Rotate(UnityEngine.Vector3,UnityEngine.Quaternion)
-  - UnityEngine.EnVector3Extensions.RotateAround(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Quaternion)
-  - UnityEngine.EnVector3Extensions.sqrDistance(UnityEngine.Vector3,UnityEngine.Vector3)
-  - UnityEngine.EnVector3Extensions.sqrDistance(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3)
-  - UnityEngine.EnVector3Extensions.sqrDistance(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Quaternion)
-  - UnityEngine.EnVector3Extensions.sqrDistanceXY(UnityEngine.Vector3,UnityEngine.Vector3)
-  - UnityEngine.EnVector3Extensions.sqrDistanceXZ(UnityEngine.Vector3,UnityEngine.Vector3)
-  - UnityEngine.EnVector3Extensions.sqrDistanceYZ(UnityEngine.Vector3,UnityEngine.Vector3)
-  - UnityEngine.EnVector3Extensions.sqrMagnitude(UnityEngine.Vector3,UnityEngine.Vector3)
-  - UnityEngine.EnVector3Extensions.sqrMagnitudeXY(UnityEngine.Vector3)
-  - UnityEngine.EnVector3Extensions.sqrMagnitudeXZ(UnityEngine.Vector3)
-  - UnityEngine.EnVector3Extensions.sqrMagnitudeYZ(UnityEngine.Vector3)
+  - UnityEngine.EnVector3Extensions.InvertX(UnityEngine.Vector2)
+  - UnityEngine.EnVector3Extensions.InvertY(UnityEngine.Vector2)
+  - UnityEngine.EnVector3Extensions.Offset(UnityEngine.Vector3,UnityEngine.Vector2)
+  - UnityEngine.EnVector3Extensions.OffsetPositionX(UnityEngine.RectTransform,System.Single)
+  - UnityEngine.EnVector3Extensions.OffsetPositionY(UnityEngine.RectTransform,System.Single)
+  - UnityEngine.EnVector3Extensions.OffsetX(UnityEngine.Transform,System.Single)
+  - UnityEngine.EnVector3Extensions.OffsetX(UnityEngine.Vector2,System.Single)
+  - UnityEngine.EnVector3Extensions.OffsetX(UnityEngine.Vector3,System.Single)
+  - UnityEngine.EnVector3Extensions.OffsetXY(UnityEngine.Transform,System.Single,System.Single)
+  - UnityEngine.EnVector3Extensions.OffsetXY(UnityEngine.Vector2,System.Single,System.Single)
+  - UnityEngine.EnVector3Extensions.OffsetXY(UnityEngine.Vector3,System.Single,System.Single)
+  - UnityEngine.EnVector3Extensions.OffsetXZ(UnityEngine.Transform,System.Single,System.Single)
+  - UnityEngine.EnVector3Extensions.OffsetXZ(UnityEngine.Vector3,System.Single,System.Single)
+  - UnityEngine.EnVector3Extensions.OffsetY(UnityEngine.Transform,System.Single)
+  - UnityEngine.EnVector3Extensions.OffsetY(UnityEngine.Vector2,System.Single)
+  - UnityEngine.EnVector3Extensions.OffsetY(UnityEngine.Vector3,System.Single)
+  - UnityEngine.EnVector3Extensions.OffsetYZ(UnityEngine.Transform,System.Single,System.Single)
+  - UnityEngine.EnVector3Extensions.OffsetYZ(UnityEngine.Vector3,System.Single,System.Single)
+  - UnityEngine.EnVector3Extensions.OffsetZ(UnityEngine.Transform,System.Single)
+  - UnityEngine.EnVector3Extensions.OffsetZ(UnityEngine.Vector3,System.Single)
+  - UnityEngine.EnVector3Extensions.ResetPosition(UnityEngine.Transform)
+  - UnityEngine.EnVector3Extensions.SetPositionX(UnityEngine.RectTransform,System.Single)
+  - UnityEngine.EnVector3Extensions.SetPositionY(UnityEngine.RectTransform,System.Single)
+  - UnityEngine.EnVector3Extensions.SetX(UnityEngine.Transform,System.Single)
+  - UnityEngine.EnVector3Extensions.SetX(UnityEngine.Vector2,System.Single)
+  - UnityEngine.EnVector3Extensions.SetX(UnityEngine.Vector3,System.Single)
+  - UnityEngine.EnVector3Extensions.SetXY(UnityEngine.Transform,System.Single,System.Single)
+  - UnityEngine.EnVector3Extensions.SetXY(UnityEngine.Vector3,System.Single,System.Single)
+  - UnityEngine.EnVector3Extensions.SetXZ(UnityEngine.Transform,System.Single,System.Single)
+  - UnityEngine.EnVector3Extensions.SetXZ(UnityEngine.Vector3,System.Single,System.Single)
+  - UnityEngine.EnVector3Extensions.SetY(UnityEngine.Transform,System.Single)
+  - UnityEngine.EnVector3Extensions.SetY(UnityEngine.Vector2,System.Single)
+  - UnityEngine.EnVector3Extensions.SetY(UnityEngine.Vector3,System.Single)
+  - UnityEngine.EnVector3Extensions.SetYZ(UnityEngine.Transform,System.Single,System.Single)
+  - UnityEngine.EnVector3Extensions.SetYZ(UnityEngine.Vector3,System.Single,System.Single)
+  - UnityEngine.EnVector3Extensions.SetZ(UnityEngine.Transform,System.Single)
+  - UnityEngine.EnVector3Extensions.SetZ(UnityEngine.Vector3,System.Single)
+  - UnityEngine.EnVector3Extensions.To(UnityEngine.Vector3,UnityEngine.Vector3)
+  - UnityEngine.EnVector3Extensions.ToVector2(UnityEngine.Vector2Int)
+  - UnityEngine.EnVector3Extensions.ToVector2(UnityEngine.Vector3)
   - UnityEngine.EnVector3Extensions.ToVector2Int(UnityEngine.Vector2)
-  - UnityEngine.EnVector3Extensions.ToVector2Int(UnityEngine.Vector3)
-  - UnityEngine.EnVector3Extensions.ToVector3Int(UnityEngine.Vector2)
+  - UnityEngine.EnVector3Extensions.ToVector3(UnityEngine.Vector2)
+  - UnityEngine.EnVector3Extensions.ToVector3(UnityEngine.Vector3Int)
   - UnityEngine.EnVector3Extensions.ToVector3Int(UnityEngine.Vector3)
-  - UnityEngine.EnVector3Extensions.TransformPoint(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Quaternion)
-  - UnityEngine.EnVector3Extensions.WithX(UnityEngine.Vector3,System.Single)
-  - UnityEngine.EnVector3Extensions.WithY(UnityEngine.Vector3,System.Single)
-  - UnityEngine.EnVector3Extensions.WithZ(UnityEngine.Vector3,System.Single)
   langs:
   - csharp
   - vb
@@ -63,7 +73,7 @@ items:
       repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
     id: EnVector3Extensions
     path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
-    startLine: 26
+    startLine: 25
   assemblies:
   - ECHTNICE.EnUnityEngineExtensions
   namespace: UnityEngine
@@ -81,6 +91,2187 @@ items:
   modifiers.vb:
   - Public
   - Module
+- uid: UnityEngine.EnVector3Extensions.SetX(UnityEngine.Vector3,System.Single)
+  commentId: M:UnityEngine.EnVector3Extensions.SetX(UnityEngine.Vector3,System.Single)
+  id: SetX(UnityEngine.Vector3,System.Single)
+  isExtensionMethod: true
+  parent: UnityEngine.EnVector3Extensions
+  langs:
+  - csharp
+  - vb
+  name: SetX(Vector3, Single)
+  nameWithType: EnVector3Extensions.SetX(Vector3, Single)
+  fullName: UnityEngine.EnVector3Extensions.SetX(UnityEngine.Vector3, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: SetX
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
+    startLine: 33
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  syntax:
+    content: public static Vector3 SetX(this Vector3 vector, float x)
+    parameters:
+    - id: vector
+      type: UnityEngine.Vector3
+    - id: x
+      type: System.Single
+    return:
+      type: UnityEngine.Vector3
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function SetX(vector As Vector3, x As Single) As Vector3
+  overload: UnityEngine.EnVector3Extensions.SetX*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnVector3Extensions.SetX(UnityEngine.Vector2,System.Single)
+  commentId: M:UnityEngine.EnVector3Extensions.SetX(UnityEngine.Vector2,System.Single)
+  id: SetX(UnityEngine.Vector2,System.Single)
+  isExtensionMethod: true
+  parent: UnityEngine.EnVector3Extensions
+  langs:
+  - csharp
+  - vb
+  name: SetX(Vector2, Single)
+  nameWithType: EnVector3Extensions.SetX(Vector2, Single)
+  fullName: UnityEngine.EnVector3Extensions.SetX(UnityEngine.Vector2, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: SetX
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
+    startLine: 37
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  syntax:
+    content: public static Vector2 SetX(this Vector2 vector, float x)
+    parameters:
+    - id: vector
+      type: UnityEngine.Vector2
+    - id: x
+      type: System.Single
+    return:
+      type: UnityEngine.Vector2
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function SetX(vector As Vector2, x As Single) As Vector2
+  overload: UnityEngine.EnVector3Extensions.SetX*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnVector3Extensions.SetX(UnityEngine.Transform,System.Single)
+  commentId: M:UnityEngine.EnVector3Extensions.SetX(UnityEngine.Transform,System.Single)
+  id: SetX(UnityEngine.Transform,System.Single)
+  isExtensionMethod: true
+  parent: UnityEngine.EnVector3Extensions
+  langs:
+  - csharp
+  - vb
+  name: SetX(Transform, Single)
+  nameWithType: EnVector3Extensions.SetX(Transform, Single)
+  fullName: UnityEngine.EnVector3Extensions.SetX(UnityEngine.Transform, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: SetX
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
+    startLine: 41
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  syntax:
+    content: public static void SetX(this Transform transform, float x)
+    parameters:
+    - id: transform
+      type: UnityEngine.Transform
+    - id: x
+      type: System.Single
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub SetX(transform As Transform, x As Single)
+  overload: UnityEngine.EnVector3Extensions.SetX*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnVector3Extensions.SetY(UnityEngine.Vector3,System.Single)
+  commentId: M:UnityEngine.EnVector3Extensions.SetY(UnityEngine.Vector3,System.Single)
+  id: SetY(UnityEngine.Vector3,System.Single)
+  isExtensionMethod: true
+  parent: UnityEngine.EnVector3Extensions
+  langs:
+  - csharp
+  - vb
+  name: SetY(Vector3, Single)
+  nameWithType: EnVector3Extensions.SetY(Vector3, Single)
+  fullName: UnityEngine.EnVector3Extensions.SetY(UnityEngine.Vector3, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: SetY
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
+    startLine: 47
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  syntax:
+    content: public static Vector3 SetY(this Vector3 vector, float y)
+    parameters:
+    - id: vector
+      type: UnityEngine.Vector3
+    - id: y
+      type: System.Single
+    return:
+      type: UnityEngine.Vector3
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function SetY(vector As Vector3, y As Single) As Vector3
+  overload: UnityEngine.EnVector3Extensions.SetY*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnVector3Extensions.SetY(UnityEngine.Vector2,System.Single)
+  commentId: M:UnityEngine.EnVector3Extensions.SetY(UnityEngine.Vector2,System.Single)
+  id: SetY(UnityEngine.Vector2,System.Single)
+  isExtensionMethod: true
+  parent: UnityEngine.EnVector3Extensions
+  langs:
+  - csharp
+  - vb
+  name: SetY(Vector2, Single)
+  nameWithType: EnVector3Extensions.SetY(Vector2, Single)
+  fullName: UnityEngine.EnVector3Extensions.SetY(UnityEngine.Vector2, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: SetY
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
+    startLine: 51
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  syntax:
+    content: public static Vector2 SetY(this Vector2 vector, float y)
+    parameters:
+    - id: vector
+      type: UnityEngine.Vector2
+    - id: y
+      type: System.Single
+    return:
+      type: UnityEngine.Vector2
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function SetY(vector As Vector2, y As Single) As Vector2
+  overload: UnityEngine.EnVector3Extensions.SetY*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnVector3Extensions.SetY(UnityEngine.Transform,System.Single)
+  commentId: M:UnityEngine.EnVector3Extensions.SetY(UnityEngine.Transform,System.Single)
+  id: SetY(UnityEngine.Transform,System.Single)
+  isExtensionMethod: true
+  parent: UnityEngine.EnVector3Extensions
+  langs:
+  - csharp
+  - vb
+  name: SetY(Transform, Single)
+  nameWithType: EnVector3Extensions.SetY(Transform, Single)
+  fullName: UnityEngine.EnVector3Extensions.SetY(UnityEngine.Transform, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: SetY
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
+    startLine: 55
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  syntax:
+    content: public static void SetY(this Transform transform, float y)
+    parameters:
+    - id: transform
+      type: UnityEngine.Transform
+    - id: y
+      type: System.Single
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub SetY(transform As Transform, y As Single)
+  overload: UnityEngine.EnVector3Extensions.SetY*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnVector3Extensions.SetZ(UnityEngine.Vector3,System.Single)
+  commentId: M:UnityEngine.EnVector3Extensions.SetZ(UnityEngine.Vector3,System.Single)
+  id: SetZ(UnityEngine.Vector3,System.Single)
+  isExtensionMethod: true
+  parent: UnityEngine.EnVector3Extensions
+  langs:
+  - csharp
+  - vb
+  name: SetZ(Vector3, Single)
+  nameWithType: EnVector3Extensions.SetZ(Vector3, Single)
+  fullName: UnityEngine.EnVector3Extensions.SetZ(UnityEngine.Vector3, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: SetZ
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
+    startLine: 61
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  syntax:
+    content: public static Vector3 SetZ(this Vector3 vector, float z)
+    parameters:
+    - id: vector
+      type: UnityEngine.Vector3
+    - id: z
+      type: System.Single
+    return:
+      type: UnityEngine.Vector3
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function SetZ(vector As Vector3, z As Single) As Vector3
+  overload: UnityEngine.EnVector3Extensions.SetZ*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnVector3Extensions.SetZ(UnityEngine.Transform,System.Single)
+  commentId: M:UnityEngine.EnVector3Extensions.SetZ(UnityEngine.Transform,System.Single)
+  id: SetZ(UnityEngine.Transform,System.Single)
+  isExtensionMethod: true
+  parent: UnityEngine.EnVector3Extensions
+  langs:
+  - csharp
+  - vb
+  name: SetZ(Transform, Single)
+  nameWithType: EnVector3Extensions.SetZ(Transform, Single)
+  fullName: UnityEngine.EnVector3Extensions.SetZ(UnityEngine.Transform, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: SetZ
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
+    startLine: 65
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  syntax:
+    content: public static void SetZ(this Transform transform, float z)
+    parameters:
+    - id: transform
+      type: UnityEngine.Transform
+    - id: z
+      type: System.Single
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub SetZ(transform As Transform, z As Single)
+  overload: UnityEngine.EnVector3Extensions.SetZ*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnVector3Extensions.SetXY(UnityEngine.Vector3,System.Single,System.Single)
+  commentId: M:UnityEngine.EnVector3Extensions.SetXY(UnityEngine.Vector3,System.Single,System.Single)
+  id: SetXY(UnityEngine.Vector3,System.Single,System.Single)
+  isExtensionMethod: true
+  parent: UnityEngine.EnVector3Extensions
+  langs:
+  - csharp
+  - vb
+  name: SetXY(Vector3, Single, Single)
+  nameWithType: EnVector3Extensions.SetXY(Vector3, Single, Single)
+  fullName: UnityEngine.EnVector3Extensions.SetXY(UnityEngine.Vector3, System.Single, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: SetXY
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
+    startLine: 71
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  syntax:
+    content: public static Vector3 SetXY(this Vector3 vector, float x, float y)
+    parameters:
+    - id: vector
+      type: UnityEngine.Vector3
+    - id: x
+      type: System.Single
+    - id: y
+      type: System.Single
+    return:
+      type: UnityEngine.Vector3
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function SetXY(vector As Vector3, x As Single, y As Single) As Vector3
+  overload: UnityEngine.EnVector3Extensions.SetXY*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnVector3Extensions.SetXY(UnityEngine.Transform,System.Single,System.Single)
+  commentId: M:UnityEngine.EnVector3Extensions.SetXY(UnityEngine.Transform,System.Single,System.Single)
+  id: SetXY(UnityEngine.Transform,System.Single,System.Single)
+  isExtensionMethod: true
+  parent: UnityEngine.EnVector3Extensions
+  langs:
+  - csharp
+  - vb
+  name: SetXY(Transform, Single, Single)
+  nameWithType: EnVector3Extensions.SetXY(Transform, Single, Single)
+  fullName: UnityEngine.EnVector3Extensions.SetXY(UnityEngine.Transform, System.Single, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: SetXY
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
+    startLine: 75
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  syntax:
+    content: public static void SetXY(this Transform transform, float x, float y)
+    parameters:
+    - id: transform
+      type: UnityEngine.Transform
+    - id: x
+      type: System.Single
+    - id: y
+      type: System.Single
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub SetXY(transform As Transform, x As Single, y As Single)
+  overload: UnityEngine.EnVector3Extensions.SetXY*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnVector3Extensions.SetXZ(UnityEngine.Vector3,System.Single,System.Single)
+  commentId: M:UnityEngine.EnVector3Extensions.SetXZ(UnityEngine.Vector3,System.Single,System.Single)
+  id: SetXZ(UnityEngine.Vector3,System.Single,System.Single)
+  isExtensionMethod: true
+  parent: UnityEngine.EnVector3Extensions
+  langs:
+  - csharp
+  - vb
+  name: SetXZ(Vector3, Single, Single)
+  nameWithType: EnVector3Extensions.SetXZ(Vector3, Single, Single)
+  fullName: UnityEngine.EnVector3Extensions.SetXZ(UnityEngine.Vector3, System.Single, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: SetXZ
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
+    startLine: 81
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  syntax:
+    content: public static Vector3 SetXZ(this Vector3 vector, float x, float z)
+    parameters:
+    - id: vector
+      type: UnityEngine.Vector3
+    - id: x
+      type: System.Single
+    - id: z
+      type: System.Single
+    return:
+      type: UnityEngine.Vector3
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function SetXZ(vector As Vector3, x As Single, z As Single) As Vector3
+  overload: UnityEngine.EnVector3Extensions.SetXZ*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnVector3Extensions.SetXZ(UnityEngine.Transform,System.Single,System.Single)
+  commentId: M:UnityEngine.EnVector3Extensions.SetXZ(UnityEngine.Transform,System.Single,System.Single)
+  id: SetXZ(UnityEngine.Transform,System.Single,System.Single)
+  isExtensionMethod: true
+  parent: UnityEngine.EnVector3Extensions
+  langs:
+  - csharp
+  - vb
+  name: SetXZ(Transform, Single, Single)
+  nameWithType: EnVector3Extensions.SetXZ(Transform, Single, Single)
+  fullName: UnityEngine.EnVector3Extensions.SetXZ(UnityEngine.Transform, System.Single, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: SetXZ
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
+    startLine: 85
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  syntax:
+    content: public static void SetXZ(this Transform transform, float x, float z)
+    parameters:
+    - id: transform
+      type: UnityEngine.Transform
+    - id: x
+      type: System.Single
+    - id: z
+      type: System.Single
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub SetXZ(transform As Transform, x As Single, z As Single)
+  overload: UnityEngine.EnVector3Extensions.SetXZ*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnVector3Extensions.SetYZ(UnityEngine.Vector3,System.Single,System.Single)
+  commentId: M:UnityEngine.EnVector3Extensions.SetYZ(UnityEngine.Vector3,System.Single,System.Single)
+  id: SetYZ(UnityEngine.Vector3,System.Single,System.Single)
+  isExtensionMethod: true
+  parent: UnityEngine.EnVector3Extensions
+  langs:
+  - csharp
+  - vb
+  name: SetYZ(Vector3, Single, Single)
+  nameWithType: EnVector3Extensions.SetYZ(Vector3, Single, Single)
+  fullName: UnityEngine.EnVector3Extensions.SetYZ(UnityEngine.Vector3, System.Single, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: SetYZ
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
+    startLine: 91
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  syntax:
+    content: public static Vector3 SetYZ(this Vector3 vector, float y, float z)
+    parameters:
+    - id: vector
+      type: UnityEngine.Vector3
+    - id: y
+      type: System.Single
+    - id: z
+      type: System.Single
+    return:
+      type: UnityEngine.Vector3
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function SetYZ(vector As Vector3, y As Single, z As Single) As Vector3
+  overload: UnityEngine.EnVector3Extensions.SetYZ*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnVector3Extensions.SetYZ(UnityEngine.Transform,System.Single,System.Single)
+  commentId: M:UnityEngine.EnVector3Extensions.SetYZ(UnityEngine.Transform,System.Single,System.Single)
+  id: SetYZ(UnityEngine.Transform,System.Single,System.Single)
+  isExtensionMethod: true
+  parent: UnityEngine.EnVector3Extensions
+  langs:
+  - csharp
+  - vb
+  name: SetYZ(Transform, Single, Single)
+  nameWithType: EnVector3Extensions.SetYZ(Transform, Single, Single)
+  fullName: UnityEngine.EnVector3Extensions.SetYZ(UnityEngine.Transform, System.Single, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: SetYZ
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
+    startLine: 95
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  syntax:
+    content: public static void SetYZ(this Transform transform, float y, float z)
+    parameters:
+    - id: transform
+      type: UnityEngine.Transform
+    - id: y
+      type: System.Single
+    - id: z
+      type: System.Single
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub SetYZ(transform As Transform, y As Single, z As Single)
+  overload: UnityEngine.EnVector3Extensions.SetYZ*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnVector3Extensions.ResetPosition(UnityEngine.Transform)
+  commentId: M:UnityEngine.EnVector3Extensions.ResetPosition(UnityEngine.Transform)
+  id: ResetPosition(UnityEngine.Transform)
+  isExtensionMethod: true
+  parent: UnityEngine.EnVector3Extensions
+  langs:
+  - csharp
+  - vb
+  name: ResetPosition(Transform)
+  nameWithType: EnVector3Extensions.ResetPosition(Transform)
+  fullName: UnityEngine.EnVector3Extensions.ResetPosition(UnityEngine.Transform)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: ResetPosition
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
+    startLine: 104
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  summary: "\nSet position to Vector3.zero.\n"
+  example: []
+  syntax:
+    content: public static void ResetPosition(this Transform transform)
+    parameters:
+    - id: transform
+      type: UnityEngine.Transform
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub ResetPosition(transform As Transform)
+  overload: UnityEngine.EnVector3Extensions.ResetPosition*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnVector3Extensions.SetPositionX(UnityEngine.RectTransform,System.Single)
+  commentId: M:UnityEngine.EnVector3Extensions.SetPositionX(UnityEngine.RectTransform,System.Single)
+  id: SetPositionX(UnityEngine.RectTransform,System.Single)
+  isExtensionMethod: true
+  parent: UnityEngine.EnVector3Extensions
+  langs:
+  - csharp
+  - vb
+  name: SetPositionX(RectTransform, Single)
+  nameWithType: EnVector3Extensions.SetPositionX(RectTransform, Single)
+  fullName: UnityEngine.EnVector3Extensions.SetPositionX(UnityEngine.RectTransform, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: SetPositionX
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
+    startLine: 111
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  syntax:
+    content: public static void SetPositionX(this RectTransform transform, float x)
+    parameters:
+    - id: transform
+      type: UnityEngine.RectTransform
+    - id: x
+      type: System.Single
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub SetPositionX(transform As RectTransform, x As Single)
+  overload: UnityEngine.EnVector3Extensions.SetPositionX*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnVector3Extensions.SetPositionY(UnityEngine.RectTransform,System.Single)
+  commentId: M:UnityEngine.EnVector3Extensions.SetPositionY(UnityEngine.RectTransform,System.Single)
+  id: SetPositionY(UnityEngine.RectTransform,System.Single)
+  isExtensionMethod: true
+  parent: UnityEngine.EnVector3Extensions
+  langs:
+  - csharp
+  - vb
+  name: SetPositionY(RectTransform, Single)
+  nameWithType: EnVector3Extensions.SetPositionY(RectTransform, Single)
+  fullName: UnityEngine.EnVector3Extensions.SetPositionY(UnityEngine.RectTransform, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: SetPositionY
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
+    startLine: 115
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  syntax:
+    content: public static void SetPositionY(this RectTransform transform, float y)
+    parameters:
+    - id: transform
+      type: UnityEngine.RectTransform
+    - id: y
+      type: System.Single
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub SetPositionY(transform As RectTransform, y As Single)
+  overload: UnityEngine.EnVector3Extensions.SetPositionY*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnVector3Extensions.OffsetPositionX(UnityEngine.RectTransform,System.Single)
+  commentId: M:UnityEngine.EnVector3Extensions.OffsetPositionX(UnityEngine.RectTransform,System.Single)
+  id: OffsetPositionX(UnityEngine.RectTransform,System.Single)
+  isExtensionMethod: true
+  parent: UnityEngine.EnVector3Extensions
+  langs:
+  - csharp
+  - vb
+  name: OffsetPositionX(RectTransform, Single)
+  nameWithType: EnVector3Extensions.OffsetPositionX(RectTransform, Single)
+  fullName: UnityEngine.EnVector3Extensions.OffsetPositionX(UnityEngine.RectTransform, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: OffsetPositionX
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
+    startLine: 119
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  syntax:
+    content: public static void OffsetPositionX(this RectTransform transform, float x)
+    parameters:
+    - id: transform
+      type: UnityEngine.RectTransform
+    - id: x
+      type: System.Single
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub OffsetPositionX(transform As RectTransform, x As Single)
+  overload: UnityEngine.EnVector3Extensions.OffsetPositionX*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnVector3Extensions.OffsetPositionY(UnityEngine.RectTransform,System.Single)
+  commentId: M:UnityEngine.EnVector3Extensions.OffsetPositionY(UnityEngine.RectTransform,System.Single)
+  id: OffsetPositionY(UnityEngine.RectTransform,System.Single)
+  isExtensionMethod: true
+  parent: UnityEngine.EnVector3Extensions
+  langs:
+  - csharp
+  - vb
+  name: OffsetPositionY(RectTransform, Single)
+  nameWithType: EnVector3Extensions.OffsetPositionY(RectTransform, Single)
+  fullName: UnityEngine.EnVector3Extensions.OffsetPositionY(UnityEngine.RectTransform, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: OffsetPositionY
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
+    startLine: 123
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  syntax:
+    content: public static void OffsetPositionY(this RectTransform transform, float y)
+    parameters:
+    - id: transform
+      type: UnityEngine.RectTransform
+    - id: y
+      type: System.Single
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub OffsetPositionY(transform As RectTransform, y As Single)
+  overload: UnityEngine.EnVector3Extensions.OffsetPositionY*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnVector3Extensions.Offset(UnityEngine.Vector3,UnityEngine.Vector2)
+  commentId: M:UnityEngine.EnVector3Extensions.Offset(UnityEngine.Vector3,UnityEngine.Vector2)
+  id: Offset(UnityEngine.Vector3,UnityEngine.Vector2)
+  isExtensionMethod: true
+  parent: UnityEngine.EnVector3Extensions
+  langs:
+  - csharp
+  - vb
+  name: Offset(Vector3, Vector2)
+  nameWithType: EnVector3Extensions.Offset(Vector3, Vector2)
+  fullName: UnityEngine.EnVector3Extensions.Offset(UnityEngine.Vector3, UnityEngine.Vector2)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: Offset
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
+    startLine: 132
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  syntax:
+    content: public static Vector3 Offset(this Vector3 vector, Vector2 offset)
+    parameters:
+    - id: vector
+      type: UnityEngine.Vector3
+    - id: offset
+      type: UnityEngine.Vector2
+    return:
+      type: UnityEngine.Vector3
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function Offset(vector As Vector3, offset As Vector2) As Vector3
+  overload: UnityEngine.EnVector3Extensions.Offset*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnVector3Extensions.OffsetX(UnityEngine.Vector3,System.Single)
+  commentId: M:UnityEngine.EnVector3Extensions.OffsetX(UnityEngine.Vector3,System.Single)
+  id: OffsetX(UnityEngine.Vector3,System.Single)
+  isExtensionMethod: true
+  parent: UnityEngine.EnVector3Extensions
+  langs:
+  - csharp
+  - vb
+  name: OffsetX(Vector3, Single)
+  nameWithType: EnVector3Extensions.OffsetX(Vector3, Single)
+  fullName: UnityEngine.EnVector3Extensions.OffsetX(UnityEngine.Vector3, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: OffsetX
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
+    startLine: 137
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  syntax:
+    content: public static Vector3 OffsetX(this Vector3 vector, float x)
+    parameters:
+    - id: vector
+      type: UnityEngine.Vector3
+    - id: x
+      type: System.Single
+    return:
+      type: UnityEngine.Vector3
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function OffsetX(vector As Vector3, x As Single) As Vector3
+  overload: UnityEngine.EnVector3Extensions.OffsetX*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnVector3Extensions.OffsetX(UnityEngine.Vector2,System.Single)
+  commentId: M:UnityEngine.EnVector3Extensions.OffsetX(UnityEngine.Vector2,System.Single)
+  id: OffsetX(UnityEngine.Vector2,System.Single)
+  isExtensionMethod: true
+  parent: UnityEngine.EnVector3Extensions
+  langs:
+  - csharp
+  - vb
+  name: OffsetX(Vector2, Single)
+  nameWithType: EnVector3Extensions.OffsetX(Vector2, Single)
+  fullName: UnityEngine.EnVector3Extensions.OffsetX(UnityEngine.Vector2, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: OffsetX
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
+    startLine: 141
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  syntax:
+    content: public static Vector2 OffsetX(this Vector2 vector, float x)
+    parameters:
+    - id: vector
+      type: UnityEngine.Vector2
+    - id: x
+      type: System.Single
+    return:
+      type: UnityEngine.Vector2
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function OffsetX(vector As Vector2, x As Single) As Vector2
+  overload: UnityEngine.EnVector3Extensions.OffsetX*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnVector3Extensions.OffsetX(UnityEngine.Transform,System.Single)
+  commentId: M:UnityEngine.EnVector3Extensions.OffsetX(UnityEngine.Transform,System.Single)
+  id: OffsetX(UnityEngine.Transform,System.Single)
+  isExtensionMethod: true
+  parent: UnityEngine.EnVector3Extensions
+  langs:
+  - csharp
+  - vb
+  name: OffsetX(Transform, Single)
+  nameWithType: EnVector3Extensions.OffsetX(Transform, Single)
+  fullName: UnityEngine.EnVector3Extensions.OffsetX(UnityEngine.Transform, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: OffsetX
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
+    startLine: 145
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  syntax:
+    content: public static void OffsetX(this Transform transform, float x)
+    parameters:
+    - id: transform
+      type: UnityEngine.Transform
+    - id: x
+      type: System.Single
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub OffsetX(transform As Transform, x As Single)
+  overload: UnityEngine.EnVector3Extensions.OffsetX*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnVector3Extensions.OffsetY(UnityEngine.Vector2,System.Single)
+  commentId: M:UnityEngine.EnVector3Extensions.OffsetY(UnityEngine.Vector2,System.Single)
+  id: OffsetY(UnityEngine.Vector2,System.Single)
+  isExtensionMethod: true
+  parent: UnityEngine.EnVector3Extensions
+  langs:
+  - csharp
+  - vb
+  name: OffsetY(Vector2, Single)
+  nameWithType: EnVector3Extensions.OffsetY(Vector2, Single)
+  fullName: UnityEngine.EnVector3Extensions.OffsetY(UnityEngine.Vector2, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: OffsetY
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
+    startLine: 150
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  syntax:
+    content: public static Vector2 OffsetY(this Vector2 vector, float y)
+    parameters:
+    - id: vector
+      type: UnityEngine.Vector2
+    - id: y
+      type: System.Single
+    return:
+      type: UnityEngine.Vector2
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function OffsetY(vector As Vector2, y As Single) As Vector2
+  overload: UnityEngine.EnVector3Extensions.OffsetY*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnVector3Extensions.OffsetY(UnityEngine.Vector3,System.Single)
+  commentId: M:UnityEngine.EnVector3Extensions.OffsetY(UnityEngine.Vector3,System.Single)
+  id: OffsetY(UnityEngine.Vector3,System.Single)
+  isExtensionMethod: true
+  parent: UnityEngine.EnVector3Extensions
+  langs:
+  - csharp
+  - vb
+  name: OffsetY(Vector3, Single)
+  nameWithType: EnVector3Extensions.OffsetY(Vector3, Single)
+  fullName: UnityEngine.EnVector3Extensions.OffsetY(UnityEngine.Vector3, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: OffsetY
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
+    startLine: 154
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  syntax:
+    content: public static Vector3 OffsetY(this Vector3 vector, float y)
+    parameters:
+    - id: vector
+      type: UnityEngine.Vector3
+    - id: y
+      type: System.Single
+    return:
+      type: UnityEngine.Vector3
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function OffsetY(vector As Vector3, y As Single) As Vector3
+  overload: UnityEngine.EnVector3Extensions.OffsetY*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnVector3Extensions.OffsetY(UnityEngine.Transform,System.Single)
+  commentId: M:UnityEngine.EnVector3Extensions.OffsetY(UnityEngine.Transform,System.Single)
+  id: OffsetY(UnityEngine.Transform,System.Single)
+  isExtensionMethod: true
+  parent: UnityEngine.EnVector3Extensions
+  langs:
+  - csharp
+  - vb
+  name: OffsetY(Transform, Single)
+  nameWithType: EnVector3Extensions.OffsetY(Transform, Single)
+  fullName: UnityEngine.EnVector3Extensions.OffsetY(UnityEngine.Transform, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: OffsetY
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
+    startLine: 158
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  syntax:
+    content: public static void OffsetY(this Transform transform, float y)
+    parameters:
+    - id: transform
+      type: UnityEngine.Transform
+    - id: y
+      type: System.Single
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub OffsetY(transform As Transform, y As Single)
+  overload: UnityEngine.EnVector3Extensions.OffsetY*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnVector3Extensions.OffsetZ(UnityEngine.Vector3,System.Single)
+  commentId: M:UnityEngine.EnVector3Extensions.OffsetZ(UnityEngine.Vector3,System.Single)
+  id: OffsetZ(UnityEngine.Vector3,System.Single)
+  isExtensionMethod: true
+  parent: UnityEngine.EnVector3Extensions
+  langs:
+  - csharp
+  - vb
+  name: OffsetZ(Vector3, Single)
+  nameWithType: EnVector3Extensions.OffsetZ(Vector3, Single)
+  fullName: UnityEngine.EnVector3Extensions.OffsetZ(UnityEngine.Vector3, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: OffsetZ
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
+    startLine: 163
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  syntax:
+    content: public static Vector3 OffsetZ(this Vector3 vector, float z)
+    parameters:
+    - id: vector
+      type: UnityEngine.Vector3
+    - id: z
+      type: System.Single
+    return:
+      type: UnityEngine.Vector3
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function OffsetZ(vector As Vector3, z As Single) As Vector3
+  overload: UnityEngine.EnVector3Extensions.OffsetZ*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnVector3Extensions.OffsetZ(UnityEngine.Transform,System.Single)
+  commentId: M:UnityEngine.EnVector3Extensions.OffsetZ(UnityEngine.Transform,System.Single)
+  id: OffsetZ(UnityEngine.Transform,System.Single)
+  isExtensionMethod: true
+  parent: UnityEngine.EnVector3Extensions
+  langs:
+  - csharp
+  - vb
+  name: OffsetZ(Transform, Single)
+  nameWithType: EnVector3Extensions.OffsetZ(Transform, Single)
+  fullName: UnityEngine.EnVector3Extensions.OffsetZ(UnityEngine.Transform, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: OffsetZ
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
+    startLine: 167
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  syntax:
+    content: public static void OffsetZ(this Transform transform, float z)
+    parameters:
+    - id: transform
+      type: UnityEngine.Transform
+    - id: z
+      type: System.Single
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub OffsetZ(transform As Transform, z As Single)
+  overload: UnityEngine.EnVector3Extensions.OffsetZ*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnVector3Extensions.OffsetXY(UnityEngine.Vector3,System.Single,System.Single)
+  commentId: M:UnityEngine.EnVector3Extensions.OffsetXY(UnityEngine.Vector3,System.Single,System.Single)
+  id: OffsetXY(UnityEngine.Vector3,System.Single,System.Single)
+  isExtensionMethod: true
+  parent: UnityEngine.EnVector3Extensions
+  langs:
+  - csharp
+  - vb
+  name: OffsetXY(Vector3, Single, Single)
+  nameWithType: EnVector3Extensions.OffsetXY(Vector3, Single, Single)
+  fullName: UnityEngine.EnVector3Extensions.OffsetXY(UnityEngine.Vector3, System.Single, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: OffsetXY
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
+    startLine: 172
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  syntax:
+    content: public static Vector3 OffsetXY(this Vector3 vector, float x, float y)
+    parameters:
+    - id: vector
+      type: UnityEngine.Vector3
+    - id: x
+      type: System.Single
+    - id: y
+      type: System.Single
+    return:
+      type: UnityEngine.Vector3
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function OffsetXY(vector As Vector3, x As Single, y As Single) As Vector3
+  overload: UnityEngine.EnVector3Extensions.OffsetXY*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnVector3Extensions.OffsetXY(UnityEngine.Transform,System.Single,System.Single)
+  commentId: M:UnityEngine.EnVector3Extensions.OffsetXY(UnityEngine.Transform,System.Single,System.Single)
+  id: OffsetXY(UnityEngine.Transform,System.Single,System.Single)
+  isExtensionMethod: true
+  parent: UnityEngine.EnVector3Extensions
+  langs:
+  - csharp
+  - vb
+  name: OffsetXY(Transform, Single, Single)
+  nameWithType: EnVector3Extensions.OffsetXY(Transform, Single, Single)
+  fullName: UnityEngine.EnVector3Extensions.OffsetXY(UnityEngine.Transform, System.Single, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: OffsetXY
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
+    startLine: 176
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  syntax:
+    content: public static void OffsetXY(this Transform transform, float x, float y)
+    parameters:
+    - id: transform
+      type: UnityEngine.Transform
+    - id: x
+      type: System.Single
+    - id: y
+      type: System.Single
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub OffsetXY(transform As Transform, x As Single, y As Single)
+  overload: UnityEngine.EnVector3Extensions.OffsetXY*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnVector3Extensions.OffsetXY(UnityEngine.Vector2,System.Single,System.Single)
+  commentId: M:UnityEngine.EnVector3Extensions.OffsetXY(UnityEngine.Vector2,System.Single,System.Single)
+  id: OffsetXY(UnityEngine.Vector2,System.Single,System.Single)
+  isExtensionMethod: true
+  parent: UnityEngine.EnVector3Extensions
+  langs:
+  - csharp
+  - vb
+  name: OffsetXY(Vector2, Single, Single)
+  nameWithType: EnVector3Extensions.OffsetXY(Vector2, Single, Single)
+  fullName: UnityEngine.EnVector3Extensions.OffsetXY(UnityEngine.Vector2, System.Single, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: OffsetXY
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
+    startLine: 180
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  syntax:
+    content: public static Vector2 OffsetXY(this Vector2 vector, float x, float y)
+    parameters:
+    - id: vector
+      type: UnityEngine.Vector2
+    - id: x
+      type: System.Single
+    - id: y
+      type: System.Single
+    return:
+      type: UnityEngine.Vector2
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function OffsetXY(vector As Vector2, x As Single, y As Single) As Vector2
+  overload: UnityEngine.EnVector3Extensions.OffsetXY*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnVector3Extensions.OffsetXZ(UnityEngine.Vector3,System.Single,System.Single)
+  commentId: M:UnityEngine.EnVector3Extensions.OffsetXZ(UnityEngine.Vector3,System.Single,System.Single)
+  id: OffsetXZ(UnityEngine.Vector3,System.Single,System.Single)
+  isExtensionMethod: true
+  parent: UnityEngine.EnVector3Extensions
+  langs:
+  - csharp
+  - vb
+  name: OffsetXZ(Vector3, Single, Single)
+  nameWithType: EnVector3Extensions.OffsetXZ(Vector3, Single, Single)
+  fullName: UnityEngine.EnVector3Extensions.OffsetXZ(UnityEngine.Vector3, System.Single, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: OffsetXZ
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
+    startLine: 185
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  syntax:
+    content: public static Vector3 OffsetXZ(this Vector3 vector, float x, float z)
+    parameters:
+    - id: vector
+      type: UnityEngine.Vector3
+    - id: x
+      type: System.Single
+    - id: z
+      type: System.Single
+    return:
+      type: UnityEngine.Vector3
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function OffsetXZ(vector As Vector3, x As Single, z As Single) As Vector3
+  overload: UnityEngine.EnVector3Extensions.OffsetXZ*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnVector3Extensions.OffsetXZ(UnityEngine.Transform,System.Single,System.Single)
+  commentId: M:UnityEngine.EnVector3Extensions.OffsetXZ(UnityEngine.Transform,System.Single,System.Single)
+  id: OffsetXZ(UnityEngine.Transform,System.Single,System.Single)
+  isExtensionMethod: true
+  parent: UnityEngine.EnVector3Extensions
+  langs:
+  - csharp
+  - vb
+  name: OffsetXZ(Transform, Single, Single)
+  nameWithType: EnVector3Extensions.OffsetXZ(Transform, Single, Single)
+  fullName: UnityEngine.EnVector3Extensions.OffsetXZ(UnityEngine.Transform, System.Single, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: OffsetXZ
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
+    startLine: 189
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  syntax:
+    content: public static void OffsetXZ(this Transform transform, float x, float z)
+    parameters:
+    - id: transform
+      type: UnityEngine.Transform
+    - id: x
+      type: System.Single
+    - id: z
+      type: System.Single
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub OffsetXZ(transform As Transform, x As Single, z As Single)
+  overload: UnityEngine.EnVector3Extensions.OffsetXZ*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnVector3Extensions.OffsetYZ(UnityEngine.Vector3,System.Single,System.Single)
+  commentId: M:UnityEngine.EnVector3Extensions.OffsetYZ(UnityEngine.Vector3,System.Single,System.Single)
+  id: OffsetYZ(UnityEngine.Vector3,System.Single,System.Single)
+  isExtensionMethod: true
+  parent: UnityEngine.EnVector3Extensions
+  langs:
+  - csharp
+  - vb
+  name: OffsetYZ(Vector3, Single, Single)
+  nameWithType: EnVector3Extensions.OffsetYZ(Vector3, Single, Single)
+  fullName: UnityEngine.EnVector3Extensions.OffsetYZ(UnityEngine.Vector3, System.Single, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: OffsetYZ
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
+    startLine: 194
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  syntax:
+    content: public static Vector3 OffsetYZ(this Vector3 vector, float y, float z)
+    parameters:
+    - id: vector
+      type: UnityEngine.Vector3
+    - id: y
+      type: System.Single
+    - id: z
+      type: System.Single
+    return:
+      type: UnityEngine.Vector3
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function OffsetYZ(vector As Vector3, y As Single, z As Single) As Vector3
+  overload: UnityEngine.EnVector3Extensions.OffsetYZ*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnVector3Extensions.OffsetYZ(UnityEngine.Transform,System.Single,System.Single)
+  commentId: M:UnityEngine.EnVector3Extensions.OffsetYZ(UnityEngine.Transform,System.Single,System.Single)
+  id: OffsetYZ(UnityEngine.Transform,System.Single,System.Single)
+  isExtensionMethod: true
+  parent: UnityEngine.EnVector3Extensions
+  langs:
+  - csharp
+  - vb
+  name: OffsetYZ(Transform, Single, Single)
+  nameWithType: EnVector3Extensions.OffsetYZ(Transform, Single, Single)
+  fullName: UnityEngine.EnVector3Extensions.OffsetYZ(UnityEngine.Transform, System.Single, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: OffsetYZ
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
+    startLine: 198
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  syntax:
+    content: public static void OffsetYZ(this Transform transform, float y, float z)
+    parameters:
+    - id: transform
+      type: UnityEngine.Transform
+    - id: y
+      type: System.Single
+    - id: z
+      type: System.Single
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub OffsetYZ(transform As Transform, y As Single, z As Single)
+  overload: UnityEngine.EnVector3Extensions.OffsetYZ*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnVector3Extensions.ClampX(UnityEngine.Vector3,System.Single,System.Single)
+  commentId: M:UnityEngine.EnVector3Extensions.ClampX(UnityEngine.Vector3,System.Single,System.Single)
+  id: ClampX(UnityEngine.Vector3,System.Single,System.Single)
+  isExtensionMethod: true
+  parent: UnityEngine.EnVector3Extensions
+  langs:
+  - csharp
+  - vb
+  name: ClampX(Vector3, Single, Single)
+  nameWithType: EnVector3Extensions.ClampX(Vector3, Single, Single)
+  fullName: UnityEngine.EnVector3Extensions.ClampX(UnityEngine.Vector3, System.Single, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: ClampX
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
+    startLine: 207
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  syntax:
+    content: public static Vector3 ClampX(this Vector3 vector, float min, float max)
+    parameters:
+    - id: vector
+      type: UnityEngine.Vector3
+    - id: min
+      type: System.Single
+    - id: max
+      type: System.Single
+    return:
+      type: UnityEngine.Vector3
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ClampX(vector As Vector3, min As Single, max As Single) As Vector3
+  overload: UnityEngine.EnVector3Extensions.ClampX*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnVector3Extensions.ClampX(UnityEngine.Vector2,System.Single,System.Single)
+  commentId: M:UnityEngine.EnVector3Extensions.ClampX(UnityEngine.Vector2,System.Single,System.Single)
+  id: ClampX(UnityEngine.Vector2,System.Single,System.Single)
+  isExtensionMethod: true
+  parent: UnityEngine.EnVector3Extensions
+  langs:
+  - csharp
+  - vb
+  name: ClampX(Vector2, Single, Single)
+  nameWithType: EnVector3Extensions.ClampX(Vector2, Single, Single)
+  fullName: UnityEngine.EnVector3Extensions.ClampX(UnityEngine.Vector2, System.Single, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: ClampX
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
+    startLine: 211
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  syntax:
+    content: public static Vector2 ClampX(this Vector2 vector, float min, float max)
+    parameters:
+    - id: vector
+      type: UnityEngine.Vector2
+    - id: min
+      type: System.Single
+    - id: max
+      type: System.Single
+    return:
+      type: UnityEngine.Vector2
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ClampX(vector As Vector2, min As Single, max As Single) As Vector2
+  overload: UnityEngine.EnVector3Extensions.ClampX*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnVector3Extensions.ClampX(UnityEngine.Transform,System.Single,System.Single)
+  commentId: M:UnityEngine.EnVector3Extensions.ClampX(UnityEngine.Transform,System.Single,System.Single)
+  id: ClampX(UnityEngine.Transform,System.Single,System.Single)
+  isExtensionMethod: true
+  parent: UnityEngine.EnVector3Extensions
+  langs:
+  - csharp
+  - vb
+  name: ClampX(Transform, Single, Single)
+  nameWithType: EnVector3Extensions.ClampX(Transform, Single, Single)
+  fullName: UnityEngine.EnVector3Extensions.ClampX(UnityEngine.Transform, System.Single, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: ClampX
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
+    startLine: 215
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  syntax:
+    content: public static void ClampX(this Transform transform, float min, float max)
+    parameters:
+    - id: transform
+      type: UnityEngine.Transform
+    - id: min
+      type: System.Single
+    - id: max
+      type: System.Single
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub ClampX(transform As Transform, min As Single, max As Single)
+  overload: UnityEngine.EnVector3Extensions.ClampX*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnVector3Extensions.ClampY(UnityEngine.Vector3,System.Single,System.Single)
+  commentId: M:UnityEngine.EnVector3Extensions.ClampY(UnityEngine.Vector3,System.Single,System.Single)
+  id: ClampY(UnityEngine.Vector3,System.Single,System.Single)
+  isExtensionMethod: true
+  parent: UnityEngine.EnVector3Extensions
+  langs:
+  - csharp
+  - vb
+  name: ClampY(Vector3, Single, Single)
+  nameWithType: EnVector3Extensions.ClampY(Vector3, Single, Single)
+  fullName: UnityEngine.EnVector3Extensions.ClampY(UnityEngine.Vector3, System.Single, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: ClampY
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
+    startLine: 220
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  syntax:
+    content: public static Vector3 ClampY(this Vector3 vector, float min, float max)
+    parameters:
+    - id: vector
+      type: UnityEngine.Vector3
+    - id: min
+      type: System.Single
+    - id: max
+      type: System.Single
+    return:
+      type: UnityEngine.Vector3
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ClampY(vector As Vector3, min As Single, max As Single) As Vector3
+  overload: UnityEngine.EnVector3Extensions.ClampY*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnVector3Extensions.ClampY(UnityEngine.Vector2,System.Single,System.Single)
+  commentId: M:UnityEngine.EnVector3Extensions.ClampY(UnityEngine.Vector2,System.Single,System.Single)
+  id: ClampY(UnityEngine.Vector2,System.Single,System.Single)
+  isExtensionMethod: true
+  parent: UnityEngine.EnVector3Extensions
+  langs:
+  - csharp
+  - vb
+  name: ClampY(Vector2, Single, Single)
+  nameWithType: EnVector3Extensions.ClampY(Vector2, Single, Single)
+  fullName: UnityEngine.EnVector3Extensions.ClampY(UnityEngine.Vector2, System.Single, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: ClampY
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
+    startLine: 224
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  syntax:
+    content: public static Vector2 ClampY(this Vector2 vector, float min, float max)
+    parameters:
+    - id: vector
+      type: UnityEngine.Vector2
+    - id: min
+      type: System.Single
+    - id: max
+      type: System.Single
+    return:
+      type: UnityEngine.Vector2
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ClampY(vector As Vector2, min As Single, max As Single) As Vector2
+  overload: UnityEngine.EnVector3Extensions.ClampY*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnVector3Extensions.ClampY(UnityEngine.Transform,System.Single,System.Single)
+  commentId: M:UnityEngine.EnVector3Extensions.ClampY(UnityEngine.Transform,System.Single,System.Single)
+  id: ClampY(UnityEngine.Transform,System.Single,System.Single)
+  isExtensionMethod: true
+  parent: UnityEngine.EnVector3Extensions
+  langs:
+  - csharp
+  - vb
+  name: ClampY(Transform, Single, Single)
+  nameWithType: EnVector3Extensions.ClampY(Transform, Single, Single)
+  fullName: UnityEngine.EnVector3Extensions.ClampY(UnityEngine.Transform, System.Single, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: ClampY
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
+    startLine: 228
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  syntax:
+    content: public static void ClampY(this Transform transform, float min, float max)
+    parameters:
+    - id: transform
+      type: UnityEngine.Transform
+    - id: min
+      type: System.Single
+    - id: max
+      type: System.Single
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub ClampY(transform As Transform, min As Single, max As Single)
+  overload: UnityEngine.EnVector3Extensions.ClampY*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnVector3Extensions.InvertX(UnityEngine.Vector2)
+  commentId: M:UnityEngine.EnVector3Extensions.InvertX(UnityEngine.Vector2)
+  id: InvertX(UnityEngine.Vector2)
+  isExtensionMethod: true
+  parent: UnityEngine.EnVector3Extensions
+  langs:
+  - csharp
+  - vb
+  name: InvertX(Vector2)
+  nameWithType: EnVector3Extensions.InvertX(Vector2)
+  fullName: UnityEngine.EnVector3Extensions.InvertX(UnityEngine.Vector2)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: InvertX
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
+    startLine: 237
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  syntax:
+    content: public static Vector2 InvertX(this Vector2 vector)
+    parameters:
+    - id: vector
+      type: UnityEngine.Vector2
+    return:
+      type: UnityEngine.Vector2
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function InvertX(vector As Vector2) As Vector2
+  overload: UnityEngine.EnVector3Extensions.InvertX*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnVector3Extensions.InvertY(UnityEngine.Vector2)
+  commentId: M:UnityEngine.EnVector3Extensions.InvertY(UnityEngine.Vector2)
+  id: InvertY(UnityEngine.Vector2)
+  isExtensionMethod: true
+  parent: UnityEngine.EnVector3Extensions
+  langs:
+  - csharp
+  - vb
+  name: InvertY(Vector2)
+  nameWithType: EnVector3Extensions.InvertY(Vector2)
+  fullName: UnityEngine.EnVector3Extensions.InvertY(UnityEngine.Vector2)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: InvertY
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
+    startLine: 241
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  syntax:
+    content: public static Vector2 InvertY(this Vector2 vector)
+    parameters:
+    - id: vector
+      type: UnityEngine.Vector2
+    return:
+      type: UnityEngine.Vector2
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function InvertY(vector As Vector2) As Vector2
+  overload: UnityEngine.EnVector3Extensions.InvertY*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnVector3Extensions.ToVector2(UnityEngine.Vector3)
+  commentId: M:UnityEngine.EnVector3Extensions.ToVector2(UnityEngine.Vector3)
+  id: ToVector2(UnityEngine.Vector3)
+  isExtensionMethod: true
+  parent: UnityEngine.EnVector3Extensions
+  langs:
+  - csharp
+  - vb
+  name: ToVector2(Vector3)
+  nameWithType: EnVector3Extensions.ToVector2(Vector3)
+  fullName: UnityEngine.EnVector3Extensions.ToVector2(UnityEngine.Vector3)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: ToVector2
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
+    startLine: 250
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  syntax:
+    content: public static Vector2 ToVector2(this Vector3 vector)
+    parameters:
+    - id: vector
+      type: UnityEngine.Vector3
+    return:
+      type: UnityEngine.Vector2
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToVector2(vector As Vector3) As Vector2
+  overload: UnityEngine.EnVector3Extensions.ToVector2*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnVector3Extensions.ToVector3(UnityEngine.Vector2)
+  commentId: M:UnityEngine.EnVector3Extensions.ToVector3(UnityEngine.Vector2)
+  id: ToVector3(UnityEngine.Vector2)
+  isExtensionMethod: true
+  parent: UnityEngine.EnVector3Extensions
+  langs:
+  - csharp
+  - vb
+  name: ToVector3(Vector2)
+  nameWithType: EnVector3Extensions.ToVector3(Vector2)
+  fullName: UnityEngine.EnVector3Extensions.ToVector3(UnityEngine.Vector2)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: ToVector3
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
+    startLine: 254
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  syntax:
+    content: public static Vector3 ToVector3(this Vector2 vector)
+    parameters:
+    - id: vector
+      type: UnityEngine.Vector2
+    return:
+      type: UnityEngine.Vector3
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToVector3(vector As Vector2) As Vector3
+  overload: UnityEngine.EnVector3Extensions.ToVector3*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnVector3Extensions.ToVector2(UnityEngine.Vector2Int)
+  commentId: M:UnityEngine.EnVector3Extensions.ToVector2(UnityEngine.Vector2Int)
+  id: ToVector2(UnityEngine.Vector2Int)
+  isExtensionMethod: true
+  parent: UnityEngine.EnVector3Extensions
+  langs:
+  - csharp
+  - vb
+  name: ToVector2(Vector2Int)
+  nameWithType: EnVector3Extensions.ToVector2(Vector2Int)
+  fullName: UnityEngine.EnVector3Extensions.ToVector2(UnityEngine.Vector2Int)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: ToVector2
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
+    startLine: 259
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  syntax:
+    content: public static Vector2 ToVector2(this Vector2Int vector)
+    parameters:
+    - id: vector
+      type: UnityEngine.Vector2Int
+    return:
+      type: UnityEngine.Vector2
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToVector2(vector As Vector2Int) As Vector2
+  overload: UnityEngine.EnVector3Extensions.ToVector2*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnVector3Extensions.ToVector3(UnityEngine.Vector3Int)
+  commentId: M:UnityEngine.EnVector3Extensions.ToVector3(UnityEngine.Vector3Int)
+  id: ToVector3(UnityEngine.Vector3Int)
+  isExtensionMethod: true
+  parent: UnityEngine.EnVector3Extensions
+  langs:
+  - csharp
+  - vb
+  name: ToVector3(Vector3Int)
+  nameWithType: EnVector3Extensions.ToVector3(Vector3Int)
+  fullName: UnityEngine.EnVector3Extensions.ToVector3(UnityEngine.Vector3Int)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: ToVector3
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
+    startLine: 263
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  syntax:
+    content: public static Vector3 ToVector3(this Vector3Int vector)
+    parameters:
+    - id: vector
+      type: UnityEngine.Vector3Int
+    return:
+      type: UnityEngine.Vector3
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToVector3(vector As Vector3Int) As Vector3
+  overload: UnityEngine.EnVector3Extensions.ToVector3*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnVector3Extensions.ToVector2Int(UnityEngine.Vector2)
+  commentId: M:UnityEngine.EnVector3Extensions.ToVector2Int(UnityEngine.Vector2)
+  id: ToVector2Int(UnityEngine.Vector2)
+  isExtensionMethod: true
+  parent: UnityEngine.EnVector3Extensions
+  langs:
+  - csharp
+  - vb
+  name: ToVector2Int(Vector2)
+  nameWithType: EnVector3Extensions.ToVector2Int(Vector2)
+  fullName: UnityEngine.EnVector3Extensions.ToVector2Int(UnityEngine.Vector2)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: ToVector2Int
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
+    startLine: 268
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  syntax:
+    content: public static Vector2Int ToVector2Int(this Vector2 vector)
+    parameters:
+    - id: vector
+      type: UnityEngine.Vector2
+    return:
+      type: UnityEngine.Vector2Int
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToVector2Int(vector As Vector2) As Vector2Int
+  overload: UnityEngine.EnVector3Extensions.ToVector2Int*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnVector3Extensions.ToVector3Int(UnityEngine.Vector3)
+  commentId: M:UnityEngine.EnVector3Extensions.ToVector3Int(UnityEngine.Vector3)
+  id: ToVector3Int(UnityEngine.Vector3)
+  isExtensionMethod: true
+  parent: UnityEngine.EnVector3Extensions
+  langs:
+  - csharp
+  - vb
+  name: ToVector3Int(Vector3)
+  nameWithType: EnVector3Extensions.ToVector3Int(Vector3)
+  fullName: UnityEngine.EnVector3Extensions.ToVector3Int(UnityEngine.Vector3)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: ToVector3Int
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
+    startLine: 272
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  syntax:
+    content: public static Vector3Int ToVector3Int(this Vector3 vector)
+    parameters:
+    - id: vector
+      type: UnityEngine.Vector3
+    return:
+      type: UnityEngine.Vector3Int
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToVector3Int(vector As Vector3) As Vector3Int
+  overload: UnityEngine.EnVector3Extensions.ToVector3Int*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnVector3Extensions.Approximately(UnityEngine.Vector3,UnityEngine.Vector3,System.Single)
+  commentId: M:UnityEngine.EnVector3Extensions.Approximately(UnityEngine.Vector3,UnityEngine.Vector3,System.Single)
+  id: Approximately(UnityEngine.Vector3,UnityEngine.Vector3,System.Single)
+  isExtensionMethod: true
+  parent: UnityEngine.EnVector3Extensions
+  langs:
+  - csharp
+  - vb
+  name: Approximately(Vector3, Vector3, Single)
+  nameWithType: EnVector3Extensions.Approximately(Vector3, Vector3, Single)
+  fullName: UnityEngine.EnVector3Extensions.Approximately(UnityEngine.Vector3, UnityEngine.Vector3, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: Approximately
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
+    startLine: 281
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  syntax:
+    content: public static bool Approximately(this Vector3 vector, Vector3 compared, float threshold = 0.1F)
+    parameters:
+    - id: vector
+      type: UnityEngine.Vector3
+    - id: compared
+      type: UnityEngine.Vector3
+    - id: threshold
+      type: System.Single
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function Approximately(vector As Vector3, compared As Vector3, threshold As Single = 0.1F) As Boolean
+  overload: UnityEngine.EnVector3Extensions.Approximately*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnVector3Extensions.Approximately(UnityEngine.Vector2,UnityEngine.Vector2,System.Single)
+  commentId: M:UnityEngine.EnVector3Extensions.Approximately(UnityEngine.Vector2,UnityEngine.Vector2,System.Single)
+  id: Approximately(UnityEngine.Vector2,UnityEngine.Vector2,System.Single)
+  isExtensionMethod: true
+  parent: UnityEngine.EnVector3Extensions
+  langs:
+  - csharp
+  - vb
+  name: Approximately(Vector2, Vector2, Single)
+  nameWithType: EnVector3Extensions.Approximately(Vector2, Vector2, Single)
+  fullName: UnityEngine.EnVector3Extensions.Approximately(UnityEngine.Vector2, UnityEngine.Vector2, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: Approximately
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
+    startLine: 289
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  syntax:
+    content: public static bool Approximately(this Vector2 vector, Vector2 compared, float threshold = 0.1F)
+    parameters:
+    - id: vector
+      type: UnityEngine.Vector2
+    - id: compared
+      type: UnityEngine.Vector2
+    - id: threshold
+      type: System.Single
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function Approximately(vector As Vector2, compared As Vector2, threshold As Single = 0.1F) As Boolean
+  overload: UnityEngine.EnVector3Extensions.Approximately*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: UnityEngine.EnVector3Extensions.GetClosest(UnityEngine.Vector3,System.Collections.Generic.IEnumerable{UnityEngine.Vector3})
   commentId: M:UnityEngine.EnVector3Extensions.GetClosest(UnityEngine.Vector3,System.Collections.Generic.IEnumerable{UnityEngine.Vector3})
   id: GetClosest(UnityEngine.Vector3,System.Collections.Generic.IEnumerable{UnityEngine.Vector3})
@@ -100,7 +2291,7 @@ items:
       repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
     id: GetClosest
     path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
-    startLine: 34
+    startLine: 307
   assemblies:
   - ECHTNICE.EnUnityEngineExtensions
   namespace: UnityEngine
@@ -132,1988 +2323,91 @@ items:
   - Shared
   fullName.vb: UnityEngine.EnVector3Extensions.GetClosest(UnityEngine.Vector3, System.Collections.Generic.IEnumerable(Of UnityEngine.Vector3))
   name.vb: GetClosest(Vector3, IEnumerable(Of Vector3))
-- uid: UnityEngine.EnVector3Extensions.magnitudeXZ(UnityEngine.Vector3)
-  commentId: M:UnityEngine.EnVector3Extensions.magnitudeXZ(UnityEngine.Vector3)
-  id: magnitudeXZ(UnityEngine.Vector3)
+- uid: UnityEngine.EnVector3Extensions.GetClosest(System.Collections.Generic.IEnumerable{UnityEngine.Vector3},UnityEngine.Vector3)
+  commentId: M:UnityEngine.EnVector3Extensions.GetClosest(System.Collections.Generic.IEnumerable{UnityEngine.Vector3},UnityEngine.Vector3)
+  id: GetClosest(System.Collections.Generic.IEnumerable{UnityEngine.Vector3},UnityEngine.Vector3)
   isExtensionMethod: true
   parent: UnityEngine.EnVector3Extensions
   langs:
   - csharp
   - vb
-  name: magnitudeXZ(Vector3)
-  nameWithType: EnVector3Extensions.magnitudeXZ(Vector3)
-  fullName: UnityEngine.EnVector3Extensions.magnitudeXZ(UnityEngine.Vector3)
+  name: GetClosest(IEnumerable<Vector3>, Vector3)
+  nameWithType: EnVector3Extensions.GetClosest(IEnumerable<Vector3>, Vector3)
+  fullName: UnityEngine.EnVector3Extensions.GetClosest(System.Collections.Generic.IEnumerable<UnityEngine.Vector3>, UnityEngine.Vector3)
   type: Method
   source:
     remote:
       path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
       branch: main
       repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
-    id: magnitudeXZ
+    id: GetClosest
     path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
-    startLine: 59
+    startLine: 323
   assemblies:
   - ECHTNICE.EnUnityEngineExtensions
   namespace: UnityEngine
-  summary: "\nMagnitude of the vector in the XZ plane.\n"
-  example: []
   syntax:
-    content: public static float magnitudeXZ(this Vector3 v)
+    content: public static Vector3 GetClosest(this IEnumerable<Vector3> positions, Vector3 position)
     parameters:
-    - id: v
-      type: UnityEngine.Vector3
-      description: Vector to calculate the magnitude of.
-    return:
-      type: System.Single
-      description: The magnitude of v in the XZ plane.
-    content.vb: >-
-      <ExtensionAttribute>
-
-      Public Shared Function magnitudeXZ(v As Vector3) As Single
-  overload: UnityEngine.EnVector3Extensions.magnitudeXZ*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: UnityEngine.EnVector3Extensions.sqrMagnitudeXZ(UnityEngine.Vector3)
-  commentId: M:UnityEngine.EnVector3Extensions.sqrMagnitudeXZ(UnityEngine.Vector3)
-  id: sqrMagnitudeXZ(UnityEngine.Vector3)
-  isExtensionMethod: true
-  parent: UnityEngine.EnVector3Extensions
-  langs:
-  - csharp
-  - vb
-  name: sqrMagnitudeXZ(Vector3)
-  nameWithType: EnVector3Extensions.sqrMagnitudeXZ(Vector3)
-  fullName: UnityEngine.EnVector3Extensions.sqrMagnitudeXZ(UnityEngine.Vector3)
-  type: Method
-  source:
-    remote:
-      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
-      branch: main
-      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
-    id: sqrMagnitudeXZ
-    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
-    startLine: 68
-  assemblies:
-  - ECHTNICE.EnUnityEngineExtensions
-  namespace: UnityEngine
-  summary: "\nSquared magnitude of the vector in the XZ plane.\n"
-  example: []
-  syntax:
-    content: public static float sqrMagnitudeXZ(this Vector3 v)
-    parameters:
-    - id: v
-      type: UnityEngine.Vector3
-      description: Vector to calculate the magnitude of.
-    return:
-      type: System.Single
-      description: The squared magnitude of v in the XZ plane.
-    content.vb: >-
-      <ExtensionAttribute>
-
-      Public Shared Function sqrMagnitudeXZ(v As Vector3) As Single
-  overload: UnityEngine.EnVector3Extensions.sqrMagnitudeXZ*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: UnityEngine.EnVector3Extensions.magnitudeXY(UnityEngine.Vector3)
-  commentId: M:UnityEngine.EnVector3Extensions.magnitudeXY(UnityEngine.Vector3)
-  id: magnitudeXY(UnityEngine.Vector3)
-  isExtensionMethod: true
-  parent: UnityEngine.EnVector3Extensions
-  langs:
-  - csharp
-  - vb
-  name: magnitudeXY(Vector3)
-  nameWithType: EnVector3Extensions.magnitudeXY(Vector3)
-  fullName: UnityEngine.EnVector3Extensions.magnitudeXY(UnityEngine.Vector3)
-  type: Method
-  source:
-    remote:
-      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
-      branch: main
-      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
-    id: magnitudeXY
-    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
-    startLine: 77
-  assemblies:
-  - ECHTNICE.EnUnityEngineExtensions
-  namespace: UnityEngine
-  summary: "\nMagnitude of the vector in the XY plane.\n"
-  example: []
-  syntax:
-    content: public static float magnitudeXY(this Vector3 v)
-    parameters:
-    - id: v
-      type: UnityEngine.Vector3
-      description: Vector to calculate the magnitude of.
-    return:
-      type: System.Single
-      description: The magnitude of v in the XY plane.
-    content.vb: >-
-      <ExtensionAttribute>
-
-      Public Shared Function magnitudeXY(v As Vector3) As Single
-  overload: UnityEngine.EnVector3Extensions.magnitudeXY*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: UnityEngine.EnVector3Extensions.sqrMagnitudeXY(UnityEngine.Vector3)
-  commentId: M:UnityEngine.EnVector3Extensions.sqrMagnitudeXY(UnityEngine.Vector3)
-  id: sqrMagnitudeXY(UnityEngine.Vector3)
-  isExtensionMethod: true
-  parent: UnityEngine.EnVector3Extensions
-  langs:
-  - csharp
-  - vb
-  name: sqrMagnitudeXY(Vector3)
-  nameWithType: EnVector3Extensions.sqrMagnitudeXY(Vector3)
-  fullName: UnityEngine.EnVector3Extensions.sqrMagnitudeXY(UnityEngine.Vector3)
-  type: Method
-  source:
-    remote:
-      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
-      branch: main
-      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
-    id: sqrMagnitudeXY
-    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
-    startLine: 86
-  assemblies:
-  - ECHTNICE.EnUnityEngineExtensions
-  namespace: UnityEngine
-  summary: "\nSquared magnitude of the vector in the XY plane.\n"
-  example: []
-  syntax:
-    content: public static float sqrMagnitudeXY(this Vector3 v)
-    parameters:
-    - id: v
-      type: UnityEngine.Vector3
-      description: Vector to calculate the magnitude of.
-    return:
-      type: System.Single
-      description: The squared magnitude of v in the XY plane.
-    content.vb: >-
-      <ExtensionAttribute>
-
-      Public Shared Function sqrMagnitudeXY(v As Vector3) As Single
-  overload: UnityEngine.EnVector3Extensions.sqrMagnitudeXY*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: UnityEngine.EnVector3Extensions.magnitudeYZ(UnityEngine.Vector3)
-  commentId: M:UnityEngine.EnVector3Extensions.magnitudeYZ(UnityEngine.Vector3)
-  id: magnitudeYZ(UnityEngine.Vector3)
-  isExtensionMethod: true
-  parent: UnityEngine.EnVector3Extensions
-  langs:
-  - csharp
-  - vb
-  name: magnitudeYZ(Vector3)
-  nameWithType: EnVector3Extensions.magnitudeYZ(Vector3)
-  fullName: UnityEngine.EnVector3Extensions.magnitudeYZ(UnityEngine.Vector3)
-  type: Method
-  source:
-    remote:
-      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
-      branch: main
-      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
-    id: magnitudeYZ
-    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
-    startLine: 95
-  assemblies:
-  - ECHTNICE.EnUnityEngineExtensions
-  namespace: UnityEngine
-  summary: "\nMagnitude of the vector in the YZ plane.\n"
-  example: []
-  syntax:
-    content: public static float magnitudeYZ(this Vector3 v)
-    parameters:
-    - id: v
-      type: UnityEngine.Vector3
-      description: Vector to calculate the magnitude of.
-    return:
-      type: System.Single
-      description: The magnitude of v in the YZ plane.
-    content.vb: >-
-      <ExtensionAttribute>
-
-      Public Shared Function magnitudeYZ(v As Vector3) As Single
-  overload: UnityEngine.EnVector3Extensions.magnitudeYZ*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: UnityEngine.EnVector3Extensions.sqrMagnitudeYZ(UnityEngine.Vector3)
-  commentId: M:UnityEngine.EnVector3Extensions.sqrMagnitudeYZ(UnityEngine.Vector3)
-  id: sqrMagnitudeYZ(UnityEngine.Vector3)
-  isExtensionMethod: true
-  parent: UnityEngine.EnVector3Extensions
-  langs:
-  - csharp
-  - vb
-  name: sqrMagnitudeYZ(Vector3)
-  nameWithType: EnVector3Extensions.sqrMagnitudeYZ(Vector3)
-  fullName: UnityEngine.EnVector3Extensions.sqrMagnitudeYZ(UnityEngine.Vector3)
-  type: Method
-  source:
-    remote:
-      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
-      branch: main
-      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
-    id: sqrMagnitudeYZ
-    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
-    startLine: 104
-  assemblies:
-  - ECHTNICE.EnUnityEngineExtensions
-  namespace: UnityEngine
-  summary: "\nSquared magnitude of the vector in the YZ plane.\n"
-  example: []
-  syntax:
-    content: public static float sqrMagnitudeYZ(this Vector3 v)
-    parameters:
-    - id: v
-      type: UnityEngine.Vector3
-      description: Vector to calculate the magnitude of.
-    return:
-      type: System.Single
-      description: The squared magnitude of v in the YZ plane.
-    content.vb: >-
-      <ExtensionAttribute>
-
-      Public Shared Function sqrMagnitudeYZ(v As Vector3) As Single
-  overload: UnityEngine.EnVector3Extensions.sqrMagnitudeYZ*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: UnityEngine.EnVector3Extensions.distanceXZ(UnityEngine.Vector3,UnityEngine.Vector3)
-  commentId: M:UnityEngine.EnVector3Extensions.distanceXZ(UnityEngine.Vector3,UnityEngine.Vector3)
-  id: distanceXZ(UnityEngine.Vector3,UnityEngine.Vector3)
-  isExtensionMethod: true
-  parent: UnityEngine.EnVector3Extensions
-  langs:
-  - csharp
-  - vb
-  name: distanceXZ(Vector3, Vector3)
-  nameWithType: EnVector3Extensions.distanceXZ(Vector3, Vector3)
-  fullName: UnityEngine.EnVector3Extensions.distanceXZ(UnityEngine.Vector3, UnityEngine.Vector3)
-  type: Method
-  source:
-    remote:
-      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
-      branch: main
-      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
-    id: distanceXZ
-    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
-    startLine: 114
-  assemblies:
-  - ECHTNICE.EnUnityEngineExtensions
-  namespace: UnityEngine
-  summary: "\nDistance to a second point, in the XZ plane.\n"
-  example: []
-  syntax:
-    content: public static float distanceXZ(this Vector3 v, Vector3 u)
-    parameters:
-    - id: v
-      type: UnityEngine.Vector3
-      description: Origin point.
-    - id: u
-      type: UnityEngine.Vector3
-      description: Destination point.
-    return:
-      type: System.Single
-      description: The distance from origin to destination in the XZ plane.
-    content.vb: >-
-      <ExtensionAttribute>
-
-      Public Shared Function distanceXZ(v As Vector3, u As Vector3) As Single
-  overload: UnityEngine.EnVector3Extensions.distanceXZ*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: UnityEngine.EnVector3Extensions.sqrDistanceXZ(UnityEngine.Vector3,UnityEngine.Vector3)
-  commentId: M:UnityEngine.EnVector3Extensions.sqrDistanceXZ(UnityEngine.Vector3,UnityEngine.Vector3)
-  id: sqrDistanceXZ(UnityEngine.Vector3,UnityEngine.Vector3)
-  isExtensionMethod: true
-  parent: UnityEngine.EnVector3Extensions
-  langs:
-  - csharp
-  - vb
-  name: sqrDistanceXZ(Vector3, Vector3)
-  nameWithType: EnVector3Extensions.sqrDistanceXZ(Vector3, Vector3)
-  fullName: UnityEngine.EnVector3Extensions.sqrDistanceXZ(UnityEngine.Vector3, UnityEngine.Vector3)
-  type: Method
-  source:
-    remote:
-      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
-      branch: main
-      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
-    id: sqrDistanceXZ
-    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
-    startLine: 124
-  assemblies:
-  - ECHTNICE.EnUnityEngineExtensions
-  namespace: UnityEngine
-  summary: "\nSquared distance to a second point, in the XZ plane.\n"
-  example: []
-  syntax:
-    content: public static float sqrDistanceXZ(this Vector3 v, Vector3 u)
-    parameters:
-    - id: v
-      type: UnityEngine.Vector3
-      description: Origin point.
-    - id: u
-      type: UnityEngine.Vector3
-      description: Destination point.
-    return:
-      type: System.Single
-      description: The squared distance from origin to destination in the XZ plane.
-    content.vb: >-
-      <ExtensionAttribute>
-
-      Public Shared Function sqrDistanceXZ(v As Vector3, u As Vector3) As Single
-  overload: UnityEngine.EnVector3Extensions.sqrDistanceXZ*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: UnityEngine.EnVector3Extensions.distanceXY(UnityEngine.Vector3,UnityEngine.Vector3)
-  commentId: M:UnityEngine.EnVector3Extensions.distanceXY(UnityEngine.Vector3,UnityEngine.Vector3)
-  id: distanceXY(UnityEngine.Vector3,UnityEngine.Vector3)
-  isExtensionMethod: true
-  parent: UnityEngine.EnVector3Extensions
-  langs:
-  - csharp
-  - vb
-  name: distanceXY(Vector3, Vector3)
-  nameWithType: EnVector3Extensions.distanceXY(Vector3, Vector3)
-  fullName: UnityEngine.EnVector3Extensions.distanceXY(UnityEngine.Vector3, UnityEngine.Vector3)
-  type: Method
-  source:
-    remote:
-      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
-      branch: main
-      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
-    id: distanceXY
-    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
-    startLine: 134
-  assemblies:
-  - ECHTNICE.EnUnityEngineExtensions
-  namespace: UnityEngine
-  summary: "\nDistance to a second point, in the XY plane.\n"
-  example: []
-  syntax:
-    content: public static float distanceXY(this Vector3 v, Vector3 u)
-    parameters:
-    - id: v
-      type: UnityEngine.Vector3
-      description: Origin point.
-    - id: u
-      type: UnityEngine.Vector3
-      description: Destination point.
-    return:
-      type: System.Single
-      description: The distance from origin to destination in the XY plane.
-    content.vb: >-
-      <ExtensionAttribute>
-
-      Public Shared Function distanceXY(v As Vector3, u As Vector3) As Single
-  overload: UnityEngine.EnVector3Extensions.distanceXY*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: UnityEngine.EnVector3Extensions.sqrDistanceXY(UnityEngine.Vector3,UnityEngine.Vector3)
-  commentId: M:UnityEngine.EnVector3Extensions.sqrDistanceXY(UnityEngine.Vector3,UnityEngine.Vector3)
-  id: sqrDistanceXY(UnityEngine.Vector3,UnityEngine.Vector3)
-  isExtensionMethod: true
-  parent: UnityEngine.EnVector3Extensions
-  langs:
-  - csharp
-  - vb
-  name: sqrDistanceXY(Vector3, Vector3)
-  nameWithType: EnVector3Extensions.sqrDistanceXY(Vector3, Vector3)
-  fullName: UnityEngine.EnVector3Extensions.sqrDistanceXY(UnityEngine.Vector3, UnityEngine.Vector3)
-  type: Method
-  source:
-    remote:
-      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
-      branch: main
-      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
-    id: sqrDistanceXY
-    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
-    startLine: 144
-  assemblies:
-  - ECHTNICE.EnUnityEngineExtensions
-  namespace: UnityEngine
-  summary: "\nSquared distance to a second point, in the XY plane.\n"
-  example: []
-  syntax:
-    content: public static float sqrDistanceXY(this Vector3 v, Vector3 u)
-    parameters:
-    - id: v
-      type: UnityEngine.Vector3
-      description: Origin point.
-    - id: u
-      type: UnityEngine.Vector3
-      description: Destination point.
-    return:
-      type: System.Single
-      description: The squared distance from origin to destination in the XY plane.
-    content.vb: >-
-      <ExtensionAttribute>
-
-      Public Shared Function sqrDistanceXY(v As Vector3, u As Vector3) As Single
-  overload: UnityEngine.EnVector3Extensions.sqrDistanceXY*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: UnityEngine.EnVector3Extensions.distanceYZ(UnityEngine.Vector3,UnityEngine.Vector3)
-  commentId: M:UnityEngine.EnVector3Extensions.distanceYZ(UnityEngine.Vector3,UnityEngine.Vector3)
-  id: distanceYZ(UnityEngine.Vector3,UnityEngine.Vector3)
-  isExtensionMethod: true
-  parent: UnityEngine.EnVector3Extensions
-  langs:
-  - csharp
-  - vb
-  name: distanceYZ(Vector3, Vector3)
-  nameWithType: EnVector3Extensions.distanceYZ(Vector3, Vector3)
-  fullName: UnityEngine.EnVector3Extensions.distanceYZ(UnityEngine.Vector3, UnityEngine.Vector3)
-  type: Method
-  source:
-    remote:
-      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
-      branch: main
-      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
-    id: distanceYZ
-    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
-    startLine: 154
-  assemblies:
-  - ECHTNICE.EnUnityEngineExtensions
-  namespace: UnityEngine
-  summary: "\nDistance to a second point, in the YZ plane.\n"
-  example: []
-  syntax:
-    content: public static float distanceYZ(this Vector3 v, Vector3 u)
-    parameters:
-    - id: v
-      type: UnityEngine.Vector3
-      description: Origin point.
-    - id: u
-      type: UnityEngine.Vector3
-      description: Destination point.
-    return:
-      type: System.Single
-      description: The distance from origin to destination in the YZ plane.
-    content.vb: >-
-      <ExtensionAttribute>
-
-      Public Shared Function distanceYZ(v As Vector3, u As Vector3) As Single
-  overload: UnityEngine.EnVector3Extensions.distanceYZ*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: UnityEngine.EnVector3Extensions.sqrDistanceYZ(UnityEngine.Vector3,UnityEngine.Vector3)
-  commentId: M:UnityEngine.EnVector3Extensions.sqrDistanceYZ(UnityEngine.Vector3,UnityEngine.Vector3)
-  id: sqrDistanceYZ(UnityEngine.Vector3,UnityEngine.Vector3)
-  isExtensionMethod: true
-  parent: UnityEngine.EnVector3Extensions
-  langs:
-  - csharp
-  - vb
-  name: sqrDistanceYZ(Vector3, Vector3)
-  nameWithType: EnVector3Extensions.sqrDistanceYZ(Vector3, Vector3)
-  fullName: UnityEngine.EnVector3Extensions.sqrDistanceYZ(UnityEngine.Vector3, UnityEngine.Vector3)
-  type: Method
-  source:
-    remote:
-      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
-      branch: main
-      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
-    id: sqrDistanceYZ
-    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
-    startLine: 164
-  assemblies:
-  - ECHTNICE.EnUnityEngineExtensions
-  namespace: UnityEngine
-  summary: "\nSquared distance to a second point, in the YZ plane.\n"
-  example: []
-  syntax:
-    content: public static float sqrDistanceYZ(this Vector3 v, Vector3 u)
-    parameters:
-    - id: v
-      type: UnityEngine.Vector3
-      description: Origin point.
-    - id: u
-      type: UnityEngine.Vector3
-      description: Destination point.
-    return:
-      type: System.Single
-      description: The squared distance from origin to destination in the YZ plane.
-    content.vb: >-
-      <ExtensionAttribute>
-
-      Public Shared Function sqrDistanceYZ(v As Vector3, u As Vector3) As Single
-  overload: UnityEngine.EnVector3Extensions.sqrDistanceYZ*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: UnityEngine.EnVector3Extensions.distance(UnityEngine.Vector3,UnityEngine.Vector3)
-  commentId: M:UnityEngine.EnVector3Extensions.distance(UnityEngine.Vector3,UnityEngine.Vector3)
-  id: distance(UnityEngine.Vector3,UnityEngine.Vector3)
-  isExtensionMethod: true
-  parent: UnityEngine.EnVector3Extensions
-  langs:
-  - csharp
-  - vb
-  name: distance(Vector3, Vector3)
-  nameWithType: EnVector3Extensions.distance(Vector3, Vector3)
-  fullName: UnityEngine.EnVector3Extensions.distance(UnityEngine.Vector3, UnityEngine.Vector3)
-  type: Method
-  source:
-    remote:
-      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
-      branch: main
-      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
-    id: distance
-    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
-    startLine: 174
-  assemblies:
-  - ECHTNICE.EnUnityEngineExtensions
-  namespace: UnityEngine
-  summary: "\nDistance to a second point.\n"
-  example: []
-  syntax:
-    content: public static float distance(this Vector3 v, Vector3 u)
-    parameters:
-    - id: v
-      type: UnityEngine.Vector3
-      description: Origin point.
-    - id: u
-      type: UnityEngine.Vector3
-      description: Destination point.
-    return:
-      type: System.Single
-      description: The distance from origin to destination.
-    content.vb: >-
-      <ExtensionAttribute>
-
-      Public Shared Function distance(v As Vector3, u As Vector3) As Single
-  overload: UnityEngine.EnVector3Extensions.distance*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: UnityEngine.EnVector3Extensions.sqrDistance(UnityEngine.Vector3,UnityEngine.Vector3)
-  commentId: M:UnityEngine.EnVector3Extensions.sqrDistance(UnityEngine.Vector3,UnityEngine.Vector3)
-  id: sqrDistance(UnityEngine.Vector3,UnityEngine.Vector3)
-  isExtensionMethod: true
-  parent: UnityEngine.EnVector3Extensions
-  langs:
-  - csharp
-  - vb
-  name: sqrDistance(Vector3, Vector3)
-  nameWithType: EnVector3Extensions.sqrDistance(Vector3, Vector3)
-  fullName: UnityEngine.EnVector3Extensions.sqrDistance(UnityEngine.Vector3, UnityEngine.Vector3)
-  type: Method
-  source:
-    remote:
-      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
-      branch: main
-      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
-    id: sqrDistance
-    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
-    startLine: 184
-  assemblies:
-  - ECHTNICE.EnUnityEngineExtensions
-  namespace: UnityEngine
-  summary: "\nSquared distance to a second point.\n"
-  example: []
-  syntax:
-    content: public static float sqrDistance(this Vector3 v, Vector3 u)
-    parameters:
-    - id: v
-      type: UnityEngine.Vector3
-      description: Origin point.
-    - id: u
-      type: UnityEngine.Vector3
-      description: Destination point.
-    return:
-      type: System.Single
-      description: The squared distance from origin to destination.
-    content.vb: >-
-      <ExtensionAttribute>
-
-      Public Shared Function sqrDistance(v As Vector3, u As Vector3) As Single
-  overload: UnityEngine.EnVector3Extensions.sqrDistance*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: UnityEngine.EnVector3Extensions.Project(UnityEngine.Vector3,UnityEngine.Vector3)
-  commentId: M:UnityEngine.EnVector3Extensions.Project(UnityEngine.Vector3,UnityEngine.Vector3)
-  id: Project(UnityEngine.Vector3,UnityEngine.Vector3)
-  isExtensionMethod: true
-  parent: UnityEngine.EnVector3Extensions
-  langs:
-  - csharp
-  - vb
-  name: Project(Vector3, Vector3)
-  nameWithType: EnVector3Extensions.Project(Vector3, Vector3)
-  fullName: UnityEngine.EnVector3Extensions.Project(UnityEngine.Vector3, UnityEngine.Vector3)
-  type: Method
-  source:
-    remote:
-      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
-      branch: main
-      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
-    id: Project
-    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
-    startLine: 195
-  assemblies:
-  - ECHTNICE.EnUnityEngineExtensions
-  namespace: UnityEngine
-  summary: "\nCalculate the projection of a vector into the plane defined by the given normal\nand containing the origin.\n"
-  example: []
-  syntax:
-    content: public static Vector3 Project(this Vector3 v, Vector3 normal)
-    parameters:
-    - id: v
-      type: UnityEngine.Vector3
-      description: Vector to project.
-    - id: normal
-      type: UnityEngine.Vector3
-      description: Normal defining the plane to project on.
-    return:
-      type: UnityEngine.Vector3
-      description: The vector resulting from projecting v on the plane.
-    content.vb: >-
-      <ExtensionAttribute>
-
-      Public Shared Function Project(v As Vector3, normal As Vector3) As Vector3
-  overload: UnityEngine.EnVector3Extensions.Project*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: UnityEngine.EnVector3Extensions.Project(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Quaternion)
-  commentId: M:UnityEngine.EnVector3Extensions.Project(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Quaternion)
-  id: Project(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Quaternion)
-  isExtensionMethod: true
-  parent: UnityEngine.EnVector3Extensions
-  langs:
-  - csharp
-  - vb
-  name: Project(Vector3, Vector3, Quaternion)
-  nameWithType: EnVector3Extensions.Project(Vector3, Vector3, Quaternion)
-  fullName: UnityEngine.EnVector3Extensions.Project(UnityEngine.Vector3, UnityEngine.Vector3, UnityEngine.Quaternion)
-  type: Method
-  source:
-    remote:
-      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
-      branch: main
-      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
-    id: Project
-    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
-    startLine: 206
-  assemblies:
-  - ECHTNICE.EnUnityEngineExtensions
-  namespace: UnityEngine
-  summary: "\nProject this point into a plane defined by the given position and rotation.\n"
-  example: []
-  syntax:
-    content: public static Vector3 Project(this Vector3 v, Vector3 position, Quaternion rotation)
-    parameters:
-    - id: v
-      type: UnityEngine.Vector3
-      description: ''
+    - id: positions
+      type: System.Collections.Generic.IEnumerable{UnityEngine.Vector3}
     - id: position
       type: UnityEngine.Vector3
-      description: Reference position of the plane.
-    - id: rotation
-      type: UnityEngine.Quaternion
-      description: Rotation of the plane.
     return:
       type: UnityEngine.Vector3
-      description: The point&apos;s projection into the plane.
     content.vb: >-
       <ExtensionAttribute>
 
-      Public Shared Function Project(v As Vector3, position As Vector3, rotation As Quaternion) As Vector3
-  overload: UnityEngine.EnVector3Extensions.Project*
+      Public Shared Function GetClosest(positions As IEnumerable(Of Vector3), position As Vector3) As Vector3
+  overload: UnityEngine.EnVector3Extensions.GetClosest*
+  nameWithType.vb: EnVector3Extensions.GetClosest(IEnumerable(Of Vector3), Vector3)
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: UnityEngine.EnVector3Extensions.magnitude(UnityEngine.Vector3,UnityEngine.Vector3)
-  commentId: M:UnityEngine.EnVector3Extensions.magnitude(UnityEngine.Vector3,UnityEngine.Vector3)
-  id: magnitude(UnityEngine.Vector3,UnityEngine.Vector3)
+  fullName.vb: UnityEngine.EnVector3Extensions.GetClosest(System.Collections.Generic.IEnumerable(Of UnityEngine.Vector3), UnityEngine.Vector3)
+  name.vb: GetClosest(IEnumerable(Of Vector3), Vector3)
+- uid: UnityEngine.EnVector3Extensions.To(UnityEngine.Vector3,UnityEngine.Vector3)
+  commentId: M:UnityEngine.EnVector3Extensions.To(UnityEngine.Vector3,UnityEngine.Vector3)
+  id: To(UnityEngine.Vector3,UnityEngine.Vector3)
   isExtensionMethod: true
   parent: UnityEngine.EnVector3Extensions
   langs:
   - csharp
   - vb
-  name: magnitude(Vector3, Vector3)
-  nameWithType: EnVector3Extensions.magnitude(Vector3, Vector3)
-  fullName: UnityEngine.EnVector3Extensions.magnitude(UnityEngine.Vector3, UnityEngine.Vector3)
+  name: To(Vector3, Vector3)
+  nameWithType: EnVector3Extensions.To(Vector3, Vector3)
+  fullName: UnityEngine.EnVector3Extensions.To(UnityEngine.Vector3, UnityEngine.Vector3)
   type: Method
   source:
     remote:
       path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
       branch: main
       repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
-    id: magnitude
-    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
-    startLine: 219
-  assemblies:
-  - ECHTNICE.EnUnityEngineExtensions
-  namespace: UnityEngine
-  summary: "\nCalculate the magnitude of a vector&apos;s projection on an arbitrary plane.\n"
-  example: []
-  syntax:
-    content: public static float magnitude(this Vector3 v, Vector3 normal)
-    parameters:
-    - id: v
-      type: UnityEngine.Vector3
-      description: ''
-    - id: normal
-      type: UnityEngine.Vector3
-      description: Normal defining the plane to project on.
-    return:
-      type: System.Single
-      description: The magnitude of the vector&apos;s projection on the plane.
-    content.vb: >-
-      <ExtensionAttribute>
-
-      Public Shared Function magnitude(v As Vector3, normal As Vector3) As Single
-  overload: UnityEngine.EnVector3Extensions.magnitude*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: UnityEngine.EnVector3Extensions.sqrMagnitude(UnityEngine.Vector3,UnityEngine.Vector3)
-  commentId: M:UnityEngine.EnVector3Extensions.sqrMagnitude(UnityEngine.Vector3,UnityEngine.Vector3)
-  id: sqrMagnitude(UnityEngine.Vector3,UnityEngine.Vector3)
-  isExtensionMethod: true
-  parent: UnityEngine.EnVector3Extensions
-  langs:
-  - csharp
-  - vb
-  name: sqrMagnitude(Vector3, Vector3)
-  nameWithType: EnVector3Extensions.sqrMagnitude(Vector3, Vector3)
-  fullName: UnityEngine.EnVector3Extensions.sqrMagnitude(UnityEngine.Vector3, UnityEngine.Vector3)
-  type: Method
-  source:
-    remote:
-      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
-      branch: main
-      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
-    id: sqrMagnitude
-    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
-    startLine: 229
-  assemblies:
-  - ECHTNICE.EnUnityEngineExtensions
-  namespace: UnityEngine
-  summary: "\nCalculate the squared magnitude of a vector&apos;s projection on an arbitrary plane.\n"
-  example: []
-  syntax:
-    content: public static float sqrMagnitude(this Vector3 v, Vector3 normal)
-    parameters:
-    - id: v
-      type: UnityEngine.Vector3
-      description: ''
-    - id: normal
-      type: UnityEngine.Vector3
-      description: Normal defining the plane to project on.
-    return:
-      type: System.Single
-      description: The squared magnitude of the vector&apos;s projection on the plane.
-    content.vb: >-
-      <ExtensionAttribute>
-
-      Public Shared Function sqrMagnitude(v As Vector3, normal As Vector3) As Single
-  overload: UnityEngine.EnVector3Extensions.sqrMagnitude*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: UnityEngine.EnVector3Extensions.distance(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3)
-  commentId: M:UnityEngine.EnVector3Extensions.distance(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3)
-  id: distance(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3)
-  isExtensionMethod: true
-  parent: UnityEngine.EnVector3Extensions
-  langs:
-  - csharp
-  - vb
-  name: distance(Vector3, Vector3, Vector3)
-  nameWithType: EnVector3Extensions.distance(Vector3, Vector3, Vector3)
-  fullName: UnityEngine.EnVector3Extensions.distance(UnityEngine.Vector3, UnityEngine.Vector3, UnityEngine.Vector3)
-  type: Method
-  source:
-    remote:
-      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
-      branch: main
-      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
-    id: distance
-    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
-    startLine: 239
-  assemblies:
-  - ECHTNICE.EnUnityEngineExtensions
-  namespace: UnityEngine
-  summary: "\nCalculate the distance between two points&apos; projections on an arbitrary plane.\n"
-  example: []
-  syntax:
-    content: public static float distance(this Vector3 v, Vector3 u, Vector3 normal)
-    parameters:
-    - id: v
-      type: UnityEngine.Vector3
-      description: ''
-    - id: u
-      type: UnityEngine.Vector3
-    - id: normal
-      type: UnityEngine.Vector3
-      description: Normal defining the plane to project on.
-    return:
-      type: System.Single
-      description: The distance between the two points on the plane.
-    content.vb: >-
-      <ExtensionAttribute>
-
-      Public Shared Function distance(v As Vector3, u As Vector3, normal As Vector3) As Single
-  overload: UnityEngine.EnVector3Extensions.distance*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: UnityEngine.EnVector3Extensions.distance(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Quaternion)
-  commentId: M:UnityEngine.EnVector3Extensions.distance(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Quaternion)
-  id: distance(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Quaternion)
-  isExtensionMethod: true
-  parent: UnityEngine.EnVector3Extensions
-  langs:
-  - csharp
-  - vb
-  name: distance(Vector3, Vector3, Vector3, Quaternion)
-  nameWithType: EnVector3Extensions.distance(Vector3, Vector3, Vector3, Quaternion)
-  fullName: UnityEngine.EnVector3Extensions.distance(UnityEngine.Vector3, UnityEngine.Vector3, UnityEngine.Vector3, UnityEngine.Quaternion)
-  type: Method
-  source:
-    remote:
-      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
-      branch: main
-      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
-    id: distance
-    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
-    startLine: 251
-  assemblies:
-  - ECHTNICE.EnUnityEngineExtensions
-  namespace: UnityEngine
-  summary: "\nCalculate the distance between two point&apos;s projections on a plane.\n"
-  example: []
-  syntax:
-    content: public static float distance(this Vector3 v, Vector3 u, Vector3 planePos, Quaternion planeRot)
-    parameters:
-    - id: v
-      type: UnityEngine.Vector3
-      description: ''
-    - id: u
-      type: UnityEngine.Vector3
-      description: ''
-    - id: planePos
-      type: UnityEngine.Vector3
-      description: An arbitrary point inside the plane.
-    - id: planeRot
-      type: UnityEngine.Quaternion
-      description: The plane&apos;s rotation.
-    return:
-      type: System.Single
-      description: The distance of both points&apos; projection in the plane.
-    content.vb: >-
-      <ExtensionAttribute>
-
-      Public Shared Function distance(v As Vector3, u As Vector3, planePos As Vector3, planeRot As Quaternion) As Single
-  overload: UnityEngine.EnVector3Extensions.distance*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: UnityEngine.EnVector3Extensions.sqrDistance(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3)
-  commentId: M:UnityEngine.EnVector3Extensions.sqrDistance(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3)
-  id: sqrDistance(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3)
-  isExtensionMethod: true
-  parent: UnityEngine.EnVector3Extensions
-  langs:
-  - csharp
-  - vb
-  name: sqrDistance(Vector3, Vector3, Vector3)
-  nameWithType: EnVector3Extensions.sqrDistance(Vector3, Vector3, Vector3)
-  fullName: UnityEngine.EnVector3Extensions.sqrDistance(UnityEngine.Vector3, UnityEngine.Vector3, UnityEngine.Vector3)
-  type: Method
-  source:
-    remote:
-      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
-      branch: main
-      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
-    id: sqrDistance
-    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
-    startLine: 263
-  assemblies:
-  - ECHTNICE.EnUnityEngineExtensions
-  namespace: UnityEngine
-  summary: "\nCalculate the squared distance between two points&apos; projections on an arbitrary plane.\n"
-  example: []
-  syntax:
-    content: public static float sqrDistance(this Vector3 v, Vector3 u, Vector3 normal)
-    parameters:
-    - id: v
-      type: UnityEngine.Vector3
-      description: ''
-    - id: u
-      type: UnityEngine.Vector3
-    - id: normal
-      type: UnityEngine.Vector3
-      description: Normal defining the plane to project on.
-    return:
-      type: System.Single
-      description: The squared distance between the two points on the plane.
-    content.vb: >-
-      <ExtensionAttribute>
-
-      Public Shared Function sqrDistance(v As Vector3, u As Vector3, normal As Vector3) As Single
-  overload: UnityEngine.EnVector3Extensions.sqrDistance*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: UnityEngine.EnVector3Extensions.sqrDistance(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Quaternion)
-  commentId: M:UnityEngine.EnVector3Extensions.sqrDistance(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Quaternion)
-  id: sqrDistance(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Quaternion)
-  isExtensionMethod: true
-  parent: UnityEngine.EnVector3Extensions
-  langs:
-  - csharp
-  - vb
-  name: sqrDistance(Vector3, Vector3, Vector3, Quaternion)
-  nameWithType: EnVector3Extensions.sqrDistance(Vector3, Vector3, Vector3, Quaternion)
-  fullName: UnityEngine.EnVector3Extensions.sqrDistance(UnityEngine.Vector3, UnityEngine.Vector3, UnityEngine.Vector3, UnityEngine.Quaternion)
-  type: Method
-  source:
-    remote:
-      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
-      branch: main
-      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
-    id: sqrDistance
-    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
-    startLine: 277
-  assemblies:
-  - ECHTNICE.EnUnityEngineExtensions
-  namespace: UnityEngine
-  summary: "\nCalculate the squared distance between two point&apos;s projections on a plane.\n"
-  example: []
-  syntax:
-    content: public static float sqrDistance(this Vector3 v, Vector3 u, Vector3 planePos, Quaternion planeRot)
-    parameters:
-    - id: v
-      type: UnityEngine.Vector3
-      description: ''
-    - id: u
-      type: UnityEngine.Vector3
-      description: ''
-    - id: planePos
-      type: UnityEngine.Vector3
-      description: An arbitrary point inside the plane.
-    - id: planeRot
-      type: UnityEngine.Quaternion
-      description: The plane&apos;s rotation.
-    return:
-      type: System.Single
-      description: The squared distance of both points&apos; projection in the plane.
-    content.vb: >-
-      <ExtensionAttribute>
-
-      Public Shared Function sqrDistance(v As Vector3, u As Vector3, planePos As Vector3, planeRot As Quaternion) As Single
-  overload: UnityEngine.EnVector3Extensions.sqrDistance*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: UnityEngine.EnVector3Extensions.Dot(UnityEngine.Vector3,UnityEngine.Vector3)
-  commentId: M:UnityEngine.EnVector3Extensions.Dot(UnityEngine.Vector3,UnityEngine.Vector3)
-  id: Dot(UnityEngine.Vector3,UnityEngine.Vector3)
-  isExtensionMethod: true
-  parent: UnityEngine.EnVector3Extensions
-  langs:
-  - csharp
-  - vb
-  name: Dot(Vector3, Vector3)
-  nameWithType: EnVector3Extensions.Dot(Vector3, Vector3)
-  fullName: UnityEngine.EnVector3Extensions.Dot(UnityEngine.Vector3, UnityEngine.Vector3)
-  type: Method
-  source:
-    remote:
-      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
-      branch: main
-      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
-    id: Dot
-    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
-    startLine: 290
-  assemblies:
-  - ECHTNICE.EnUnityEngineExtensions
-  namespace: UnityEngine
-  summary: "\nCalculate the dot product of a couple of vectors.\ni.e. the product of their magnitudes and the cosine between both vectors.\n"
-  example: []
-  syntax:
-    content: public static float Dot(this Vector3 v, Vector3 u)
-    parameters:
-    - id: v
-      type: UnityEngine.Vector3
-      description: ''
-    - id: u
-      type: UnityEngine.Vector3
-      description: ''
-    return:
-      type: System.Single
-      description: The dot product of v and u.
-    content.vb: >-
-      <ExtensionAttribute>
-
-      Public Shared Function Dot(v As Vector3, u As Vector3) As Single
-  overload: UnityEngine.EnVector3Extensions.Dot*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: UnityEngine.EnVector3Extensions.Cross(UnityEngine.Vector3,UnityEngine.Vector3)
-  commentId: M:UnityEngine.EnVector3Extensions.Cross(UnityEngine.Vector3,UnityEngine.Vector3)
-  id: Cross(UnityEngine.Vector3,UnityEngine.Vector3)
-  isExtensionMethod: true
-  parent: UnityEngine.EnVector3Extensions
-  langs:
-  - csharp
-  - vb
-  name: Cross(Vector3, Vector3)
-  nameWithType: EnVector3Extensions.Cross(Vector3, Vector3)
-  fullName: UnityEngine.EnVector3Extensions.Cross(UnityEngine.Vector3, UnityEngine.Vector3)
-  type: Method
-  source:
-    remote:
-      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
-      branch: main
-      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
-    id: Cross
-    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
-    startLine: 303
-  assemblies:
-  - ECHTNICE.EnUnityEngineExtensions
-  namespace: UnityEngine
-  summary: "\nCalculate the cross product of two vectors.\ni.e. a vector pointing in the direction of the normal\nof the plane defined by both vectors, following the lowest angle between both,\nand of magnitude the area of the parallelogram with both vectors as its sides.\n"
-  example: []
-  syntax:
-    content: public static Vector3 Cross(this Vector3 v, Vector3 u)
-    parameters:
-    - id: v
-      type: UnityEngine.Vector3
-      description: ''
-    - id: u
-      type: UnityEngine.Vector3
-      description: ''
-    return:
-      type: UnityEngine.Vector3
-      description: The cross product of v and u.
-    content.vb: >-
-      <ExtensionAttribute>
-
-      Public Shared Function Cross(v As Vector3, u As Vector3) As Vector3
-  overload: UnityEngine.EnVector3Extensions.Cross*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: UnityEngine.EnVector3Extensions.Rotate(UnityEngine.Vector3,UnityEngine.Quaternion)
-  commentId: M:UnityEngine.EnVector3Extensions.Rotate(UnityEngine.Vector3,UnityEngine.Quaternion)
-  id: Rotate(UnityEngine.Vector3,UnityEngine.Quaternion)
-  isExtensionMethod: true
-  parent: UnityEngine.EnVector3Extensions
-  langs:
-  - csharp
-  - vb
-  name: Rotate(Vector3, Quaternion)
-  nameWithType: EnVector3Extensions.Rotate(Vector3, Quaternion)
-  fullName: UnityEngine.EnVector3Extensions.Rotate(UnityEngine.Vector3, UnityEngine.Quaternion)
-  type: Method
-  source:
-    remote:
-      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
-      branch: main
-      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
-    id: Rotate
-    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
-    startLine: 313
-  assemblies:
-  - ECHTNICE.EnUnityEngineExtensions
-  namespace: UnityEngine
-  summary: "\nRotate a point around the origin.\n"
-  example: []
-  syntax:
-    content: public static Vector3 Rotate(this Vector3 point, Quaternion angle)
-    parameters:
-    - id: point
-      type: UnityEngine.Vector3
-      description: Vector to rotate.
-    - id: angle
-      type: UnityEngine.Quaternion
-      description: Angle to rotate.
-    return:
-      type: UnityEngine.Vector3
-      description: The result of rotating point.
-    content.vb: >-
-      <ExtensionAttribute>
-
-      Public Shared Function Rotate(point As Vector3, angle As Quaternion) As Vector3
-  overload: UnityEngine.EnVector3Extensions.Rotate*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: UnityEngine.EnVector3Extensions.RotateAround(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Quaternion)
-  commentId: M:UnityEngine.EnVector3Extensions.RotateAround(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Quaternion)
-  id: RotateAround(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Quaternion)
-  isExtensionMethod: true
-  parent: UnityEngine.EnVector3Extensions
-  langs:
-  - csharp
-  - vb
-  name: RotateAround(Vector3, Vector3, Quaternion)
-  nameWithType: EnVector3Extensions.RotateAround(Vector3, Vector3, Quaternion)
-  fullName: UnityEngine.EnVector3Extensions.RotateAround(UnityEngine.Vector3, UnityEngine.Vector3, UnityEngine.Quaternion)
-  type: Method
-  source:
-    remote:
-      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
-      branch: main
-      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
-    id: RotateAround
-    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
-    startLine: 324
-  assemblies:
-  - ECHTNICE.EnUnityEngineExtensions
-  namespace: UnityEngine
-  summary: "\nRotate a point around another.\n"
-  example: []
-  syntax:
-    content: public static Vector3 RotateAround(this Vector3 point, Vector3 origin, Quaternion angle)
-    parameters:
-    - id: point
-      type: UnityEngine.Vector3
-      description: Point to rotate.
-    - id: origin
-      type: UnityEngine.Vector3
-      description: Reference for rotation.
-    - id: angle
-      type: UnityEngine.Quaternion
-      description: Angle to rotate.
-    return:
-      type: UnityEngine.Vector3
-      description: The result of rotating point around origin.
-    content.vb: >-
-      <ExtensionAttribute>
-
-      Public Shared Function RotateAround(point As Vector3, origin As Vector3, angle As Quaternion) As Vector3
-  overload: UnityEngine.EnVector3Extensions.RotateAround*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: UnityEngine.EnVector3Extensions.InverseTransformPoint(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Quaternion)
-  commentId: M:UnityEngine.EnVector3Extensions.InverseTransformPoint(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Quaternion)
-  id: InverseTransformPoint(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Quaternion)
-  isExtensionMethod: true
-  parent: UnityEngine.EnVector3Extensions
-  langs:
-  - csharp
-  - vb
-  name: InverseTransformPoint(Vector3, Vector3, Quaternion)
-  nameWithType: EnVector3Extensions.InverseTransformPoint(Vector3, Vector3, Quaternion)
-  fullName: UnityEngine.EnVector3Extensions.InverseTransformPoint(UnityEngine.Vector3, UnityEngine.Vector3, UnityEngine.Quaternion)
-  type: Method
-  source:
-    remote:
-      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
-      branch: main
-      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
-    id: InverseTransformPoint
+    id: To
     path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
     startLine: 335
   assemblies:
   - ECHTNICE.EnUnityEngineExtensions
   namespace: UnityEngine
-  summary: "\nChange a point&apos;s base to a reference&apos;s local space.\n"
+  summary: "\nGet vector between source and destination\n"
   example: []
   syntax:
-    content: public static Vector3 InverseTransformPoint(this Vector3 point, Vector3 refPoint, Quaternion refRotation)
+    content: public static Vector3 To(this Vector3 source, Vector3 destination)
     parameters:
-    - id: point
+    - id: source
       type: UnityEngine.Vector3
-      description: Point to transform.
-    - id: refPoint
-      type: UnityEngine.Vector3
-      description: World space centre of new base.
-    - id: refRotation
-      type: UnityEngine.Quaternion
-      description: World space rotation of new base.
-    return:
-      type: UnityEngine.Vector3
-      description: The position of the point in the new base.
-    content.vb: >-
-      <ExtensionAttribute>
-
-      Public Shared Function InverseTransformPoint(point As Vector3, refPoint As Vector3, refRotation As Quaternion) As Vector3
-  overload: UnityEngine.EnVector3Extensions.InverseTransformPoint*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: UnityEngine.EnVector3Extensions.TransformPoint(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Quaternion)
-  commentId: M:UnityEngine.EnVector3Extensions.TransformPoint(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Quaternion)
-  id: TransformPoint(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Quaternion)
-  isExtensionMethod: true
-  parent: UnityEngine.EnVector3Extensions
-  langs:
-  - csharp
-  - vb
-  name: TransformPoint(Vector3, Vector3, Quaternion)
-  nameWithType: EnVector3Extensions.TransformPoint(Vector3, Vector3, Quaternion)
-  fullName: UnityEngine.EnVector3Extensions.TransformPoint(UnityEngine.Vector3, UnityEngine.Vector3, UnityEngine.Quaternion)
-  type: Method
-  source:
-    remote:
-      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
-      branch: main
-      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
-    id: TransformPoint
-    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
-    startLine: 346
-  assemblies:
-  - ECHTNICE.EnUnityEngineExtensions
-  namespace: UnityEngine
-  summary: "\nChange a point&apos;s base to world space from a reference base.\n"
-  example: []
-  syntax:
-    content: public static Vector3 TransformPoint(this Vector3 point, Vector3 refPoint, Quaternion refRotation)
-    parameters:
-    - id: point
-      type: UnityEngine.Vector3
-      description: Point to transform.
-    - id: refPoint
-      type: UnityEngine.Vector3
-      description: World space centre of point&apos;s current base.
-    - id: refRotation
-      type: UnityEngine.Quaternion
-      description: World space rotation of point&apos;s current base.
-    return:
-      type: UnityEngine.Vector3
-      description: The position of the point in world space.
-    content.vb: >-
-      <ExtensionAttribute>
-
-      Public Shared Function TransformPoint(point As Vector3, refPoint As Vector3, refRotation As Quaternion) As Vector3
-  overload: UnityEngine.EnVector3Extensions.TransformPoint*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: UnityEngine.EnVector3Extensions.AngleTo(UnityEngine.Vector3,UnityEngine.Vector3)
-  commentId: M:UnityEngine.EnVector3Extensions.AngleTo(UnityEngine.Vector3,UnityEngine.Vector3)
-  id: AngleTo(UnityEngine.Vector3,UnityEngine.Vector3)
-  isExtensionMethod: true
-  parent: UnityEngine.EnVector3Extensions
-  langs:
-  - csharp
-  - vb
-  name: AngleTo(Vector3, Vector3)
-  nameWithType: EnVector3Extensions.AngleTo(Vector3, Vector3)
-  fullName: UnityEngine.EnVector3Extensions.AngleTo(UnityEngine.Vector3, UnityEngine.Vector3)
-  type: Method
-  source:
-    remote:
-      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
-      branch: main
-      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
-    id: AngleTo
-    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
-    startLine: 357
-  assemblies:
-  - ECHTNICE.EnUnityEngineExtensions
-  namespace: UnityEngine
-  summary: "\nCalculate the angle, in degrees, between a vector and a point.\nThe point of reference is (0, 0, 0), with angle calculated from direction.\n"
-  example: []
-  syntax:
-    content: public static float AngleTo(this Vector3 direction, Vector3 point)
-    parameters:
-    - id: direction
-      type: UnityEngine.Vector3
-      description: Direction vector. It indicates the direction from which to measure the angle.
-    - id: point
-      type: UnityEngine.Vector3
-      description: Point to measure the angle to.
-    return:
-      type: System.Single
-      description: The angle from the vector to the point, in degrees, in the range [-180, 180].
-    content.vb: >-
-      <ExtensionAttribute>
-
-      Public Shared Function AngleTo(direction As Vector3, point As Vector3) As Single
-  overload: UnityEngine.EnVector3Extensions.AngleTo*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: UnityEngine.EnVector3Extensions.WithX(UnityEngine.Vector3,System.Single)
-  commentId: M:UnityEngine.EnVector3Extensions.WithX(UnityEngine.Vector3,System.Single)
-  id: WithX(UnityEngine.Vector3,System.Single)
-  isExtensionMethod: true
-  parent: UnityEngine.EnVector3Extensions
-  langs:
-  - csharp
-  - vb
-  name: WithX(Vector3, Single)
-  nameWithType: EnVector3Extensions.WithX(Vector3, Single)
-  fullName: UnityEngine.EnVector3Extensions.WithX(UnityEngine.Vector3, System.Single)
-  type: Method
-  source:
-    remote:
-      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
-      branch: main
-      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
-    id: WithX
-    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
-    startLine: 368
-  assemblies:
-  - ECHTNICE.EnUnityEngineExtensions
-  namespace: UnityEngine
-  syntax:
-    content: public static Vector3 WithX(this Vector3 vec, float x)
-    parameters:
-    - id: vec
-      type: UnityEngine.Vector3
-    - id: x
-      type: System.Single
-    return:
-      type: UnityEngine.Vector3
-    content.vb: >-
-      <ExtensionAttribute>
-
-      Public Shared Function WithX(vec As Vector3, x As Single) As Vector3
-  overload: UnityEngine.EnVector3Extensions.WithX*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: UnityEngine.EnVector3Extensions.WithY(UnityEngine.Vector3,System.Single)
-  commentId: M:UnityEngine.EnVector3Extensions.WithY(UnityEngine.Vector3,System.Single)
-  id: WithY(UnityEngine.Vector3,System.Single)
-  isExtensionMethod: true
-  parent: UnityEngine.EnVector3Extensions
-  langs:
-  - csharp
-  - vb
-  name: WithY(Vector3, Single)
-  nameWithType: EnVector3Extensions.WithY(Vector3, Single)
-  fullName: UnityEngine.EnVector3Extensions.WithY(UnityEngine.Vector3, System.Single)
-  type: Method
-  source:
-    remote:
-      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
-      branch: main
-      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
-    id: WithY
-    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
-    startLine: 373
-  assemblies:
-  - ECHTNICE.EnUnityEngineExtensions
-  namespace: UnityEngine
-  syntax:
-    content: public static Vector3 WithY(this Vector3 vec, float y)
-    parameters:
-    - id: vec
-      type: UnityEngine.Vector3
-    - id: y
-      type: System.Single
-    return:
-      type: UnityEngine.Vector3
-    content.vb: >-
-      <ExtensionAttribute>
-
-      Public Shared Function WithY(vec As Vector3, y As Single) As Vector3
-  overload: UnityEngine.EnVector3Extensions.WithY*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: UnityEngine.EnVector3Extensions.WithZ(UnityEngine.Vector3,System.Single)
-  commentId: M:UnityEngine.EnVector3Extensions.WithZ(UnityEngine.Vector3,System.Single)
-  id: WithZ(UnityEngine.Vector3,System.Single)
-  isExtensionMethod: true
-  parent: UnityEngine.EnVector3Extensions
-  langs:
-  - csharp
-  - vb
-  name: WithZ(Vector3, Single)
-  nameWithType: EnVector3Extensions.WithZ(Vector3, Single)
-  fullName: UnityEngine.EnVector3Extensions.WithZ(UnityEngine.Vector3, System.Single)
-  type: Method
-  source:
-    remote:
-      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
-      branch: main
-      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
-    id: WithZ
-    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
-    startLine: 378
-  assemblies:
-  - ECHTNICE.EnUnityEngineExtensions
-  namespace: UnityEngine
-  syntax:
-    content: public static Vector3 WithZ(this Vector3 vec, float z)
-    parameters:
-    - id: vec
-      type: UnityEngine.Vector3
-    - id: z
-      type: System.Single
-    return:
-      type: UnityEngine.Vector3
-    content.vb: >-
-      <ExtensionAttribute>
-
-      Public Shared Function WithZ(vec As Vector3, z As Single) As Vector3
-  overload: UnityEngine.EnVector3Extensions.WithZ*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: UnityEngine.EnVector3Extensions.AddX(UnityEngine.Vector3,System.Single)
-  commentId: M:UnityEngine.EnVector3Extensions.AddX(UnityEngine.Vector3,System.Single)
-  id: AddX(UnityEngine.Vector3,System.Single)
-  isExtensionMethod: true
-  parent: UnityEngine.EnVector3Extensions
-  langs:
-  - csharp
-  - vb
-  name: AddX(Vector3, Single)
-  nameWithType: EnVector3Extensions.AddX(Vector3, Single)
-  fullName: UnityEngine.EnVector3Extensions.AddX(UnityEngine.Vector3, System.Single)
-  type: Method
-  source:
-    remote:
-      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
-      branch: main
-      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
-    id: AddX
-    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
-    startLine: 383
-  assemblies:
-  - ECHTNICE.EnUnityEngineExtensions
-  namespace: UnityEngine
-  syntax:
-    content: public static Vector3 AddX(this Vector3 vec, float x)
-    parameters:
-    - id: vec
-      type: UnityEngine.Vector3
-    - id: x
-      type: System.Single
-    return:
-      type: UnityEngine.Vector3
-    content.vb: >-
-      <ExtensionAttribute>
-
-      Public Shared Function AddX(vec As Vector3, x As Single) As Vector3
-  overload: UnityEngine.EnVector3Extensions.AddX*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: UnityEngine.EnVector3Extensions.AddY(UnityEngine.Vector3,System.Single)
-  commentId: M:UnityEngine.EnVector3Extensions.AddY(UnityEngine.Vector3,System.Single)
-  id: AddY(UnityEngine.Vector3,System.Single)
-  isExtensionMethod: true
-  parent: UnityEngine.EnVector3Extensions
-  langs:
-  - csharp
-  - vb
-  name: AddY(Vector3, Single)
-  nameWithType: EnVector3Extensions.AddY(Vector3, Single)
-  fullName: UnityEngine.EnVector3Extensions.AddY(UnityEngine.Vector3, System.Single)
-  type: Method
-  source:
-    remote:
-      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
-      branch: main
-      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
-    id: AddY
-    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
-    startLine: 388
-  assemblies:
-  - ECHTNICE.EnUnityEngineExtensions
-  namespace: UnityEngine
-  syntax:
-    content: public static Vector3 AddY(this Vector3 vec, float y)
-    parameters:
-    - id: vec
-      type: UnityEngine.Vector3
-    - id: y
-      type: System.Single
-    return:
-      type: UnityEngine.Vector3
-    content.vb: >-
-      <ExtensionAttribute>
-
-      Public Shared Function AddY(vec As Vector3, y As Single) As Vector3
-  overload: UnityEngine.EnVector3Extensions.AddY*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: UnityEngine.EnVector3Extensions.AddZ(UnityEngine.Vector3,System.Single)
-  commentId: M:UnityEngine.EnVector3Extensions.AddZ(UnityEngine.Vector3,System.Single)
-  id: AddZ(UnityEngine.Vector3,System.Single)
-  isExtensionMethod: true
-  parent: UnityEngine.EnVector3Extensions
-  langs:
-  - csharp
-  - vb
-  name: AddZ(Vector3, Single)
-  nameWithType: EnVector3Extensions.AddZ(Vector3, Single)
-  fullName: UnityEngine.EnVector3Extensions.AddZ(UnityEngine.Vector3, System.Single)
-  type: Method
-  source:
-    remote:
-      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
-      branch: main
-      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
-    id: AddZ
-    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
-    startLine: 393
-  assemblies:
-  - ECHTNICE.EnUnityEngineExtensions
-  namespace: UnityEngine
-  syntax:
-    content: public static Vector3 AddZ(this Vector3 vec, float z)
-    parameters:
-    - id: vec
-      type: UnityEngine.Vector3
-    - id: z
-      type: System.Single
-    return:
-      type: UnityEngine.Vector3
-    content.vb: >-
-      <ExtensionAttribute>
-
-      Public Shared Function AddZ(vec As Vector3, z As Single) As Vector3
-  overload: UnityEngine.EnVector3Extensions.AddZ*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: UnityEngine.EnVector3Extensions.InvertX(UnityEngine.Vector3)
-  commentId: M:UnityEngine.EnVector3Extensions.InvertX(UnityEngine.Vector3)
-  id: InvertX(UnityEngine.Vector3)
-  isExtensionMethod: true
-  parent: UnityEngine.EnVector3Extensions
-  langs:
-  - csharp
-  - vb
-  name: InvertX(Vector3)
-  nameWithType: EnVector3Extensions.InvertX(Vector3)
-  fullName: UnityEngine.EnVector3Extensions.InvertX(UnityEngine.Vector3)
-  type: Method
-  source:
-    remote:
-      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
-      branch: main
-      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
-    id: InvertX
-    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
-    startLine: 398
-  assemblies:
-  - ECHTNICE.EnUnityEngineExtensions
-  namespace: UnityEngine
-  syntax:
-    content: public static Vector3 InvertX(this Vector3 vec)
-    parameters:
-    - id: vec
+    - id: destination
       type: UnityEngine.Vector3
     return:
       type: UnityEngine.Vector3
     content.vb: >-
       <ExtensionAttribute>
 
-      Public Shared Function InvertX(vec As Vector3) As Vector3
-  overload: UnityEngine.EnVector3Extensions.InvertX*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: UnityEngine.EnVector3Extensions.InvertY(UnityEngine.Vector3)
-  commentId: M:UnityEngine.EnVector3Extensions.InvertY(UnityEngine.Vector3)
-  id: InvertY(UnityEngine.Vector3)
-  isExtensionMethod: true
-  parent: UnityEngine.EnVector3Extensions
-  langs:
-  - csharp
-  - vb
-  name: InvertY(Vector3)
-  nameWithType: EnVector3Extensions.InvertY(Vector3)
-  fullName: UnityEngine.EnVector3Extensions.InvertY(UnityEngine.Vector3)
-  type: Method
-  source:
-    remote:
-      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
-      branch: main
-      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
-    id: InvertY
-    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
-    startLine: 403
-  assemblies:
-  - ECHTNICE.EnUnityEngineExtensions
-  namespace: UnityEngine
-  syntax:
-    content: public static Vector3 InvertY(this Vector3 vec)
-    parameters:
-    - id: vec
-      type: UnityEngine.Vector3
-    return:
-      type: UnityEngine.Vector3
-    content.vb: >-
-      <ExtensionAttribute>
-
-      Public Shared Function InvertY(vec As Vector3) As Vector3
-  overload: UnityEngine.EnVector3Extensions.InvertY*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: UnityEngine.EnVector3Extensions.InvertZ(UnityEngine.Vector3)
-  commentId: M:UnityEngine.EnVector3Extensions.InvertZ(UnityEngine.Vector3)
-  id: InvertZ(UnityEngine.Vector3)
-  isExtensionMethod: true
-  parent: UnityEngine.EnVector3Extensions
-  langs:
-  - csharp
-  - vb
-  name: InvertZ(Vector3)
-  nameWithType: EnVector3Extensions.InvertZ(Vector3)
-  fullName: UnityEngine.EnVector3Extensions.InvertZ(UnityEngine.Vector3)
-  type: Method
-  source:
-    remote:
-      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
-      branch: main
-      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
-    id: InvertZ
-    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
-    startLine: 408
-  assemblies:
-  - ECHTNICE.EnUnityEngineExtensions
-  namespace: UnityEngine
-  syntax:
-    content: public static Vector3 InvertZ(this Vector3 vec)
-    parameters:
-    - id: vec
-      type: UnityEngine.Vector3
-    return:
-      type: UnityEngine.Vector3
-    content.vb: >-
-      <ExtensionAttribute>
-
-      Public Shared Function InvertZ(vec As Vector3) As Vector3
-  overload: UnityEngine.EnVector3Extensions.InvertZ*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: UnityEngine.EnVector3Extensions.Invert(UnityEngine.Vector3)
-  commentId: M:UnityEngine.EnVector3Extensions.Invert(UnityEngine.Vector3)
-  id: Invert(UnityEngine.Vector3)
-  isExtensionMethod: true
-  parent: UnityEngine.EnVector3Extensions
-  langs:
-  - csharp
-  - vb
-  name: Invert(Vector3)
-  nameWithType: EnVector3Extensions.Invert(Vector3)
-  fullName: UnityEngine.EnVector3Extensions.Invert(UnityEngine.Vector3)
-  type: Method
-  source:
-    remote:
-      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
-      branch: main
-      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
-    id: Invert
-    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
-    startLine: 413
-  assemblies:
-  - ECHTNICE.EnUnityEngineExtensions
-  namespace: UnityEngine
-  syntax:
-    content: public static Vector3 Invert(this Vector3 vec)
-    parameters:
-    - id: vec
-      type: UnityEngine.Vector3
-    return:
-      type: UnityEngine.Vector3
-    content.vb: >-
-      <ExtensionAttribute>
-
-      Public Shared Function Invert(vec As Vector3) As Vector3
-  overload: UnityEngine.EnVector3Extensions.Invert*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: UnityEngine.EnVector3Extensions.ToVector3Int(UnityEngine.Vector3)
-  commentId: M:UnityEngine.EnVector3Extensions.ToVector3Int(UnityEngine.Vector3)
-  id: ToVector3Int(UnityEngine.Vector3)
-  isExtensionMethod: true
-  parent: UnityEngine.EnVector3Extensions
-  langs:
-  - csharp
-  - vb
-  name: ToVector3Int(Vector3)
-  nameWithType: EnVector3Extensions.ToVector3Int(Vector3)
-  fullName: UnityEngine.EnVector3Extensions.ToVector3Int(UnityEngine.Vector3)
-  type: Method
-  source:
-    remote:
-      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
-      branch: main
-      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
-    id: ToVector3Int
-    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
-    startLine: 421
-  assemblies:
-  - ECHTNICE.EnUnityEngineExtensions
-  namespace: UnityEngine
-  syntax:
-    content: public static Vector3Int ToVector3Int(this Vector3 v)
-    parameters:
-    - id: v
-      type: UnityEngine.Vector3
-    return:
-      type: UnityEngine.Vector3Int
-    content.vb: >-
-      <ExtensionAttribute>
-
-      Public Shared Function ToVector3Int(v As Vector3) As Vector3Int
-  overload: UnityEngine.EnVector3Extensions.ToVector3Int*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: UnityEngine.EnVector3Extensions.ToVector3Int(UnityEngine.Vector2)
-  commentId: M:UnityEngine.EnVector3Extensions.ToVector3Int(UnityEngine.Vector2)
-  id: ToVector3Int(UnityEngine.Vector2)
-  isExtensionMethod: true
-  parent: UnityEngine.EnVector3Extensions
-  langs:
-  - csharp
-  - vb
-  name: ToVector3Int(Vector2)
-  nameWithType: EnVector3Extensions.ToVector3Int(Vector2)
-  fullName: UnityEngine.EnVector3Extensions.ToVector3Int(UnityEngine.Vector2)
-  type: Method
-  source:
-    remote:
-      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
-      branch: main
-      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
-    id: ToVector3Int
-    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
-    startLine: 426
-  assemblies:
-  - ECHTNICE.EnUnityEngineExtensions
-  namespace: UnityEngine
-  syntax:
-    content: public static Vector3Int ToVector3Int(this Vector2 v)
-    parameters:
-    - id: v
-      type: UnityEngine.Vector2
-    return:
-      type: UnityEngine.Vector3Int
-    content.vb: >-
-      <ExtensionAttribute>
-
-      Public Shared Function ToVector3Int(v As Vector2) As Vector3Int
-  overload: UnityEngine.EnVector3Extensions.ToVector3Int*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: UnityEngine.EnVector3Extensions.ToVector2Int(UnityEngine.Vector3)
-  commentId: M:UnityEngine.EnVector3Extensions.ToVector2Int(UnityEngine.Vector3)
-  id: ToVector2Int(UnityEngine.Vector3)
-  isExtensionMethod: true
-  parent: UnityEngine.EnVector3Extensions
-  langs:
-  - csharp
-  - vb
-  name: ToVector2Int(Vector3)
-  nameWithType: EnVector3Extensions.ToVector2Int(Vector3)
-  fullName: UnityEngine.EnVector3Extensions.ToVector2Int(UnityEngine.Vector3)
-  type: Method
-  source:
-    remote:
-      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
-      branch: main
-      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
-    id: ToVector2Int
-    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
-    startLine: 432
-  assemblies:
-  - ECHTNICE.EnUnityEngineExtensions
-  namespace: UnityEngine
-  syntax:
-    content: public static Vector2Int ToVector2Int(this Vector3 v)
-    parameters:
-    - id: v
-      type: UnityEngine.Vector3
-    return:
-      type: UnityEngine.Vector2Int
-    content.vb: >-
-      <ExtensionAttribute>
-
-      Public Shared Function ToVector2Int(v As Vector3) As Vector2Int
-  overload: UnityEngine.EnVector3Extensions.ToVector2Int*
-  modifiers.csharp:
-  - public
-  - static
-  modifiers.vb:
-  - Public
-  - Shared
-- uid: UnityEngine.EnVector3Extensions.ToVector2Int(UnityEngine.Vector2)
-  commentId: M:UnityEngine.EnVector3Extensions.ToVector2Int(UnityEngine.Vector2)
-  id: ToVector2Int(UnityEngine.Vector2)
-  isExtensionMethod: true
-  parent: UnityEngine.EnVector3Extensions
-  langs:
-  - csharp
-  - vb
-  name: ToVector2Int(Vector2)
-  nameWithType: EnVector3Extensions.ToVector2Int(Vector2)
-  fullName: UnityEngine.EnVector3Extensions.ToVector2Int(UnityEngine.Vector2)
-  type: Method
-  source:
-    remote:
-      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
-      branch: main
-      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
-    id: ToVector2Int
-    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3Extensions.cs
-    startLine: 437
-  assemblies:
-  - ECHTNICE.EnUnityEngineExtensions
-  namespace: UnityEngine
-  syntax:
-    content: public static Vector2Int ToVector2Int(this Vector2 v)
-    parameters:
-    - id: v
-      type: UnityEngine.Vector2
-    return:
-      type: UnityEngine.Vector2Int
-    content.vb: >-
-      <ExtensionAttribute>
-
-      Public Shared Function ToVector2Int(v As Vector2) As Vector2Int
-  overload: UnityEngine.EnVector3Extensions.ToVector2Int*
+      Public Shared Function To(source As Vector3, destination As Vector3) As Vector3
+  overload: UnityEngine.EnVector3Extensions.To*
   modifiers.csharp:
   - public
   - static
@@ -2139,11 +2433,11 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: UnityEngine.EnVector3Extensions.GetClosest*
-  commentId: Overload:UnityEngine.EnVector3Extensions.GetClosest
-  name: GetClosest
-  nameWithType: EnVector3Extensions.GetClosest
-  fullName: UnityEngine.EnVector3Extensions.GetClosest
+- uid: UnityEngine.EnVector3Extensions.SetX*
+  commentId: Overload:UnityEngine.EnVector3Extensions.SetX
+  name: SetX
+  nameWithType: EnVector3Extensions.SetX
+  fullName: UnityEngine.EnVector3Extensions.SetX
 - uid: UnityEngine.Vector3
   commentId: T:UnityEngine.Vector3
   parent: UnityEngine
@@ -2151,6 +2445,190 @@ references:
   name: Vector3
   nameWithType: Vector3
   fullName: UnityEngine.Vector3
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: UnityEngine.Vector2
+  commentId: T:UnityEngine.Vector2
+  parent: UnityEngine
+  isExternal: true
+  name: Vector2
+  nameWithType: Vector2
+  fullName: UnityEngine.Vector2
+- uid: UnityEngine.Transform
+  commentId: T:UnityEngine.Transform
+  parent: UnityEngine
+  isExternal: true
+  name: Transform
+  nameWithType: Transform
+  fullName: UnityEngine.Transform
+- uid: UnityEngine.EnVector3Extensions.SetY*
+  commentId: Overload:UnityEngine.EnVector3Extensions.SetY
+  name: SetY
+  nameWithType: EnVector3Extensions.SetY
+  fullName: UnityEngine.EnVector3Extensions.SetY
+- uid: UnityEngine.EnVector3Extensions.SetZ*
+  commentId: Overload:UnityEngine.EnVector3Extensions.SetZ
+  name: SetZ
+  nameWithType: EnVector3Extensions.SetZ
+  fullName: UnityEngine.EnVector3Extensions.SetZ
+- uid: UnityEngine.EnVector3Extensions.SetXY*
+  commentId: Overload:UnityEngine.EnVector3Extensions.SetXY
+  name: SetXY
+  nameWithType: EnVector3Extensions.SetXY
+  fullName: UnityEngine.EnVector3Extensions.SetXY
+- uid: UnityEngine.EnVector3Extensions.SetXZ*
+  commentId: Overload:UnityEngine.EnVector3Extensions.SetXZ
+  name: SetXZ
+  nameWithType: EnVector3Extensions.SetXZ
+  fullName: UnityEngine.EnVector3Extensions.SetXZ
+- uid: UnityEngine.EnVector3Extensions.SetYZ*
+  commentId: Overload:UnityEngine.EnVector3Extensions.SetYZ
+  name: SetYZ
+  nameWithType: EnVector3Extensions.SetYZ
+  fullName: UnityEngine.EnVector3Extensions.SetYZ
+- uid: UnityEngine.EnVector3Extensions.ResetPosition*
+  commentId: Overload:UnityEngine.EnVector3Extensions.ResetPosition
+  name: ResetPosition
+  nameWithType: EnVector3Extensions.ResetPosition
+  fullName: UnityEngine.EnVector3Extensions.ResetPosition
+- uid: UnityEngine.EnVector3Extensions.SetPositionX*
+  commentId: Overload:UnityEngine.EnVector3Extensions.SetPositionX
+  name: SetPositionX
+  nameWithType: EnVector3Extensions.SetPositionX
+  fullName: UnityEngine.EnVector3Extensions.SetPositionX
+- uid: UnityEngine.RectTransform
+  commentId: T:UnityEngine.RectTransform
+  parent: UnityEngine
+  isExternal: true
+  name: RectTransform
+  nameWithType: RectTransform
+  fullName: UnityEngine.RectTransform
+- uid: UnityEngine.EnVector3Extensions.SetPositionY*
+  commentId: Overload:UnityEngine.EnVector3Extensions.SetPositionY
+  name: SetPositionY
+  nameWithType: EnVector3Extensions.SetPositionY
+  fullName: UnityEngine.EnVector3Extensions.SetPositionY
+- uid: UnityEngine.EnVector3Extensions.OffsetPositionX*
+  commentId: Overload:UnityEngine.EnVector3Extensions.OffsetPositionX
+  name: OffsetPositionX
+  nameWithType: EnVector3Extensions.OffsetPositionX
+  fullName: UnityEngine.EnVector3Extensions.OffsetPositionX
+- uid: UnityEngine.EnVector3Extensions.OffsetPositionY*
+  commentId: Overload:UnityEngine.EnVector3Extensions.OffsetPositionY
+  name: OffsetPositionY
+  nameWithType: EnVector3Extensions.OffsetPositionY
+  fullName: UnityEngine.EnVector3Extensions.OffsetPositionY
+- uid: UnityEngine.EnVector3Extensions.Offset*
+  commentId: Overload:UnityEngine.EnVector3Extensions.Offset
+  name: Offset
+  nameWithType: EnVector3Extensions.Offset
+  fullName: UnityEngine.EnVector3Extensions.Offset
+- uid: UnityEngine.EnVector3Extensions.OffsetX*
+  commentId: Overload:UnityEngine.EnVector3Extensions.OffsetX
+  name: OffsetX
+  nameWithType: EnVector3Extensions.OffsetX
+  fullName: UnityEngine.EnVector3Extensions.OffsetX
+- uid: UnityEngine.EnVector3Extensions.OffsetY*
+  commentId: Overload:UnityEngine.EnVector3Extensions.OffsetY
+  name: OffsetY
+  nameWithType: EnVector3Extensions.OffsetY
+  fullName: UnityEngine.EnVector3Extensions.OffsetY
+- uid: UnityEngine.EnVector3Extensions.OffsetZ*
+  commentId: Overload:UnityEngine.EnVector3Extensions.OffsetZ
+  name: OffsetZ
+  nameWithType: EnVector3Extensions.OffsetZ
+  fullName: UnityEngine.EnVector3Extensions.OffsetZ
+- uid: UnityEngine.EnVector3Extensions.OffsetXY*
+  commentId: Overload:UnityEngine.EnVector3Extensions.OffsetXY
+  name: OffsetXY
+  nameWithType: EnVector3Extensions.OffsetXY
+  fullName: UnityEngine.EnVector3Extensions.OffsetXY
+- uid: UnityEngine.EnVector3Extensions.OffsetXZ*
+  commentId: Overload:UnityEngine.EnVector3Extensions.OffsetXZ
+  name: OffsetXZ
+  nameWithType: EnVector3Extensions.OffsetXZ
+  fullName: UnityEngine.EnVector3Extensions.OffsetXZ
+- uid: UnityEngine.EnVector3Extensions.OffsetYZ*
+  commentId: Overload:UnityEngine.EnVector3Extensions.OffsetYZ
+  name: OffsetYZ
+  nameWithType: EnVector3Extensions.OffsetYZ
+  fullName: UnityEngine.EnVector3Extensions.OffsetYZ
+- uid: UnityEngine.EnVector3Extensions.ClampX*
+  commentId: Overload:UnityEngine.EnVector3Extensions.ClampX
+  name: ClampX
+  nameWithType: EnVector3Extensions.ClampX
+  fullName: UnityEngine.EnVector3Extensions.ClampX
+- uid: UnityEngine.EnVector3Extensions.ClampY*
+  commentId: Overload:UnityEngine.EnVector3Extensions.ClampY
+  name: ClampY
+  nameWithType: EnVector3Extensions.ClampY
+  fullName: UnityEngine.EnVector3Extensions.ClampY
+- uid: UnityEngine.EnVector3Extensions.InvertX*
+  commentId: Overload:UnityEngine.EnVector3Extensions.InvertX
+  name: InvertX
+  nameWithType: EnVector3Extensions.InvertX
+  fullName: UnityEngine.EnVector3Extensions.InvertX
+- uid: UnityEngine.EnVector3Extensions.InvertY*
+  commentId: Overload:UnityEngine.EnVector3Extensions.InvertY
+  name: InvertY
+  nameWithType: EnVector3Extensions.InvertY
+  fullName: UnityEngine.EnVector3Extensions.InvertY
+- uid: UnityEngine.EnVector3Extensions.ToVector2*
+  commentId: Overload:UnityEngine.EnVector3Extensions.ToVector2
+  name: ToVector2
+  nameWithType: EnVector3Extensions.ToVector2
+  fullName: UnityEngine.EnVector3Extensions.ToVector2
+- uid: UnityEngine.EnVector3Extensions.ToVector3*
+  commentId: Overload:UnityEngine.EnVector3Extensions.ToVector3
+  name: ToVector3
+  nameWithType: EnVector3Extensions.ToVector3
+  fullName: UnityEngine.EnVector3Extensions.ToVector3
+- uid: UnityEngine.Vector2Int
+  commentId: T:UnityEngine.Vector2Int
+  parent: UnityEngine
+  isExternal: true
+  name: Vector2Int
+  nameWithType: Vector2Int
+  fullName: UnityEngine.Vector2Int
+- uid: UnityEngine.Vector3Int
+  commentId: T:UnityEngine.Vector3Int
+  parent: UnityEngine
+  isExternal: true
+  name: Vector3Int
+  nameWithType: Vector3Int
+  fullName: UnityEngine.Vector3Int
+- uid: UnityEngine.EnVector3Extensions.ToVector2Int*
+  commentId: Overload:UnityEngine.EnVector3Extensions.ToVector2Int
+  name: ToVector2Int
+  nameWithType: EnVector3Extensions.ToVector2Int
+  fullName: UnityEngine.EnVector3Extensions.ToVector2Int
+- uid: UnityEngine.EnVector3Extensions.ToVector3Int*
+  commentId: Overload:UnityEngine.EnVector3Extensions.ToVector3Int
+  name: ToVector3Int
+  nameWithType: EnVector3Extensions.ToVector3Int
+  fullName: UnityEngine.EnVector3Extensions.ToVector3Int
+- uid: UnityEngine.EnVector3Extensions.Approximately*
+  commentId: Overload:UnityEngine.EnVector3Extensions.Approximately
+  name: Approximately
+  nameWithType: EnVector3Extensions.Approximately
+  fullName: UnityEngine.EnVector3Extensions.Approximately
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: UnityEngine.EnVector3Extensions.GetClosest*
+  commentId: Overload:UnityEngine.EnVector3Extensions.GetClosest
+  name: GetClosest
+  nameWithType: EnVector3Extensions.GetClosest
+  fullName: UnityEngine.EnVector3Extensions.GetClosest
 - uid: System.Collections.Generic.IEnumerable{UnityEngine.Vector3}
   commentId: T:System.Collections.Generic.IEnumerable{UnityEngine.Vector3}
   parent: System.Collections.Generic
@@ -2240,218 +2718,8 @@ references:
   name: System.Collections.Generic
   nameWithType: System.Collections.Generic
   fullName: System.Collections.Generic
-- uid: UnityEngine.EnVector3Extensions.magnitudeXZ*
-  commentId: Overload:UnityEngine.EnVector3Extensions.magnitudeXZ
-  name: magnitudeXZ
-  nameWithType: EnVector3Extensions.magnitudeXZ
-  fullName: UnityEngine.EnVector3Extensions.magnitudeXZ
-- uid: System.Single
-  commentId: T:System.Single
-  parent: System
-  isExternal: true
-  name: Single
-  nameWithType: Single
-  fullName: System.Single
-- uid: UnityEngine.EnVector3Extensions.sqrMagnitudeXZ*
-  commentId: Overload:UnityEngine.EnVector3Extensions.sqrMagnitudeXZ
-  name: sqrMagnitudeXZ
-  nameWithType: EnVector3Extensions.sqrMagnitudeXZ
-  fullName: UnityEngine.EnVector3Extensions.sqrMagnitudeXZ
-- uid: UnityEngine.EnVector3Extensions.magnitudeXY*
-  commentId: Overload:UnityEngine.EnVector3Extensions.magnitudeXY
-  name: magnitudeXY
-  nameWithType: EnVector3Extensions.magnitudeXY
-  fullName: UnityEngine.EnVector3Extensions.magnitudeXY
-- uid: UnityEngine.EnVector3Extensions.sqrMagnitudeXY*
-  commentId: Overload:UnityEngine.EnVector3Extensions.sqrMagnitudeXY
-  name: sqrMagnitudeXY
-  nameWithType: EnVector3Extensions.sqrMagnitudeXY
-  fullName: UnityEngine.EnVector3Extensions.sqrMagnitudeXY
-- uid: UnityEngine.EnVector3Extensions.magnitudeYZ*
-  commentId: Overload:UnityEngine.EnVector3Extensions.magnitudeYZ
-  name: magnitudeYZ
-  nameWithType: EnVector3Extensions.magnitudeYZ
-  fullName: UnityEngine.EnVector3Extensions.magnitudeYZ
-- uid: UnityEngine.EnVector3Extensions.sqrMagnitudeYZ*
-  commentId: Overload:UnityEngine.EnVector3Extensions.sqrMagnitudeYZ
-  name: sqrMagnitudeYZ
-  nameWithType: EnVector3Extensions.sqrMagnitudeYZ
-  fullName: UnityEngine.EnVector3Extensions.sqrMagnitudeYZ
-- uid: UnityEngine.EnVector3Extensions.distanceXZ*
-  commentId: Overload:UnityEngine.EnVector3Extensions.distanceXZ
-  name: distanceXZ
-  nameWithType: EnVector3Extensions.distanceXZ
-  fullName: UnityEngine.EnVector3Extensions.distanceXZ
-- uid: UnityEngine.EnVector3Extensions.sqrDistanceXZ*
-  commentId: Overload:UnityEngine.EnVector3Extensions.sqrDistanceXZ
-  name: sqrDistanceXZ
-  nameWithType: EnVector3Extensions.sqrDistanceXZ
-  fullName: UnityEngine.EnVector3Extensions.sqrDistanceXZ
-- uid: UnityEngine.EnVector3Extensions.distanceXY*
-  commentId: Overload:UnityEngine.EnVector3Extensions.distanceXY
-  name: distanceXY
-  nameWithType: EnVector3Extensions.distanceXY
-  fullName: UnityEngine.EnVector3Extensions.distanceXY
-- uid: UnityEngine.EnVector3Extensions.sqrDistanceXY*
-  commentId: Overload:UnityEngine.EnVector3Extensions.sqrDistanceXY
-  name: sqrDistanceXY
-  nameWithType: EnVector3Extensions.sqrDistanceXY
-  fullName: UnityEngine.EnVector3Extensions.sqrDistanceXY
-- uid: UnityEngine.EnVector3Extensions.distanceYZ*
-  commentId: Overload:UnityEngine.EnVector3Extensions.distanceYZ
-  name: distanceYZ
-  nameWithType: EnVector3Extensions.distanceYZ
-  fullName: UnityEngine.EnVector3Extensions.distanceYZ
-- uid: UnityEngine.EnVector3Extensions.sqrDistanceYZ*
-  commentId: Overload:UnityEngine.EnVector3Extensions.sqrDistanceYZ
-  name: sqrDistanceYZ
-  nameWithType: EnVector3Extensions.sqrDistanceYZ
-  fullName: UnityEngine.EnVector3Extensions.sqrDistanceYZ
-- uid: UnityEngine.EnVector3Extensions.distance*
-  commentId: Overload:UnityEngine.EnVector3Extensions.distance
-  name: distance
-  nameWithType: EnVector3Extensions.distance
-  fullName: UnityEngine.EnVector3Extensions.distance
-- uid: UnityEngine.EnVector3Extensions.sqrDistance*
-  commentId: Overload:UnityEngine.EnVector3Extensions.sqrDistance
-  name: sqrDistance
-  nameWithType: EnVector3Extensions.sqrDistance
-  fullName: UnityEngine.EnVector3Extensions.sqrDistance
-- uid: UnityEngine.EnVector3Extensions.Project*
-  commentId: Overload:UnityEngine.EnVector3Extensions.Project
-  name: Project
-  nameWithType: EnVector3Extensions.Project
-  fullName: UnityEngine.EnVector3Extensions.Project
-- uid: UnityEngine.Quaternion
-  commentId: T:UnityEngine.Quaternion
-  parent: UnityEngine
-  isExternal: true
-  name: Quaternion
-  nameWithType: Quaternion
-  fullName: UnityEngine.Quaternion
-- uid: UnityEngine.EnVector3Extensions.magnitude*
-  commentId: Overload:UnityEngine.EnVector3Extensions.magnitude
-  name: magnitude
-  nameWithType: EnVector3Extensions.magnitude
-  fullName: UnityEngine.EnVector3Extensions.magnitude
-- uid: UnityEngine.EnVector3Extensions.sqrMagnitude*
-  commentId: Overload:UnityEngine.EnVector3Extensions.sqrMagnitude
-  name: sqrMagnitude
-  nameWithType: EnVector3Extensions.sqrMagnitude
-  fullName: UnityEngine.EnVector3Extensions.sqrMagnitude
-- uid: UnityEngine.EnVector3Extensions.Dot*
-  commentId: Overload:UnityEngine.EnVector3Extensions.Dot
-  name: Dot
-  nameWithType: EnVector3Extensions.Dot
-  fullName: UnityEngine.EnVector3Extensions.Dot
-- uid: UnityEngine.EnVector3Extensions.Cross*
-  commentId: Overload:UnityEngine.EnVector3Extensions.Cross
-  name: Cross
-  nameWithType: EnVector3Extensions.Cross
-  fullName: UnityEngine.EnVector3Extensions.Cross
-- uid: UnityEngine.EnVector3Extensions.Rotate*
-  commentId: Overload:UnityEngine.EnVector3Extensions.Rotate
-  name: Rotate
-  nameWithType: EnVector3Extensions.Rotate
-  fullName: UnityEngine.EnVector3Extensions.Rotate
-- uid: UnityEngine.EnVector3Extensions.RotateAround*
-  commentId: Overload:UnityEngine.EnVector3Extensions.RotateAround
-  name: RotateAround
-  nameWithType: EnVector3Extensions.RotateAround
-  fullName: UnityEngine.EnVector3Extensions.RotateAround
-- uid: UnityEngine.EnVector3Extensions.InverseTransformPoint*
-  commentId: Overload:UnityEngine.EnVector3Extensions.InverseTransformPoint
-  name: InverseTransformPoint
-  nameWithType: EnVector3Extensions.InverseTransformPoint
-  fullName: UnityEngine.EnVector3Extensions.InverseTransformPoint
-- uid: UnityEngine.EnVector3Extensions.TransformPoint*
-  commentId: Overload:UnityEngine.EnVector3Extensions.TransformPoint
-  name: TransformPoint
-  nameWithType: EnVector3Extensions.TransformPoint
-  fullName: UnityEngine.EnVector3Extensions.TransformPoint
-- uid: UnityEngine.EnVector3Extensions.AngleTo*
-  commentId: Overload:UnityEngine.EnVector3Extensions.AngleTo
-  name: AngleTo
-  nameWithType: EnVector3Extensions.AngleTo
-  fullName: UnityEngine.EnVector3Extensions.AngleTo
-- uid: UnityEngine.EnVector3Extensions.WithX*
-  commentId: Overload:UnityEngine.EnVector3Extensions.WithX
-  name: WithX
-  nameWithType: EnVector3Extensions.WithX
-  fullName: UnityEngine.EnVector3Extensions.WithX
-- uid: UnityEngine.EnVector3Extensions.WithY*
-  commentId: Overload:UnityEngine.EnVector3Extensions.WithY
-  name: WithY
-  nameWithType: EnVector3Extensions.WithY
-  fullName: UnityEngine.EnVector3Extensions.WithY
-- uid: UnityEngine.EnVector3Extensions.WithZ*
-  commentId: Overload:UnityEngine.EnVector3Extensions.WithZ
-  name: WithZ
-  nameWithType: EnVector3Extensions.WithZ
-  fullName: UnityEngine.EnVector3Extensions.WithZ
-- uid: UnityEngine.EnVector3Extensions.AddX*
-  commentId: Overload:UnityEngine.EnVector3Extensions.AddX
-  name: AddX
-  nameWithType: EnVector3Extensions.AddX
-  fullName: UnityEngine.EnVector3Extensions.AddX
-- uid: UnityEngine.EnVector3Extensions.AddY*
-  commentId: Overload:UnityEngine.EnVector3Extensions.AddY
-  name: AddY
-  nameWithType: EnVector3Extensions.AddY
-  fullName: UnityEngine.EnVector3Extensions.AddY
-- uid: UnityEngine.EnVector3Extensions.AddZ*
-  commentId: Overload:UnityEngine.EnVector3Extensions.AddZ
-  name: AddZ
-  nameWithType: EnVector3Extensions.AddZ
-  fullName: UnityEngine.EnVector3Extensions.AddZ
-- uid: UnityEngine.EnVector3Extensions.InvertX*
-  commentId: Overload:UnityEngine.EnVector3Extensions.InvertX
-  name: InvertX
-  nameWithType: EnVector3Extensions.InvertX
-  fullName: UnityEngine.EnVector3Extensions.InvertX
-- uid: UnityEngine.EnVector3Extensions.InvertY*
-  commentId: Overload:UnityEngine.EnVector3Extensions.InvertY
-  name: InvertY
-  nameWithType: EnVector3Extensions.InvertY
-  fullName: UnityEngine.EnVector3Extensions.InvertY
-- uid: UnityEngine.EnVector3Extensions.InvertZ*
-  commentId: Overload:UnityEngine.EnVector3Extensions.InvertZ
-  name: InvertZ
-  nameWithType: EnVector3Extensions.InvertZ
-  fullName: UnityEngine.EnVector3Extensions.InvertZ
-- uid: UnityEngine.EnVector3Extensions.Invert*
-  commentId: Overload:UnityEngine.EnVector3Extensions.Invert
-  name: Invert
-  nameWithType: EnVector3Extensions.Invert
-  fullName: UnityEngine.EnVector3Extensions.Invert
-- uid: UnityEngine.EnVector3Extensions.ToVector3Int*
-  commentId: Overload:UnityEngine.EnVector3Extensions.ToVector3Int
-  name: ToVector3Int
-  nameWithType: EnVector3Extensions.ToVector3Int
-  fullName: UnityEngine.EnVector3Extensions.ToVector3Int
-- uid: UnityEngine.Vector3Int
-  commentId: T:UnityEngine.Vector3Int
-  parent: UnityEngine
-  isExternal: true
-  name: Vector3Int
-  nameWithType: Vector3Int
-  fullName: UnityEngine.Vector3Int
-- uid: UnityEngine.Vector2
-  commentId: T:UnityEngine.Vector2
-  parent: UnityEngine
-  isExternal: true
-  name: Vector2
-  nameWithType: Vector2
-  fullName: UnityEngine.Vector2
-- uid: UnityEngine.EnVector3Extensions.ToVector2Int*
-  commentId: Overload:UnityEngine.EnVector3Extensions.ToVector2Int
-  name: ToVector2Int
-  nameWithType: EnVector3Extensions.ToVector2Int
-  fullName: UnityEngine.EnVector3Extensions.ToVector2Int
-- uid: UnityEngine.Vector2Int
-  commentId: T:UnityEngine.Vector2Int
-  parent: UnityEngine
-  isExternal: true
-  name: Vector2Int
-  nameWithType: Vector2Int
-  fullName: UnityEngine.Vector2Int
+- uid: UnityEngine.EnVector3Extensions.To*
+  commentId: Overload:UnityEngine.EnVector3Extensions.To
+  name: To
+  nameWithType: EnVector3Extensions.To
+  fullName: UnityEngine.EnVector3Extensions.To

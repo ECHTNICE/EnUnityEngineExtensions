@@ -7,14 +7,15 @@ items:
   children:
   - UnityEngine.EnVector2Extensions.AddX(UnityEngine.Vector2,System.Single)
   - UnityEngine.EnVector2Extensions.AddY(UnityEngine.Vector2,System.Single)
-  - UnityEngine.EnVector2Extensions.distance(UnityEngine.Vector2,UnityEngine.Vector2)
+  - UnityEngine.EnVector2Extensions.Distance(UnityEngine.Vector2,UnityEngine.Vector2)
   - UnityEngine.EnVector2Extensions.Dot(UnityEngine.Vector2,UnityEngine.Vector2)
   - UnityEngine.EnVector2Extensions.Invert(UnityEngine.Vector2)
   - UnityEngine.EnVector2Extensions.InvertX(UnityEngine.Vector2)
   - UnityEngine.EnVector2Extensions.InvertY(UnityEngine.Vector2)
   - UnityEngine.EnVector2Extensions.Rotate(UnityEngine.Vector2,UnityEngine.Quaternion)
   - UnityEngine.EnVector2Extensions.RotateAround(UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Quaternion)
-  - UnityEngine.EnVector2Extensions.sqrDistance(UnityEngine.Vector2,UnityEngine.Vector2)
+  - UnityEngine.EnVector2Extensions.SqrDistance(UnityEngine.Vector2,UnityEngine.Vector2)
+  - UnityEngine.EnVector2Extensions.To(UnityEngine.Vector2,UnityEngine.Vector2)
   - UnityEngine.EnVector2Extensions.WithX(UnityEngine.Vector2,System.Single)
   - UnityEngine.EnVector2Extensions.WithY(UnityEngine.Vector2,System.Single)
   langs:
@@ -47,24 +48,24 @@ items:
   modifiers.vb:
   - Public
   - Module
-- uid: UnityEngine.EnVector2Extensions.distance(UnityEngine.Vector2,UnityEngine.Vector2)
-  commentId: M:UnityEngine.EnVector2Extensions.distance(UnityEngine.Vector2,UnityEngine.Vector2)
-  id: distance(UnityEngine.Vector2,UnityEngine.Vector2)
+- uid: UnityEngine.EnVector2Extensions.Distance(UnityEngine.Vector2,UnityEngine.Vector2)
+  commentId: M:UnityEngine.EnVector2Extensions.Distance(UnityEngine.Vector2,UnityEngine.Vector2)
+  id: Distance(UnityEngine.Vector2,UnityEngine.Vector2)
   isExtensionMethod: true
   parent: UnityEngine.EnVector2Extensions
   langs:
   - csharp
   - vb
-  name: distance(Vector2, Vector2)
-  nameWithType: EnVector2Extensions.distance(Vector2, Vector2)
-  fullName: UnityEngine.EnVector2Extensions.distance(UnityEngine.Vector2, UnityEngine.Vector2)
+  name: Distance(Vector2, Vector2)
+  nameWithType: EnVector2Extensions.Distance(Vector2, Vector2)
+  fullName: UnityEngine.EnVector2Extensions.Distance(UnityEngine.Vector2, UnityEngine.Vector2)
   type: Method
   source:
     remote:
       path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector2Extensions.cs
       branch: main
       repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
-    id: distance
+    id: Distance
     path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector2Extensions.cs
     startLine: 12
   assemblies:
@@ -73,7 +74,7 @@ items:
   summary: "\nDistance to a second point.\n"
   example: []
   syntax:
-    content: public static float distance(this Vector2 v, Vector2 u)
+    content: public static float Distance(this Vector2 v, Vector2 u)
     parameters:
     - id: v
       type: UnityEngine.Vector2
@@ -87,32 +88,32 @@ items:
     content.vb: >-
       <ExtensionAttribute>
 
-      Public Shared Function distance(v As Vector2, u As Vector2) As Single
-  overload: UnityEngine.EnVector2Extensions.distance*
+      Public Shared Function Distance(v As Vector2, u As Vector2) As Single
+  overload: UnityEngine.EnVector2Extensions.Distance*
   modifiers.csharp:
   - public
   - static
   modifiers.vb:
   - Public
   - Shared
-- uid: UnityEngine.EnVector2Extensions.sqrDistance(UnityEngine.Vector2,UnityEngine.Vector2)
-  commentId: M:UnityEngine.EnVector2Extensions.sqrDistance(UnityEngine.Vector2,UnityEngine.Vector2)
-  id: sqrDistance(UnityEngine.Vector2,UnityEngine.Vector2)
+- uid: UnityEngine.EnVector2Extensions.SqrDistance(UnityEngine.Vector2,UnityEngine.Vector2)
+  commentId: M:UnityEngine.EnVector2Extensions.SqrDistance(UnityEngine.Vector2,UnityEngine.Vector2)
+  id: SqrDistance(UnityEngine.Vector2,UnityEngine.Vector2)
   isExtensionMethod: true
   parent: UnityEngine.EnVector2Extensions
   langs:
   - csharp
   - vb
-  name: sqrDistance(Vector2, Vector2)
-  nameWithType: EnVector2Extensions.sqrDistance(Vector2, Vector2)
-  fullName: UnityEngine.EnVector2Extensions.sqrDistance(UnityEngine.Vector2, UnityEngine.Vector2)
+  name: SqrDistance(Vector2, Vector2)
+  nameWithType: EnVector2Extensions.SqrDistance(Vector2, Vector2)
+  fullName: UnityEngine.EnVector2Extensions.SqrDistance(UnityEngine.Vector2, UnityEngine.Vector2)
   type: Method
   source:
     remote:
       path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector2Extensions.cs
       branch: main
       repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
-    id: sqrDistance
+    id: SqrDistance
     path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector2Extensions.cs
     startLine: 22
   assemblies:
@@ -121,7 +122,7 @@ items:
   summary: "\nSquared distance to a second point.\n"
   example: []
   syntax:
-    content: public static float sqrDistance(this Vector2 v, Vector2 u)
+    content: public static float SqrDistance(this Vector2 v, Vector2 u)
     parameters:
     - id: v
       type: UnityEngine.Vector2
@@ -135,8 +136,8 @@ items:
     content.vb: >-
       <ExtensionAttribute>
 
-      Public Shared Function sqrDistance(v As Vector2, u As Vector2) As Single
-  overload: UnityEngine.EnVector2Extensions.sqrDistance*
+      Public Shared Function SqrDistance(v As Vector2, u As Vector2) As Single
+  overload: UnityEngine.EnVector2Extensions.SqrDistance*
   modifiers.csharp:
   - public
   - static
@@ -309,7 +310,7 @@ items:
       repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
     id: WithX
     path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector2Extensions.cs
-    startLine: 71
+    startLine: 67
   assemblies:
   - ECHTNICE.EnUnityEngineExtensions
   namespace: UnityEngine
@@ -352,7 +353,7 @@ items:
       repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
     id: WithY
     path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector2Extensions.cs
-    startLine: 75
+    startLine: 71
   assemblies:
   - ECHTNICE.EnUnityEngineExtensions
   namespace: UnityEngine
@@ -395,7 +396,7 @@ items:
       repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
     id: AddX
     path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector2Extensions.cs
-    startLine: 80
+    startLine: 76
   assemblies:
   - ECHTNICE.EnUnityEngineExtensions
   namespace: UnityEngine
@@ -438,7 +439,7 @@ items:
       repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
     id: AddY
     path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector2Extensions.cs
-    startLine: 84
+    startLine: 80
   assemblies:
   - ECHTNICE.EnUnityEngineExtensions
   namespace: UnityEngine
@@ -481,7 +482,7 @@ items:
       repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
     id: InvertX
     path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector2Extensions.cs
-    startLine: 89
+    startLine: 85
   assemblies:
   - ECHTNICE.EnUnityEngineExtensions
   namespace: UnityEngine
@@ -522,7 +523,7 @@ items:
       repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
     id: InvertY
     path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector2Extensions.cs
-    startLine: 93
+    startLine: 89
   assemblies:
   - ECHTNICE.EnUnityEngineExtensions
   namespace: UnityEngine
@@ -563,7 +564,7 @@ items:
       repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
     id: Invert
     path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector2Extensions.cs
-    startLine: 97
+    startLine: 93
   assemblies:
   - ECHTNICE.EnUnityEngineExtensions
   namespace: UnityEngine
@@ -579,6 +580,51 @@ items:
 
       Public Shared Function Invert(vec As Vector2) As Vector2
   overload: UnityEngine.EnVector2Extensions.Invert*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnVector2Extensions.To(UnityEngine.Vector2,UnityEngine.Vector2)
+  commentId: M:UnityEngine.EnVector2Extensions.To(UnityEngine.Vector2,UnityEngine.Vector2)
+  id: To(UnityEngine.Vector2,UnityEngine.Vector2)
+  isExtensionMethod: true
+  parent: UnityEngine.EnVector2Extensions
+  langs:
+  - csharp
+  - vb
+  name: To(Vector2, Vector2)
+  nameWithType: EnVector2Extensions.To(Vector2, Vector2)
+  fullName: UnityEngine.EnVector2Extensions.To(UnityEngine.Vector2, UnityEngine.Vector2)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector2Extensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: To
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector2Extensions.cs
+    startLine: 100
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  summary: "\nGet vector between source and destination\n"
+  example: []
+  syntax:
+    content: public static Vector2 To(this Vector2 source, Vector2 destination)
+    parameters:
+    - id: source
+      type: UnityEngine.Vector2
+    - id: destination
+      type: UnityEngine.Vector2
+    return:
+      type: UnityEngine.Vector2
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function To(source As Vector2, destination As Vector2) As Vector2
+  overload: UnityEngine.EnVector2Extensions.To*
   modifiers.csharp:
   - public
   - static
@@ -604,11 +650,11 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: UnityEngine.EnVector2Extensions.distance*
-  commentId: Overload:UnityEngine.EnVector2Extensions.distance
-  name: distance
-  nameWithType: EnVector2Extensions.distance
-  fullName: UnityEngine.EnVector2Extensions.distance
+- uid: UnityEngine.EnVector2Extensions.Distance*
+  commentId: Overload:UnityEngine.EnVector2Extensions.Distance
+  name: Distance
+  nameWithType: EnVector2Extensions.Distance
+  fullName: UnityEngine.EnVector2Extensions.Distance
 - uid: UnityEngine.Vector2
   commentId: T:UnityEngine.Vector2
   parent: UnityEngine
@@ -623,11 +669,11 @@ references:
   name: Single
   nameWithType: Single
   fullName: System.Single
-- uid: UnityEngine.EnVector2Extensions.sqrDistance*
-  commentId: Overload:UnityEngine.EnVector2Extensions.sqrDistance
-  name: sqrDistance
-  nameWithType: EnVector2Extensions.sqrDistance
-  fullName: UnityEngine.EnVector2Extensions.sqrDistance
+- uid: UnityEngine.EnVector2Extensions.SqrDistance*
+  commentId: Overload:UnityEngine.EnVector2Extensions.SqrDistance
+  name: SqrDistance
+  nameWithType: EnVector2Extensions.SqrDistance
+  fullName: UnityEngine.EnVector2Extensions.SqrDistance
 - uid: UnityEngine.EnVector2Extensions.Rotate*
   commentId: Overload:UnityEngine.EnVector2Extensions.Rotate
   name: Rotate
@@ -688,3 +734,8 @@ references:
   name: Invert
   nameWithType: EnVector2Extensions.Invert
   fullName: UnityEngine.EnVector2Extensions.Invert
+- uid: UnityEngine.EnVector2Extensions.To*
+  commentId: Overload:UnityEngine.EnVector2Extensions.To
+  name: To
+  nameWithType: EnVector2Extensions.To
+  fullName: UnityEngine.EnVector2Extensions.To

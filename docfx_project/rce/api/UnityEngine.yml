@@ -9,7 +9,9 @@ items:
   - UnityEngine.EnComponentExtensions
   - UnityEngine.EnGameObjectExtensions
   - UnityEngine.EnLayerMaskExtensions
+  - UnityEngine.EnNavMeshPathExtensions
   - UnityEngine.EnObjectExtensions
+  - UnityEngine.EnPhysicsExtensions
   - UnityEngine.EnRectExtensions
   - UnityEngine.EnTransformExtensions
   - UnityEngine.EnVector2Extensions
@@ -33,6 +35,7 @@ references:
   fullName: UnityEngine.EnColorExtensions
 - uid: UnityEngine.EnObjectExtensions
   commentId: T:UnityEngine.EnObjectExtensions
+  parent: UnityEngine
   name: EnObjectExtensions
   nameWithType: EnObjectExtensions
   fullName: UnityEngine.EnObjectExtensions
@@ -73,6 +76,7 @@ references:
   fullName: UnityEngine.EnApplication
 - uid: UnityEngine.EnGameObjectExtensions
   commentId: T:UnityEngine.EnGameObjectExtensions
+  parent: UnityEngine
   name: EnGameObjectExtensions
   nameWithType: EnGameObjectExtensions
   fullName: UnityEngine.EnGameObjectExtensions
@@ -83,6 +87,22 @@ references:
   fullName: UnityEngine.EnLayerMaskExtensions
 - uid: UnityEngine.EnComponentExtensions
   commentId: T:UnityEngine.EnComponentExtensions
+  parent: UnityEngine
   name: EnComponentExtensions
   nameWithType: EnComponentExtensions
   fullName: UnityEngine.EnComponentExtensions
+- uid: UnityEngine.EnPhysicsExtensions
+  commentId: T:UnityEngine.EnPhysicsExtensions
+  name: EnPhysicsExtensions
+  nameWithType: EnPhysicsExtensions
+  fullName: UnityEngine.EnPhysicsExtensions
+- uid: UnityEngine.EnNavMeshPathExtensions
+  commentId: T:UnityEngine.EnNavMeshPathExtensions
+  name: EnNavMeshPathExtensions
+  nameWithType: EnNavMeshPathExtensions
+  fullName: UnityEngine.EnNavMeshPathExtensions
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine

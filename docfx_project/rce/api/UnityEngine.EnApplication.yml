@@ -27,21 +27,24 @@ items:
       repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
     id: EnApplication
     path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnApplication.cs
-    startLine: 7
+    startLine: 16
   assemblies:
   - ECHTNICE.EnUnityEngineExtensions
   namespace: UnityEngine
+  summary: "\nEnApplication is a Helper Class\n\n<example>\n<pre><code>EnApplication.SetTargetFrameRate120();\nEnApplication.LogSystemInfo()</code></pre>\n</example>\n"
+  example: []
   syntax:
-    content: public class EnApplication
-    content.vb: Public Class EnApplication
+    content: public static class EnApplication
+    content.vb: Public Module EnApplication
   inheritance:
   - System.Object
   modifiers.csharp:
   - public
+  - static
   - class
   modifiers.vb:
   - Public
-  - Class
+  - Module
 - uid: UnityEngine.EnApplication.OpenUrlWithEscapeUri(System.String)
   commentId: M:UnityEngine.EnApplication.OpenUrlWithEscapeUri(System.String)
   id: OpenUrlWithEscapeUri(System.String)
@@ -60,7 +63,7 @@ items:
       repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
     id: OpenUrlWithEscapeUri
     path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnApplication.cs
-    startLine: 13
+    startLine: 22
   assemblies:
   - ECHTNICE.EnUnityEngineExtensions
   namespace: UnityEngine
@@ -97,7 +100,7 @@ items:
       repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
     id: SetTargetFrameRate120
     path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnApplication.cs
-    startLine: 20
+    startLine: 29
   assemblies:
   - ECHTNICE.EnUnityEngineExtensions
   namespace: UnityEngine
@@ -131,7 +134,7 @@ items:
       repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
     id: SetTargetFrameRate60
     path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnApplication.cs
-    startLine: 27
+    startLine: 36
   assemblies:
   - ECHTNICE.EnUnityEngineExtensions
   namespace: UnityEngine
@@ -165,7 +168,7 @@ items:
       repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
     id: SetTargetFrameRate30
     path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnApplication.cs
-    startLine: 34
+    startLine: 43
   assemblies:
   - ECHTNICE.EnUnityEngineExtensions
   namespace: UnityEngine
@@ -199,7 +202,7 @@ items:
       repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
     id: SetTargetFrameRate
     path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnApplication.cs
-    startLine: 42
+    startLine: 51
   assemblies:
   - ECHTNICE.EnUnityEngineExtensions
   namespace: UnityEngine
@@ -237,7 +240,7 @@ items:
       repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
     id: SetBackgroundLoadingPriority
     path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnApplication.cs
-    startLine: 56
+    startLine: 65
   assemblies:
   - ECHTNICE.EnUnityEngineExtensions
   namespace: UnityEngine
@@ -275,7 +278,7 @@ items:
       repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
     id: LogSystemInfo
     path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnApplication.cs
-    startLine: 65
+    startLine: 74
   assemblies:
   - ECHTNICE.EnUnityEngineExtensions
   namespace: UnityEngine
@@ -321,7 +324,7 @@ items:
       repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
     id: GetSystemInfoToString
     path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnApplication.cs
-    startLine: 74
+    startLine: 83
   assemblies:
   - ECHTNICE.EnUnityEngineExtensions
   namespace: UnityEngine

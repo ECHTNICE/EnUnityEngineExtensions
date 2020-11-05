@@ -35,11 +35,11 @@ items:
       repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
     id: EnColorExtensions
     path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnColorExtensions.cs
-    startLine: 11
+    startLine: 21
   assemblies:
   - ECHTNICE.EnUnityEngineExtensions
   namespace: UnityEngine
-  summary: "\nUnity Color Extensions\n\n<example>\n<pre><code>string hexColor = Color.red.ToHex();</code></pre>\n</example>\n"
+  summary: "\nUtility extensions for manipulating and working with Transforms.\n\n<example>\n<pre><code>string hexColor = Color.red.ToHex();</code></pre>\n</example>\n\n<example>\n<pre><code>#define DISABLE_ALL_EN_EXTENSIONS //Disable all Extensions\n#define DISABLE_EN_COLOR_EXTENSIONS // Disable this Extensions</code></pre>\n</example>\n"
   example: []
   syntax:
     content: public static class EnColorExtensions
@@ -72,7 +72,7 @@ items:
       repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
     id: SetR
     path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnColorExtensions.cs
-    startLine: 20
+    startLine: 30
   assemblies:
   - ECHTNICE.EnUnityEngineExtensions
   namespace: UnityEngine
@@ -115,7 +115,7 @@ items:
       repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
     id: SetG
     path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnColorExtensions.cs
-    startLine: 24
+    startLine: 34
   assemblies:
   - ECHTNICE.EnUnityEngineExtensions
   namespace: UnityEngine
@@ -158,7 +158,7 @@ items:
       repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
     id: SetB
     path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnColorExtensions.cs
-    startLine: 28
+    startLine: 38
   assemblies:
   - ECHTNICE.EnUnityEngineExtensions
   namespace: UnityEngine
@@ -201,7 +201,7 @@ items:
       repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
     id: SetA
     path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnColorExtensions.cs
-    startLine: 32
+    startLine: 42
   assemblies:
   - ECHTNICE.EnUnityEngineExtensions
   namespace: UnityEngine
@@ -244,7 +244,7 @@ items:
       repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
     id: ToHex
     path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnColorExtensions.cs
-    startLine: 37
+    startLine: 47
   assemblies:
   - ECHTNICE.EnUnityEngineExtensions
   namespace: UnityEngine
@@ -285,7 +285,7 @@ items:
       repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
     id: ToInt
     path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnColorExtensions.cs
-    startLine: 45
+    startLine: 55
   assemblies:
   - ECHTNICE.EnUnityEngineExtensions
   namespace: UnityEngine
@@ -327,7 +327,7 @@ items:
       repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
     id: RGBToColor
     path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnColorExtensions.cs
-    startLine: 61
+    startLine: 71
   assemblies:
   - ECHTNICE.EnUnityEngineExtensions
   namespace: UnityEngine
@@ -374,7 +374,7 @@ items:
       repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
     id: HexToColor
     path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnColorExtensions.cs
-    startLine: 70
+    startLine: 80
   assemblies:
   - ECHTNICE.EnUnityEngineExtensions
   namespace: UnityEngine
@@ -416,7 +416,7 @@ items:
       repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
     id: Lighter
     path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnColorExtensions.cs
-    startLine: 94
+    startLine: 104
   assemblies:
   - ECHTNICE.EnUnityEngineExtensions
   namespace: UnityEngine
@@ -460,7 +460,7 @@ items:
       repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
     id: Darker
     path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnColorExtensions.cs
-    startLine: 102
+    startLine: 112
   assemblies:
   - ECHTNICE.EnUnityEngineExtensions
   namespace: UnityEngine
@@ -504,7 +504,7 @@ items:
       repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
     id: Brightness
     path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnColorExtensions.cs
-    startLine: 110
+    startLine: 120
   assemblies:
   - ECHTNICE.EnUnityEngineExtensions
   namespace: UnityEngine
@@ -548,7 +548,7 @@ items:
       repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
     id: WithBrightness
     path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnColorExtensions.cs
-    startLine: 120
+    startLine: 130
   assemblies:
   - ECHTNICE.EnUnityEngineExtensions
   namespace: UnityEngine
@@ -596,7 +596,7 @@ items:
       repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
     id: IsApproximatelyBlack
     path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnColorExtensions.cs
-    startLine: 143
+    startLine: 153
   assemblies:
   - ECHTNICE.EnUnityEngineExtensions
   namespace: UnityEngine
@@ -641,7 +641,7 @@ items:
       repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
     id: IsApproximatelyWhite
     path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnColorExtensions.cs
-    startLine: 152
+    startLine: 162
   assemblies:
   - ECHTNICE.EnUnityEngineExtensions
   namespace: UnityEngine
@@ -686,7 +686,7 @@ items:
       repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
     id: Opaque
     path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnColorExtensions.cs
-    startLine: 160
+    startLine: 170
   assemblies:
   - ECHTNICE.EnUnityEngineExtensions
   namespace: UnityEngine
@@ -730,7 +730,7 @@ items:
       repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
     id: WithAlpha
     path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnColorExtensions.cs
-    startLine: 170
+    startLine: 180
   assemblies:
   - ECHTNICE.EnUnityEngineExtensions
   namespace: UnityEngine

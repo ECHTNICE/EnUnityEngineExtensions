@@ -1,0 +1,385 @@
+### YamlMime:ManagedReference
+items:
+- uid: UnityEngine.EnNavMeshPathExtensions
+  commentId: T:UnityEngine.EnNavMeshPathExtensions
+  id: EnNavMeshPathExtensions
+  parent: UnityEngine
+  children:
+  - UnityEngine.EnNavMeshPathExtensions.GetLength(UnityEngine.AI.NavMeshPath)
+  - UnityEngine.EnNavMeshPathExtensions.GetPointOnPath(UnityEngine.AI.NavMeshPath,System.Single)
+  - UnityEngine.EnNavMeshPathExtensions.GetPointsOnPath(UnityEngine.AI.NavMeshPath,System.Single)
+  - UnityEngine.EnNavMeshPathExtensions.GetTimeToPass(UnityEngine.AI.NavMeshPath,System.Single)
+  langs:
+  - csharp
+  - vb
+  name: EnNavMeshPathExtensions
+  nameWithType: EnNavMeshPathExtensions
+  fullName: UnityEngine.EnNavMeshPathExtensions
+  type: Class
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnNavMeshPathExtensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: EnNavMeshPathExtensions
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnNavMeshPathExtensions.cs
+    startLine: 26
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  summary: "\nUtility extensions for manipulating and working with NavMeshPath.\n\n<example>\n<pre><code>...</code></pre>\n</example>\n\n<example>\n<pre><code>#define DISABLE_ALL_EN_EXTENSIONS //Disable all Extensions\n#define DISABLE_EN_NAVMESHPATH_EXTENSIONS // Disable this Extensions</code></pre>\n</example>\n"
+  example: []
+  syntax:
+    content: public static class EnNavMeshPathExtensions
+    content.vb: Public Module EnNavMeshPathExtensions
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: UnityEngine.EnNavMeshPathExtensions.GetLength(UnityEngine.AI.NavMeshPath)
+  commentId: M:UnityEngine.EnNavMeshPathExtensions.GetLength(UnityEngine.AI.NavMeshPath)
+  id: GetLength(UnityEngine.AI.NavMeshPath)
+  isExtensionMethod: true
+  parent: UnityEngine.EnNavMeshPathExtensions
+  langs:
+  - csharp
+  - vb
+  name: GetLength(NavMeshPath)
+  nameWithType: EnNavMeshPathExtensions.GetLength(NavMeshPath)
+  fullName: UnityEngine.EnNavMeshPathExtensions.GetLength(UnityEngine.AI.NavMeshPath)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnNavMeshPathExtensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: GetLength
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnNavMeshPathExtensions.cs
+    startLine: 33
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  summary: "\nGet length of path (combining all corners)\n"
+  example: []
+  syntax:
+    content: public static float GetLength(this NavMeshPath path)
+    parameters:
+    - id: path
+      type: UnityEngine.AI.NavMeshPath
+      description: Path to calculate
+    return:
+      type: System.Single
+      description: Length in Units
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetLength(path As NavMeshPath) As Single
+  overload: UnityEngine.EnNavMeshPathExtensions.GetLength*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnNavMeshPathExtensions.GetTimeToPass(UnityEngine.AI.NavMeshPath,System.Single)
+  commentId: M:UnityEngine.EnNavMeshPathExtensions.GetTimeToPass(UnityEngine.AI.NavMeshPath,System.Single)
+  id: GetTimeToPass(UnityEngine.AI.NavMeshPath,System.Single)
+  isExtensionMethod: true
+  parent: UnityEngine.EnNavMeshPathExtensions
+  langs:
+  - csharp
+  - vb
+  name: GetTimeToPass(NavMeshPath, Single)
+  nameWithType: EnNavMeshPathExtensions.GetTimeToPass(NavMeshPath, Single)
+  fullName: UnityEngine.EnNavMeshPathExtensions.GetTimeToPass(UnityEngine.AI.NavMeshPath, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnNavMeshPathExtensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: GetTimeToPass
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnNavMeshPathExtensions.cs
+    startLine: 49
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  summary: "\nRoughly calculate time to traverse the path with given speed\n"
+  example: []
+  syntax:
+    content: public static float GetTimeToPass(this NavMeshPath path, float speed)
+    parameters:
+    - id: path
+      type: UnityEngine.AI.NavMeshPath
+      description: Path to calculate
+    - id: speed
+      type: System.Single
+      description: Speed of the agent
+    return:
+      type: System.Single
+      description: Time in seconds
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetTimeToPass(path As NavMeshPath, speed As Single) As Single
+  overload: UnityEngine.EnNavMeshPathExtensions.GetTimeToPass*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnNavMeshPathExtensions.GetPointOnPath(UnityEngine.AI.NavMeshPath,System.Single)
+  commentId: M:UnityEngine.EnNavMeshPathExtensions.GetPointOnPath(UnityEngine.AI.NavMeshPath,System.Single)
+  id: GetPointOnPath(UnityEngine.AI.NavMeshPath,System.Single)
+  isExtensionMethod: true
+  parent: UnityEngine.EnNavMeshPathExtensions
+  langs:
+  - csharp
+  - vb
+  name: GetPointOnPath(NavMeshPath, Single)
+  nameWithType: EnNavMeshPathExtensions.GetPointOnPath(NavMeshPath, Single)
+  fullName: UnityEngine.EnNavMeshPathExtensions.GetPointOnPath(UnityEngine.AI.NavMeshPath, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnNavMeshPathExtensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: GetPointOnPath
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnNavMeshPathExtensions.cs
+    startLine: 61
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  summary: "\nGet point on path\n"
+  example: []
+  syntax:
+    content: public static Vector3 GetPointOnPath(this NavMeshPath path, float rate)
+    parameters:
+    - id: path
+      type: UnityEngine.AI.NavMeshPath
+      description: Path to calculate
+    - id: rate
+      type: System.Single
+      description: Percent on path, from 0 to 1
+    return:
+      type: UnityEngine.Vector3
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetPointOnPath(path As NavMeshPath, rate As Single) As Vector3
+  overload: UnityEngine.EnNavMeshPathExtensions.GetPointOnPath*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnNavMeshPathExtensions.GetPointsOnPath(UnityEngine.AI.NavMeshPath,System.Single)
+  commentId: M:UnityEngine.EnNavMeshPathExtensions.GetPointsOnPath(UnityEngine.AI.NavMeshPath,System.Single)
+  id: GetPointsOnPath(UnityEngine.AI.NavMeshPath,System.Single)
+  isExtensionMethod: true
+  parent: UnityEngine.EnNavMeshPathExtensions
+  langs:
+  - csharp
+  - vb
+  name: GetPointsOnPath(NavMeshPath, Single)
+  nameWithType: EnNavMeshPathExtensions.GetPointsOnPath(NavMeshPath, Single)
+  fullName: UnityEngine.EnNavMeshPathExtensions.GetPointsOnPath(UnityEngine.AI.NavMeshPath, System.Single)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnNavMeshPathExtensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: GetPointsOnPath
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnNavMeshPathExtensions.cs
+    startLine: 87
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  summary: "\nSplit path on points with defined distance\n"
+  example: []
+  syntax:
+    content: public static IEnumerable<Vector3> GetPointsOnPath(this NavMeshPath path, float distance = 1F)
+    parameters:
+    - id: path
+      type: UnityEngine.AI.NavMeshPath
+      description: Path to calculate
+    - id: distance
+      type: System.Single
+      description: Distance between points on path
+    return:
+      type: System.Collections.Generic.IEnumerable{UnityEngine.Vector3}
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetPointsOnPath(path As NavMeshPath, distance As Single = 1F) As IEnumerable(Of Vector3)
+  overload: UnityEngine.EnNavMeshPathExtensions.GetPointsOnPath*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine.EnNavMeshPathExtensions.GetLength*
+  commentId: Overload:UnityEngine.EnNavMeshPathExtensions.GetLength
+  name: GetLength
+  nameWithType: EnNavMeshPathExtensions.GetLength
+  fullName: UnityEngine.EnNavMeshPathExtensions.GetLength
+- uid: UnityEngine.AI.NavMeshPath
+  commentId: T:UnityEngine.AI.NavMeshPath
+  parent: UnityEngine.AI
+  isExternal: true
+  name: NavMeshPath
+  nameWithType: NavMeshPath
+  fullName: UnityEngine.AI.NavMeshPath
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: UnityEngine.AI
+  commentId: N:UnityEngine.AI
+  isExternal: true
+  name: UnityEngine.AI
+  nameWithType: UnityEngine.AI
+  fullName: UnityEngine.AI
+- uid: UnityEngine.EnNavMeshPathExtensions.GetTimeToPass*
+  commentId: Overload:UnityEngine.EnNavMeshPathExtensions.GetTimeToPass
+  name: GetTimeToPass
+  nameWithType: EnNavMeshPathExtensions.GetTimeToPass
+  fullName: UnityEngine.EnNavMeshPathExtensions.GetTimeToPass
+- uid: UnityEngine.EnNavMeshPathExtensions.GetPointOnPath*
+  commentId: Overload:UnityEngine.EnNavMeshPathExtensions.GetPointOnPath
+  name: GetPointOnPath
+  nameWithType: EnNavMeshPathExtensions.GetPointOnPath
+  fullName: UnityEngine.EnNavMeshPathExtensions.GetPointOnPath
+- uid: UnityEngine.Vector3
+  commentId: T:UnityEngine.Vector3
+  parent: UnityEngine
+  isExternal: true
+  name: Vector3
+  nameWithType: Vector3
+  fullName: UnityEngine.Vector3
+- uid: UnityEngine.EnNavMeshPathExtensions.GetPointsOnPath*
+  commentId: Overload:UnityEngine.EnNavMeshPathExtensions.GetPointsOnPath
+  name: GetPointsOnPath
+  nameWithType: EnNavMeshPathExtensions.GetPointsOnPath
+  fullName: UnityEngine.EnNavMeshPathExtensions.GetPointsOnPath
+- uid: System.Collections.Generic.IEnumerable{UnityEngine.Vector3}
+  commentId: T:System.Collections.Generic.IEnumerable{UnityEngine.Vector3}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<Vector3>
+  nameWithType: IEnumerable<Vector3>
+  fullName: System.Collections.Generic.IEnumerable<UnityEngine.Vector3>
+  nameWithType.vb: IEnumerable(Of Vector3)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of UnityEngine.Vector3)
+  name.vb: IEnumerable(Of Vector3)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: UnityEngine.Vector3
+    name: Vector3
+    nameWithType: Vector3
+    fullName: UnityEngine.Vector3
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: UnityEngine.Vector3
+    name: Vector3
+    nameWithType: Vector3
+    fullName: UnityEngine.Vector3
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic

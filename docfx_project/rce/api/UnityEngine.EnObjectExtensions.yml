@@ -21,10 +21,12 @@ items:
       repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
     id: EnObjectExtensions
     path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnObjectExtensions.cs
-    startLine: 1
+    startLine: 15
   assemblies:
   - ECHTNICE.EnUnityEngineExtensions
   namespace: UnityEngine
+  summary: "\nUtility extensions for manipulating and working with Objects\n\n<example>\n<pre><code>#define DISABLE_ALL_EN_EXTENSIONS //Disable all Extensions\n#define DISABLE_EN_OBJECT_EXTENSIONS // Disable this Extensions</code></pre>\n</example>\n"
+  example: []
   syntax:
     content: public static class EnObjectExtensions
     content.vb: Public Module EnObjectExtensions
@@ -56,7 +58,7 @@ items:
       repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
     id: IsNull
     path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnObjectExtensions.cs
-    startLine: 3
+    startLine: 17
   assemblies:
   - ECHTNICE.EnUnityEngineExtensions
   namespace: UnityEngine
@@ -97,7 +99,7 @@ items:
       repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
     id: IsNotNull
     path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnObjectExtensions.cs
-    startLine: 7
+    startLine: 21
   assemblies:
   - ECHTNICE.EnUnityEngineExtensions
   namespace: UnityEngine

@@ -1,0 +1,24 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global
+  id: Global
+  children:
+  - Global.EnTestScript
+  langs:
+  - csharp
+  - vb
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  type: Namespace
+  assemblies:
+  - Assembly-CSharp
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+references:
+- uid: Global.EnTestScript
+  commentId: T:Global.EnTestScript
+  name: EnTestScript
+  nameWithType: EnTestScript
+  fullName: EnTestScript

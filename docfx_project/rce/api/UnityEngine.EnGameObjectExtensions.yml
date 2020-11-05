@@ -9,6 +9,9 @@ items:
   - UnityEngine.EnGameObjectExtensions.AddComponentsFromResource(UnityEngine.GameObject,System.String)
   - UnityEngine.EnGameObjectExtensions.ChangeLayersRecursively(UnityEngine.GameObject,System.String)
   - UnityEngine.EnGameObjectExtensions.DestroyChildren(UnityEngine.GameObject)
+  - UnityEngine.EnGameObjectExtensions.DumpRootTransforms
+  - UnityEngine.EnGameObjectExtensions.DumpToLog(UnityEngine.GameObject)
+  - UnityEngine.EnGameObjectExtensions.DumpToString(UnityEngine.GameObject)
   - UnityEngine.EnGameObjectExtensions.GetComponentInHierarchy``1(UnityEngine.GameObject)
   - UnityEngine.EnGameObjectExtensions.HasComponent(UnityEngine.GameObject,System.Type)
   - UnityEngine.EnGameObjectExtensions.HasComponent``1(UnityEngine.GameObject)
@@ -17,6 +20,8 @@ items:
   - UnityEngine.EnGameObjectExtensions.SetLayerRecursively(UnityEngine.GameObject,System.Int32)
   - UnityEngine.EnGameObjectExtensions.SetParent(UnityEngine.GameObject,UnityEngine.GameObject)
   - UnityEngine.EnGameObjectExtensions.SetParent(UnityEngine.GameObject,UnityEngine.GameObject,System.Boolean)
+  - UnityEngine.EnGameObjectExtensions.To(UnityEngine.GameObject,UnityEngine.Component)
+  - UnityEngine.EnGameObjectExtensions.To(UnityEngine.GameObject,UnityEngine.GameObject)
   langs:
   - csharp
   - vb
@@ -31,11 +36,11 @@ items:
       repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
     id: EnGameObjectExtensions
     path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnGameObjectExtensions.cs
-    startLine: 8
+    startLine: 10
   assemblies:
   - ECHTNICE.EnUnityEngineExtensions
   namespace: UnityEngine
-  summary: "\n\n"
+  summary: "\n\n\n"
   example: []
   syntax:
     content: public static class EnGameObjectExtensions
@@ -68,7 +73,7 @@ items:
       repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
     id: SetParent
     path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnGameObjectExtensions.cs
-    startLine: 9
+    startLine: 11
   assemblies:
   - ECHTNICE.EnUnityEngineExtensions
   namespace: UnityEngine
@@ -109,7 +114,7 @@ items:
       repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
     id: SetParent
     path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnGameObjectExtensions.cs
-    startLine: 13
+    startLine: 15
   assemblies:
   - ECHTNICE.EnUnityEngineExtensions
   namespace: UnityEngine
@@ -152,7 +157,7 @@ items:
       repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
     id: IsNull
     path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnGameObjectExtensions.cs
-    startLine: 17
+    startLine: 19
   assemblies:
   - ECHTNICE.EnUnityEngineExtensions
   namespace: UnityEngine
@@ -193,7 +198,7 @@ items:
       repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
     id: IsNotNull
     path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnGameObjectExtensions.cs
-    startLine: 21
+    startLine: 23
   assemblies:
   - ECHTNICE.EnUnityEngineExtensions
   namespace: UnityEngine
@@ -234,7 +239,7 @@ items:
       repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
     id: DestroyChildren
     path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnGameObjectExtensions.cs
-    startLine: 25
+    startLine: 27
   assemblies:
   - ECHTNICE.EnUnityEngineExtensions
   namespace: UnityEngine
@@ -273,7 +278,7 @@ items:
       repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
     id: ChangeLayersRecursively
     path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnGameObjectExtensions.cs
-    startLine: 45
+    startLine: 47
   assemblies:
   - ECHTNICE.EnUnityEngineExtensions
   namespace: UnityEngine
@@ -314,7 +319,7 @@ items:
       repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
     id: SetLayerRecursively
     path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnGameObjectExtensions.cs
-    startLine: 55
+    startLine: 57
   assemblies:
   - ECHTNICE.EnUnityEngineExtensions
   namespace: UnityEngine
@@ -355,7 +360,7 @@ items:
       repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
     id: AddComponentsFromResource
     path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnGameObjectExtensions.cs
-    startLine: 71
+    startLine: 73
   assemblies:
   - ECHTNICE.EnUnityEngineExtensions
   namespace: UnityEngine
@@ -400,7 +405,7 @@ items:
       repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
     id: AddComponentFromResource
     path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnGameObjectExtensions.cs
-    startLine: 104
+    startLine: 106
   assemblies:
   - ECHTNICE.EnUnityEngineExtensions
   namespace: UnityEngine
@@ -460,7 +465,7 @@ items:
       repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
     id: HasComponent
     path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnGameObjectExtensions.cs
-    startLine: 118
+    startLine: 120
   assemblies:
   - ECHTNICE.EnUnityEngineExtensions
   namespace: UnityEngine
@@ -506,7 +511,7 @@ items:
       repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
     id: HasComponent
     path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnGameObjectExtensions.cs
-    startLine: 122
+    startLine: 124
   assemblies:
   - ECHTNICE.EnUnityEngineExtensions
   namespace: UnityEngine
@@ -549,7 +554,7 @@ items:
       repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
     id: GetComponentInHierarchy
     path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnGameObjectExtensions.cs
-    startLine: 126
+    startLine: 128
   assemblies:
   - ECHTNICE.EnUnityEngineExtensions
   namespace: UnityEngine
@@ -576,6 +581,200 @@ items:
   - Shared
   fullName.vb: UnityEngine.EnGameObjectExtensions.GetComponentInHierarchy(Of T)(UnityEngine.GameObject)
   name.vb: GetComponentInHierarchy(Of T)(GameObject)
+- uid: UnityEngine.EnGameObjectExtensions.To(UnityEngine.GameObject,UnityEngine.Component)
+  commentId: M:UnityEngine.EnGameObjectExtensions.To(UnityEngine.GameObject,UnityEngine.Component)
+  id: To(UnityEngine.GameObject,UnityEngine.Component)
+  isExtensionMethod: true
+  parent: UnityEngine.EnGameObjectExtensions
+  langs:
+  - csharp
+  - vb
+  name: To(GameObject, Component)
+  nameWithType: EnGameObjectExtensions.To(GameObject, Component)
+  fullName: UnityEngine.EnGameObjectExtensions.To(UnityEngine.GameObject, UnityEngine.Component)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnGameObjectExtensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: To
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnGameObjectExtensions.cs
+    startLine: 140
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  summary: "\nGet vector between source and target\n"
+  example: []
+  syntax:
+    content: public static Vector3 To(this GameObject source, Component target)
+    parameters:
+    - id: source
+      type: UnityEngine.GameObject
+    - id: target
+      type: UnityEngine.Component
+    return:
+      type: UnityEngine.Vector3
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function To(source As GameObject, target As Component) As Vector3
+  overload: UnityEngine.EnGameObjectExtensions.To*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnGameObjectExtensions.To(UnityEngine.GameObject,UnityEngine.GameObject)
+  commentId: M:UnityEngine.EnGameObjectExtensions.To(UnityEngine.GameObject,UnityEngine.GameObject)
+  id: To(UnityEngine.GameObject,UnityEngine.GameObject)
+  isExtensionMethod: true
+  parent: UnityEngine.EnGameObjectExtensions
+  langs:
+  - csharp
+  - vb
+  name: To(GameObject, GameObject)
+  nameWithType: EnGameObjectExtensions.To(GameObject, GameObject)
+  fullName: UnityEngine.EnGameObjectExtensions.To(UnityEngine.GameObject, UnityEngine.GameObject)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnGameObjectExtensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: To
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnGameObjectExtensions.cs
+    startLine: 146
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  summary: "\nGet vector between source and target\n"
+  example: []
+  syntax:
+    content: public static Vector3 To(this GameObject source, GameObject target)
+    parameters:
+    - id: source
+      type: UnityEngine.GameObject
+    - id: target
+      type: UnityEngine.GameObject
+    return:
+      type: UnityEngine.Vector3
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function To(source As GameObject, target As GameObject) As Vector3
+  overload: UnityEngine.EnGameObjectExtensions.To*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnGameObjectExtensions.DumpRootTransforms
+  commentId: M:UnityEngine.EnGameObjectExtensions.DumpRootTransforms
+  id: DumpRootTransforms
+  parent: UnityEngine.EnGameObjectExtensions
+  langs:
+  - csharp
+  - vb
+  name: DumpRootTransforms()
+  nameWithType: EnGameObjectExtensions.DumpRootTransforms()
+  fullName: UnityEngine.EnGameObjectExtensions.DumpRootTransforms()
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnGameObjectExtensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: DumpRootTransforms
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnGameObjectExtensions.cs
+    startLine: 152
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  syntax:
+    content: public static void DumpRootTransforms()
+    content.vb: Public Shared Sub DumpRootTransforms
+  overload: UnityEngine.EnGameObjectExtensions.DumpRootTransforms*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnGameObjectExtensions.DumpToLog(UnityEngine.GameObject)
+  commentId: M:UnityEngine.EnGameObjectExtensions.DumpToLog(UnityEngine.GameObject)
+  id: DumpToLog(UnityEngine.GameObject)
+  parent: UnityEngine.EnGameObjectExtensions
+  langs:
+  - csharp
+  - vb
+  name: DumpToLog(GameObject)
+  nameWithType: EnGameObjectExtensions.DumpToLog(GameObject)
+  fullName: UnityEngine.EnGameObjectExtensions.DumpToLog(UnityEngine.GameObject)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnGameObjectExtensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: DumpToLog
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnGameObjectExtensions.cs
+    startLine: 162
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  syntax:
+    content: public static void DumpToLog(GameObject go)
+    parameters:
+    - id: go
+      type: UnityEngine.GameObject
+    content.vb: Public Shared Sub DumpToLog(go As GameObject)
+  overload: UnityEngine.EnGameObjectExtensions.DumpToLog*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnGameObjectExtensions.DumpToString(UnityEngine.GameObject)
+  commentId: M:UnityEngine.EnGameObjectExtensions.DumpToString(UnityEngine.GameObject)
+  id: DumpToString(UnityEngine.GameObject)
+  parent: UnityEngine.EnGameObjectExtensions
+  langs:
+  - csharp
+  - vb
+  name: DumpToString(GameObject)
+  nameWithType: EnGameObjectExtensions.DumpToString(GameObject)
+  fullName: UnityEngine.EnGameObjectExtensions.DumpToString(UnityEngine.GameObject)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnGameObjectExtensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: DumpToString
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnGameObjectExtensions.cs
+    startLine: 166
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  syntax:
+    content: public static string DumpToString(GameObject go)
+    parameters:
+    - id: go
+      type: UnityEngine.GameObject
+    return:
+      type: System.String
+    content.vb: Public Shared Function DumpToString(go As GameObject) As String
+  overload: UnityEngine.EnGameObjectExtensions.DumpToString*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 references:
 - uid: UnityEngine
   commentId: N:UnityEngine
@@ -700,3 +899,37 @@ references:
   name: GetComponentInHierarchy
   nameWithType: EnGameObjectExtensions.GetComponentInHierarchy
   fullName: UnityEngine.EnGameObjectExtensions.GetComponentInHierarchy
+- uid: UnityEngine.EnGameObjectExtensions.To*
+  commentId: Overload:UnityEngine.EnGameObjectExtensions.To
+  name: To
+  nameWithType: EnGameObjectExtensions.To
+  fullName: UnityEngine.EnGameObjectExtensions.To
+- uid: UnityEngine.Component
+  commentId: T:UnityEngine.Component
+  parent: UnityEngine
+  isExternal: true
+  name: Component
+  nameWithType: Component
+  fullName: UnityEngine.Component
+- uid: UnityEngine.Vector3
+  commentId: T:UnityEngine.Vector3
+  parent: UnityEngine
+  isExternal: true
+  name: Vector3
+  nameWithType: Vector3
+  fullName: UnityEngine.Vector3
+- uid: UnityEngine.EnGameObjectExtensions.DumpRootTransforms*
+  commentId: Overload:UnityEngine.EnGameObjectExtensions.DumpRootTransforms
+  name: DumpRootTransforms
+  nameWithType: EnGameObjectExtensions.DumpRootTransforms
+  fullName: UnityEngine.EnGameObjectExtensions.DumpRootTransforms
+- uid: UnityEngine.EnGameObjectExtensions.DumpToLog*
+  commentId: Overload:UnityEngine.EnGameObjectExtensions.DumpToLog
+  name: DumpToLog
+  nameWithType: EnGameObjectExtensions.DumpToLog
+  fullName: UnityEngine.EnGameObjectExtensions.DumpToLog
+- uid: UnityEngine.EnGameObjectExtensions.DumpToString*
+  commentId: Overload:UnityEngine.EnGameObjectExtensions.DumpToString
+  name: DumpToString
+  nameWithType: EnGameObjectExtensions.DumpToString
+  fullName: UnityEngine.EnGameObjectExtensions.DumpToString

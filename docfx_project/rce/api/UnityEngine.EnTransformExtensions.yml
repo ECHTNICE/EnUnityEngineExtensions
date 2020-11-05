@@ -30,11 +30,11 @@ items:
       repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
     id: EnTransformExtensions
     path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnTransformExtensions.cs
-    startLine: 20
+    startLine: 23
   assemblies:
   - ECHTNICE.EnUnityEngineExtensions
   namespace: UnityEngine
-  summary: "\nUnity Transform Extensions\n\n<example>\n<pre><code>int c = Math.Add(4, 5);\nif (c > 10)\n{\n    Console.WriteLine(c);\n}</code></pre>\n</example>\n\n"
+  summary: "\nUtility extensions for manipulating and working with Transforms.\n\n<example>\n<pre><code>...</code></pre>\n</example>\n\n<example>\n<pre><code>#define DISABLE_ALL_EN_EXTENSIONS //Disable all Extensions\n#define DISABLE_EN_TRANSFORM_EXTENSIONS // Disable this Extensions</code></pre>\n</example>\n"
   example: []
   syntax:
     content: public static class EnTransformExtensions
@@ -67,7 +67,7 @@ items:
       repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
     id: LookAt
     path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnTransformExtensions.cs
-    startLine: 28
+    startLine: 31
   assemblies:
   - ECHTNICE.EnUnityEngineExtensions
   namespace: UnityEngine
@@ -112,7 +112,7 @@ items:
       repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
     id: GetLookAtRotation
     path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnTransformExtensions.cs
-    startLine: 39
+    startLine: 42
   assemblies:
   - ECHTNICE.EnUnityEngineExtensions
   namespace: UnityEngine
@@ -160,7 +160,7 @@ items:
       repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
     id: GetLookAtRotation
     path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnTransformExtensions.cs
-    startLine: 50
+    startLine: 53
   assemblies:
   - ECHTNICE.EnUnityEngineExtensions
   namespace: UnityEngine
@@ -208,7 +208,7 @@ items:
       repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
     id: GetLookAtRotation
     path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnTransformExtensions.cs
-    startLine: 61
+    startLine: 64
   assemblies:
   - ECHTNICE.EnUnityEngineExtensions
   namespace: UnityEngine
@@ -256,7 +256,7 @@ items:
       repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
     id: LookAwayFrom
     path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnTransformExtensions.cs
-    startLine: 72
+    startLine: 75
   assemblies:
   - ECHTNICE.EnUnityEngineExtensions
   namespace: UnityEngine
@@ -301,7 +301,7 @@ items:
       repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
     id: LookAwayFrom
     path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnTransformExtensions.cs
-    startLine: 82
+    startLine: 85
   assemblies:
   - ECHTNICE.EnUnityEngineExtensions
   namespace: UnityEngine
@@ -346,7 +346,7 @@ items:
       repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
     id: LookAwayFrom
     path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnTransformExtensions.cs
-    startLine: 92
+    startLine: 95
   assemblies:
   - ECHTNICE.EnUnityEngineExtensions
   namespace: UnityEngine
@@ -391,7 +391,7 @@ items:
       repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
     id: GetLookAwayFromRotation
     path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnTransformExtensions.cs
-    startLine: 103
+    startLine: 106
   assemblies:
   - ECHTNICE.EnUnityEngineExtensions
   namespace: UnityEngine
@@ -438,7 +438,7 @@ items:
       repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
     id: GetLookAwayFromRotation
     path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnTransformExtensions.cs
-    startLine: 113
+    startLine: 116
   assemblies:
   - ECHTNICE.EnUnityEngineExtensions
   namespace: UnityEngine
@@ -485,7 +485,7 @@ items:
       repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
     id: GetLookAwayFromRotation
     path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnTransformExtensions.cs
-    startLine: 123
+    startLine: 126
   assemblies:
   - ECHTNICE.EnUnityEngineExtensions
   namespace: UnityEngine
@@ -532,7 +532,7 @@ items:
       repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
     id: GetTransformPath
     path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnTransformExtensions.cs
-    startLine: 133
+    startLine: 136
   assemblies:
   - ECHTNICE.EnUnityEngineExtensions
   namespace: UnityEngine

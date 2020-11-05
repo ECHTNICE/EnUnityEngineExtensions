@@ -48,7 +48,7 @@
         "exclude": [
           "obj/**",
           "_site/**",
-		  "docs"
+		  "Documentation~"
         ]
       }
     ],
@@ -57,7 +57,7 @@
 	  "_appFooter": "Copyright © ECHTNICE",
 	  "_appLogoPath": "Images/echtnice_50x50.png"
 	},
-    "dest": "../docs",
+    "dest": "../Documentation~",
     "globalMetadataFiles": [],
     "fileMetadataFiles": [],
 	"template": [ "statictoc" ],

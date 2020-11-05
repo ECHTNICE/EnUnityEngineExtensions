@@ -66,7 +66,7 @@ items:
       repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
     id: WithX
     path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3IntExtensions.cs
-    startLine: 9
+    startLine: 5
   assemblies:
   - ECHTNICE.EnUnityEngineExtensions
   namespace: UnityEngine
@@ -109,7 +109,7 @@ items:
       repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
     id: WithY
     path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3IntExtensions.cs
-    startLine: 13
+    startLine: 9
   assemblies:
   - ECHTNICE.EnUnityEngineExtensions
   namespace: UnityEngine
@@ -152,7 +152,7 @@ items:
       repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
     id: WithZ
     path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3IntExtensions.cs
-    startLine: 17
+    startLine: 13
   assemblies:
   - ECHTNICE.EnUnityEngineExtensions
   namespace: UnityEngine
@@ -195,7 +195,7 @@ items:
       repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
     id: AddX
     path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3IntExtensions.cs
-    startLine: 22
+    startLine: 18
   assemblies:
   - ECHTNICE.EnUnityEngineExtensions
   namespace: UnityEngine
@@ -238,7 +238,7 @@ items:
       repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
     id: AddY
     path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3IntExtensions.cs
-    startLine: 26
+    startLine: 22
   assemblies:
   - ECHTNICE.EnUnityEngineExtensions
   namespace: UnityEngine
@@ -281,7 +281,7 @@ items:
       repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
     id: AddZ
     path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3IntExtensions.cs
-    startLine: 30
+    startLine: 26
   assemblies:
   - ECHTNICE.EnUnityEngineExtensions
   namespace: UnityEngine
@@ -324,7 +324,7 @@ items:
       repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
     id: InvertX
     path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3IntExtensions.cs
-    startLine: 35
+    startLine: 30
   assemblies:
   - ECHTNICE.EnUnityEngineExtensions
   namespace: UnityEngine
@@ -365,7 +365,7 @@ items:
       repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
     id: InvertY
     path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3IntExtensions.cs
-    startLine: 39
+    startLine: 34
   assemblies:
   - ECHTNICE.EnUnityEngineExtensions
   namespace: UnityEngine
@@ -406,7 +406,7 @@ items:
       repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
     id: InvertZ
     path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3IntExtensions.cs
-    startLine: 43
+    startLine: 38
   assemblies:
   - ECHTNICE.EnUnityEngineExtensions
   namespace: UnityEngine
@@ -447,7 +447,7 @@ items:
       repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
     id: Invert
     path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3IntExtensions.cs
-    startLine: 47
+    startLine: 42
   assemblies:
   - ECHTNICE.EnUnityEngineExtensions
   namespace: UnityEngine
@@ -488,7 +488,7 @@ items:
       repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
     id: ToVector2
     path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3IntExtensions.cs
-    startLine: 52
+    startLine: 46
   assemblies:
   - ECHTNICE.EnUnityEngineExtensions
   namespace: UnityEngine
@@ -529,7 +529,7 @@ items:
       repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
     id: ToVector3
     path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnVector3IntExtensions.cs
-    startLine: 57
+    startLine: 50
   assemblies:
   - ECHTNICE.EnUnityEngineExtensions
   namespace: UnityEngine

@@ -9,6 +9,8 @@ items:
   - UnityEngine.EnComponentExtensions.GetCopyOf``1(UnityEngine.Component,``0)
   - UnityEngine.EnComponentExtensions.HasComponent(UnityEngine.Component,System.Type)
   - UnityEngine.EnComponentExtensions.HasComponent``1(UnityEngine.Component)
+  - UnityEngine.EnComponentExtensions.To(UnityEngine.Component,UnityEngine.Component)
+  - UnityEngine.EnComponentExtensions.To(UnityEngine.Component,UnityEngine.GameObject)
   langs:
   - csharp
   - vb
@@ -249,6 +251,96 @@ items:
   - Shared
   fullName.vb: UnityEngine.EnComponentExtensions.GetCopyOf(Of T)(UnityEngine.Component, T)
   name.vb: GetCopyOf(Of T)(Component, T)
+- uid: UnityEngine.EnComponentExtensions.To(UnityEngine.Component,UnityEngine.Component)
+  commentId: M:UnityEngine.EnComponentExtensions.To(UnityEngine.Component,UnityEngine.Component)
+  id: To(UnityEngine.Component,UnityEngine.Component)
+  isExtensionMethod: true
+  parent: UnityEngine.EnComponentExtensions
+  langs:
+  - csharp
+  - vb
+  name: To(Component, Component)
+  nameWithType: EnComponentExtensions.To(Component, Component)
+  fullName: UnityEngine.EnComponentExtensions.To(UnityEngine.Component, UnityEngine.Component)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnComponentExtensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: To
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnComponentExtensions.cs
+    startLine: 73
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  summary: "\nGet vector between source and target\n"
+  example: []
+  syntax:
+    content: public static Vector3 To(this Component source, Component target)
+    parameters:
+    - id: source
+      type: UnityEngine.Component
+    - id: target
+      type: UnityEngine.Component
+    return:
+      type: UnityEngine.Vector3
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function To(source As Component, target As Component) As Vector3
+  overload: UnityEngine.EnComponentExtensions.To*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: UnityEngine.EnComponentExtensions.To(UnityEngine.Component,UnityEngine.GameObject)
+  commentId: M:UnityEngine.EnComponentExtensions.To(UnityEngine.Component,UnityEngine.GameObject)
+  id: To(UnityEngine.Component,UnityEngine.GameObject)
+  isExtensionMethod: true
+  parent: UnityEngine.EnComponentExtensions
+  langs:
+  - csharp
+  - vb
+  name: To(Component, GameObject)
+  nameWithType: EnComponentExtensions.To(Component, GameObject)
+  fullName: UnityEngine.EnComponentExtensions.To(UnityEngine.Component, UnityEngine.GameObject)
+  type: Method
+  source:
+    remote:
+      path: Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnComponentExtensions.cs
+      branch: main
+      repo: https://github.com/ECHTNICE/EnUnityEngineExtensions.git
+    id: To
+    path: ../Assets/ECHTNICE/EnUnityEngineExtensions/Scripts/EnComponentExtensions.cs
+    startLine: 79
+  assemblies:
+  - ECHTNICE.EnUnityEngineExtensions
+  namespace: UnityEngine
+  summary: "\nGet vector between source and target\n"
+  example: []
+  syntax:
+    content: public static Vector3 To(this Component source, GameObject target)
+    parameters:
+    - id: source
+      type: UnityEngine.Component
+    - id: target
+      type: UnityEngine.GameObject
+    return:
+      type: UnityEngine.Vector3
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function To(source As Component, target As GameObject) As Vector3
+  overload: UnityEngine.EnComponentExtensions.To*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 references:
 - uid: UnityEngine
   commentId: N:UnityEngine
@@ -314,3 +406,22 @@ references:
   name: GetCopyOf
   nameWithType: EnComponentExtensions.GetCopyOf
   fullName: UnityEngine.EnComponentExtensions.GetCopyOf
+- uid: UnityEngine.EnComponentExtensions.To*
+  commentId: Overload:UnityEngine.EnComponentExtensions.To
+  name: To
+  nameWithType: EnComponentExtensions.To
+  fullName: UnityEngine.EnComponentExtensions.To
+- uid: UnityEngine.Vector3
+  commentId: T:UnityEngine.Vector3
+  parent: UnityEngine
+  isExternal: true
+  name: Vector3
+  nameWithType: Vector3
+  fullName: UnityEngine.Vector3
+- uid: UnityEngine.GameObject
+  commentId: T:UnityEngine.GameObject
+  parent: UnityEngine
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: UnityEngine.GameObject

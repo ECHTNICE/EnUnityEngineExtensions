@@ -3,7 +3,7 @@
     "displayName": "ECHTNICE EnUnityEngineExtensions",
     "version": "0.0.1",
     "unity": "2020.1",
-    "description": "UnityExtensions, extensions for unity default classes.",
+    "description": "A collection of extensions to enhance the Unity Engine.",
     "keywords": [
         "unity",
         "extensions",
@@ -11,5 +11,5 @@
         "boxcast",
         "unity"
     ],
-    "category": "Unity"
+    "category": "UnityEngine"
 }
